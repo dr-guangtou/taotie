@@ -2,7 +2,7 @@
 
 ## Basics
 
-* [Notes on writing papers by Prof. Alexie Leauthaud]
+* [Notes on writing papers by Prof. Alexie Leauthaud](https://github.com/alexieleauthaud/RedWoodTools/wiki/Writing-Papers)
 
 ## Useful Tools
 
