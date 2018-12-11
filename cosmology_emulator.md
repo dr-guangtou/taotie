@@ -12,6 +12,9 @@
 * Sampling the cosmological parameters:
 	- Latin Hypercube Designs (LHDs)
 	- [Maximin-distance “sliced” LHD (SLHD)](https://www.asc.ohio-state.edu/statistics/comp_exp/jour.club/optimal_sliced_lhd_ba2015.pdf)
+    	- Python implementation: https://pythonhosted.org/pyDOE/index.html
+    	- SMT: Surrogate Modeling Toolbox: https://smt.readthedocs.io/en/latest/index.html
+    	- Another Python version: https://github.com/sahilm89/lhsmdu	
 
 * Principle Component Analysis (PCA)
 	- e.g. [empca](https://github.com/sbailey/empca) by Stephen Bailey
