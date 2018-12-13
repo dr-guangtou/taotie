@@ -4,6 +4,12 @@
 
 * [Notes on writing papers by Prof. Alexie Leauthaud](https://github.com/alexieleauthaud/RedWoodTools/wiki/Writing-Papers)
 
+## English 
+
+- [Grammarly](https://www.grammarly.com)
+- [Linguee - Good place to search for example usage of a word](https://en.linguee.com/english-chinese)
+- [Linggle 10^12 - Another place to search for real world usage of a word](https://linggle.com)
+
 ## Useful Tools
 
 * [The Astronomy Acknowledgement Generator](http://astrofrog.github.io/acknowledgment-generator/)
@@ -14,6 +20,15 @@
   
  * [Tabula - Tool for liberating data tables locked inside PDF files](https://tabula.technology)
  
+## LaTeX resources 
+
+* [Complete list of LaTeX symbols (PDF)](https://math.uoregon.edu/wp-content/uploads/2014/12/compsymb-1qyb3zd.pdf)
+* [List of LaTeX mathematical symbols](https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols)
+
+* [LaTeX open book on WikiBooks](https://en.wikibooks.org/wiki/LaTeX) 
+  - Very good place to search for basic usage.
+* [List of color names in LaTeX along with other useful tips about color](https://en.wikibooks.org/wiki/LaTeX/Colors)
+
 ## Useful LaTeX tips
 
 * [Link to aribitary part of text](https://tex.stackexchange.com/questions/280462/link-to-arbitrary-part-of-text)
