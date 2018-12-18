@@ -4,6 +4,13 @@
 
 * [Notes on writing papers by Prof. Alexie Leauthaud](https://github.com/alexieleauthaud/RedWoodTools/wiki/Writing-Papers)
 
+## Examples 
+
+* Good example of papers: 
+
+- [STARRY: Analytic Occultation Light Curves](https://ui.adsabs.harvard.edu/#abs/arXiv:1810.06559)
+  * Format, equation, figure, open source code, and awesomefont links.
+
 ## English 
 
 - [Grammarly](https://www.grammarly.com)
