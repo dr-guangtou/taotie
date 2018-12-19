@@ -10,6 +10,12 @@
 * [MUSE-Wide project](https://musewide.aip.de/project/)
 	- MUSE Survey of GOODS-S/CDFS and CANDELS-COSMOS areas.
 
+## Groud-base Imaging surveys
+
+* [Deep Hyper Suprime-Cam Images and a Forced Photometry Catalog in W-CDF-S](https://zenodo.org/record/2225161#.XBnQji2ZOV5)
+	- Both catalogs and reduced HSC data are available here
+	- Associated RNASS note can be found [here](https://arxiv.org/abs/1812.07565)
+
 
 ## Useful dataset and tools
 
