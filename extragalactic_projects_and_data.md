@@ -16,8 +16,19 @@
 	- Both catalogs and reduced HSC data are available here
 	- Associated RNASS note can be found [here](https://arxiv.org/abs/1812.07565)
 
+* [ALHAMBRA - Advance Large Homogeneous Area Medium Band Redshift Astronomical](http://svo2.cab.inta-csic.es/vocats/alhambra/index.php)
+
+## Other surveys
+
+* [SPARCS - Spitzer Photometry and Accurate Rotation Curves](http://astroweb.cwru.edu/SPARC/)
+    - SPARC is a database of 175 late-type galaxies (spirals and irregulars) with Spitzer photometry at 3.6 mu (tracing the stellar mass distribution) and high-quality HI/Ha rotation curves
 
 ## Useful dataset and tools
 
 * [LASD - Lyman Alpha Spectral Database](http://lasd.lyman-alpha.com)
-	- Lyman Alpha Spectral Database will facilitate comparison of Lya spectral modelling and observations.
+	- Lyman Alpha Spectral Database will facilitate comparison of Lya spectral modeling and observations.
+
+## Simulation and other model predictions
+
+* [Semi-Analytic Forecasts for JWST using Santa Cruz SAM](https://www.simonsfoundation.org/semi-analytic-forecasts-for-jwst/)
+    - We provide predictions for galaxy populations over a wide range of rest UV luminosity from MUV ∼ −6 to ∼ −24 between z = 4 – 10.
