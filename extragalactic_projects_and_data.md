@@ -5,12 +5,16 @@
 * [3D-HST - A Spectroscopic Galaxy Evolution Survey with the Hubble Space Telescope](https://3dhst.research.yale.edu/Home.html)
   - 3D-HST surveyed ~600 square arcminutes of well-studied extragalactic survey fields (AEGIS, COSMOS, GOODS-S, UKIDSS-UDS) with two orbits of primary WFC3/G141 grism coverage and two to four orbits with ACS/G800L coverage. The short acquisition images, taken in the WFC3/F140W and ACS/F814W filters used for wavelength reference for the spectra, are also deeper than most ground-based observations.
 
-## Ground-base IFU surveys
+## Ground-base Specoscopic Surveys
 
+* [List of spectroscopic surveys by Ivan Baldry](http://www.astro.ljmu.ac.uk/~ikb/research/galaxy-redshift-surveys.html)
+	- Covers all the "classic" ones, some links might no longer work any more.
+
+### IFU Surveys
 * [MUSE-Wide project](https://musewide.aip.de/project/)
 	- MUSE Survey of GOODS-S/CDFS and CANDELS-COSMOS areas.
 
-## Groud-base Imaging surveys
+## Groud-base Imaging Surveys
 
 * [Deep Hyper Suprime-Cam Images and a Forced Photometry Catalog in W-CDF-S](https://zenodo.org/record/2225161#.XBnQji2ZOV5)
 	- Both catalogs and reduced HSC data are available here
