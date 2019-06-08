@@ -4,3 +4,6 @@
 
 - [VIP cheatsheets for Stanford's CS 229 Machine Learning](https://github.com/afshinea/stanford-cs-229-machine-learning)
 	* This one has a [Chinese version](https://github.com/afshinea/stanford-cs-229-machine-learning/tree/master/zh)
+
+- [Deep Learning Models](https://github.com/rasbt/deeplearning-models)
+	* A collection of various deep learning architectures, models, and tips for TensorFlow and PyTorch in Jupyter Notebooks
