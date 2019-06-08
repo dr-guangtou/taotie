@@ -1,7 +1,15 @@
-# Python Implementations of Statistical Methods
+# Statistical Analysis and Model in Python
 
+-----
 
-#### Survival Analysis
+## Modeling Tool 
+
+* [spotpy - A Statistical Parameter Optimization Tool](https://github.com/thouska/spotpy)
+	- SPOTPY is a Python framework that enables the use of Computational optimization techniques for calibration, uncertainty and sensitivity analysis techniques of almost every (environmental-) model.
+
+----
+
+## Survival Analysis
 
 * Traditionally, [survival analysis](https://en.wikipedia.org/wiki/Survival_analysis) was developed to measure lifespans of individuals. The analysis can be further applied to not just traditional births and deaths, but any duration.
 * **Survival function**: the survival function defines the probability the death event has not occured yet at time t, or equivalently, the probability of surviving past time t

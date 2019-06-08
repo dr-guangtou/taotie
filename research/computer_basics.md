@@ -9,6 +9,9 @@
 
 * [Bash Notebook](https://github.com/denysdovhan/bash-handbook)
 	- In depth Bash notebook in multiple languages
+
+* [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line)
+	- In multiple languages, including Chinese
 	
 ### Other than `bash`
 
