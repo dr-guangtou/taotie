@@ -1,5 +1,7 @@
 # Tao Tie (饕餮) - A curated collection of resources for astrophysical research
 
+<img src="doc/taotie_logo.png" width="30%">
+
 ----
 
 * “The taotie is a motif commonly found on Chinese ritual bronze vessels from the Shang and Zhou dynasty” - [Wikipedia](https://en.wikipedia.org/wiki/Taotie)
