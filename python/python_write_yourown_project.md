@@ -21,6 +21,12 @@
 - [Cookiecutter - A logical, reasonably standardized, but flexible project structure for doing and sharing data science work](https://drivendata.github.io/cookiecutter-data-science/)
 	* 一个很好的组织基于数据的项目的例子，其中关于“Keep secrets and configuration out of version control”的部分很有用。
 
+### `setup.py`
+
+- [A Human's Ultimate Guide to setup.py](https://github.com/kennethreitz/setup.py)
+    - This is very good template for using `setup.py` 
+
+
 ### Readme 
 
 - [Art of README](https://github.com/noffle/art-of-readme)

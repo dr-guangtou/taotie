@@ -34,3 +34,6 @@
 * [vbmc - Variational Bayesian Monte Carlo (VBMC) algorithm for posterior and model inference](https://github.com/lacerbi/vbmc)
 	- VBMC is a novel approximate inference method designed to fit and evaluate computational models with a limited budget of likelihood evaluations (e.g., for computationally expensive models).
 	- A Python implementation is planned.
+
+* [symfit - Symbolic Fitting; fitting as it should be](https://github.com/tBuLi/symfit)
+	- Pythonic way to do fitting.
