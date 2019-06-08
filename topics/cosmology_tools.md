@@ -1,8 +1,49 @@
-# Cosmology Emulator
+# Cosmology Tools
+
+----
+
+## Cosmology Parameters and Model Optimization
+
+* [CCL - DESC Core Cosmology Library: cosmology routines with validated numerical accuracy](https://github.com/LSSTDESC/CCL)
+
+* [CosmoMC - MCMC parameter sampling code](https://github.com/cmbant/CosmoMC)
+	- CosmoMC is a Fortran 2008 Markov-Chain Monte-Carlo (MCMC) engine for exploring cosmological parameter space, together with Fortran and python code for analysing Monte-Carlo samples and importance sampling (plus a suite of scripts for building grids of runs, plotting and presenting results).
+
+----
+
+## CMB related
+
+* [CAMB: Code for Anisotropies in the Microwave Background](https://github.com/cmbant/CAMB)
+	- CAMB is a cosmology code for calculating cosmological observables, including CMB, lensing, source count and 21cm angular power spectra, matter power spectra, transfer functions and background evolution
+
+* [CLassylss - a lightweight Python binding of the CLASS CMB Boltzmann code](https://github.com/nickhand/classylss)
+	- A very nice gateway to `CLASS`
+
+----
+
+## Correlation Functions
+
+* [Corrfunc - Blazing fast correlation functions on the CPU](https://github.com/manodeep/Corrfunc)
+
+* [TreeCorr - Code for efficiently computing 2-point and 3-point correlation functions](https://github.com/rmjarvis/TreeCorr)
+	- It can compute correlations of regular number counts, weak lensing shears, or scalar quantities such as convergence or CMB temperature fluctutations. 
+
+----
+
+## Dark Matter Halos
+
+* [Halotools - Python package for studying large scale structure, cosmology, and galaxy evolution using N-body simulations and halo models](https://github.com/astropy/halotools)
+	- Halotools is a specialized python package for building and testing models of the galaxy-halo connection, and analyzing catalogs of dark matter halos.
+
+* [Colossus - a python toolkit for calculations pertaining to cosmology, the large-scale structure of the universe, and the properties of dark matter halos](http://www.benediktdiemer.com/code/colossus/)
+
+----
+
+## Emulators: 
 
 * Increasingly popular way to study cosmology based on a limit set of N-body simulations.
 
-## Key Technique
+### Key Technique
 
 * A suite of N-body cosmology simulations
 	- 2nd order Lagrangian perturbation theory (2LPT) initial conditions
@@ -22,7 +63,7 @@
 * Gaussian process emulator
 	- e.g. [george](http://dfm.io/george/current/) by Dan Foreman-Mackey
 
-## Available Emulators
+### Available Emulators
 
 - [Aemulus Project led by Stanford](https://aemulusproject.github.io)
 	* The basic structure of the code: [Aemulator](https://github.com/AemulusProject/Aemulator)
