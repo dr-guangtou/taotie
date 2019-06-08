@@ -14,6 +14,9 @@
 
 * [Oh My Zsh](https://ohmyz.sh/)
 	- Code on Github is [here](https://github.com/robbyrussell/oh-my-zsh/)
+
+* [The Fish Cookbook](https://github.com/jorgebucaran/fish-cookbook)
+	- Tips and recipes for fish, from shell to plate
 	
 ### System Tools
 
