@@ -66,8 +66,22 @@
 - [List of important extragalactic surveys and data](https://github.com/dr-guangtou/taotie/blob/master/topics/extragalactic_projects_and_data.md)
     * This could be a really...really long list, and should be organized better. 
 
-- [What about dust?](https://github.com/dr-guangtou/taotie/blob/master/topics/ism_and_dust.md)
+- [Photometry of galaxies and stars](https://github.com/dr-guangtou/taotie/blob/master/topics/photometry.md)
+    * The most fundamental and the most difficult task of astrophysical observations.
+
+- [Stellar physics and stellar population synthesis](https://github.com/dr-guangtou/taotie/blob/master/topics/stellar_and_spops.md)
+    * Isochrone, stellar libraries, and stellar population models.
+
+- [Stars in the Milky Way](https://github.com/dr-guangtou/taotie/blob/master/topics/milky_way.md)
+    * Galactic dynamic and chemical evolution. _Gaia_ and LAMOST. 
+
+- [What about ISM and Dust?](https://github.com/dr-guangtou/taotie/blob/master/topics/ism_and_dust.md)
     * And all the other inappropriate questions in astrophysics.
+
+## Key Astrophysical and Cosmological Projects
+
+* Provide key information about ambitious and complex on-going and future projects.
+* **Under construction**
 
 Contribution
 ------------

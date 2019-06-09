@@ -33,4 +33,5 @@
 - [mpi4py - Python bindings for MPI](https://github.com/mpi4py/mpi4py)
 - [joblib - a set of tools to provide lightweight pipelining in Python](https://github.com/joblib/joblib)
 - [loky - Robust and reusable Executor for joblib](https://github.com/tomMoral/loky)
+- [schwimmbad - A common interface to processing pools](https://github.com/adrn/schwimmbad)
 

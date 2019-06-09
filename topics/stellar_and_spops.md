@@ -29,14 +29,36 @@
     - [Interactive online tool to generate isochrones](https://www.unige.ch/sciences/astro/evolution/en/database/syclist/)
 * [BaSTI - A Bag of Stellar Tracks and Isocrhones](http://basti.oa-teramo.inaf.it/)
 
-## Stellar Spectra Libraries
+## Stellar Spectra Libraries and SED
 
 ### Observed
 
 ### Theoretical
 
+* [MARCS - a grid of one-dimensional, hydrostatic, plane-parallel and spherical LTE model atmospheres](http://marcs.astro.uu.se/)
+    - The MARCS site contains about 52,000 stellar atmospheric models of spectral types F, G and K in 3 different formats and also flux sample files indicating rough surface fluxes.
 
-## Stellar Population Synthesis
+### Tools
+
+* [BEAST - Bayesian Extinction and Stellar Tool](https://github.com/BEAST-Fitting/beast) 
+    - Fits the ultraviolet to near-infrared photometric SEDs of stars to extract stellar and dust extinction parameters. See [Gordon et al. 2016](http://adsabs.harvard.edu/abs/2016ApJ...826..104G) for details. 
+    - Online document is [here](https://beast.readthedocs.io/en/latest/)
+
+* [ThePayne - Artificial Neural-Net compression and fitting of synthetic spectral grids](https://github.com/pacargile/ThePayne)
+    - By Phillip Cargile and Yuan-Sen Ting. Artificial Neural-Net compression and fitting of ab initio synthetic spectral grids.
+
+* [brutus - Modeling stellar photometry with "brute force" methods](https://github.com/joshspeagle/brutus)
+    * By Josh Speagle. A Pure Python package whose core modules involve using "brute force" Bayesian inference to derive distances, reddenings, and stellar properties from photometry using a grid of stellar models.
+
+* [MOOG - a code that performs a variety of LTE line analysis and spectrum synthesis tasks](http://www.as.utexas.edu/~chris/moog.html)
+    - Old fashion but classic.
+    - If you use Python, try Andy Casey's [Installing MOOG the Easy Way](https://github.com/andycasey/moog)
+
+
+## Stellar Population Synthesis or SED Fitting
+
+* This [`sedfitting.org` page](http://www.sedfitting.org/Models.html) is a very good one-stop shopping place for all SED related resources.
+    - There is also a [review paper](http://www.sedfitting.org/Paper_vs1.0_online/walcher_ms.html)
 
 ### Models:
 
@@ -49,3 +71,4 @@
     - Provides useful [online tools](http://www.iac.es/proyecto/miles/pages/webtools.php) to use the stellar library and SSP models.
 * [BPASS - Binary Population and Spectral Synthesis code](https://bpass.auckland.ac.nz/)
     - Best binary population model on the market.
+* [PEGASE - Projet d'Etude des GAlaxies par Synthese Evolutive](http://astro.u-strasbg.fr/~morgan/PEGASE.html)
