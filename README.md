@@ -1,6 +1,6 @@
 # Tao Tie (饕餮) - A curated collection of resources for astrophysical research
 
-<img src="doc/taotie_logo.png" width="60%">
+<img src="doc/taotie_logo.png" width="70%">
 
 ----
 
@@ -10,11 +10,9 @@
 
 * Please let me know if you have any suggestion or recommendation.
 
+# Contents
 
-## Contents
------------
-
-## Prepare yourself for scientific research
+## [Prepare yourself for scientific research](https://github.com/dr-guangtou/taotie/tree/master/research)
 
 - [Start your life as a researcher in astronomy](https://github.com/dr-guangtou/taotie/blob/master/research/getting_started.md)
     * Research life 101
@@ -27,7 +25,7 @@
 - [A little bit background in data science](https://github.com/dr-guangtou/taotie/blob/master/research/data_science.md)
     * Data science related tutorial and cheatsheets.
 
-## Starting your journey as astronomer
+## [Starting your journey as astronomer](https://github.com/dr-guangtou/taotie/tree/master/astro)
 
 - [Good reference for all astronomers](https://github.com/dr-guangtou/taotie/blob/master/astro/astro_readme.md)
     * Reference and handbooks that will be handy in research.
@@ -35,7 +33,7 @@
 - [Basic tools for astrophysical research](https://github.com/dr-guangtou/taotie/blob/master/astro/astro_research_basic.md)
     * Flux, extinction, coordinates, and planning your observations.  Whatever you need.
 
-## `Python` - the official language for astronomers...for now
+## [`Python` - the official language for astronomers...for now](https://github.com/dr-guangtou/taotie/tree/master/python)
 
 - [Basic Python knowledges](https://github.com/dr-guangtou/taotie/blob/master/python/python_basic.md)
     
@@ -49,14 +47,14 @@
 
 - [Making pretty pictures and other visualizations in Python](https://github.com/dr-guangtou/taotie/blob/master/python/python_visualization.md)
 
-## Machine Learning 
+## [Machine Learning, Deep Learning, and AI related](https://github.com/dr-guangtou/taotie/tree/master/mlearning)
 
 * Since machine learning is becoming more and more important in astrophysics and cosmology, I am giving it an independent directory now.
 
 - [Basics of machine learning](https://github.com/dr-guangtou/taotie/blob/master/mlearning/machine_learning_basic.md)
     * Online books, courses, handbooks...right now there are too many of them, so this might not be your best choice. 
 
-## Resources for a Specific Topic in Astrophysics or Cosmology
+## [Resources for a Specific Topic in Astrophysics or Cosmology](https://github.com/dr-guangtou/taotie/tree/master/topics)
 
 * There is no way this is even close to a complete list.  It only reflects the interests of the author.  Contributions are welcomed, and will try to organize it better.
 
