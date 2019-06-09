@@ -16,6 +16,7 @@
 
 - [Start your life as a researcher in astronomy](https://github.com/dr-guangtou/taotie/blob/master/research/getting_started.md)
     * Research life 101
+- [Getting a job inside or outside astronomy](https://github.com/dr-guangtou/taotie/blob/master/research/job_and_career.md)
 - [Setup your computer for research](https://github.com/dr-guangtou/taotie/blob/master/research/computer_basics.md)
     * Shell, command line tool, and system related stuff.
 - [On writing scientific papers](https://github.com/dr-guangtou/taotie/blob/master/research/writing_paper.md) 
