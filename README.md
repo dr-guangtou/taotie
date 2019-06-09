@@ -10,6 +10,12 @@
 
 * Please let me know if you have any suggestion or recommendation.
 
+* **Under Construction**: 
+    - This repo is still under heavy and frequent development. I am currently working on this as a weekend project.  
+    - I am not 100% happy about the organization, so please forgive me if the structure is not perfect, I am working on it.
+
+* **Website**: I am also thinking about making a document-style website out of this repo. Please stay tuned.
+
 # Contents
 
 ## [Prepare yourself for scientific research](https://github.com/dr-guangtou/taotie/tree/master/research)
