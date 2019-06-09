@@ -1,6 +1,6 @@
 # Tao Tie (饕餮) - A curated collection of resources for astrophysical research
 
-<img src="doc/taotie_logo.png" width="70%">
+<img src="doc/taotie_logo.png" width="80%">
 
 ----
 
