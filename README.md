@@ -16,15 +16,14 @@
 
 ## Prepare yourself for scientific research
 
+- [Start your life as a researcher in astronomy](https://github.com/dr-guangtou/taotie/blob/master/research/getting_started.md)
+    * Research life 101
 - [Setup your computer for research](https://github.com/dr-guangtou/taotie/blob/master/research/computer_basics.md)
     * Shell, command line tool, and system related stuff.
-
 - [On writing scientific papers](https://github.com/dr-guangtou/taotie/blob/master/research/writing_paper.md) 
     * General advices, examples, and `LaTeX` related topics.
-
 - [A little bit background in statistics](https://github.com/dr-guangtou/taotie/blob/master/research/stats_basic.md)
     * Courses and tutorials in statistics. Nowadays, you cannot get anywhere in astrophysics and cosmology without having enough knowledge of statistics.
-
 - [A little bit background in data science](https://github.com/dr-guangtou/taotie/blob/master/research/data_science.md)
     * Data science related tutorial and cheatsheets.
 
