@@ -19,6 +19,9 @@
     - You can check if your institute is using [voxCharta](https://www.voxcharta.org), a on-line platform to vote on papers and organize `arXiv` discussion.
     - It is good idea to have a routine that keeps record of interesting papers.  Here is an examply by [me](https://github.com/dr-guangtou/daily_astroph)
 
+* [Astrobites](https://astrobites.org) is a very good website to follow recent interesting papers from the perspective of a graduate student. 
+    - They also provide some good advices on reading papers: [Part I](https://astrobites.org/2017/12/19/tools-for-reading-papers-part-1/), [Part II](https://astrobites.org/2018/03/09/tools-for-reading-papers-part-2/), [Part III](https://astrobites.org/2018/09/06/tools-for-reading-papers-part-3/)
+
 ## Communication 
 
 * [`Slack`](https://slack.com/) has become the most common way to organize a small collaboration.  Even the free version can be very useful.
