@@ -26,14 +26,16 @@
 	- Document can be found [here](https://esa.github.io/pagmo2/)
 	- Includes [a long list of global and local optimization algorithms](https://esa.github.io/pagmo2/docs/algorithm_list.html)
 
+* [symfit - Symbolic Fitting; fitting as it should be](https://github.com/tBuLi/symfit)
+	- Pythonic way to do fitting.
+
 ### Bayesian Optimization
 
 * [Bayesian Optimization - Pure Python implementation of bayesian global optimization with gaussian processes](https://github.com/fmfn/BayesianOptimization)
 	- Bayesian optimization works by constructing a posterior distribution of functions (gaussian process) that best describes the function you want to optimize.
+
+* [gaussbock - Fast parallel-iterative cosmological parameter estimation with Bayesian nonparametrics](https://github.com/moews/gaussbock)
 	
 * [vbmc - Variational Bayesian Monte Carlo (VBMC) algorithm for posterior and model inference](https://github.com/lacerbi/vbmc)
 	- VBMC is a novel approximate inference method designed to fit and evaluate computational models with a limited budget of likelihood evaluations (e.g., for computationally expensive models).
 	- A Python implementation is planned.
-
-* [symfit - Symbolic Fitting; fitting as it should be](https://github.com/tBuLi/symfit)
-	- Pythonic way to do fitting.

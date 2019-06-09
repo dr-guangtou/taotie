@@ -19,6 +19,9 @@
 
 ## Useful Tools
 
+* [adstex - manage your bibtex entries](https://github.com/yymao/adstex)
+  - By Yao-Yuan Mao; Automated generation of NASA ADS bibtex entries directly from citation keys in your TeX source files
+
 * [The Astronomy Acknowledgement Generator](http://astrofrog.github.io/acknowledgment-generator/)
   - This is very useful! The data are kept [here](https://github.com/astrofrog/acknowledgment-generator)
 

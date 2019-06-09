@@ -1,6 +1,6 @@
 # Performance Optimization for Python 
 
-### Basics
+## Basics
 
 - [Basic tips for optimizing the performace of your Python code](https://wiki.python.org/moin/PythonSpeed/PerformanceTips)
 
@@ -20,4 +20,17 @@
 ### Other packages
 
 - [How to speed up Python by scikit-learn](https://scikit-learn.org/stable/developers/performance.html)
+
+## Parallel computing in Python
+
+### Tutorial
+
+- [An introduction to parallel programming using Python's multiprocessing module](https://sebastianraschka.com/Articles/2014_multiprocessing.html)
+- [Speed Up Your Algorithms Part 3 — Parallel-ization](https://towardsdatascience.com/speed-up-your-algorithms-part-3-parallelization-4d95c0888748)
+
+### Software
+
+- [mpi4py - Python bindings for MPI](https://github.com/mpi4py/mpi4py)
+- [joblib - a set of tools to provide lightweight pipelining in Python](https://github.com/joblib/joblib)
+- [loky - Robust and reusable Executor for joblib](https://github.com/tomMoral/loky)
 

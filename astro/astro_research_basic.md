@@ -11,7 +11,12 @@
 
 ## Plan an observation
 
+* [astroplan - Python package to help astronomers plan observations](https://github.com/astropy/astroplan)
+* [iObserve](http://onekilopars.ec/iobserve/)
+	- The free on-line version is [here](https://www.arcsecond.io/iobserve)
 * [Object Visibility by ING](http://catserver.ing.iac.es/staralt/)
+* [JSkyCalc -- A Convenient, Portable Observing Aid](https://www.dartmouth.edu/~physics/labs/skycalc/flyer.html)
+* [Keck telescopes' own planning tool](https://www2.keck.hawaii.edu/software/obsplan/obsplan.php)
 * [Astronomical Observatory Sites by Latitude and Longitude](http://www.eso.org/~ndelmott/obs_sites.html)
 
 ## Flux unit conversion
@@ -40,7 +45,6 @@
 
 * [ICRAR's Cosmology Calculator](http://cosmocalc.icrar.org)
 	- Based on the [celestial R-code](https://github.com/asgr/celestial)
-	
 * [Ned Wright's Cosmology Calculator](http://www.astro.ucla.edu/%7Ewright/CosmoCalc.html)
 
 ## Simulate Galaxy Spectrum
