@@ -78,10 +78,15 @@
 - [What about ISM and Dust?](https://github.com/dr-guangtou/taotie/blob/master/topics/ism_and_dust.md)
     * And all the other inappropriate questions in astrophysics.
 
-## Key Astrophysical and Cosmological Projects
+## [Readling List of Interesting Astrophysical Topics](https://github.com/dr-guangtou/taotie/tree/master/reference)
+
+* Again, right now this is just a personal list of interesting topics.
+* Now, it includes reading list on [galaxy cluster cosmology](https://github.com/dr-guangtou/taotie/blob/master/reference/cluster_cosmology.md), [halo splashback radius](https://github.com/dr-guangtou/taotie/blob/master/reference/halo_splashback_radius.md), [intrinsic alignment of galaxies](https://github.com/dr-guangtou/taotie/blob/master/reference/wl_intrinsic_alignment.md)
+
+## [Key Astrophysical and Cosmological Projects](https://github.com/dr-guangtou/taotie/tree/master/projects)
 
 * Provide key information about ambitious and complex on-going and future projects.
-* **Under construction**
+* **Under construction**. Including [JWST](https://github.com/dr-guangtou/taotie/blob/master/projects/jwst.md), [LSST](https://github.com/dr-guangtou/taotie/blob/master/projects/lsst.md)
 
 Contribution
 ------------
