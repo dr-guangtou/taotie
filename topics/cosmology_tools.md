@@ -5,11 +5,11 @@
 ## Cosmology Parameters and Model Optimization
 
 * [CCL - DESC Core Cosmology Library: cosmology routines with validated numerical accuracy](https://github.com/LSSTDESC/CCL)
+	- On top of `CCL`, there is `firecrown`:
+	- [firecrown: the "c" is for "cosmology"](https://github.com/LSSTDESC/firecrown)
 
 * [CosmoMC - MCMC parameter sampling code](https://github.com/cmbant/CosmoMC)
 	- CosmoMC is a Fortran 2008 Markov-Chain Monte-Carlo (MCMC) engine for exploring cosmological parameter space, together with Fortran and python code for analysing Monte-Carlo samples and importance sampling (plus a suite of scripts for building grids of runs, plotting and presenting results).
-
-----
 
 ## CMB related
 
@@ -19,8 +19,6 @@
 * [CLassylss - a lightweight Python binding of the CLASS CMB Boltzmann code](https://github.com/nickhand/classylss)
 	- A very nice gateway to `CLASS`
 
-----
-
 ## Correlation Functions
 
 * [Corrfunc - Blazing fast correlation functions on the CPU](https://github.com/manodeep/Corrfunc)
@@ -28,7 +26,17 @@
 * [TreeCorr - Code for efficiently computing 2-point and 3-point correlation functions](https://github.com/rmjarvis/TreeCorr)
 	- It can compute correlations of regular number counts, weak lensing shears, or scalar quantities such as convergence or CMB temperature fluctutations. 
 
-----
+## Weak Lensing 
+
+* Both `corrfunc` and `treecorr` can be used for shear-shear or galaxy-shear analysis
+* [LensTools - collects together a suite of widely used analysis tools in Weak Gravitational Lensing](https://github.com/apetri/LensTools)
+* [DESWL - A collection of scripts and software related to DES weak lensing analysis](https://github.com/rmjarvis/DESWL)
+	- By Marc Jarvis
+
+### Cluster Lensing
+
+* [cluster-lensing - Galaxy Cluster and Weak Lensing Tools](https://github.com/jesford/cluster-lensing)
+	- By Jes Ford.  [Paper can be found here](https://iopscience.iop.org/article/10.3847/1538-3881/152/6/228/meta)
 
 ## Dark Matter Halos
 
@@ -36,8 +44,6 @@
 	- Halotools is a specialized python package for building and testing models of the galaxy-halo connection, and analyzing catalogs of dark matter halos.
 
 * [Colossus - a python toolkit for calculations pertaining to cosmology, the large-scale structure of the universe, and the properties of dark matter halos](http://www.benediktdiemer.com/code/colossus/)
-
-----
 
 ## Emulators: 
 
