@@ -43,13 +43,14 @@
 * [BEAST - Bayesian Extinction and Stellar Tool](https://github.com/BEAST-Fitting/beast)
     - Fits the ultraviolet to near-infrared photometric SEDs of stars to extract stellar and dust extinction parameters. See [Gordon et al. 2016](http://adsabs.harvard.edu/abs/2016ApJ...826..104G) for details.
     - Online document is [here](https://beast.readthedocs.io/en/latest/)
-
 * [ThePayne - Artificial Neural-Net compression and fitting of synthetic spectral grids](https://github.com/pacargile/ThePayne)
-    - By Phillip Cargile and Yuan-Sen Ting. Artificial Neural-Net compression and fitting of ab initio synthetic spectral grids.
-
+    - By [Phillip Cargile](https://www.cfa.harvard.edu/~pcargile/) and [Yuan-Sen Ting](https://www.sns.ias.edu/~ting/). Artificial Neural-Net compression and fitting of ab initio synthetic spectral grids.
+* [TheCannon - a data-driven method for determining stellar parameters and abundances from stellar spectra](https://github.com/annayqho/TheCannon)
+    - By [Anna Ho](https://annayqho.github.io/). A data-driven method for determining stellar labels (physical parameters and chemical abundances) from stellar spectra in the context of large spectroscopic surveys.
 * [brutus - Modeling stellar photometry with "brute force" methods](https://github.com/joshspeagle/brutus)
     * By Josh Speagle. A Pure Python package whose core modules involve using "brute force" Bayesian inference to derive distances, reddenings, and stellar properties from photometry using a grid of stellar models.
-
+* [Starfish - Tools for Flexible Spectroscopic Inference](https://github.com/iancze/Starfish)
+    - By [Ian Czekala](http://iancze.github.io/). Starfish is a set of tools used for spectroscopic inference. We designed the package to robustly determine stellar parameters using high resolution spectral models
 * [MOOG - a code that performs a variety of LTE line analysis and spectrum synthesis tasks](http://www.as.utexas.edu/~chris/moog.html)
     - Old fashion but classic.
     - If you use Python, try Andy Casey's [Installing MOOG the Easy Way](https://github.com/andycasey/moog)
@@ -66,9 +67,17 @@
     - If you want to see how sausage is made, this is it, including every details of stellar population synthesis. Original code in `Frotran`. Supports different isochrones and libraries.
     - [`python-fsps`](http://dfm.io/python-fsps/current/) can help you use it in `Python`
     - [`cloudyfsps` - Python interface between FSPS and Cloudy](https://github.com/nell-byler/cloudyfsps)
+* [sedpy - Utilities for astronomical spectral energy distributions](https://github.com/bd-j/sedpy)
+    - By Ben Johnson. Modules for storing and operating on astronomical source spectral energy distributions.  
+    - Has nice function to handle filters and measure SED from spectrum.
 * [PopStar - generating simple stellar populations from synthetic evolution and atmosphere models](https://github.com/astropy/PopStar)
     - PopStar generates single-age, single-metallicity populations (i.e. star clusters). It supports different initial mass functions, multiplicity perscriptions, reddening laws, filter functions, atmosphere models, and evolution models.
     - Support a large variety of theoretical models.
+
+### SED or Spectral Fitting
+
+* [prospector - Python code for Stellar Population Inference from Spectra and SEDs](https://github.com/bd-j/prospector)
+    - By Ben Johnson. Conduct principled inference of stellar population properties from photometric and/or spectroscopic data. 
 
 
 ### Models:

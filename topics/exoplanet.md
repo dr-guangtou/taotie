@@ -20,6 +20,9 @@
 - [PyLDTk - Python Limb Darkening Toolkit](https://github.com/hpparvi/ldtk)
     * a Python toolkit for calculating stellar limb darkening profiles and model-specific coefficients for arbitrary passbands using the stellar spectrum model library by Husser et al (2013)
 
+- [VESPA - Validation of Exoplanet Signals using a Probabilistic Algorithm](https://github.com/timothydmorton/VESPA)
+    * By Timothy Morton. It calculats false positive probabilities for transit signals
+
 ## Radial Velocity
 
 - [wobble - precise data-driven RV fitting, now with tellurics](https://github.com/megbedell/wobble)

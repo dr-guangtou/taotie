@@ -60,6 +60,9 @@
     - [libprofit - a low-level C++ library that produces images based on different luminosity profiles](https://github.com/ICRAR/libprofit). Document is [here](https://libprofit.readthedocs.io/en/latest/)
     - [pyprofit - a python wrapper for libprofit](https://github.com/ICRAR/pyprofit)
         * This only provides the tool to generate 2-D galaxy model with PSF convolution. You need to setup your own optimazation structue for fitting.
+* [lenstronomy - software package for lens model reconstruction of imaging data](https://github.com/sibirrer/lenstronomy)
+    - By [Simon Birrer](http://www.astro.ucla.edu/~sibirrer/). `lenstronomy` is a multi-purpose package to model strong gravitational lenses. The software package is presented in Birrer & Amara 2018 and is based on Birrer et al 2015. 
+    - It can also be used to fit galaxies like `Galfit`. See [example here](https://github.com/sibirrer/lenstronomy_extensions/blob/master/lenstronomy_extensions/Notebooks/galfitting.ipynb)
 
 ## Stellar or PSF Photometry
 

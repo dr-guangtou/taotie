@@ -11,6 +11,9 @@
 * [CosmoMC - MCMC parameter sampling code](https://github.com/cmbant/CosmoMC)
 	- CosmoMC is a Fortran 2008 Markov-Chain Monte-Carlo (MCMC) engine for exploring cosmological parameter space, together with Fortran and python code for analysing Monte-Carlo samples and importance sampling (plus a suite of scripts for building grids of runs, plotting and presenting results).
 
+* [CosmoHammer - Cosmological parameter estimation with the MCMC Hammer](https://github.com/cosmo-ethz/CosmoHammer)
+	- A paper describing the software can be [found here](https://arxiv.org/abs/1212.1721)
+
 ## CMB related
 
 * [CAMB: Code for Anisotropies in the Microwave Background](https://github.com/cmbant/CAMB)
@@ -37,6 +40,9 @@
 
 * [cluster-lensing - Galaxy Cluster and Weak Lensing Tools](https://github.com/jesford/cluster-lensing)
 	- By Jes Ford.  [Paper can be found here](https://iopscience.iop.org/article/10.3847/1538-3881/152/6/228/meta)
+
+* [cluster_toolkit - Tools for analyzing galaxy clusters](https://github.com/tmcclintock/cluster_toolkit)
+	- by [Tom McClintock](https://tmcclintock.github.io/). Contains routines used in the Dark Energy Survey Year 1 stacked cluster weak lensing analysis. 
 
 ## Dark Matter Halos
 
