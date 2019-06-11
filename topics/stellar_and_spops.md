@@ -1,11 +1,11 @@
-# Tools and Resources about Stellar Physics and Stellar Population 
+# Tools and Resources about Stellar Physics and Stellar Population
 
 ## Stellar Evolution Code
 
 * [MESA - Modules for Experiments in Stellar Astrophysics](http://mesa.sourceforge.net/)
     - The most important **open** 1-D stellar evolution code on the market.
 * [stars - A Stellar Evolution Code](https://www.ast.cam.ac.uk/~stars/)
-    - The classic. 
+    - The classic.
 * [BINSTAR - a detailed binary stellar evolution code](https://www.ast.cam.ac.uk/~rgi/binstar.html)
 
 ## Isochrones
@@ -40,8 +40,8 @@
 
 ### Tools
 
-* [BEAST - Bayesian Extinction and Stellar Tool](https://github.com/BEAST-Fitting/beast) 
-    - Fits the ultraviolet to near-infrared photometric SEDs of stars to extract stellar and dust extinction parameters. See [Gordon et al. 2016](http://adsabs.harvard.edu/abs/2016ApJ...826..104G) for details. 
+* [BEAST - Bayesian Extinction and Stellar Tool](https://github.com/BEAST-Fitting/beast)
+    - Fits the ultraviolet to near-infrared photometric SEDs of stars to extract stellar and dust extinction parameters. See [Gordon et al. 2016](http://adsabs.harvard.edu/abs/2016ApJ...826..104G) for details.
     - Online document is [here](https://beast.readthedocs.io/en/latest/)
 
 * [ThePayne - Artificial Neural-Net compression and fitting of synthetic spectral grids](https://github.com/pacargile/ThePayne)
@@ -60,14 +60,21 @@
 * This [`sedfitting.org` page](http://www.sedfitting.org/Models.html) is a very good one-stop shopping place for all SED related resources.
     - There is also a [review paper](http://www.sedfitting.org/Paper_vs1.0_online/walcher_ms.html)
 
-### Models:
+### Tools:
 
 * [FSPS - Flexible Stellar Population Synthesis](https://github.com/cconroy20/fsps)
-    - If you want to see how sausage is made, this is it, including every details of stellar population synthesis. Original code in `Frotran`. Supports different isochrones and libraries. 
+    - If you want to see how sausage is made, this is it, including every details of stellar population synthesis. Original code in `Frotran`. Supports different isochrones and libraries.
     - [`python-fsps`](http://dfm.io/python-fsps/current/) can help you use it in `Python`
     - [`cloudyfsps` - Python interface between FSPS and Cloudy](https://github.com/nell-byler/cloudyfsps)
+* [PopStar - generating simple stellar populations from synthetic evolution and atmosphere models](https://github.com/astropy/PopStar)
+    - PopStar generates single-age, single-metallicity populations (i.e. star clusters). It supports different initial mass functions, multiplicity perscriptions, reddening laws, filter functions, atmosphere models, and evolution models.
+    - Support a large variety of theoretical models.
+
+
+### Models:
+
 * [MILES - Population synthesis for the 21st Century](http://miles.iac.es/)
-    - The new extended MILES ([E-MILES](http://adsabs.harvard.edu/abs/2016MNRAS.463.3409V)) models covering from 1680Å to 5.0μm 
+    - The new extended MILES ([E-MILES](http://adsabs.harvard.edu/abs/2016MNRAS.463.3409V)) models covering from 1680Å to 5.0μm
     - Provides useful [online tools](http://www.iac.es/proyecto/miles/pages/webtools.php) to use the stellar library and SSP models.
 * [BPASS - Binary Population and Spectral Synthesis code](https://bpass.auckland.ac.nz/)
     - Best binary population model on the market.
