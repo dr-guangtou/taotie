@@ -7,17 +7,21 @@
 * [photutils - Affiliated package for image photometry utilities](https://github.com/astropy/photutils)
     * General Python package. Not the fastest one and is still growing.
 * [sep - Python library for Source Extraction and Photometry](https://github.com/kbarbary/sep/blob/v1.0.x/docs/index.rst)
-    * SEP makes the core algorithms of Source Extractor available as a library of stand-alone functions and classes. 
+    * SEP makes the core algorithms of Source Extractor available as a library of stand-alone functions and classes.
 * [SExtractor](http://www.astromatic.net/software/sextractor)
     * It is very good software, just remember never call it `sex`, just don't.
     * The best document: [Don't Panic](http://mensa.ast.uct.ac.za/~holwerda/SE/Welcome.html) by Benne Holwerda.
+* [multiprofit - Multi-object/band source modelling/galaxy fitting code](https://github.com/lsst-dm/multiprofit)
+    - By Dan Taranu. Still under-development.
 * [The Tractor: measuring astronomical sources via probabilistic inference](https://github.com/dstndstn/tractor)
     * By Dustin Lang and David Hogg.  Used by DECaLS, Probabilistic astronomical source detection & measurement.
-* [multiprofit - Multi-object/band source modelling/galaxy fitting code](https://github.com/lsst-dm/multiprofit)
-    - By Dan Taranu. Still under-development. 
+* [ngmix - Gaussian mixtures and image processing implemented in python](https://github.com/esheldon/ngmix)
+    * By Erin Sheldon. Gaussian mixture models and other code for working with for 2d images, implemented in python. Used by DES data analysis.
+
+#### Multiband Deblending and Force Photometry
+* [ProFound - source finding and extraction in R](https://github.com/asgr/ProFound)
 * [scarlet - Source separation in multi-band images by Constrained Matrix Factorization](https://github.com/fred3m/scarlet)
     - By Fred Moolekamp and Peter Melchior. It performs source separation (aka "deblending") on multi-band images. Still under-development.
-* [ProFound - source finding and extraction in R](https://github.com/asgr/ProFound)
 * [LAMBDAR: Lambda Adaptive Multi-Band Deblending Algorithm in R](https://github.com/AngusWright/LAMBDAR)
 
 ### Image Simulation
@@ -26,7 +30,7 @@
     - Application in DES: [No galaxy left behind](https://arxiv.org/abs/1507.08336)
     - [`Balrog` run in DES Y3](https://cdcvs.fnal.gov/redmine/projects/des/wiki/des_balrog_y3)
 * [Synpipe - Synthetic Object Pipeline for the LSST pipeline](https://github.com/lsst/synpipe)
-    - Synpipe provides tasks which make use of the LSST fake object pipeline to insert realistic galaxies and stars. It also includes scripts to analyze the results of data which has been processed with fake objects inserted. 
+    - Synpipe provides tasks which make use of the LSST fake object pipeline to insert realistic galaxies and stars. It also includes scripts to analyze the results of data which has been processed with fake objects inserted.
 * [Obiwan - Monte Carlo method for adding fake galaxies to Legacy Survey imaging data](https://obiwan.readthedocs.io/en/latest/)
 
 ## Galaxies or Extended Objects
@@ -40,7 +44,7 @@
 ### 1-D Galaxy Profile Extraction
 
 * [`stsdas.analysis.isophote` - fits elliptical isophotes to galaxy images](http://stsdas.stsci.edu/cgi-bin/gethelp.cgi?ellipse)
-    - The OG. 
+    - The OG.
 * [`photutils.isophote` - Python version of the `ellipse` code](https://github.com/astropy/photutils/tree/master/photutils/isophote)
     - Not as fast as the `IRAF` version, but it is useful. Document is [here](https://photutils.readthedocs.io/en/stable/isophote.html)
 * [ARCHANGEL: Galaxy Photometry System](http://abyss.uoregon.edu/~js/archangel/)
@@ -61,7 +65,7 @@
     - [pyprofit - a python wrapper for libprofit](https://github.com/ICRAR/pyprofit)
         * This only provides the tool to generate 2-D galaxy model with PSF convolution. You need to setup your own optimazation structue for fitting.
 * [lenstronomy - software package for lens model reconstruction of imaging data](https://github.com/sibirrer/lenstronomy)
-    - By [Simon Birrer](http://www.astro.ucla.edu/~sibirrer/). `lenstronomy` is a multi-purpose package to model strong gravitational lenses. The software package is presented in Birrer & Amara 2018 and is based on Birrer et al 2015. 
+    - By [Simon Birrer](http://www.astro.ucla.edu/~sibirrer/). `lenstronomy` is a multi-purpose package to model strong gravitational lenses. The software package is presented in Birrer & Amara 2018 and is based on Birrer et al 2015.
     - It can also be used to fit galaxies like `Galfit`. See [example here](https://github.com/sibirrer/lenstronomy_extensions/blob/master/lenstronomy_extensions/Notebooks/galfitting.ipynb)
 
 ## Stellar or PSF Photometry
