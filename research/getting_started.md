@@ -28,3 +28,18 @@
 * Telecon becomes more and more frequently used to communicate among collaborators in different institutes and timezones.  Commonly used telecon tools including [`Skype`](https://www.skype.com/en/), [`zoom`](https://zoom.us/), [`GoToMeetings`](https://www.gotomeeting.com/)
     - All of these tools are free and cross-platform, and easy to use. You can share screen using them for remote presentation too.
 * [Doodle](https://doodle.com/make-a-poll) is the most commonly used tool to create a poll to decide the time slot for a meeting or telecon. 
+
+### Personal Website
+
+* It is actually pretty important to have a visible personal website that links your CV and contact information.  Make sure that it can be found by search engine.
+* This is especially important if you try to find job in another country (e.g. get a PhD in China, want a post-doc job in Europe) or when you know the hiring committee is not familiar with you.
+
+* [`GitHub Pages`](https://pages.github.com/) is pretty good choice to make a nice-looking personal website.  And there are some [easy-to-use templates available](https://pages.github.com/themes/), and there are [more fancy ones available](https://jekyllthemes.io/github-pages-templates)
+    - [How to Create a Simple Academic Website](https://marisacarlos.com/pages/create-simple-academic-website)
+
+* [al-folio - A beautiful Jekyll theme for academics](https://github.com/alshedivat/al-folio)
+    * This is a pretty good template for academic personal wesbsite
+
+* Good examples (personal choice: clean and informative)
+    - [Adrian Price-Whelan](http://adrian.pw/); the code can be found [here](https://github.com/adrn/adrn.github.io)
+    - [Dan Foreman-Mackey](https://dfm.io/); the code can be found [here](https://github.com/dfm/dfm.io)
