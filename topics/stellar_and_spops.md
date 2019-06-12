@@ -68,7 +68,7 @@
     - [`python-fsps`](http://dfm.io/python-fsps/current/) can help you use it in `Python`
     - [`cloudyfsps` - Python interface between FSPS and Cloudy](https://github.com/nell-byler/cloudyfsps)
 * [sedpy - Utilities for astronomical spectral energy distributions](https://github.com/bd-j/sedpy)
-    - By Ben Johnson. Modules for storing and operating on astronomical source spectral energy distributions.  
+    - By Ben Johnson. Modules for storing and operating on astronomical source spectral energy distributions.
     - Has nice function to handle filters and measure SED from spectrum.
 * [PopStar - generating simple stellar populations from synthetic evolution and atmosphere models](https://github.com/astropy/PopStar)
     - PopStar generates single-age, single-metallicity populations (i.e. star clusters). It supports different initial mass functions, multiplicity perscriptions, reddening laws, filter functions, atmosphere models, and evolution models.
@@ -77,7 +77,30 @@
 ### SED or Spectral Fitting
 
 * [prospector - Python code for Stellar Population Inference from Spectra and SEDs](https://github.com/bd-j/prospector)
-    - By Ben Johnson. Conduct principled inference of stellar population properties from photometric and/or spectroscopic data. 
+    - By Ben Johnson. Conduct principled inference of stellar population properties from photometric and/or spectroscopic data.
+    - Bayesian method, can use `emcee`, `nestle`, and `dynesty` as sampling tool
+    - Can fit spectrum and/or SED.
+* [fastpp - C++ version of the SED fitting code FAST (Kriek et al. 2009);](https://github.com/cschreib/fastpp)
+    - By Corentin Schreiber. "it's faster, uses less memory, and has more features."
+    - Based on model grid.
+    - Can fit spectrum and/or SED.
+* [STARLIGHT - Spectra decomposition code](http://www.starlight.ufsc.br/)
+    - Written in Fortran, using simulated annealing algorithm with Markov chains.
+    - [The manual written by Cid Fernandes](http://minerva.ufsc.br/starlight/files/papers/Manual_StCv04.pdf) is a very good introduction of the SSP decomposition business.
+    - Mostly used for spectral fitting.
+* [pPXF - Penalized Pixel-Fitting](http://www-astro.physics.ox.ac.uk/~mxc/software/#ppxf)
+    - By Michelle Cappellari. Extract the stellar or gas kinematics and stellar population from galaxy spectra via full spectrum fitting.
+    - Available in Python and IDL. Can fit spectrum.
+* [iSEDfit - IDL routines to fit SED](https://github.com/moustakas/impro)
+    - By John Moustakas. Part of the `impro` suite. [Website for downloading library and documents is here](http://www.sos.siena.edu/~jmoustakas/isedfit/)
+    - Based on model grid, only fit SED.
+* [Firefly – A Full Spectral Fitting Code](https://github.com/FireflySpectra/firefly_release)
+    - FIREFLY is a chi-squared minimisation fitting code for deriving the stellar population properties of stellar systems, be these observed galaxy or star cluster spectra, or model spectra from simulations. Document can be [found here](http://www.icg.port.ac.uk/firefly/)
+* [cigale - Python version of the Code Investigating GALaxy Emission](https://gitlab.lam.fr/cigale/cigale/)
+    - [Full document can be found here](https://cigale.lam.fr/)
+* [FIT3D - a tool for fitting stellar populations and emission lines in optical spectroscopy](http://www.astroscu.unam.mx/~sfsanchez/FIT3D/)
+    - FIT3D is a package for fitting optical spectra to deblend the underlying stellar population and the ionized gas, and extract physical information from each component. Focusing on IFU surveys.
+    - Fit full spectrum. In Python or Perl
 
 
 ### Models:

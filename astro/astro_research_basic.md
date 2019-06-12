@@ -1,4 +1,4 @@
-# Basic Tools for Astrophysical Research 
+# Basic Tools for Astrophysical Research
 
 ## Flux standards
 
