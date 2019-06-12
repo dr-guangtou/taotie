@@ -1,8 +1,8 @@
 # Transients and Other Time Series Science
 
-* Focusing on the detection and analysis of any object that shows flux variation. 
+* Focusing on the detection and analysis of any object that shows flux variation.
     - For example: variable stars, TDE, and eclipsing binaries.
-    - **Exoplanet** and **supernova** are also trasients, but they have much broader impact therefore they have their own topics. 
+    - **Exoplanet** and **supernova** are also trasients, but they have much broader impact therefore they have their own topics.
 
 ## Tools
 
@@ -15,7 +15,7 @@
 - [starry - Analytic occultation light curves for astronomy]()
     * By [Rodrigo Luger](https://rodluger.github.io/). Based on [a very nice paper](https://docs.google.com/viewer?url=https://github.com/rodluger/starry/raw/master-pdf/tex/starry.pdf)
 
-- [everest - EPIC Variability Extraction and Removal for Exoplanet Science Targets](https://github.com/rodluger/everest) 
+- [everest - EPIC Variability Extraction and Removal for Exoplanet Science Targets](https://github.com/rodluger/everest)
     * A pipeline for de-trending K2 light curves with pixel level decorrelation and Gaussian processes.]
 
 - [wotan - Automagically remove trends from time-series data](https://github.com/hippke/wotan)

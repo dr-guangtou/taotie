@@ -1,4 +1,4 @@
-# Learning Material for Basic Statistical Methods 
+# Learning Material for Basic Statistical Methods
 
 ## Interactive Courses
 
