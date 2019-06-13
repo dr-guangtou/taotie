@@ -7,10 +7,8 @@
 * [CCL - DESC Core Cosmology Library: cosmology routines with validated numerical accuracy](https://github.com/LSSTDESC/CCL)
 	- On top of `CCL`, there is `firecrown`:
 	- [firecrown: the "c" is for "cosmology"](https://github.com/LSSTDESC/firecrown)
-
 * [CosmoMC - MCMC parameter sampling code](https://github.com/cmbant/CosmoMC)
 	- CosmoMC is a Fortran 2008 Markov-Chain Monte-Carlo (MCMC) engine for exploring cosmological parameter space, together with Fortran and python code for analysing Monte-Carlo samples and importance sampling (plus a suite of scripts for building grids of runs, plotting and presenting results).
-
 * [CosmoHammer - Cosmological parameter estimation with the MCMC Hammer](https://github.com/cosmo-ethz/CosmoHammer)
 	- A paper describing the software can be [found here](https://arxiv.org/abs/1212.1721)
 
@@ -27,9 +25,9 @@
 * [Corrfunc - Blazing fast correlation functions on the CPU](https://github.com/manodeep/Corrfunc)
 
 * [TreeCorr - Code for efficiently computing 2-point and 3-point correlation functions](https://github.com/rmjarvis/TreeCorr)
-	- It can compute correlations of regular number counts, weak lensing shears, or scalar quantities such as convergence or CMB temperature fluctutations. 
+	- It can compute correlations of regular number counts, weak lensing shears, or scalar quantities such as convergence or CMB temperature fluctutations.
 
-## Weak Lensing 
+## Weak Lensing
 
 * Both `corrfunc` and `treecorr` can be used for shear-shear or galaxy-shear analysis
 * [LensTools - collects together a suite of widely used analysis tools in Weak Gravitational Lensing](https://github.com/apetri/LensTools)
@@ -42,7 +40,14 @@
 	- By Jes Ford.  [Paper can be found here](https://iopscience.iop.org/article/10.3847/1538-3881/152/6/228/meta)
 
 * [cluster_toolkit - Tools for analyzing galaxy clusters](https://github.com/tmcclintock/cluster_toolkit)
-	- by [Tom McClintock](https://tmcclintock.github.io/). Contains routines used in the Dark Energy Survey Year 1 stacked cluster weak lensing analysis. 
+	- by [Tom McClintock](https://tmcclintock.github.io/). Contains routines used in the Dark Energy Survey Year 1 stacked cluster weak lensing analysis.
+
+
+## IGM Related (e.g. Lya Forrest)
+
+* [IGMHUB - IGM analysis tools](https://igmhub.github.io/)
+	* [baofit - Fits cosmological data to measure baryon acoustic oscillations](https://github.com/igmhub/baofit)
+		- `baofit` is a software package for analyzing cosmological correlation functions to estimate parameters related to baryon acoustic oscillations and redshift-space distortions
 
 ## Dark Matter Halos
 
@@ -51,7 +56,7 @@
 
 * [Colossus - a python toolkit for calculations pertaining to cosmology, the large-scale structure of the universe, and the properties of dark matter halos](http://www.benediktdiemer.com/code/colossus/)
 
-## Emulators: 
+## Emulators:
 
 * Increasingly popular way to study cosmology based on a limit set of N-body simulations.
 
@@ -67,7 +72,7 @@
 	- [Maximin-distance “sliced” LHD (SLHD)](https://www.asc.ohio-state.edu/statistics/comp_exp/jour.club/optimal_sliced_lhd_ba2015.pdf)
     	- Python implementation: https://pythonhosted.org/pyDOE/index.html
     	- SMT: Surrogate Modeling Toolbox: https://smt.readthedocs.io/en/latest/index.html
-    	- Another Python version: https://github.com/sahilm89/lhsmdu	
+    	- Another Python version: https://github.com/sahilm89/lhsmdu
 
 * Principle Component Analysis (PCA)
 	- e.g. [empca](https://github.com/sbailey/empca) by Stephen Bailey
@@ -84,7 +89,7 @@
 	* [The Aemulus Project II: Emulating the Halo Mass Function](https://arxiv.org/abs/1804.05866)
 	* [The Aemulus Project III: Emulation of the Galaxy Correlation Function](https://arxiv.org/abs/1804.05867)
 	* Documents for [data release 1](https://aemulus-data.readthedocs.io/en/latest/)
-	
+
 - [CosmicEmu led by ANL](http://www.hep.anl.gov/cosmology/CosmicEmu/emu.html)
 	* Code can be found [here](https://github.com/lanl/CosmicEmu)
 	* `CosmicEmu` produces predictions for the matter power spectrum based on eight cosmological parametersand redshift.
@@ -92,14 +97,14 @@
 	* Also related to the Coyote Universe emulator: [Paper I](https://arxiv.org/abs/0812.1052), [Paper II](https://arxiv.org/abs/0902.0429), [Paper III](https://arxiv.org/abs/0912.4490), and [Extended](https://arxiv.org/abs/1304.7849)
 	* Paper about the [emulated power-spectrum](https://arxiv.org/abs/1311.6444)
 	* Paper about the [emulated halo mass-concentration relation](https://arxiv.org/abs/1210.1576)
-	
+
 - [ACME Emulator led by OSU]()
 	* Paper by Ben Wibking: [Emulating galaxy clustering and galaxy-galaxy lensing into the deeply nonlinear regime](http://adsabs.harvard.edu/doi/10.1093/mnras/sty2258)
 	* Use the [AbacusCosmos suite of simulations](https://lgarrison.github.io/AbacusCosmos/)
 		- The code used for the simulation is [here](https://github.com/lgarrison/AbacusCosmos)
 		- The [AbacusCosmos description paper](https://arxiv.org/abs/1712.05768)
-	
+
 - [Dark Emulator led by IPMU]()
 	* Based on the Dark Quest suite of simulations.
 	* [Dark Quest. I. Fast and Accurate Emulation of Halo Clustering Statistics and Its Application to Galaxy Clustering](http://adsabs.harvard.edu/abs/2018arXiv181109504N)
-	
+

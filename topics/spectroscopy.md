@@ -18,6 +18,9 @@
 - [pydis - A simple longslit spectroscopy pipeline in Python](https://github.com/TheAstroFactory/pydis)
     * The goal of pyDIS is to provide a turn-key solution for reducing and understanding longslit spectroscopy, which could ideally be done in real time. Currently we are using many simple assumptions to get a quick-and-dirty solution, and modeling the workflow after the robust industry standards set by IRAF.
 
+- [speclite - Lightweight utilities for working with spectroscopic data](https://github.com/dkirkby/speclite)
+    * By David Kirby. This package provides a set of lightweight utilities for working with spectroscopic data in astronomy.
+
 ## Redshift or Radial Velocity Measurement
 
 - [grizli - Grism redshift & line analysis software for space-based slitless spectroscopy](https://github.com/gbrammer/grizli)
