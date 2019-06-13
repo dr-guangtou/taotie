@@ -8,6 +8,11 @@
     - The classic.
 * [BINSTAR - a detailed binary stellar evolution code](https://www.ast.cam.ac.uk/~rgi/binstar.html)
 
+### Hydro-simulation
+
+* [MAEXTROeX - A C++/F90 low Mach number stellar hydrodynamics code](https://github.com/AMReX-Astro/MAESTROeX)
+    - [MAESTROeX](https://amrex-astro.github.io/MAESTROeX/index.html) solves the equations of low Mach number hydrodynamics for stratified atmospheres/stars with a general equation of state.
+
 ## Isochrones
 
 ### Softwares
