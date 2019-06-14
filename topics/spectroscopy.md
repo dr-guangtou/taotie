@@ -15,6 +15,9 @@
     * [mangadap - The MaNGA Data Analysis Pipeline](https://github.com/sdss/mangadap)
         * The MaNGA data-analysis pipeline (MaNGA DAP) is the survey-led software package that analyzes the data produced by the MaNGA data-reduction pipeline (MaNGA DRP) to produced physical properties derived from the MaNGA spectroscopy.
 
+- [GIST - Galaxy IFU Spectroscopy Tool](https://abittner.gitlab.io/thegistpipeline/index.html)
+    * A convenient, all-in-one framework for the scientific analysis of fully reduced, (integral-field) spectroscopic data.
+
 - [pydis - A simple longslit spectroscopy pipeline in Python](https://github.com/TheAstroFactory/pydis)
     * The goal of pyDIS is to provide a turn-key solution for reducing and understanding longslit spectroscopy, which could ideally be done in real time. Currently we are using many simple assumptions to get a quick-and-dirty solution, and modeling the workflow after the robust industry standards set by IRAF.
 
