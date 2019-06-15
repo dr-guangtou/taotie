@@ -12,6 +12,9 @@
 - [Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning)
 	* A curated list of awesome machine learning frameworks, libraries and software (by language).
 
+- [Homemade Machine Learning](https://github.com/trekhleb/homemade-machine-learning)
+	* Python examples of popular machine learning algorithms with interactive Jupyter demos and math being explained
+
 - [VIP cheatsheets for Stanford's CS 229 Machine Learning](https://github.com/afshinea/stanford-cs-229-machine-learning)
 	* This one has a [Chinese version](https://github.com/afshinea/stanford-cs-229-machine-learning/tree/master/zh)
 
