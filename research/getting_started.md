@@ -17,7 +17,9 @@
 ## ORCID and Google Scholar
 
 * [ORCID](https://orcid.org/) provides a persistent digital identifier that distinguishes you from every other researcher and, through integration in key research workflows such as manuscript and grant submission, supports automated linkages between you and your professional activities ensuring that your work is recognized.
-    - It is a very good idea to have register an ORCID.
+    - It is a very good idea to register an ORCID and maintaine it from time to time.
+
+* It is also a good idead to start a [Google scholar](https://scholar.google.com) page 
 
 ## Backup Research Project
 
