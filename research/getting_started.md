@@ -96,6 +96,12 @@
 
 * [We're Here To Help You Make The Best Scientific Poster](https://www.makesigns.com/tutorials/)
 
+* [Better Scientific Poster](https://osf.io/ef53g/)
+    - By Mike Morrison. A new, faster approach to designing research posters. Includes templates
+    - There is a [Youtube video that describes the motivation and design](https://www.youtube.com/watch?v=1RwJbhkCA58&feature=youtu.be)
+    - [The LaTeX template](https://github.com/rafaelbailo/betterposter-latex-template)
+    - [The R Markdown template](https://github.com/GerkeLab/betterposter)
+
 ## Colloquium
 
 * With Youtube, it is pretty easy to enjoy great astrophysical colloquium in universities and institutes all over the world.  Here are a few good channels to get started:
