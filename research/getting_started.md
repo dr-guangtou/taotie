@@ -3,9 +3,11 @@
 
 ## Choosing a Programing Language
 
-* `Python`
-* `C++`
-* `Julia`
+* It has become clear that [`Python`](https://www.python.org/) has become the new Lingua franca in astrophysics and cosmology research and it is probably the language you want to learn first. Please check the `python` directory in `taotie` for relevant topics.
+* As an advanced object-oriented programing language `C++` is still at the core of many important astrophysical applications, e.g. numerical simulations, data reduction or analysis that requires high efficiency or good performance.  Many important astrophysical softwares use `C++` as the core and then wrap it up using `Python`. 
+* [`Julia`](https://julialang.org/) is another intersting high-level programming language on the rising. There are [several key advantages over `Python`](https://discourse.julialang.org/t/julia-motivation-why-werent-numpy-scipy-numba-good-enough/2236) but it is still a young language. 
+* At the same time, `R` statistical language also has some interesting applications in astronomy; `IDL` is the language from yesterday, but for historical reasons, many projects/instruments are still using it for data reduction; `MATLAB` is also used in several occasions.
+* And it never hurts if you can learn some basic programming skills related to webpage making, e.g. `HTML`, `CSS`, and `Javascript`.
 
 ## Organize Project
 
