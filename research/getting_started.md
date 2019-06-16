@@ -29,6 +29,13 @@
     - You should constantly back-up your harddrive using external harddrive. Both MacOSX and Linux have systems that help you backup data.
     - It is encouraged to use service like the [`Dropbox`](https://www.dropbox.com) to constantly backup important research-related files (e.g. draft, code, and figures). In mainland China, [`jianguoyun` (坚果云)](https://www.jianguoyun.com/) is an alternative.
 
+## Sharing Your Science
+
+* [Open Science](https://en.wikipedia.org/wiki/Open_science) is good for everybody!
+* You can share your results using `Github`: you can share codes, notebooks, and draft together. But it is not very good if you have large amount of data to share.
+* [zenodo - a general-purpose open-access repository developed under the European OpenAIRE program and operated by CERN](https://zenodo.org/)
+* [OSF - Open Science Framework](https://osf.io/)
+
 ## Reading Paper
 
 * It is important to read as much as you can. It is important to follow `arXiv` regularly.
