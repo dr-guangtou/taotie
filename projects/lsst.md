@@ -32,13 +32,13 @@
 
 * [LSST Dark Matter - Probing the fundamental physics of dark matter with LSST](https://lsstdarkmatter.github.io/)
     - [Dark Matter Graphics](https://lsstdarkmatter.github.io/dark-matter-graph) - This graphic is intended to help conceptually organize the LSST dark matter program and to serve as a road map for future scientific investigations.
-    - [LSST Dark Energy School](https://lsstdesc.org/pages/DESchool.html)
 
 #### LSST Dark Energy Science Collaboration
 
 * [LSST Dark Energy Science Collaboration](https://lsstdesc.org/)
     - LSST DESC is the large international collaboration that will make high accuracy measurements of fundamental cosmological parameters using data from the Large Synoptic Survey Telescope
     - [LSST DESC Science Roadmap](https://lsstdesc.org/assets/pdf/docs/DESC_SRM_latest.pdf)
+    - [LSST Dark Energy School](https://lsstdesc.org/pages/DESchool.html)
 
 ### Social Media
 
@@ -112,6 +112,7 @@
 
 * [LSST Data Management Team Github Organization](https://github.com/lsst-dm)
 * [LSST Dark Energy Science Collaboration Github Organization](https://github.com/LSSTDESC)
+* [LSST Dark Matter Github Organization](https://github.com/lsstdarkmatter)
 
 ### Important Components:
 
