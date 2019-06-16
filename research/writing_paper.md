@@ -4,7 +4,7 @@
 
 * [Notes on writing papers by Prof. Alexie Leauthaud](https://github.com/alexieleauthaud/RedWoodTools/wiki/Writing-Papers)
 
-## Examples
+### Examples
 
 * Good example of papers:
 
@@ -30,7 +30,17 @@
 
 * [Tabula - Tool for liberating data tables locked inside PDF files](https://tabula.technology)
 
-## LaTeX resources
+## LaTeX
+
+### Online LaTeX Editor 
+
+* [Overleaf](https://www.overleaf.com)
+  - The most commonly used one. The free service is already very good.
+
+* [Authorea](https://www.authorea.com/)
+  - A powerful publishing platform for articles, data, figures, preprints. More than just a LaTeX editor. 
+
+### LaTeX resources
 
 * [Complete list of LaTeX symbols (PDF)](https://math.uoregon.edu/wp-content/uploads/2014/12/compsymb-1qyb3zd.pdf)
 * [List of LaTeX mathematical symbols](https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols)
@@ -39,7 +49,7 @@
   - Very good place to search for basic usage.
 * [List of color names in LaTeX along with other useful tips about color](https://en.wikibooks.org/wiki/LaTeX/Colors)
 
-## Useful LaTeX tips
+### Useful LaTeX tips
 
 * [Link to aribitary part of text](https://tex.stackexchange.com/questions/280462/link-to-arbitrary-part-of-text)
   - Using `\hypertarget` and `\hyperlink`
