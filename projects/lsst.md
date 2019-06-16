@@ -28,15 +28,23 @@
 * [Strong Lensing Collaboration](https://sites.google.com/view/lsst-stronglensing)
 * [Informatics and Statistics Collaboration](https://issc.science.lsst.org/)
 
-### LSST Dark Matter
+#### LSST Dark Matter
 
 * [LSST Dark Matter - Probing the fundamental physics of dark matter with LSST](https://lsstdarkmatter.github.io/)
     - [Dark Matter Graphics](https://lsstdarkmatter.github.io/dark-matter-graph) - This graphic is intended to help conceptually organize the LSST dark matter program and to serve as a road map for future scientific investigations.
+    - [LSST Dark Energy School](https://lsstdesc.org/pages/DESchool.html)
+
+#### LSST Dark Energy Science Collaboration
+
+* [LSST Dark Energy Science Collaboration](https://lsstdesc.org/)
+    - LSST DESC is the large international collaboration that will make high accuracy measurements of fundamental cosmological parameters using data from the Large Synoptic Survey Telescope
+    - [LSST DESC Science Roadmap](https://lsstdesc.org/assets/pdf/docs/DESC_SRM_latest.pdf)
 
 ### Social Media
 
 * [LSST Youtube Channel](https://www.youtube.com/channel/UCoKgqaxFrkwnffyfyhKhC2w)
 * [LSST Twitter Handle](https://twitter.com/lsst?lang=en)
+* [LSST LinkedIn](https://www.linkedin.com/company/large-synoptic-survey-telescope-lsst-)
 
 ## Important Documents:
 
@@ -51,6 +59,29 @@
 
 * [LSST: from Science Drivers to Reference Design and Anticipated Data Products](https://arxiv.org/abs/0805.2366)
 * [Probing the Fundamental Nature of Dark Matter with the Large Synoptic Survey Telescope](https://arxiv.org/abs/1902.01055)
+
+#### Planning and Scheduling Observations:
+
+* [A Framework for Telescope Schedulers: With Applications to the Large Synoptic Survey Telescope](https://ui.adsabs.harvard.edu/abs/2019AJ....157..151N/abstract)
+* [Optimizing the LSST Observing Strategy for Dark Energy Science: DESC Recommendations for the Wide-Fast-Deep Survey](https://arxiv.org/abs/1812.00515)
+* [LSST Target-of-opportunity Observations of Gravitational-wave Events: Essential and Efficient](https://ui.adsabs.harvard.edu/abs/2019ApJ...874...88C/abstract)
+
+#### Technical Papers: 
+
+* [An Overview of the LSST Image Processing Pipelines](https://ui.adsabs.harvard.edu/abs/2018arXiv181203248B/abstract)
+* [Models and Simulations for the Photometric LSST Astronomical Time Series Classification Challenge (PLAsTiCC)](https://ui.adsabs.harvard.edu/abs/2019arXiv190311756K/abstract)
+* [DESCQA: An Automated Validation Framework for Synthetic Sky Catalogs](https://ui.adsabs.harvard.edu/abs/2018ApJS..234...36M/abstract)
+
+#### Synergy with Other Projects
+
+* [Enhancing LSST Science with Euclid Synergy](https://arxiv.org/abs/1904.10439)
+* [The Gaia-LSST Synergy: resolved stellar populations in selected Local Group stellar systems](https://ui.adsabs.harvard.edu/abs/2018arXiv181203298C/abstract)
+
+#### Need for Spectroscopy
+
+* [Deep Multi-object Spectroscopy to Enhance Dark Energy Science from LSST](https://ui.adsabs.harvard.edu/abs/2019BAAS...51c.358N/abstract)
+* [Single-object Imaging and Spectroscopy to Enhance Dark Energy Science from LSST](https://ui.adsabs.harvard.edu/abs/2019BAAS...51c.369H/abstract)
+* [Wide-field Multi-object Spectroscopy to Enhance Dark Energy Science from LSST](https://ui.adsabs.harvard.edu/abs/2019BAAS...51c.363M/abstract)
 
 ### Science and System Requirements:
 
@@ -78,3 +109,44 @@
     - [LSST Documentation Hub](https://www.lsst.io/)
     - [Doxygen Documents](http://doxygen.lsst.codes/stack/doxygen/x_masterDoxyDoc/)
     - [Documentation contribution guidelines](https://github.com/lsst/pipelines_lsst_io/blob/master/.github/CONTRIBUTING.rst)
+
+* [LSST Data Management Team Github Organization](https://github.com/lsst-dm)
+* [LSST Dark Energy Science Collaboration Github Organization](https://github.com/LSSTDESC)
+
+### Important Components:
+
+* [`afw`: LSST data management: pipeline library code and primitives including images and tables](https://github.com/lsst/afw)
+* [`lsst-build`: a builder and continuous integration tool for LSST](https://github.com/lsst/lsst_build)
+* [`pipe_base`: LSST Data Management: base classes for data processing tasks](https://github.com/lsst/pipe_base)
+* [`pipe_tasks`: LSST Data Management: astronomical data processing tasks](https://github.com/lsst/pipe_tasks)
+* [`pipe_drivers`: LSST Data Management: high level task coordination scripts](https://github.com/lsst/pipe_drivers)
+* [`daf_butler`: Prototype for data access framework described in DMTN-056](https://github.com/lsst/daf_butler)
+* [`daf_persistence`: Data access interface (the Butler) and deprecated persistence framework for LSST Data Management](https://github.com/lsst/daf_persistence)
+* [`daf_base`: Low-level data structures, including memory-management helpers (Citizen), mappings (PropertySet, PropertyList), and DateTime](https://github.com/lsst/daf_base)
+* [`skymap`: Sky pixelization interfaces and implementations used by LSST Data Management](https://github.com/lsst/skymap)
+* [`jointcal`: Simultaneous astrometry and photometry](https://github.com/lsst/jointcal)
+* [`meas_mosaic`: determine consistent astrometry and photometry for multiple images](https://github.com/lsst/meas_mosaic)
+* [`meas_modelfit`: LSST Data Management: model fitting algorithms](https://github.com/lsst/meas_modelfit)
+* [`meas_extentions_shapeHSM`: LSST Data Management: HSM shape measurement](https://github.com/lsst/meas_extensions_shapeHSM)
+* [`meas_extensions_psfex`: LSST Data Management: PSF Estimation](https://github.com/lsst/meas_extensions_psfex)
+* [`meas_base`: LSST Data Management: core astronomical measurement algorithms](https://github.com/lsst/meas_base)
+* [`meas_algorithms`: LSST Data Management: astronomical measurement algorithm](https://github.com/lsst/meas_algorithms)
+* [`meas_deblender`: LSST Data Management: astronomical source deblender](https://github.com/lsst/meas_deblender)
+* [`meas_astrom`: LSST Data Management: astrometric measurement algorithms ](https://github.com/lsst/meas_astrom)
+* [`ip_isr`: LSST data management: instrument signature removal (detrending) for astronomical images](https://github.com/lsst/ip_isr)
+* [`ip_diffim`: LSST data management: astronomical image differencing](https://github.com/lsst/ip_diffim)
+* [`geom`: Low-level geometry primitives for LSST Data Management](https://github.com/lsst/geom)
+* [`coadd_utils`: LSST data management: base classes for coadding (stacking) astronomical images](https://github.com/lsst/coadd_utils)
+* [`throughputs`: LSST Simulations repository for baseline evaluation information](https://github.com/lsst/throughputs)
+
+### Simulation Related:
+
+* [`imSim`: GalSim based Large Synoptic Survey Telescope (LSST) image simulation package](https://github.com/LSSTDESC/imSim)
+    - It produces simulated images from the 3.25 Gigapixel camera which are suitable to be processed through the LSST Data Management pipeline.
+* [`phoSim`: Photon Simulator](https://bitbucket.org/phosim/phosim_release/wiki/Home)
+    - A set of extremely fast photon Monte Carlo codes used to calculate the physics of the atmosphere and a telescope & camera in order to simulate realistic optical/IR astronomical images.
+
+* [`sims_utils`: LSST Simulations package for simulation utility functions](https://github.com/lsst/sims_utils)
+* [`sims_photUtils`: LSST Simulations package for photometric utility functions](https://github.com/lsst/sims_photUtils)
+* [`sims_survey_fields`: A package for retrieving LSST survey fields](https://github.com/lsst/sims_survey_fields)
+* [`sims_skybrightness`: Tool to predict the background sky emission SED at an arbitrary RA, Dec, and MJD](https://github.com/lsst/sims_skybrightness)
