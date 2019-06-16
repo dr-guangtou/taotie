@@ -14,6 +14,11 @@
     - [shablona - A template for small scientific python projects](https://github.com/uwescience/shablona)
 * And `GitHub` allows you to [create new repository based on a template](https://github.blog/2019-06-06-generate-new-repositories-with-repository-templates)
 
+## ORCID and Google Scholar
+
+* [ORCID](https://orcid.org/) provides a persistent digital identifier that distinguishes you from every other researcher and, through integration in key research workflows such as manuscript and grant submission, supports automated linkages between you and your professional activities ensuring that your work is recognized.
+    - It is a very good idea to have register an ORCID.
+
 ## Backup Research Project
 
 * This is as important as you can possibly imagine.
@@ -28,6 +33,25 @@
 
 * [Astrobites](https://astrobites.org) is a very good website to follow recent interesting papers from the perspective of a graduate student.
     - They also provide some good advices on reading papers: [Part I](https://astrobites.org/2017/12/19/tools-for-reading-papers-part-1/), [Part II](https://astrobites.org/2018/03/09/tools-for-reading-papers-part-2/), [Part III](https://astrobites.org/2018/09/06/tools-for-reading-papers-part-3/)
+
+### On using arXiv and SAO/NASA ADS
+
+#### arXiv
+
+- [To submit an article to arXiv](https://arxiv.org/help/submit)
+    * Please read this webpage first...submitting paper to arXiv sometimes can be annoying.
+- [Local time at arxiv.org](https://arxiv.org/localtime)
+    * To remind you the deadline for submitting paper to arXiv
+- [The official arXiv github repositories](https://github.com/arXiv)
+- [arxiv.py - Python wrapper for the arXiv API](https://github.com/lukasschwab/arxiv.py)
+- [arXiv LaTeX Cleaner: Easily clean the LaTeX code of your paper to submit to arXiv](https://github.com/google-research/arxiv-latex-cleaner)
+
+#### SAO/NASA ADS
+
+- [Tutorial for using the new ADS search](http://adsabs.github.io/help/search/)
+- [Official SAO/NASA ADS github repositories](https://github.com/adsabs)
+- [ads - A Python Module to Interact with NASA's ADS that Doesn't Suck](https://github.com/andycasey/ads)
+
 ## Communication
 
 * [`Slack`](https://slack.com/) has become the most common way to organize a small collaboration.  Even the free version can be very useful.

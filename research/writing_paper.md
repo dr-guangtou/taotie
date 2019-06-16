@@ -28,7 +28,7 @@
 * [PDF Compressor](https://pdfcompressor.com)
   - This is useful when you want to compress the quality of a figure.
 
- * [Tabula - Tool for liberating data tables locked inside PDF files](https://tabula.technology)
+* [Tabula - Tool for liberating data tables locked inside PDF files](https://tabula.technology)
 
 ## LaTeX resources
 
