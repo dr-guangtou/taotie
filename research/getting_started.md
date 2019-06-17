@@ -1,4 +1,4 @@
-# Getting Started as Researcher
+# Getting Started as a Researcher
 
 
 ## Choosing a Programing Language
