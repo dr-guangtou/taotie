@@ -4,14 +4,16 @@
 ## Choosing a Programing Language
 
 * It has become clear that [`Python`](https://www.python.org/) has become the new Lingua franca in astrophysics and cosmology research and it is probably the language you want to learn first. Please check the `python` directory in `taotie` for relevant topics.
-* As an advanced object-oriented programing language `C++` is still at the core of many important astrophysical applications, e.g. numerical simulations, data reduction or analysis that requires high efficiency or good performance.  Many important astrophysical softwares use `C++` as the core and then wrap it up using `Python`. 
-* [`Julia`](https://julialang.org/) is another intersting high-level programming language on the rising. There are [several key advantages over `Python`](https://discourse.julialang.org/t/julia-motivation-why-werent-numpy-scipy-numba-good-enough/2236) but it is still a young language. 
+* As an advanced object-oriented programing language `C++` is still at the core of many important astrophysical applications, e.g. numerical simulations, data reduction or analysis that requires high efficiency or good performance.  Many important astrophysical softwares use `C++` as the core and then wrap it up using `Python`.
+* [`Julia`](https://julialang.org/) is another intersting high-level programming language on the rising. There are [several key advantages over `Python`](https://discourse.julialang.org/t/julia-motivation-why-werent-numpy-scipy-numba-good-enough/2236) but it is still a young language.
 * At the same time, `R` statistical language also has some interesting applications in astronomy; `IDL` is the language from yesterday, but for historical reasons, many projects/instruments are still using it for data reduction; `MATLAB` is also used in several occasions.
 * And it never hurts if you can learn some basic programming skills related to webpage making, e.g. `HTML`, `CSS`, and `Javascript`.
 
 ## Organize Project
 
 * [`GitHub`](https://github.com/) or any other on line code repositories (e.g. [`GitLab`](https://about.gitlab.com/), [`bitbucket`](https://bitbucket.org/), [`coding`](https://coding.net/git)) can help organize your scientific project. It can help you do version control, back up research results, and also share results and code with the community.
+    - [hub - A command-line tool that makes git easier to use with GitHub](https://github.com/github/hub)
+    - You can also keep your project synced across multiple platforms. Please see [this article](https://moox.io/blog/keep-in-sync-git-repos-on-github-gitlab-bitbucket/). Notice that `gitlab` is using `v4` API now.
 * There are template available that can help you get started:
     - [shablona - A template for small scientific python projects](https://github.com/uwescience/shablona)
 * And `GitHub` allows you to [create new repository based on a template](https://github.blog/2019-06-06-generate-new-repositories-with-repository-templates)
@@ -21,7 +23,7 @@
 * [ORCID](https://orcid.org/) provides a persistent digital identifier that distinguishes you from every other researcher and, through integration in key research workflows such as manuscript and grant submission, supports automated linkages between you and your professional activities ensuring that your work is recognized.
     - It is a very good idea to register an ORCID and maintaine it from time to time.
 
-* It is also a good idead to start a [Google scholar](https://scholar.google.com) page 
+* It is also a good idead to start a [Google scholar](https://scholar.google.com) page
 
 ## Backup Research Project
 

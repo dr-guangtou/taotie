@@ -33,14 +33,12 @@
 ## Extinction calculator
 
 * [NED's extinction calculator](https://ned.ipac.caltech.edu/extinction_calculator)
-
 * [3-D Dust Mapping with Pan-STARRS 1](http://argonaut.skymaps.info)
 	- [Query service](http://argonaut.skymaps.info/query)
 
 ## Coordinate Service
 
 * [RA, DEC Flexible converter](http://www.astrouw.edu.pl/~jskowron/ra-dec/)
-
 * [NED's coordinate calculator](https://ned.ipac.caltech.edu/coordinate_calculator)
 
 ## Cosmology Calculator
