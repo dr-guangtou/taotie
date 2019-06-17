@@ -27,6 +27,8 @@
 ## Filter Response Curves
 
 * [Response curved collected in sedpy package by Ben Johnson](https://github.com/bd-j/sedpy/tree/master/sedpy/data/filters)
+* [tynt - Color filter approximations in Python](https://github.com/bmorris3/tynt)
+	- By Brett Morris. `tynt` is a super lightweight package containing approximate transmittance curves for more than five hundred astronomical filters, weighing in at just under 150 KB. Document can be found [here](https://tynt.readthedocs.io/en/latest/)
 
 ## Extinction calculator
 
