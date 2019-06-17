@@ -2,16 +2,19 @@
 
 <img src="doc/taotie_logo.png" width="80%">
 
+[![Repo on GitHub](https://img.shields.io/badge/repo-GitHub-3D76C2.svg)](https://github.com/dr-guangtou/taotie)
+[![Repo on GitLab](https://img.shields.io/badge/repo-GitLab-6C488A.svg)](https://gitlab.com/dr-guangtou/taotie)
+
 ----
 
 * “The taotie is a motif commonly found on Chinese ritual bronze vessels from the Shang and Zhou dynasty” - [Wikipedia](https://en.wikipedia.org/wiki/Taotie)
 
-* Over the last few years, I have tried to collect useful resources for astrophysical research in several different ways.  Now, it seems a GitHub repo is the best solution. I will gradually transfer my notes and bookmarks here. This place is still heavily under construction. I will create a series of notes first, and I am thinking about what is the best way to organize them later. 
+* Over the last few years, I have tried to collect useful resources for astrophysical research in several different ways.  Now, it seems a GitHub repo is the best solution. I will gradually transfer my notes and bookmarks here. This place is still heavily under construction. I will create a series of notes first, and I am thinking about what is the best way to organize them later.
 
 * Please let me know if you have any suggestion or recommendation.
 
-* **Under Construction**: 
-    - This repo is still under heavy and frequent development. I am currently working on this as a weekend project.  
+* **Under Construction**:
+    - This repo is still under heavy and frequent development. I am currently working on this as a weekend project.
     - I am not 100% happy about the organization, so please forgive me if the structure is not perfect, I am working on it.
 
 * **Website**: I am also thinking about making a document-style website out of this repo. Please stay tuned.
@@ -25,7 +28,7 @@
 - [Getting a job inside or outside astronomy](https://github.com/dr-guangtou/taotie/blob/master/research/job_and_career.md)
 - [Setup your computer for research](https://github.com/dr-guangtou/taotie/blob/master/research/computer_basics.md)
     * Shell, command line tool, and system related stuff.
-- [On writing scientific papers](https://github.com/dr-guangtou/taotie/blob/master/research/writing_paper.md) 
+- [On writing scientific papers](https://github.com/dr-guangtou/taotie/blob/master/research/writing_paper.md)
     * General advices, examples, and `LaTeX` related topics.
 - [A little bit background in statistics](https://github.com/dr-guangtou/taotie/blob/master/research/stats_basic.md)
     * Courses and tutorials in statistics. Nowadays, you cannot get anywhere in astrophysics and cosmology without having enough knowledge of statistics.
@@ -43,7 +46,7 @@
 ## [`Python` - the official language for astronomers...for now](https://github.com/dr-guangtou/taotie/tree/master/python)
 
 - [Basic Python knowledges](https://github.com/dr-guangtou/taotie/blob/master/python/python_basic.md)
-    
+
 - [On writing your own Python package](https://github.com/dr-guangtou/taotie/blob/master/python/python_write_yourown_project.md)
 
 - [On improving the performance of your Python code](https://github.com/dr-guangtou/taotie/blob/master/python/python_performance.md)
@@ -59,7 +62,7 @@
 * Since machine learning is becoming more and more important in astrophysics and cosmology, I am giving it an independent directory now.
 
 - [Basics of machine learning](https://github.com/dr-guangtou/taotie/blob/master/mlearning/machine_learning_basic.md)
-    * Online books, courses, handbooks...right now there are too many of them, so this might not be your best choice. 
+    * Online books, courses, handbooks...right now there are too many of them, so this might not be your best choice.
 
 ## [Resources for a Specific Topic in Astrophysics or Cosmology](https://github.com/dr-guangtou/taotie/tree/master/topics)
 
@@ -69,7 +72,7 @@
     * CMB, 2PCF, and dark matter halos. All the fancy words you need in cosmology.
 
 - [List of important extragalactic surveys and data](https://github.com/dr-guangtou/taotie/blob/master/topics/extragalactic_projects_and_data.md)
-    * This could be a really...really long list, and should be organized better. 
+    * This could be a really...really long list, and should be organized better.
 
 - [Photometry of galaxies and stars](https://github.com/dr-guangtou/taotie/blob/master/topics/photometry.md)
     * The most fundamental and the most difficult task of astrophysical observations.
@@ -78,7 +81,7 @@
     * Isochrone, stellar libraries, and stellar population models.
 
 - [Stars in the Milky Way](https://github.com/dr-guangtou/taotie/blob/master/topics/milky_way.md)
-    * Galactic dynamic and chemical evolution. _Gaia_ and LAMOST. 
+    * Galactic dynamic and chemical evolution. _Gaia_ and LAMOST.
 
 - [What about ISM and Dust?](https://github.com/dr-guangtou/taotie/blob/master/topics/ism_and_dust.md)
     * And all the other inappropriate questions in astrophysics.
@@ -98,9 +101,9 @@ Contribution
 
 Contribution from the community is highly welcomed! Please feel free to fork the repo and make you own change.  If you want your modifications be included in this repo, please submit a pull request (and make sure to describe the changes you made).
 
-And if you notice anything wrong with the current content (wrong or unavailable link for example), please raise an issue.  
+And if you notice anything wrong with the current content (wrong or unavailable link for example), please raise an issue.
 
-Also, if your repo or project is included here and you are not comfortable with that, just let me know. 
+Also, if your repo or project is included here and you are not comfortable with that, just let me know.
 
 
 License
