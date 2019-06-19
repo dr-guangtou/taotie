@@ -6,7 +6,7 @@
 
 * [The Dark Energy Spectroscopic Instrument (DESI) Webpage](https://www.desi.lbl.gov/)
 
-### Imaging Surveys: 
+### Imaging Surveys:
 
 * [DECam Legacy Surveys](http://www.legacysurvey.org/)
 
@@ -35,7 +35,7 @@
 
 ### Imaging Survey:
 
-* [Overview of the DESI Legacy Imaging Surveys](https://ui.adsabs.harvard.edu/abs/2019AJ....157..168D/abstract) 
+* [Overview of the DESI Legacy Imaging Surveys](https://ui.adsabs.harvard.edu/abs/2019AJ....157..168D/abstract)
 * [Photometric Redshifts and Stellar Masses for Galaxies from the DESI Legacy Imaging Surveys](https://ui.adsabs.harvard.edu/abs/2019ApJS..242....8Z/abstract)
 
 ### Technical Papers:
@@ -57,7 +57,19 @@
 * [Imprint of DESI fiber assignment on the anisotropic power spectrum of emission line galaxies](https://ui.adsabs.harvard.edu/abs/2017JCAP...04..008P/abstract)
 * [Mitigating the impact of the DESI fiber assignment on galaxy clustering](https://ui.adsabs.harvard.edu/abs/2017JCAP...03..001B/abstract)
 
-## Software and Pipeline: 
+## Software and Pipeline:
 
 * [desihub - Public code associated with the Dark Energy Spectroscopic Instrument](https://github.com/desihub)
 
+### Key Components:
+
+* [`desisurvey`: Code for desi survey planning and implementation](https://github.com/desihub/desisurvey)
+* [`surveysim`: Simulate afternoon planning and nightly tile scheduling for the DESI survey](https://github.com/desihub/surveysim)
+* [`specter`: A toolkit for simulating multi-object spectrographs](https://github.com/desihub/specter)
+* [`desitarget`: DESI targeting](https://github.com/desihub/desitarget)
+* [`desispec`: DESI spectral pipeline](https://github.com/desihub/desispec)
+* [`specsim`: Quick simulations of spectrograph response](https://github.com/desihub/specsim)
+* [`desisim`: DESI simulations](https://github.com/desihub/desisim)
+* [`fiberassign`: Fiber assignment code for DESI](https://github.com/desihub/fiberassign)
+* [`redrock`: Redshift fitting for spectroperfectionism](https://github.com/desihub/redrock)
+* [`desietc`: Online exposure time calculator](https://github.com/desihub/desietc)
