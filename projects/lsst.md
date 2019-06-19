@@ -6,14 +6,14 @@
 
 ## Basic Information:
 
-* [LSST Organization Website](https://www.lsst.org/) 
+* [LSST Organization Website](https://www.lsst.org/)
     - [Information for scientists](https://www.lsst.org/content/lsst-information-scientists)
 * [LSST Community Forum](https://community.lsst.org/categories)
 * [The LSST Corporation (LSSTC)](https://www.lsstcorporation.org/)
     - LSSTC is a not-for-profit 501(c)3 corporation formed to initiate the LSST Project and advance the science of astronomy and physics.
 * [LSST Fact Sheets](https://www.lsst.org/about/fact-sheets)
 * [LSST Data Management on Zenodo](https://zenodo.org/search?page=1&size=20&q=%22LSST%22%20%22data%20management%22)
-* [LSST Camera Website at SLAC](https://lsst.slac.stanford.edu/#science-goals) 
+* [LSST Camera Website at SLAC](https://lsst.slac.stanford.edu/#science-goals)
 * [LSST Science Advisory Committee](https://project.lsst.org/groups/sac/welcome)
 * [NOAO & Large Synoptic Survey Telescope (LSST)](http://ast.noao.edu/lsst/)
 
@@ -66,7 +66,7 @@
 * [Optimizing the LSST Observing Strategy for Dark Energy Science: DESC Recommendations for the Wide-Fast-Deep Survey](https://arxiv.org/abs/1812.00515)
 * [LSST Target-of-opportunity Observations of Gravitational-wave Events: Essential and Efficient](https://ui.adsabs.harvard.edu/abs/2019ApJ...874...88C/abstract)
 
-#### Technical Papers: 
+#### Technical Papers:
 
 * [An Overview of the LSST Image Processing Pipelines](https://ui.adsabs.harvard.edu/abs/2018arXiv181203248B/abstract)
 * [Models and Simulations for the Photometric LSST Astronomical Time Series Classification Challenge (PLAsTiCC)](https://ui.adsabs.harvard.edu/abs/2019arXiv190311756K/abstract)
@@ -102,7 +102,7 @@
 * [Template for Science Collaboration Publication Policy](https://docushare.lsstcorp.org/docushare/dsweb/Get/Document-17995/)
 * [How to Cite LSST Papers](https://github.com/lsst-pst/LSSTreferences/)
 
-## Software and Pipeline: 
+## Software and Pipeline:
 
 * [The LSST Science Pipelines](https://pipelines.lsst.io/)
     - [GitHub Repositories](https://github.com/lsst)

@@ -1,6 +1,7 @@
 # Basics of Machine Learning
 
-* Nowadays it is almost too easy to find too many tutorials/lectures/class materials of machine learning, so here I only try to keep a short list.
+* Here is a "short" list of the most popular and up-to-date resources for learning machine learning and AI related topics.
+* "You should be practicing!"
 
 -----
 
@@ -8,6 +9,7 @@
 
 - [VIP cheatsheets for Stanford's CS 229 Machine Learning](https://github.com/afshinea/stanford-cs-229-machine-learning)
 	* This one has a [Chinese version](https://github.com/afshinea/stanford-cs-229-machine-learning/tree/master/zh)
+- [Essential Cheat Sheets for deep learning and machine learning researchers](https://github.com/kailashahirwar/cheatsheets-ai)
 
 ## Curated List:
 
@@ -23,12 +25,17 @@
 - [PumpkinBook - 《机器学习》（西瓜书）公式推导解析](https://github.com/datawhalechina/pumpkin-book)
 	* In Chinese. Read online [here](https://datawhalechina.github.io/pumpkin-book/)
 - [动手学深度学习 - 面向中文读者的能运行、可讨论的深度学习教科书](https://zh.d2l.ai/index.html)
+- [斯坦福大学2014（吴恩达）机器学习教程中文笔记](https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes)
 
 ## Tutorial and Examples:
 
+- [Machine Learning From Scratch](https://github.com/eriklindernoren/ML-From-Scratch)
+	* Bare bones NumPy implementations of machine learning models and algorithms with a focus on accessibility. Aims to cover everything from linear regression to deep learning
 - [Homemade Machine Learning](https://github.com/trekhleb/homemade-machine-learning)
 	* Python examples of popular machine learning algorithms with interactive Jupyter demos and math being explained
-
 - [Deep Learning Models](https://github.com/rasbt/deeplearning-models)
 	* A collection of various deep learning architectures, models, and tips for TensorFlow and PyTorch in Jupyter Notebooks
 
+## More Serious Stuff:
+
+- [Deep Learning Papers Reading Roadmap](https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap)
