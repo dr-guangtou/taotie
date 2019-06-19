@@ -1,4 +1,4 @@
-# Solar System Science
+# Solar System Astronomy
 
 ## Introduction
 
