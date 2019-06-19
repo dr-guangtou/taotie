@@ -11,7 +11,7 @@
 * [pyswarms - A research toolkit for particle swarm optimization in Python](https://github.com/ljvmiranda921/pyswarms)
 	- Wikipedia introduction of [PSO: Particle Swarm Optimization](https://en.wikipedia.org/wiki/Particle_swarm_optimization)
 	- Document includes a [very nice introducation of the PSO algorithm](https://pyswarms.readthedocs.io/en/latest/intro.html)
-	
+
 * [The Covariance Matrix Adaptation Evolution Strategy (CMA-ES) Algorihm](https://en.wikipedia.org/wiki/CMA-ES)
 	- A stochastic derivative-free numerical optimization algorithm for difficult (non-convex, ill-conditioned, multi-modal, rugged, noisy) optimization problems in continuous search spaces.
 	- [pycma - A Python implementation of CMA-ES](https://github.com/CMA-ES/pycma)
@@ -20,7 +20,7 @@
 	- Based on the paper by [Fred Moolekamp & Peter Melchoir (2018)](https://link.springer.com/article/10.1007%2Fs11081-018-9380-y)
 	* Includes algorithms like Alternating Direction Method of Multipliers (ADMM) and Block-Simultaneous Direction Method of Multipliers (bSDMM)
 	* Used as the backend of multi-band deblending code [scarlet](https://github.com/fred3m/scarlet)
-	
+
 * [pagmo2 - A C++ / Python platform to perform parallel computations of optimisation tasks (global and local) via the asynchronous generalized island model](https://github.com/esa/pagmo2)
 	- A a scientific library for massively parallel optimization used by ESA.
 	- Document can be found [here](https://esa.github.io/pagmo2/)
@@ -35,7 +35,7 @@
 	- Bayesian optimization works by constructing a posterior distribution of functions (gaussian process) that best describes the function you want to optimize.
 
 * [gaussbock - Fast parallel-iterative cosmological parameter estimation with Bayesian nonparametrics](https://github.com/moews/gaussbock)
-	
+
 * [vbmc - Variational Bayesian Monte Carlo (VBMC) algorithm for posterior and model inference](https://github.com/lacerbi/vbmc)
 	- VBMC is a novel approximate inference method designed to fit and evaluate computational models with a limited budget of likelihood evaluations (e.g., for computationally expensive models).
 	- A Python implementation is planned.

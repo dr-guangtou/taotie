@@ -2,7 +2,7 @@
 
 -----
 
-## Modeling Tool 
+## Modeling Tool
 
 * [spotpy - A Statistical Parameter Optimization Tool](https://github.com/thouska/spotpy)
 	- SPOTPY is a Python framework that enables the use of Computational optimization techniques for calibration, uncertainty and sensitivity analysis techniques of almost every (environmental-) model.
@@ -10,7 +10,7 @@
 ## Sampling Tools and Bayesian Analysis
 
 * [emcee - The Python ensemble sampling toolkit for affine-invariant MCMC](https://github.com/dfm/emcee)
-	- By Dan Foreman-Mackey. `emcee` is a stable, well tested Python implementation of the affine-invariant ensemble sampler for Markov chain Monte Carlo (MCMC) proposed by Goodman & Weare (2010). 
+	- By Dan Foreman-Mackey. `emcee` is a stable, well tested Python implementation of the affine-invariant ensemble sampler for Markov chain Monte Carlo (MCMC) proposed by Goodman & Weare (2010).
 
 * [dynesty - Dynamic Nested Sampling package for computing Bayesian posteriors and evidences](https://github.com/joshspeagle/dynesty)
 	- By [Josh Speagle](https://joshspeagle.github.io/). A Dynamic Nested Sampling package for computing Bayesian posteriors and evidences. Pure Python.

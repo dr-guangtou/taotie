@@ -1,4 +1,4 @@
-# Visualization using Python 
+# Visualization using Python
 
 ## Basics
 * [Ten simple rules for better figures](https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1003833&type=printable)
