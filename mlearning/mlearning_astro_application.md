@@ -1,6 +1,6 @@
 # Astrophysical and Cosmological Applications of Machine Learnings
 
-* This is Jun, 2019, and an ADS search of "machine learning" in the abstract of referred astronomy journals result in **711** papers, so it is almost too late to try to "read everything"...but at least we can try: 
+* This is Jun, 2019, and an ADS search of "machine learning" in the abstract of referred astronomy journals result in **711** papers, so it is almost too late to try to "read everything"...but at least we can try:
 
 * And, again, this list only reflects one person's taste.
 
