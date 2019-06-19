@@ -87,7 +87,7 @@
     * And all the other inappropriate questions in astrophysics.
     
 - [Solar system astronomy](https://github.com/dr-guangtou/taotie/blob/master/topics/solar_system.md)
-    * Web service for solar system astronomy (asteroids, comets, etc).
+    * A collection of web services and tools for solar system astronomy. May be useful for other transient science too (e.g. asteroid checking).
 
 ## [Readling List of Interesting Astrophysical Topics](https://github.com/dr-guangtou/taotie/tree/master/reference)
 
