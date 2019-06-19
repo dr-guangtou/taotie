@@ -11,12 +11,12 @@
 
 * [emcee - The Python ensemble sampling toolkit for affine-invariant MCMC](https://github.com/dfm/emcee)
 	- By Dan Foreman-Mackey. `emcee` is a stable, well tested Python implementation of the affine-invariant ensemble sampler for Markov chain Monte Carlo (MCMC) proposed by Goodman & Weare (2010).
-
 * [dynesty - Dynamic Nested Sampling package for computing Bayesian posteriors and evidences](https://github.com/joshspeagle/dynesty)
 	- By [Josh Speagle](https://joshspeagle.github.io/). A Dynamic Nested Sampling package for computing Bayesian posteriors and evidences. Pure Python.
-
 * [nestle - Pure Python, MIT-licensed implementation of nested sampling algorithms for evaluating Bayesian evidence](https://github.com/kbarbary/nestle)
 	- By [Kyle Barbary](http://kylebarbary.com/)
+* [nnest - Neural network accelerated nested and MCMC sampling](https://github.com/adammoss/nnest)
+	- By Adam Moss. Based on [this paper](https://arxiv.org/abs/1903.10860)
 
 ## Survival Analysis
 
