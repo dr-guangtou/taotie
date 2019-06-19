@@ -99,6 +99,10 @@
 * Provide key information about ambitious and complex on-going and future projects.
 * **Under construction**. Including [JWST](https://github.com/dr-guangtou/taotie/blob/master/projects/jwst.md), [LSST](https://github.com/dr-guangtou/taotie/blob/master/projects/lsst.md)
 
+## Miscellaneous
+
+* [Institutions, observatories and planetariums in China (mainland)](https://github.com/Yeqzids/astronomy-in-china) (note: to be merged into `taotie`)
+
 Contribution
 ------------
 
