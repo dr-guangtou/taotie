@@ -55,7 +55,7 @@
 * [Summary of Data Management Principles](https://docushare.lsstcorp.org/docushare/dsweb/Get/LPM-151/)
 * [Data Products Definition Document](https://docushare.lsstcorp.org/docushare/dsweb/Get/LSE-163/)
 
-### Importan Publications:
+### Important Publications:
 
 * [LSST: from Science Drivers to Reference Design and Anticipated Data Products](https://arxiv.org/abs/0805.2366)
 * [Probing the Fundamental Nature of Dark Matter with the Large Synoptic Survey Telescope](https://arxiv.org/abs/1902.01055)
@@ -65,6 +65,7 @@
 * [A Framework for Telescope Schedulers: With Applications to the Large Synoptic Survey Telescope](https://ui.adsabs.harvard.edu/abs/2019AJ....157..151N/abstract)
 * [Optimizing the LSST Observing Strategy for Dark Energy Science: DESC Recommendations for the Wide-Fast-Deep Survey](https://arxiv.org/abs/1812.00515)
 * [LSST Target-of-opportunity Observations of Gravitational-wave Events: Essential and Efficient](https://ui.adsabs.harvard.edu/abs/2019ApJ...874...88C/abstract)
+* [The Prospects of Observing Tidal Disruption Events with the LSST](https://arxiv.org/abs/1906.08235)
 
 #### Technical Papers:
 

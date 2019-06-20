@@ -1,5 +1,30 @@
 # Basic Tools for Astrophysical Research
 
+## Data format used in astronomy
+
+* [Flexible Image Transport System (FITS)](https://archive.stsci.edu/fits/)
+	- The default standard for the exchange of data in astronomy now
+	- The [full document of FITS](https://fits.gsfc.nasa.gov/users_guide/usersguide.pdf) and [the MAST data format guidelines](https://archive.stsci.edu/data_format.html)
+	- [CFITSIO](https://heasarc.gsfc.nasa.gov/fitsio/) is a library of C and Fortran subroutines for reading and writing data files in FITS.
+	- [`astropy.io.fits`](https://docs.astropy.org/en/stable/io/fits/) can help you deal with FITS files in Python
+* [Advanced Scientific Data Format (ASDF)](https://github.com/spacetelescope/asdf)
+	- Next generation interchange format for scientific data developed by STScI
+	- It follows the new [ASDF Standard](https://asdf-standard.readthedocs.io/en/latest/)
+* [`HDF5` - High-performance data management and storage suite](https://www.hdfgroup.org/solutions/hdf5/)
+	- In the age of big data, HDF5 format is also becoming more popular in astronomy. For example, many hydro-simulations use HDF5 to store large and complex data.
+	- [h5py is a Pythonic interface to the HDF5 binary data format](https://www.h5py.org/)
+	- [`fits2hdf` is a FITS to HDFITS conversion utility](https://github.com/telegraphic/fits2hdf)
+* If you use Python, it is also convenient to use the [`pickle`](https://docs.python.org/3/library/pickle.html) and [`dill`](https://pypi.org/project/dill/) (an even better `pickle`) module for serializing and de-serializing python objects to the majority of the built-in python types.
+
+## World Coordinate Systems (WCS)
+
+* [FITS World Coordinate System (WCS)](https://fits.gsfc.nasa.gov/fits_wcs.html) 
+	- [`wcslib`](http://www.atnf.csiro.au/people/mcalabre/WCS/wcslib/index.html) is a C library, supplied with a full set of Fortran wrappers, that implements the "World Coordinate System" (WCS) standard in FITS
+	- All the tools that deals with FITS format can also deal with WCS information (normally stored in the header). For example, the [`astropy.wcs`](http://docs.astropy.org/en/stable/wcs/)
+* [Generalized World Coordinate System](https://gwcs.readthedocs.io/en/latest/)
+	- [`gwcs` - provides tools for managing WCS in a general way](https://github.com/spacetelescope/gwcs)
+* [`stwcs` - WCS based distortion models and coordinate transformation](https://github.com/spacetelescope/stwcs)
+
 ## Flux standards
 
 * [The Absolute Magnitude of the Sun](http://mips.as.arizona.edu/~cnaw/sun.html)
