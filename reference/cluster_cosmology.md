@@ -148,6 +148,11 @@ Cosmological constraints from the large-scale weak lensing of SDSS MaxBCG cluste
 - [Rozo, Bartlett, Evrard & Rykoff 2014 - Closing the loop: a self-consistent model of optical, X-ray and Sunyaev-Zel'dovich scaling relations for clusters of Galaxies](http://adsabs.harvard.edu/abs/2014MNRAS.438...78R)
     * We find that scaling relations derived from optical and X-ray selected cluster samples are consistent with one another. These cluster scaling relations satisfy several non- trivial spatial abundance constraints and closure relations.
 
+### Using Velocity Distribution Function
+
+- [The Velocity Distribution Function of Galaxy Clusters as a Cosmological Probe](https://ui.adsabs.harvard.edu/abs/2017ApJ...835..106N/abstract)
+- [Cluster Cosmology with the Velocity Distribution Function of the HeCS-SZ Sample](https://arxiv.org/abs/1906.07729)
+
 - **On the Cluster Physics of Sunyaev-Zeldovich and X-Ray Surveys**
     * [Battaglia, Bond, Pfommer & Sievers 2012a - I. The Influence of Feedback, Non-thermal Pressure, and Cluster Shapes on Y-M Scaling Relations](http://adsabs.harvard.edu/abs/2012ApJ...758...74B)
     * [Battaglia, Bond, Pfommer & Sievers 2012b - II. Deconstructing the Thermal SZ Power Spectrum](http://adsabs.harvard.edu/abs/2012ApJ...758...75B)
