@@ -20,6 +20,10 @@
 * [CLassylss - a lightweight Python binding of the CLASS CMB Boltzmann code](https://github.com/nickhand/classylss)
 	- A very nice gateway to `CLASS`
 
+* [CLASS - Cosmic Linear Anisotropy Solving System](http://class-code.net/)
+	- The purpose of CLASS is to simulate the evolution of linear perturbations in the universe and to compute CMB and large scale structure observables.
+	- A public repository is available on [github](https://github.com/lesgourg/class_public)
+
 ## Correlation Functions
 
 * [Corrfunc - Blazing fast correlation functions on the CPU](https://github.com/manodeep/Corrfunc)
