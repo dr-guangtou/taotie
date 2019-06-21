@@ -18,7 +18,7 @@
 
 ## World Coordinate Systems (WCS)
 
-* [FITS World Coordinate System (WCS)](https://fits.gsfc.nasa.gov/fits_wcs.html) 
+* [FITS World Coordinate System (WCS)](https://fits.gsfc.nasa.gov/fits_wcs.html)
 	- [`wcslib`](http://www.atnf.csiro.au/people/mcalabre/WCS/wcslib/index.html) is a C library, supplied with a full set of Fortran wrappers, that implements the "World Coordinate System" (WCS) standard in FITS
 	- All the tools that deals with FITS format can also deal with WCS information (normally stored in the header). For example, the [`astropy.wcs`](http://docs.astropy.org/en/stable/wcs/)
 * [Generalized World Coordinate System](https://gwcs.readthedocs.io/en/latest/)
@@ -65,6 +65,24 @@
 
 * [RA, DEC Flexible converter](http://www.astrouw.edu.pl/~jskowron/ra-dec/)
 * [NED's coordinate calculator](https://ned.ipac.caltech.edu/coordinate_calculator)
+
+## Managing Catalogs
+
+* [`astropy.table`](https://docs.astropy.org/en/stable/table/) is a flexible Python module that can handle a variant types of tables.
+* [`TOPCAT` - Tool for OPerations on Catalogues And Tables](http://www.star.bris.ac.uk/~mbt/topcat/)
+	- Really powerful GUI tool to deal with tables. It is written as a Java application.
+	- Have great functions for cross-matching catalogs, querying on-line databases, and making publication-grade figures.
+	- [`STILTS` - Starlink Tables Infrastructure Library Tool Set] provides most of `TOPCAT`'s capabilities in command line.
+
+### Table cross-match
+
+* [`smatch` - Code to match points on the sphere using the healpix scheme](https://github.com/esheldon/smatch)
+	- By Erin Sheldon. Very fast cross-match tool, C-code wrapped in Python.
+* [`nway` - Bayesian cross-matching of astronomical catalogues](https://github.com/JohannesBuchner/nway)
+	- Bayesian match probabilities based on astronomical sky coordinates (RA, DEC)
+* [`C3` - Command-line Catalogue Cross-matching Tool](http://dame.dsf.unina.it/c3.html)
+* [`xmatch` - Cross match of catalogs](https://git.ias.u-psud.fr/abeelen/xmatch)
+	- By Alexandre Beelen.
 
 ## Cosmology Calculator
 
