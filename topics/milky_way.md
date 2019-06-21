@@ -25,6 +25,8 @@
     * By Jerry Sellwood. The [manual](http://www.physics.rutgers.edu/~sellwood/manual.pdf) is here.
 * [Agama - Action-based galaxy modeling framework](https://github.com/GalacticDynamics-Oxford/Agama)
     * `Agama` is a library intended for a broad range of tasks within the field of stellar dynamics. 
+* [NEMO - A Stellar Dynamics Toolbox](https://teuben.github.io/nemo/)
+    * By Peter Teuben. Also available on [github](https://github.com/teuben/nemo)
 
 ## Galactic Chemical Evolution
 
