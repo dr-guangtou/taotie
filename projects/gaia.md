@@ -60,10 +60,12 @@
 
 ## Softwares and Tools:
 
-* [PyGaia - Python toolkit for basic Gaia data simulation, manipulation, and analysis](https://github.com/agabrown/PyGaia)
+* [`PyGaia` - Python toolkit for basic Gaia data simulation, manipulation, and analysis](https://github.com/agabrown/PyGaia)
     - By Anthony Brown. PyGaia provides python modules for the simulation of Gaia data and their errors, as well modules for the manipulation and analysis of the Gaia catalogue data
-* [gaia_tools - Tools for working with the @ESAGaia data and related data sets](https://github.com/jobovy/gaia_tools)
+* [`gaia_tools` - Tools for working with the @ESAGaia data and related data sets](https://github.com/jobovy/gaia_tools)
     - By Jo Bovy. Tools for working with the ESA/Gaia data and related data sets (APOGEE, GALAH, LAMOST DR2, and RAVE).
+* [`GaiaTools` - A collection of scripts for analyzing the data from the Gaia satellite](https://github.com/GalacticDynamics-Oxford/GaiaTools)
+    - By the Oxford's Galactic Dynamics group.
 
 * [Gaia TAP+ through `astroquery.gaia`](https://astroquery.readthedocs.io/en/latest/gaia/gaia.html)
 * [`find_gaia_dr2.py`](http://cds.u-strasbg.fr/resources/doku.php?id=cdsclient:doc-find_gaia_dr2)

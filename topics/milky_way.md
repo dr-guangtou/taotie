@@ -23,6 +23,8 @@
     * By Jo Bovy. `wendy` solves the one-dimensional gravitational N-body problem to machine precision with an efficient algorithm [O(log N) / particle-collision]. Alternatively, it can solve the problem with approximate integration, but with exact forces.
 * [GALAXY N-body simulation package](http://www.physics.rutgers.edu/galaxy/)
     * By Jerry Sellwood. The [manual](http://www.physics.rutgers.edu/~sellwood/manual.pdf) is here.
+* [Agama - Action-based galaxy modeling framework](https://github.com/GalacticDynamics-Oxford/Agama)
+    * `Agama` is a library intended for a broad range of tasks within the field of stellar dynamics. 
 
 ## Galactic Chemical Evolution
 
