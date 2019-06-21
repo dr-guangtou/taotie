@@ -2,15 +2,31 @@
 
 * This topic has become more and more important for the study of galaxy-halo connection.
 
-## Based on clustering of galaxie
+## Based on clustering of galaxies
 
 - [sfof - Friends-of-Friends Galaxy Cluster Detection Algorithm](https://github.com/sfarrens/sfof)
     * By [Samuel Farrens](https://sfarrens.github.io/). SFoF is a friends-of-friends galaxy cluster detection algorithm that operates in either spectroscopic or photometric redshift space. The linking parameters, both transverse and along the line-of-sight, change as a function of redshift to account for selection effects.
 
 ## Based on red-sequence of the cluster members
 
+### redMaPPer: red-sequence Matched-filter Probabilistic Percolation
+
 - [redMaPPer - The Red-sequence Cluster Finder](https://github.com/erykoff/redmapper)
     * By [Eli Rykoff](https://github.com/erykoff). This is the open-source, python version of the red-sequence matched-filter Probabilistic Percolation (redMaPPer) cluster finder, originally described in Rykoff et al. (2014), with updates described in Rozo et al. (2015) and Rykoff et al. (2016).
+    * One of the most commonly used algorithm in recent years. 
+
+#### Papers:
+
+- [redMaPPer. I. Algorithm and SDSS DR8 Catalog](https://ui.adsabs.harvard.edu/abs/2014ApJ...785..104R/abstract)
+- [redMaPPer II: X-Ray and SZ Performance Benchmarks for the SDSS Catalog](https://ui.adsabs.harvard.edu/abs/2014ApJ...783...80R/abstract)
+- [redMaPPer - III. A detailed comparison of the Planck 2013 and SDSS DR8 redMaPPer cluster catalogues](https://ui.adsabs.harvard.edu/abs/2015MNRAS.450..592R/abstract)
+- [redMaPPer - IV. Photometric membership identification of red cluster galaxies with 1 per cent precision](https://ui.adsabs.harvard.edu/abs/2015MNRAS.453...38R/abstract)
+
+#### Calibration:
+
+#### Issues:
+
+### CAMIRA 
 
 ## Test cluster finder in mock catalog
 

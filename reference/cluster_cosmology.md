@@ -173,3 +173,14 @@ Cosmological constraints from the large-scale weak lensing of SDSS MaxBCG cluste
 
 - [Cosmology with Clusters of Galaxies by Ben Maughan (Undergraduate Level)](http://www.star.bris.ac.uk/bjm/lectures/cluster-cosmology/)
 - [KITP Conference: Astrophysics and Cosmology with Galaxy Clusters](http://online.kitp.ucsb.edu/online/gclusters_c11/)
+
+
+## Important References
+
+* Galaxy clusters have been recognized as powerful cosmological probes 
+    - Henry et al. 2009; Vikhlinin et al. 2009; Mantz et al. 2010; Rozo et al. 2010; Clerc et al. 2012; Benson et al. 2013; Hasselfield et al. 2013). 
+* Early optical cluster finders can be divided into roughly two classes
+    1. Those based on photometric redshifts 
+        - Kepner et al. 1999; van Breukelen & Clewley 2009; Milkeraitis et al. 2010; Durret et al. 2011; Szabo et al. 2011; Soares-Santos et al. 2011; Wen et al. 2012
+    2. Those utilizing the cluster red sequence
+        - Annis et al. 1999; Gladders & Yee 2000; Koester et al. 2007a; Gladders et al. 2007; Gal et al. 2009; Thanjavur et al. 2009; Hao et al. 2010; Murphy et al. 2012
