@@ -11,7 +11,7 @@
 
 ### Display CCD Images
 
-* ['SAOImage DS9` - Astronomical imaging and data visualization application](http://ds9.si.edu/site/Home.html)
+* [`SAOImage DS9` - Astronomical imaging and data visualization application](http://ds9.si.edu/site/Home.html)
     - DS9 supports FITS images and binary tables, multiple frame buffers, region manipulation, and many scale algorithms and colormaps. DS9 is actually a very powerful tool for displaying and manipulating image. [Here is a very nice guide](http://www.jb.man.ac.uk/~gbendo/Sci/Pict/DS9guide.pdf)
     - [`pyds9` - Python connection to SAOimage DS9 via XPA](https://github.com/ericmandel/pyds9)
 
@@ -31,10 +31,20 @@
 
 ### Image Detrend and Correction
 
+#### Cosmic Ray Removal
+
 * [`astroscrappy` by astropy - Speedy Cosmic Ray Annihilation Package in Python](https://github.com/astropy/astroscrappy)
     - `Astro-SCRAPPY` is designed to detect cosmic rays in images (numpy arrays), based on Pieter van Dokkum's `L.A.Cosmic` algorithm.
 * [The original `L.A.Cosmic` code - Laplacian Cosmic Ray Identification](http://www.astro.yale.edu/dokkum/lacosmic/)
     - [`lacosmicx` - A fast implementation of the LA Cosmic algorithm](https://github.com/cmccully/lacosmicx)
+
+#### Satellite Trail Removal 
+
+* [`ASTRiDE` - Automated Streak Detection for Astronomical Images](https://github.com/dwkim78/ASTRiDE)
+    - By Dae-Won Kim. `ASTRiDE` aims to detect streaks in astronomical images using a "border" of each object 
+* [`pyradon` - Python tools for streak detection in astronomical images using the Fast Radon Transform](https://github.com/guynir42/pyradon)
+    - By Guy Nir. Based on [Optimal and Efficient Streak Detection in Astronomical Images](https://arxiv.org/abs/1806.04204). The [Matlab version is here](https://github.com/guynir42/radon)
+
 
 ### Astrometric Calibration
 
