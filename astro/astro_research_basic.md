@@ -24,6 +24,8 @@
 * [Generalized World Coordinate System](https://gwcs.readthedocs.io/en/latest/)
 	- [`gwcs` - provides tools for managing WCS in a general way](https://github.com/spacetelescope/gwcs)
 * [`stwcs` - WCS based distortion models and coordinate transformation](https://github.com/spacetelescope/stwcs)
+* [`tweakwcs` - Algorithms for matching and aligning catalogs and for tweaking the WCS so as to minimize catalog mismatch errors](https://github.com/spacetelescope/tweakwcs)
+	- `tweakwcs` is a package that provides core algorithms for computing and applying corrections to WCS objects such as to minimize mismatch between image and reference catalogs. Currently only aligning images with FITS WCS and JWST gWCS are supported.
 
 ## Flux standards
 
