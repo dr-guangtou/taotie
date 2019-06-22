@@ -28,6 +28,22 @@
 * [NEMO - A Stellar Dynamics Toolbox](https://teuben.github.io/nemo/)
     * By Peter Teuben. Also available on [github](https://github.com/teuben/nemo)
 
+### Jeans Modeling
+
+* [`JAM` - Jeans Anisotropic MGE modeling method](http://www-astro.physics.ox.ac.uk/~mxc/software/#jam)
+    - By Michelle Cappellari. Available in Python and IDL.
+
+* [`CJAM` - Jeans Anisotropic MGE modelling code written in C](https://github.com/lauralwatkins/cjam)
+    - By Laura Watkins. Extended JAM models to calculate all three (x, y, z) first moments and all six (xx, yy, zz, xy, xz, yz) second moments.
+
+* [`slomo` - Jeans modeling with multiple tracer populations](https://github.com/adwasser/slomo)
+    - By Asher Wasserman.  There is also a Julia version: [`Slomo.jl`](https://github.com/adwasser/Slomo.jl)
+
+### Schwarzschild Modeling
+
+* [`TriaxSchwarzschild` by Remco van den Bosch](https://github.com/remcovandenbosch/TriaxSchwarzschild)
+    - Fortran source codes.
+
 ## Galactic Chemical Evolution
 
 ### Tools
