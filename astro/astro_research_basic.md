@@ -27,6 +27,15 @@
 * [`tweakwcs` - Algorithms for matching and aligning catalogs and for tweaking the WCS so as to minimize catalog mismatch errors](https://github.com/spacetelescope/tweakwcs)
 	- `tweakwcs` is a package that provides core algorithms for computing and applying corrections to WCS objects such as to minimize mismatch between image and reference catalogs. Currently only aligning images with FITS WCS and JWST gWCS are supported.
 
+## Astrometry
+
+* [`Astrometry.net` -- automatic recognition of astronomical images](https://github.com/dstndstn/astrometry.net)
+	- Made by Dustin Lang. The best astrometric calibration tool on the market.
+* [`erfa` - Essential Routines for Fundamental Astronomy](https://github.com/liberfa/erfa)
+	- `ERFA` is a C library containing key algorithms for astronomy, and is based on the [`SOFA`](http://www.iausofa.org/) library published by the International Astronomical Union (IAU).
+* [`spherical_geometry` - A Python package for handling spherical polygons that represent arbitrary regions of the sky](https://github.com/spacetelescope/spherical_geometry)
+	- Made by STScI. [Online document is here](https://spacetelescope.github.io/spherical_geometry/spherical_geometry/) 
+
 ## Flux standards
 
 * [The Absolute Magnitude of the Sun](http://mips.as.arizona.edu/~cnaw/sun.html)
