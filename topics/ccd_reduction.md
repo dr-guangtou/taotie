@@ -25,7 +25,10 @@
 
 ### General Reduction
 
-* Modern imaging surveys or major astronomical cameras are often equipped with speciallized data reduction pipelines.
+* Modern imaging surveys or major astronomical cameras are often equipped with speciallized data reduction pipelines. For example:
+    - [DECam Community Pipeline](https://www.noao.edu/noao/staff/fvaldes/CPDocPrelim/PL201_3.html)
+    - [The Elixir System for CFHT MegaCam](https://www.cfht.hawaii.edu/Instruments/Elixir/)
+    - [The HSC Pipeline](https://hsc.mtk.nao.ac.jp/pipedoc/pipedoc_6_e/index.html)
 * [`ccdproc` - Astropy affiliated package for reducing optical/IR CCD data](https://github.com/astropy/ccdproc)
     - `ccdproc` is is an affiliated package for the AstroPy package for basic data reductions of CCD images. The ccdproc package provides many of the necessary tools for processing of ccd images built on a framework to provide error propagation and bad pixel tracking throughout the reduction process. [Documents can be found here](https://ccdproc.readthedocs.io/en/latest/)
 
@@ -44,6 +47,17 @@
     - By Dae-Won Kim. `ASTRiDE` aims to detect streaks in astronomical images using a "border" of each object 
 * [`pyradon` - Python tools for streak detection in astronomical images using the Fast Radon Transform](https://github.com/guynir42/pyradon)
     - By Guy Nir. Based on [Optimal and Efficient Streak Detection in Astronomical Images](https://arxiv.org/abs/1806.04204). The [Matlab version is here](https://github.com/guynir42/radon)
+
+#### "Brighter-Fatter" Effect
+
+* The "Brighter-Fatter" effect is a direct consequence of the distortions of the drift electric field sourced by charges accumulated within the CCD during the exposure and experienced by forthcoming light-induced charges in the same exposure. It affects both deep-depleted and thinned CCD sensors.
+* [The brighter-fatter effect and pixel correlations in CCD sensors](https://ui.adsabs.harvard.edu/abs/2014JInst...9C3048A/abstract)
+* [The Brighter-Fatter and other sensor effects in CCD simulations for precision astronomy](https://ui.adsabs.harvard.edu/abs/2015JInst..10C5015W/abstract)
+* [Exploring the Brighter-fatter Effect with the Hyper Suprime-Cam](https://ui.adsabs.harvard.edu/abs/2018AJ....155..258C/abstract)
+* [Brighter-fatter effect in near-infrared detectors -- I. Theory of flat auto-correlations](https://arxiv.org/abs/1906.01846)
+    - [`nghxrg` - Teledyne HxRG Read Noise Generator](https://github.com/BJRauscher/nghxrg)
+* [Brighter-fatter effect in near-infrared detectors -- II. Auto-correlation analysis of H4RG-10 flats](https://arxiv.org/abs/1906.01847)
+* [Is Flat fielding Safe for Precision CCD Astronomy?](https://ui.adsabs.harvard.edu/abs/2017PASP..129h4502B/abstract)
 
 
 ### Astrometric Calibration
