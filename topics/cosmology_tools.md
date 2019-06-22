@@ -12,6 +12,12 @@
 * [CosmoHammer - Cosmological parameter estimation with the MCMC Hammer](https://github.com/cosmo-ethz/CosmoHammer)
 	- A paper describing the software can be [found here](https://arxiv.org/abs/1212.1721)
 
+## Supernova related
+
+* [`sncosmo` - Python library for supernova cosmology](https://github.com/sncosmo/sncosmo)
+	- `SNCosmo` is a Python library for supernova cosmology analysis. It aims to make such analysis both as flexible and clear as possible. [Online document is here](https://sncosmo.readthedocs.io/en/v2.0.x/)
+	- [`sndatasets` - Download and normalize published supernova photometric data](https://github.com/sncosmo/sndatasets)
+
 ## CMB related
 
 * [CAMB: Code for Anisotropies in the Microwave Background](https://github.com/cmbant/CAMB)
