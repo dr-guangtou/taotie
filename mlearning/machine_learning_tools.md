@@ -31,3 +31,8 @@
 * [`gym` - A toolkit for developing and comparing reinforcement learning algorithms](https://github.com/openai/gym)
     - OpenAI Gym is a toolkit for developing and comparing reinforcement learning algorithms.
     - [`gym` project website](https://gym.openai.com/)
+
+## Visualization
+
+* [`PlotNeuralNet` - Latex code for making neural networks diagrams](https://github.com/HarisIqbal88/PlotNeuralNet)
+    - By Haris Iqbal. Latex code for drawing neural networks for reports and presentation.
