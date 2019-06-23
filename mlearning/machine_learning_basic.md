@@ -20,6 +20,10 @@
 - [Awesome Tensorflow](https://github.com/jtoy/awesome-tensorflow)
 	* A curated list of dedicated resources
 
+### Papers and Algorithms
+
+- [The GAN Zoo - A list of all named GANs](https://github.com/hindupuravinash/the-gan-zoo)
+
 ## In Chinese:
 
 - [PumpkinBook - 《机器学习》（西瓜书）公式推导解析](https://github.com/datawhalechina/pumpkin-book)

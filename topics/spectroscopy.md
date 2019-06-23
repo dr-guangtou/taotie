@@ -5,6 +5,10 @@
 - [`specutils` - An Astropy coordinated package for astronomical spectroscopy](https://github.com/astropy/specutils)
     * Provides a shared set of Python representations of astronomical spectra and basic tools to operate on these spectra.
 
+- [`linetools` - This is a package for the analysis of 1d astronomical spectra, especially quasar and galaxy spectra](https://github.com/linetools/linetools)
+    * Still under development. Its core developers work primarily on UV/optical/IR absorption line research, so most of the functionality is aimed at the identification and analysis of absorption lines. The eventual goal is to provide a set of tools useful for both absorption and emission lines.
+    * [Online document is here](https://linetools.readthedocs.io/en/latest/)
+
 ## Visualization
 
 - [`specviz` - An interactive astronomical 1D spectra analysis tool](https://github.com/spacetelescope/specviz)
