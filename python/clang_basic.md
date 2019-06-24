@@ -1,10 +1,23 @@
-# Resource about C and C++ Programming Language
+# Resource about C Programming Language
 
 ## Learning C
 
+* **The best way to learn programming is, always, writing your own code!**
+
+* [Why Code in C Anymore?....Instead of C++](http://www.drdobbs.com/cpp/why-code-in-c-anymore/240149452)
+    - C still has a little advantage on the performance and portability.
+
 * [learn-c.org free interactive C tutorial](https://www.learn-c.org/)
 
+* [`30-seconds-of-c`](https://github.com/fredsiika/30-seconds-of-c)
+    - Curated collection of useful C Programming tutorials, snippets, and projects that you can understand in 30 seconds or less
+
 ## Useful Libraries
+
+### Performance
+
+* [`mimalloc` - mimalloc is a compact general purpose allocator with excellent performance](https://github.com/microsoft/mimalloc)
+    - By Microsoft. mimalloc (pronounced "me-malloc") is a general purpose allocator with excellent performance characteristics. It is a drop-in replacement for malloc and can be used in other programs without code changes.
 
 ### Numerical
 
@@ -12,7 +25,7 @@
     - The library provides a wide range of mathematical routines such as random number generators, special functions and least-squares fitting. There are over 1000 functions in total with an extensive test suite.
     - The [online reference manual can be found here](https://www.gnu.org/software/gsl/doc/html/index.html).
 
-* [`FFTW`]()
+* [`FFTW`](http://www.fftw.org/)
     - `FFTW` is a C subroutine library for computing the discrete Fourier transform (DFT) in one or more dimensions, of arbitrary input size, and of both real and complex data (as well as of even/odd data, i.e. the discrete cosine/sine transforms or DCT/DST).
     - The [online manual can be found here](http://fftw.org/fftw3_doc/)
 
@@ -26,11 +39,12 @@
 
 ### GPU Enhancement
 
-
 ## Code to Study
 
 * [`sextractor` - Extract catalogs of sources from astronomical images](https://github.com/astromatic/sextractor)
 * [`psfex` - Generate PSF super-tabulated models](https://github.com/astromatic/psfex)
+* [`CCL` - DESC Core Cosmology Library](https://github.com/LSSTDESC/CCL)
+    - Also teaches you how to interact with Python.
 
 ### On Interacting with Python
 
