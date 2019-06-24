@@ -31,8 +31,7 @@
     - [shablona - A template for small scientific python projects](https://github.com/uwescience/shablona)
 * And `GitHub` allows you to [create new repository based on a template](https://github.blog/2019-06-06-generate-new-repositories-with-repository-templates)
 
-
-### Organizing a Programming Environment
+## Organizing a Programming Environment
 
 * Before starting some serious projects, you should be a little more patient on the learning curve and try to cultivate some good habbits. Good examples are everywhere!
 * Don't waste too much time choosing editors or IDEs, just pick the first one you like, learn how to use it; if it does grow on you, change to another one. Both [`vim`](https://www.vim.org/) and [`emacs`](https://www.gnu.org/software/emacs/) are excellent tools; [`atom`](https://atom.io/), [`VScode`](https://code.visualstudio.com/), and [`sublime`](https://www.sublimetext.com/) are all very good IDEs. They **all** have amazing capabilities and can help you become a great coder and scientist.
@@ -44,11 +43,33 @@
     - [`awesome-vscode` -  A curated list of delightful VS Code packages and resources](https://github.com/viatsko/awesome-vscode)
     - [`awesome-atom` - A curated list of delightful Atom packages and resources](https://github.com/mehcode/awesome-atom)
 
-## Backing-up Your Researc
+## Backing-up Your Research
 
 * This is as important as you can possibly imagine.
-    - You should constantly back-up your harddrive using external harddrive. Both MacOSX and Linux have systems that help you backup data.
+
+* Off-line Backup:
+    - You should constantly back-up your harddrive using external harddrive. Both MacOSX (e.g. [`TimeMachine`](https://support.apple.com/en-us/HT201250)) and Linux ([`TimeVault`](https://wiki.ubuntu.com/TimeVault) and [`Duplicity`](http://duplicity.nongnu.org/)) have systems that help you backup data.
+    - You can also easily backup your entire system or certain directory using a command line tool [`rsync`](https://linux.die.net/man/1/rsync): `rsync -av --delete /Directory1/ /Directory2/`
+        * On Linux, you can also use [`Cron`](https://opensource.com/article/17/11/how-use-cron-linux) to automatically backup files at any given time. For example, you can follow the instruction [here](https://nickjanetakis.com/blog/automatic-offline-file-backups-with-bash-and-rsync)
+
+* Online Backup:
     - It is encouraged to use service like the [`Dropbox`](https://www.dropbox.com) to constantly backup important research-related files (e.g. draft, code, and figures). In mainland China, [`jianguoyun` (坚果云)](https://www.jianguoyun.com/) is an alternative.
+
+## Keeping Research Notes and Documents
+
+* [`Markdown`](https://en.wikipedia.org/wiki/Markdown) is a lightweight markup language with plain text formatting syntax. It is very easy to learn and can help you make well-organize notes and documents that can be easily converted into other format (`HTML` or `LaTeX`).
+    - [Mastering Markdown by GitHub Guides](https://guides.github.com/features/mastering-markdown/) is a very good start.
+    - If you want to learn more details, use [the Markdown Guide](https://www.markdownguide.org/).
+    - Most of the editors and IDEs support the `.md` or `.markdown` format documents through extensions. They can help you check the syntax. There are also a lot of markdown editors on all platforms.
+
+* Whatever notes or documents you are keeping for your research, make sure it can be backed-up and is searchable. Using software like the [`OneNote`](https://www.onenote.com/signin?wdorigin=ondc) from Microsoft, or on-line service like [`evernote`](https://evernote.com) would be a good idea.  If your project is already on `Github`, you can just use `git` to version control and back-up your documents.  [`GitHub` wiki pages](https://guides.github.com/features/wikis/) are another great way to keep notes.
+
+## Publishing Your Science
+
+* [A list of journals in Astronomy and Astrophysics](https://www.scimagojr.com/journalrank.php?category=3103)
+    - Don't pay too much attention to the impact factor or H-index.
+
+* Writing a paper can be painful, but it is one of the most important step in your research life. We have [a separate document talking about writing papers](https://github.com/dr-guangtou/taotie/blob/master/research/writing_paper.md).
 
 ## Sharing Your Science
 
