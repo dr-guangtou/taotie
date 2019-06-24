@@ -24,6 +24,8 @@
 ## Gaussian Process
 
 * A full introduction to the theory of Gaussian Processes is available for free online: [Rasmussen & Williams (2006)](http://www.gaussianprocess.org/gpml/).
+* [An Astronomer's Introduction to Gaussian Processes](https://astrostatistics.psu.edu/su14/lectures/penn-gp.pdf)
+	- Very good introduction by Dan Foreman-Mackey.
 
 * [`sklearn.gaussian_process` - The Gaussian Processes module in `scikit-learn`](https://scikit-learn.org/stable/modules/gaussian_process.html)
 
@@ -41,14 +43,15 @@
 	- `GPyTorch` is a Gaussian process library implemented using `PyTorch`. `GPyTorch` is designed for creating scalable, flexible, and modular Gaussian process models with ease.
 
 * [`george` - Fast and flexible Gaussian Process regression in Python](https://github.com/dfm/george)
-	- `George` is a fast and flexible Python library for Gaussian Process (GP) Regression.
+	- By Dan Foreman-Mackey. `George` is a fast and flexible Python library for Gaussian Process (GP) Regression.
 	- Unlike some other GP implementations, `george` is focused on efficiently evaluating the marginalized likelihood of a dataset under a GP prior, even as this dataset gets Big
 	- Example applications:
 		* [`ART` - A Reconstruction Tool](https://github.com/tmcclintock/AReconstructionTool)
 		* [`everest` - De-trending of K2 Light curves](https://github.com/rodluger/everest)
 
 * [`celerite` - Scalable 1D Gaussian Processes in C++, Python, and Julia](https://github.com/dfm/celerite)
-	- [Online document is here](https://celerite.readthedocs.io/en/stable/) 
+	- By Dan Foreman-Mackey. [Online document is here](https://celerite.readthedocs.io/en/stable/) 
+	- Based on [Fast and scalable Gaussian process modeling with applications to astronomical time series](https://arxiv.org/abs/1703.09710)
 
 ## Survival Analysis
 
