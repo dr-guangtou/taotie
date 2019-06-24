@@ -5,6 +5,15 @@
 
 -----
 
+## Courses:
+
+* [Stanford CS229 - Machine Learning](https://see.stanford.edu/Course/CS229)
+	- By Andrew Ng. This course provides a broad introduction to machine learning and statistical pattern recognition. Videos and lectures are available freely.
+	- [斯坦福机器学习CS229课程讲义的中文翻译](https://github.com/Kivy-CN/Stanford-CS-229-CN)
+
+* [Cornell CS4780/CS5780 - Machine Learning for Intelligent Systems](http://www.cs.cornell.edu/courses/cs4780/2018fa/)
+	- Lectures and video recordings are available for free.
+
 ## Cheatsheets:
 
 - [VIP cheatsheets for Stanford's CS 229 Machine Learning](https://github.com/afshinea/stanford-cs-229-machine-learning)
