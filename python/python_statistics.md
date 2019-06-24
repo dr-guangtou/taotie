@@ -25,6 +25,8 @@
 
 * A full introduction to the theory of Gaussian Processes is available for free online: [Rasmussen & Williams (2006)](http://www.gaussianprocess.org/gpml/).
 
+* [`sklearn.gaussian_process` - The Gaussian Processes module in `scikit-learn`](https://scikit-learn.org/stable/modules/gaussian_process.html)
+
 * [`GPy` - Gaussian processes framework in python](https://github.com/sheffieldml/gpy)
 	- Gaussian processes underpin range of modern machine learning algorithms. In [`GPy`](http://sheffieldml.github.io/GPy/), we've used python to implement a range of machine learning algorithms based on GPs. [Online document is here](https://gpy.readthedocs.io/en/deploy/) 
 	- [Jupyter notebooks to introduce `GPy`](https://nbviewer.jupyter.org/github/SheffieldML/notebook/blob/master/GPy/index.ipynb)
@@ -41,6 +43,9 @@
 * [`george` - Fast and flexible Gaussian Process regression in Python](https://github.com/dfm/george)
 	- `George` is a fast and flexible Python library for Gaussian Process (GP) Regression.
 	- Unlike some other GP implementations, `george` is focused on efficiently evaluating the marginalized likelihood of a dataset under a GP prior, even as this dataset gets Big
+	- Example applications:
+		* [`ART` - A Reconstruction Tool](https://github.com/tmcclintock/AReconstructionTool)
+		* [`everest` - De-trending of K2 Light curves](https://github.com/rodluger/everest)
 
 * [`celerite` - Scalable 1D Gaussian Processes in C++, Python, and Julia](https://github.com/dfm/celerite)
 	- [Online document is here](https://celerite.readthedocs.io/en/stable/) 
