@@ -63,6 +63,10 @@
 
 * [PHIBSS: Plateau de Bure high-z Blue Sequence Survey](http://www.iram.fr/~phibss2/Home.html)
 
+* [EMPIRE - EMIR Multiline Probe of the ISM Regulating Galaxy Evolution](https://empiresurvey.webstarts.com/)
+	- The first wide-area multi-line mapping survey targeting tracers of dense gas across the entire molecular disks of 9 nearby star-forming galaxies.
+	- EMPIRE provides, for the first time, resolved (1-2kpc resolution) maps of a suite of density-sensitive transitions in the 3mm atmospheric window, including HCN (1-0), HCO+ (1-0) and HNC (1-0).
+
 ## X-ray or High-Energy Surveys
 
 ## Useful dataset and tools
