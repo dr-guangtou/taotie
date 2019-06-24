@@ -27,9 +27,12 @@
 * [`GitHub`](https://github.com/) or any other on line code repositories (e.g. [`GitLab`](https://about.gitlab.com/), [`bitbucket`](https://bitbucket.org/), [`coding`](https://coding.net/git)) can help organize your scientific project. It can help you do version control, back up research results, and also share results and code with the community.
     - [hub - A command-line tool that makes git easier to use with GitHub](https://github.com/github/hub)
     - You can also keep your project synced across multiple platforms. Please see [this article](https://moox.io/blog/keep-in-sync-git-repos-on-github-gitlab-bitbucket/). Notice that `gitlab` is using `v4` API now.
-* There are template available that can help you get started:
-    - [shablona - A template for small scientific python projects](https://github.com/uwescience/shablona)
+    - It is easy to [keeping in sync your `Git` repos on Github, Gitlab, and Bitbucket](https://moox.io/blog/keep-in-sync-git-repos-on-github-gitlab-bitbucket/). All you need to do is to make sure the repos share the same name, and add multiple remotes to the same local data.
 * And `GitHub` allows you to [create new repository based on a template](https://github.blog/2019-06-06-generate-new-repositories-with-repository-templates)
+    * There are template available that can help you get started:
+        - [shablona - A template for small scientific python projects](https://github.com/uwescience/shablona)
+* If you want to start a package as your project, you can try [`cookiecutter`](https://github.com/audreyr/cookiecutter) - A command-line utility that creates projects from templates for Python, Javascript, Ruby, Markdown, CSS, HTML etc.
+    * If you are interested in using `astropy` as a good template for Python project, the [`astropy` package template](https://github.com/astropy/package-template) is available too.
 
 ## Organizing a Programming Environment
 
