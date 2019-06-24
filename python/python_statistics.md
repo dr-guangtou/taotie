@@ -4,19 +4,46 @@
 
 ## Modeling Tool
 
-* [spotpy - A Statistical Parameter Optimization Tool](https://github.com/thouska/spotpy)
+* [`spotpy` - A Statistical Parameter Optimization Tool](https://github.com/thouska/spotpy)
 	- SPOTPY is a Python framework that enables the use of Computational optimization techniques for calibration, uncertainty and sensitivity analysis techniques of almost every (environmental-) model.
+
+* [`BayesianOptimization` - A Python implementation of global optimization with gaussian processes](https://github.com/fmfn/BayesianOptimization)
+	- This is a constrained global optimization package built upon bayesian inference and gaussian process, that attempts to find the maximum value of an unknown function in as few iterations as possible.
 
 ## Sampling Tools and Bayesian Analysis
 
-* [emcee - The Python ensemble sampling toolkit for affine-invariant MCMC](https://github.com/dfm/emcee)
+* [`emcee` - The Python ensemble sampling toolkit for affine-invariant MCMC](https://github.com/dfm/emcee)
 	- By Dan Foreman-Mackey. `emcee` is a stable, well tested Python implementation of the affine-invariant ensemble sampler for Markov chain Monte Carlo (MCMC) proposed by Goodman & Weare (2010).
-* [dynesty - Dynamic Nested Sampling package for computing Bayesian posteriors and evidences](https://github.com/joshspeagle/dynesty)
+* [`dynesty` - Dynamic Nested Sampling package for computing Bayesian posteriors and evidences](https://github.com/joshspeagle/dynesty)
 	- By [Josh Speagle](https://joshspeagle.github.io/). A Dynamic Nested Sampling package for computing Bayesian posteriors and evidences. Pure Python.
-* [nestle - Pure Python, MIT-licensed implementation of nested sampling algorithms for evaluating Bayesian evidence](https://github.com/kbarbary/nestle)
+* [`nestle` - Pure Python, MIT-licensed implementation of nested sampling algorithms for evaluating Bayesian evidence](https://github.com/kbarbary/nestle)
 	- By [Kyle Barbary](http://kylebarbary.com/)
-* [nnest - Neural network accelerated nested and MCMC sampling](https://github.com/adammoss/nnest)
+* [`nnest` - Neural network accelerated nested and MCMC sampling](https://github.com/adammoss/nnest)
 	- By Adam Moss. Based on [this paper](https://arxiv.org/abs/1903.10860)
+
+## Gaussian Process
+
+* A full introduction to the theory of Gaussian Processes is available for free online: [Rasmussen & Williams (2006)](http://www.gaussianprocess.org/gpml/).
+
+* [`GPy` - Gaussian processes framework in python](https://github.com/sheffieldml/gpy)
+	- Gaussian processes underpin range of modern machine learning algorithms. In [`GPy`](http://sheffieldml.github.io/GPy/), we've used python to implement a range of machine learning algorithms based on GPs. [Online document is here](https://gpy.readthedocs.io/en/deploy/) 
+	- [Jupyter notebooks to introduce `GPy`](https://nbviewer.jupyter.org/github/SheffieldML/notebook/blob/master/GPy/index.ipynb)
+
+* [`gpflow` - Gaussian processes in TensorFlow](https://github.com/GPflow/GPflow)
+	- `GPflow` is a package for building Gaussian process models in python, using `TensorFlow`.
+	- `GPflow` implements modern Gaussian process inference for composable kernels and likelihoods.
+	- `GPflow` uses TensorFlow for running computations, which allows fast execution on GPUs, and uses Python 3.5 or above.
+	- [Online document is here](https://gpflow.readthedocs.io/en/develop/)
+
+* [`gpytorch` - A highly efficient and modular implementation of Gaussian Processes in PyTorch](https://github.com/cornellius-gp/gpytorch)
+	- `GPyTorch` is a Gaussian process library implemented using `PyTorch`. `GPyTorch` is designed for creating scalable, flexible, and modular Gaussian process models with ease.
+
+* [`george` - Fast and flexible Gaussian Process regression in Python](https://github.com/dfm/george)
+	- `George` is a fast and flexible Python library for Gaussian Process (GP) Regression.
+	- Unlike some other GP implementations, `george` is focused on efficiently evaluating the marginalized likelihood of a dataset under a GP prior, even as this dataset gets Big
+
+* [`celerite` - Scalable 1D Gaussian Processes in C++, Python, and Julia](https://github.com/dfm/celerite)
+	- [Online document is here](https://celerite.readthedocs.io/en/stable/) 
 
 ## Survival Analysis
 
@@ -25,6 +52,6 @@
 * **Hazard curve**: the probability of the death event occurring at time t, given that the death event has not occurred until time t. Hazard function is non-parametric.
 * **Kaplan-Meier estimator for survival function**: Survival analysis assumes that upper limits have the same underlying distribution as the data, and the Kaplan-Meier esti- mator further assumes that detections and upper limits are mutually independent
 
-- [lifelines - implementation of survival analysis in Python](https://lifelines.readthedocs.io/en/latest/)
+- [`lifelines` - implementation of survival analysis in Python](https://lifelines.readthedocs.io/en/latest/)
 	* Handles right-censored data.
 	* Example of astrophysical usage: [radio SED of high-z SF galaxies](https://arxiv.org/abs/1812.03392)
