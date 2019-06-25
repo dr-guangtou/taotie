@@ -56,7 +56,11 @@
 * [`GalSim` - The modular galaxy image simulation toolkit](https://github.com/GalSim-developers/GalSim)
     - `GalSim` is a very sophisticated system that pretty much includes everything you need to know about optics, observational astronomy, photometry, models of galaxies, and weak lensing.
     - It also teachs you how to communicate between C++ and Python.
+
 * [`imfit` - an open-source astronomical image-fitting program](https://github.com/perwin/imfit)
     - Everything on modeling galaxies using least-chi-square or MCMC methods.
+
 * [`libprofit` - low-level C++ library that produces images based on different luminosity profiles](https://github.com/ICRAR/libprofit)
     - Light-weight library to learn about modeling galaxies and image convolution.
+
+* [`TreeCorr` - Code for efficiently computing 2-point and 3-point correlation functions](https://github.com/rmjarvis/TreeCorr)

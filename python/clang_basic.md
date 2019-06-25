@@ -42,9 +42,14 @@
 ## Code to Study
 
 * [`sextractor` - Extract catalogs of sources from astronomical images](https://github.com/astromatic/sextractor)
+
 * [`psfex` - Generate PSF super-tabulated models](https://github.com/astromatic/psfex)
+
 * [`CCL` - DESC Core Cosmology Library](https://github.com/LSSTDESC/CCL)
     - Also teaches you how to interact with Python.
+
+* [`Corrfunc` - fast correlation functions on the CPU](https://github.com/manodeep/Corrfunc)
+    - `utils` are written in C; and wrapped in Python.
 
 ### On Interacting with Python
 
