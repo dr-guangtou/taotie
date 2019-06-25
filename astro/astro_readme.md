@@ -41,6 +41,8 @@
 
 - [Distance measures in cosmology by David Hogg](https://arxiv.org/abs/astro-ph/9905116)
 
+- [Exploring the Expansion History of the Universe by Eirc Linder](https://arxiv.org/pdf/astro-ph/0208512.pdf)
+
 - [Damn You, Little h! by Darren Croton](https://arxiv.org/abs/1308.4150)
 	* The published version is [here](https://www.cambridge.org/core/journals/publications-of-the-astronomical-society-of-australia/article/damn-you-little-h-or-realworld-applications-of-the-hubble-constant-using-observed-and-simulated-data/EB4B786F4500F897A589C3ED980C17F5)
 	* This is a really useful note.  `little-h` can be really tricky!
