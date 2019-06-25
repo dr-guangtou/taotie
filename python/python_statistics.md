@@ -28,6 +28,8 @@
 	- By [Kyle Barbary](http://kylebarbary.com/)
 * [`nnest` - Neural network accelerated nested and MCMC sampling](https://github.com/adammoss/nnest)
 	- By Adam Moss. Based on [this paper](https://arxiv.org/abs/1903.10860)
+* [`sampyl` - MCMC samplers for Bayesian estimation in Python, including Metropolis-Hastings, NUTS, and Slice](https://github.com/mcleonard/sampyl)
+	- `Sampyl` is a package for sampling from probability distributions using MCMC methods. Similar to `PyMC3` using theano to compute gradients, Sampyl uses autograd to compute gradients.
 
 ## Gaussian Process
 

@@ -1,5 +1,10 @@
 # Collection of Useful Tools for Machine Learning and Artificial Intelligence
 
+## Basic Tools
+
+* [`autograd` - Efficiently computes derivatives of numpy code](https://github.com/HIPS/autograd)
+    - Very useful tool when building statistical and machine learning tools in Python. `Autograd` can automatically differentiate native Python and Numpy code.
+
 ## Machine Learning Framework
 
 * [`tensorflow` - An Open Source Machine Learning Framework for Everyone ](https://github.com/tensorflow/tensorflow)
