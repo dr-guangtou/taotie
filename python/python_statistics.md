@@ -2,6 +2,14 @@
 
 -----
 
+## Error Propagation
+
+* [`astropy.uncertainty`]()
+	- Provides a `Distribution` object to represent statistical distributions in a form that acts as a drop-in replacement for `Quantity` or a regular `numpy.ndarray`. Still work in progress.
+
+* [`uncertainties` - Transparent calculations with uncertainties on the quantities involved](https://github.com/lebigot/uncertainties)
+	- The `uncertainties` package is a free, cross-platform program that transparently handles calculations with numbers with uncertainties (like 3.14±0.01). It can also yield the derivatives of any expression.
+
 ## Modeling Tool
 
 * [`spotpy` - A Statistical Parameter Optimization Tool](https://github.com/thouska/spotpy)

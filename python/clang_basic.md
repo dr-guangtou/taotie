@@ -7,6 +7,9 @@
 * [Why Code in C Anymore?....Instead of C++](http://www.drdobbs.com/cpp/why-code-in-c-anymore/240149452)
     - C still has a little advantage on the performance and portability.
 
+* [CS2022: Introduction to C at Cornell](http://www.cs.cornell.edu/courses/cs2022/2011sp/)
+    - Lecture slides are available.
+
 * [learn-c.org free interactive C tutorial](https://www.learn-c.org/)
 
 * [`30-seconds-of-c`](https://github.com/fredsiika/30-seconds-of-c)
