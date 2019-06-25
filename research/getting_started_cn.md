@@ -1,5 +1,7 @@
 # 如何正确的踏上科研的不归路
 
+<img src="http://www.phdcomics.com/comics/archive/phd051017s.gif" width="80%">
+
 ## 动机与使命
 
 * To become a scientist is to dive into the unknown on behalf of the human-kind, it is never an easy job but can be very rewarding as well.  It is good idea to always check your motivation, think about your mission statement, and confront your career and personal choices sincerely.

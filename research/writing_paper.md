@@ -1,5 +1,7 @@
 # About Writing Academic Paper
 
+<img src="doc/keep_calm_write_on.png" width="80%">
+
 ## Basics
 
 * [Notes on writing papers by Prof. Alexie Leauthaud](https://github.com/alexieleauthaud/RedWoodTools/wiki/Writing-Papers)
@@ -32,13 +34,13 @@
 
 ## LaTeX
 
-### Online LaTeX Editor 
+### Online LaTeX Editor
 
 * [Overleaf](https://www.overleaf.com)
   - The most commonly used one. The free service is already very good.
 
 * [Authorea](https://www.authorea.com/)
-  - A powerful publishing platform for articles, data, figures, preprints. More than just a LaTeX editor. 
+  - A powerful publishing platform for articles, data, figures, preprints. More than just a LaTeX editor.
 
 ### LaTeX resources
 

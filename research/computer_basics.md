@@ -1,8 +1,8 @@
-# Basic computer environment for research 
+# Basic computer environment for research
 
 ----
 
-## Shell 
+## Shell
 
 * [Pure Bash Bible](https://github.com/dylanaraps/pure-bash-bible)
 	- A collection of pure bash alternatives to external processes.
@@ -12,7 +12,7 @@
 
 * [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line)
 	- In multiple languages, including Chinese
-	
+
 ### Other than `bash`
 
 * [Oh My Zsh](https://ohmyz.sh/)
@@ -20,12 +20,12 @@
 
 * [The Fish Cookbook](https://github.com/jorgebucaran/fish-cookbook)
 	- Tips and recipes for fish, from shell to plate
-	
+
 ## System Tools
 
 * [`gotop`: system monitor](https://github.com/cjbassi/gotop)
 	- A terminal based graphical activity monitor inspired by gtop and vtop
-	
+
 * [`tldr`: command document for human](https://github.com/tldr-pages/tldr)
 	- Simplified and community-driven man pages
 
