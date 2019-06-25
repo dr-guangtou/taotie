@@ -26,10 +26,15 @@
 
 - [`astrorapid` - Real-time Automated Photometric IDentification (RAPID) of astronomical transients using deep learning](https://github.com/daniel-muthukrishna/astrorapid)
     * By [Daniel Muthukrishna](http://www.danielmuthukrishna.com/). `RAPID` (Real-time Automated Photometric IDentification) can classify multiband photometric light curves into several different transient classes. It uses a deep recurrent neural network to produce time-varying classifications.
+
 - [`astrodash` - Deep learning for the automated spectral classification of supernovae](https://github.com/daniel-muthukrishna/astrodash)
     * By [Daniel Muthukrishna](http://www.danielmuthukrishna.com/). Software to classify the type, age, redshift and host for any supernova spectra. Two platforms exists: a python library that enables a user to classify several spectra (can classify thousands of spectra in seconds), and also a graphical interface that enables a user to view and classify a spectrum. 
+
 - [`UPSILoN`- Automated Classification of Periodic Variable Stars Using Machine Learning](https://github.com/dwkim78/upsilon)
     * `UPSILoN` (AUtomated Classification of Periodic Variable Stars using MachIne LearNing)
+
+- [`SuperNNova` - Open Source Photometric classification](https://github.com/supernnova/SuperNNova/)
+    * Using recurrent network technique. Based on [SuperNNova: an open-source framework for Bayesian, Neural Network based supernova classification](https://arxiv.org/abs/1901.06384)
 
 ## Lightcurve and Exoplanet
 
