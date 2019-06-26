@@ -39,6 +39,8 @@
 	* In Chinese. Read online [here](https://datawhalechina.github.io/pumpkin-book/)
 - [动手学深度学习 - 面向中文读者的能运行、可讨论的深度学习教科书](https://zh.d2l.ai/index.html)
 - [斯坦福大学2014（吴恩达）机器学习教程中文笔记](https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes)
+- [DeepLearning-500-questions - 深度学习500问](https://github.com/scutan90/DeepLearning-500-questions)
+	- Deep learning through 500 questions, a Markdown book. 
 
 ## Tutorial and Examples:
 
