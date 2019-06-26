@@ -94,7 +94,4 @@
 * [`Scrapy` - A fast high-level web crawling & scraping framework for Python](https://scrapy.org/)
     - An open source and collaborative framework for extracting the data you need from websites. In a fast, simple, yet extensible way.
 
-* [`quadpy` - Numerical integration (quadrature, cubature) in Python](https://github.com/nschloe/quadpy)
-    - By Nico Schlömer. More than 1500 numerical integration schemes for line segments, circles, disks, triangles, quadrilaterals, spheres, balls, tetrahedra, hexahedra, wedges, pyramids, n-spheres, n-balls, n-cubes, n-simplices, and the 1D/2D/3D/nD spaces with weight functions exp(-r) and exp(-r2) for fast integration of real-, complex-, and vector-valued functions.
-
 ## Tricks and Tips
