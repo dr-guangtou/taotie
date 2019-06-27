@@ -37,6 +37,9 @@
 - [Art of README](https://github.com/noffle/art-of-readme)
 	- [中文版](https://github.com/noffle/art-of-readme/blob/master/README-zh.md) 基本上，想学习如何写好Readme看这篇就够了
 
+- [`readme-md-generator` - CLI that generates beautiful README.md files](https://github.com/kefranabg/readme-md-generator)
+	- `readme-md-generator` will suggest you default answers by reading your package.json and git configuration.
+
 ### Document
 
 - [Writing change-controlled documentation](https://developer.lsst.io/project-docs/change-controlled-docs.html)
