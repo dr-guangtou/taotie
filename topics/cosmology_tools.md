@@ -66,6 +66,10 @@
 
 * [`Colossus` - a python toolkit for calculations pertaining to cosmology, the large-scale structure of the universe, and the properties of dark matter halos](http://www.benediktdiemer.com/code/colossus/)
 
+* [`COMMAH` - COncentration-Mass relation and Mass Accretion History](https://correacamila.com/code/commah/)
+	- By Camila Correa; calculates dark matter halo concentrations as a function of halo mass and redshift. The [source code is available on Github](https://github.com/astroduff/commah)
+	- Based on the works of [Correa et al. 2015a](https://arxiv.org/abs/1409.5228); [Correa et al. 2015c](https://arxiv.org/abs/1502.00391)
+
 ## Emulators:
 
 * Increasingly popular way to study cosmology based on a limit set of N-body simulations.

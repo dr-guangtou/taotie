@@ -27,6 +27,12 @@
 - [VESPA - Validation of Exoplanet Signals using a Probabilistic Algorithm](https://github.com/timothydmorton/VESPA)
     * By Timothy Morton. It calculats false positive probabilities for transit signals
 
+## Direct Imaging
+
+- [`PynPoint` - Pipeline for processing and analysis of high-contrast imaging data](https://github.com/PynPoint/PynPoint)
+    * `PynPoint` is a generic, end-to-end pipeline for the data reduction and analysis of high-contrast imaging data of planetary and substellar companions, as well as circumstellar disks in scattered light.
+    * [Online document can be found here](https://pynpoint.readthedocs.io/en/latest/)
+
 ## Radial Velocity
 
 - [wobble - precise data-driven RV fitting, now with tellurics](https://github.com/megbedell/wobble)
