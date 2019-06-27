@@ -8,10 +8,9 @@
 
 ### Examples
 
-* Good example of papers:
-
-- [STARRY: Analytic Occultation Light Curves](https://ui.adsabs.harvard.edu/#abs/arXiv:1810.06559)
-  * Format, equation, figure, open source code, and awesomefont links.
+* Good example of papers with good reproducibility:
+    - [STARRY: Analytic Occultation Light Curves](https://ui.adsabs.harvard.edu/#abs/arXiv:1810.06559)
+    * Format, equation, figure, open source code, and awesomefont links.
 
 ## English
 
@@ -55,3 +54,10 @@
 
 * [Link to aribitary part of text](https://tex.stackexchange.com/questions/280462/link-to-arbitrary-part-of-text)
   - Using `\hypertarget` and `\hyperlink`
+
+## Figure
+
+### Flowchart
+
+* [`mermaid` - Generation of diagram and flowchart from text in a similar manner as markdown](https://github.com/knsv/mermaid)
+    - `mermaid`, a simple markdown-like script language for generating charts from text via javascript.

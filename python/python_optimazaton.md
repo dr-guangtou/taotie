@@ -29,6 +29,9 @@
 * [`symfit` - Symbolic Fitting; fitting as it should be](https://github.com/tBuLi/symfit)
 	- Pythonic way to do fitting.
 
+* [`zfit` - scalable pythonic fitting](https://github.com/zfit/zfit)
+	- The `zfit` package is a model manipulation and fitting library based on TensorFlow and optimised for simple and direct manipulation of probability density functions. Its main focus is on scalability, parallelisation and user friendly experience.
+
 ### Bayesian Optimization
 
 * [`BayesianOptimization` - Pure Python implementation of bayesian global optimization with gaussian processes](https://github.com/fmfn/BayesianOptimization)
