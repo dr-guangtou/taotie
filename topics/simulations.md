@@ -12,6 +12,9 @@
 * [`Pynbody` - an analysis package for astrophysical N-body and Smooth Particle Hydrodynamics simulations](https://pynbody.github.io/pynbody/index.html)
     - [Source code available on Github](https://github.com/pynbody/pynbody)
 
+* [`Pylians` - Libraries to analyze numerical simulations](https://github.com/franciscovillaescusa/Pylians)
+    - `Pylians` stands for Python libraries for the analysis of numerical simulations. They are a set of python libraries, written in python, cython and C, whose purposes is to facilitate the analysis of numerical simulations (both N-body and hydro).
+
 * [`tipsy` - The Theoretical Image Processing SYstem for visualizing/analyzing n-body simulations](https://github.com/N-BodyShop/tipsy)
 
 #### Halo and Subhalo Finder
@@ -49,6 +52,9 @@
     - [Some relevant codes are available on Gitlab](https://xgitlab.cels.anl.gov/hacc)
 
 * [GreeM - Massively Parallel TreePM Code for Large Cosmological N-body Simulations](https://academic.oup.com/pasj/article/61/6/1319/1462224)
+
+* [`Quijote-simulations`](https://github.com/franciscovillaescusa/Quijote-simulations)
+    - The Quijote simulations are a set of 34500 N-body simulations. They are designed for two main tasks: 1) Quantify the information content on cosmological observables; 2) Provide enough statistics to train machine learning algorithms
 
 ### Hydrodynamic and MHD Simulation
 

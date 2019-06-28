@@ -21,10 +21,12 @@
 * [dust_extinction - Astronomical Dust Extinction](https://github.com/karllark/dust_extinction)
     - This package provides astronomical interstellar dust extinction curves implemented using the astropy.modeling framework.
 
-
 ## Interstellar Dust Model 
 
-* [THEMIS: The Heterogeneous dust Evolution Model for Interstellar Solids](https://www.ias.u-psud.fr/themis/THEMIS_model.html)
+* [`THEMIS` - The Heterogeneous dust Evolution Model for Interstellar Solids](https://www.ias.u-psud.fr/themis/THEMIS_model.html)
+
+* [`SHIVA` - a numerical tool for evolution of dust in the ISM](http://www.inasan.rssi.ru/~khramtsova/SHIVA.html)
+    - `SHIVA` simulates the dust destruction in warm neutral, warm ionized, and hot ionized media under the influence of photo-processing, sputtering, and shattering. Based on [this work](https://arxiv.org/pdf/1906.11308.pdf)
 
 ## Extragalactic ISM and Dust Dataset
 
