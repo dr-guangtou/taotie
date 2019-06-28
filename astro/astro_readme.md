@@ -29,6 +29,9 @@
 - [Astronomical Spectroscopy](http://adsabs.harvard.edu/abs/2013pss2.book...35M)
 	* by Philp Massey and Margaret Hanson. Very good introduction about the spectroscopic instrument and data reduction.
 
+- [Dos and don’ts of reduced chi-squared](https://arxiv.org/pdf/1012.3754.pdf)
+	* By Rene Andrae, Tim Schulze-Hartung, & Peter Melchior. 
+
 #### Data Analysis Recipes by David Hogg
 
 - The GitHub repo for this book is [here](https://github.com/davidwhogg/DataAnalysisRecipes)
