@@ -32,6 +32,8 @@
 - [Dos and don’ts of reduced chi-squared](https://arxiv.org/pdf/1012.3754.pdf)
 	* By Rene Andrae, Tim Schulze-Hartung, & Peter Melchior. 
 
+- [On Model Selection in Cosmology](https://arxiv.org/pdf/1901.07726.pdf)
+
 #### Data Analysis Recipes by David Hogg
 
 - The GitHub repo for this book is [here](https://github.com/davidwhogg/DataAnalysisRecipes)

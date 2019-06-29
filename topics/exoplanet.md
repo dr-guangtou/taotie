@@ -31,10 +31,10 @@
     * By Néstor Espinoza. Based on the paper [Espinoza et al. 2018](https://arxiv.org/abs/1812.08549)
 
 - [`exonailer` - Tools for fitting transiting exoplanet lightcurves and radial velocities](https://github.com/nespinoza/exonailer)
-    * By Néstor Espinoza. The EXOplanet traNsits and rAdIal veLocity fittER (`EXO-NAILER`), is an easy-to-use code that allows you to efficiently fit exoplanet transit lightcurves, radial velocities (RVs) or both. 
+    * By Néstor Espinoza. The EXOplanet traNsits and rAdIal veLocity fittER (`EXO-NAILER`), is an easy-to-use code that allows you to efficiently fit exoplanet transit lightcurves, radial velocities (RVs) or both.
 
 - [`batman` - Bad-Ass Transit Model cAlculatioN](http://astro.uchicago.edu/~kreidberg/batman/)
-    * `batman`, a Python package for fast calculation of exoplanet transit light curves. 
+    * `batman`, a Python package for fast calculation of exoplanet transit light curves.
     * Based on [the paper by Laura Kreidberg](https://arxiv.org/abs/1507.08285)
 
 ## Direct Imaging
@@ -43,13 +43,15 @@
     * `PynPoint` is a generic, end-to-end pipeline for the data reduction and analysis of high-contrast imaging data of planetary and substellar companions, as well as circumstellar disks in scattered light.
     * [Online document can be found here](https://pynpoint.readthedocs.io/en/latest/)
 
+- [`orbitize` - Orbit-fitting for directly imaged objects](https://github.com/sblunt/orbitize)
+
 ## Radial Velocity
 
 - [`wobble` - precise data-driven RV fitting, now with tellurics](https://github.com/megbedell/wobble)
     * By [Megan Bedell](https://bedell.space/) `wobble` is an open-source python package for analyzing time-series spectra. It was designed with stabilized extreme precision radial velocity (EPRV) spectrographs in mind, but is highly flexible and extensible to a variety of applications.
 
 - [`radvel` - General Toolkit for Modeling Radial Velocity Data](https://github.com/California-Planet-Search/radvel)
-    * Based on the publication by [Fulton et al. 2018](https://arxiv.org/abs/1801.01947) 
+    * Based on the publication by [Fulton et al. 2018](https://arxiv.org/abs/1801.01947)
 
 ## Planet Atmosphere
 

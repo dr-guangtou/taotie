@@ -1,6 +1,6 @@
 # Important Tools and Projects for Astrophysical and Cosmological Simulations
 
-## Tools 
+## Tools
 
 ### Analysing Data from Simulation
 
@@ -29,7 +29,7 @@
     - `rockstar` identifies dark matter halos, substructure, and tidal features. The approach is based on adaptive hierarchical refinement of friends-of-friends groups in six phase-space dimensions and one time dimension, which allows for robust (grid-independent, shape-independent, and noise-resilient) tracking of substructure.
 
 * [`FoF` - Friends-of-friends method to find groups](https://faculty.washington.edu/trq/hpcc/tools/fof.html)
-    - A particle belongs to a friends-of-friends group if it is within some linking length of any other particle in the group. After all such groups are found, those with less than a specified minimum number of group members are rejected. 
+    - A particle belongs to a friends-of-friends group if it is within some linking length of any other particle in the group. After all such groups are found, those with less than a specified minimum number of group members are rejected.
 
 #### Merger Tree Construction
 
@@ -45,10 +45,10 @@
     - Also see [`TreeFrog` - Software to build Halo Merger Trees/compare halo catalogs](https://github.com/pelahi/TreeFrog)
     - And [`VELOCIraptor_Python_Tools` - python tools for manipulating velociraptor data](https://github.com/pelahi/VELOCIraptor_Python_Tools)
 
-### N-body Simulation 
+### N-body Simulation
 
 * [`HACC` - Hardware/Hybrid Accelerated Cosmology Code]()
-    - A recently developed and evolving cosmology N-body code framework, designed to run efficiently on diverse computing architectures and to scale to millions of cores and beyond. See [publication here for details](https://arxiv.org/abs/1410.2805) 
+    - A recently developed and evolving cosmology N-body code framework, designed to run efficiently on diverse computing architectures and to scale to millions of cores and beyond. See [publication here for details](https://arxiv.org/abs/1410.2805)
     - [Some relevant codes are available on Gitlab](https://xgitlab.cels.anl.gov/hacc)
 
 * [GreeM - Massively Parallel TreePM Code for Large Cosmological N-body Simulations](https://academic.oup.com/pasj/article/61/6/1319/1462224)
@@ -63,7 +63,7 @@
 * [`Gadget-2` - A code for cosmological simulations of structure formation](https://wwwmpa.mpa-garching.mpg.de/gadget/)
     * `Gadget-2` is a freely available code for cosmological N-body/SPH simulations on massively parallel computers with distributed memory. There are multiple spin-off of `Gadget` now.
     * [`MP-Gadget` - massively-parallel cosmology simulator](https://github.com/MP-Gadget/MP-Gadget)
-        * This version of Gadget is derived from main P-Gadget / Gadget-2. It is the source code used to run the BlueTides simulation 
+        * This version of Gadget is derived from main P-Gadget / Gadget-2. It is the source code used to run the BlueTides simulation
 
 * [`SWIFT` - SPH With Inter-dependent Fine-grained Tasking](http://swift.dur.ac.uk)
     * `SWIFT` is a hydrodynamics and gravity code for astrophysics and cosmology.
@@ -75,6 +75,9 @@
 
 * [`Gasoline` - Particle hydrodynamics have never been smoother](https://gasoline-code.com/)
     * Gasoline is a modern SPH simulation code for astrophysical problems. [Source code is available publicly](https://github.com/N-BodyShop/gasoline)
+
+* [`flecsph` - A Parallel and Distributed SPH Implementation Based on the FleCSI](https://github.com/laristra/flecsph)
+    * This project implements smoothed particles hydrodynamics (SPH) method of simulating fluids and gases using the FleCSI framework. Currently, particle affinity and gravitation is handled using the parallel implementation of the octree data structure provided by FleCSI.
 
 #### AMR: Adaptive Mesh Refinement
 
@@ -122,7 +125,7 @@
 #### Hydrodynamic or MHB Simulations
 
 * [The Illustris Simulation - Towards a predictive theory of galaxy formation](http://www.illustris-project.org/)
-    * The Illustris project is a large cosmological simulation of galaxy formation, completed in late 2013, using a state of the art numerical code and a comprehensive physical model. 
+    * The Illustris project is a large cosmological simulation of galaxy formation, completed in late 2013, using a state of the art numerical code and a comprehensive physical model.
     * All the data have been [released to public](http://www.illustris-project.org/data/).  See the [About page] for general information.
 
 * [The IllustrisTNG Project](http://www.tng-project.org/)
@@ -130,7 +133,7 @@
     * Some of the IllustrisTNG data have been [released to the public](http://www.tng-project.org/data/)
 
 * [The EAGLE Project - Evolution and Assembly of GaLaxies and their Environments](http://icc.dur.ac.uk/Eagle/)
-    * [Public data release is available here](http://icc.dur.ac.uk/Eagle/database.php) 
+    * [Public data release is available here](http://icc.dur.ac.uk/Eagle/database.php)
 
 * [Auriga project - High resolution disc galaxy simulations in a cosmological context](https://wwwmpa.mpa-garching.mpg.de/auriga/)
     * The Auriga Project is a large suite of high-resolution magneto-hydrodynamical simulations of Milky Way-sized galaxies, simulated in a fully cosmological environment by means of the 'zoom-in' technique. It is simulated with the state-of-the-art hydrodynamic moving mesh code AREPO, and includes a comprehensive galaxy formation model based on the successful cosmological simulation Illustris.
