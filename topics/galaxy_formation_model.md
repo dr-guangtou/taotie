@@ -51,7 +51,7 @@
     - The `L-Galaxies` model galaxy catalog for the Millennium simulations can be [found here](http://gavo.mpa-garching.mpg.de/Millennium/)
     - [L-Galaxies Dust Analysis](https://github.com/scottclay/Lgalaxies_Dust) - Implementation of detailed dust modelling into the Henriques 2015 version of L-Galaxies. The data analysis pipeline is [available here](https://github.com/scottclay/Lgalaxies_Analysis)
 
-* [`GALFORM: Galactic Modeling](http://star-www.dur.ac.uk/~cole/merger_trees/galform_2000/)
+* [`GALFORM`: Galactic Modeling](http://star-www.dur.ac.uk/~cole/merger_trees/galform_2000/)
     - Originally based on the classic paper by [Shaun Cole et al. 2010](https://ui.adsabs.harvard.edu/abs/2000MNRAS.319..168C/abstract). The new version of `GALFORM` model is presented in the work led by [Cedric Lacey et al. 2016](https://ui.adsabs.harvard.edu/abs/2016MNRAS.462.3854L/abstract)
     - This is also known as the "Durham" galaxy formation model.
 
@@ -62,7 +62,7 @@
 * [`GAEA` - GAlaxy Evolution and Assembly model]()
     - Based on the work ["Galaxy assembly, stellar feedback and metal enrichment: the view from the GAEA model" by Michaela Hirschmann, Gabriella De Lucia, & Fabio Fontanot 2015](https://ui.adsabs.harvard.edu/abs/2016MNRAS.461.1760H/abstract)
 
-* [`MORGANA - MOdel for the Rise of GAlaxies aNd Active nuclei](http://adlibitum.oats.inaf.it/monaco/Homepage/morgana.html)
+* [`MORGANA` - MOdel for the Rise of GAlaxies aNd Active nuclei](http://adlibitum.oats.inaf.it/monaco/Homepage/morgana.html)
     - Originally based on the work led by [Pierluigi Monaco et al. 2007](https://ui.adsabs.harvard.edu/abs/2007MNRAS.375.1189M/abstract). 
 
 * [`GalICS` - Galaxies In Cosmological Simulations]()
