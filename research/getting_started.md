@@ -8,6 +8,16 @@
 * [Choose Your Own Adventure: Developing A Values-Oriented Framework for Your Career by Lucianne Walkowicz](https://arxiv.org/abs/1805.09963)
     - I think you should read this, every word of it, before you read anything else.  This is probably the best career advice I have ever read.  I worked on my **mission statement** right after I read this.
 
+## Inclusiveness and Community Building
+
+* Read through the [AAS Code of Ethics](https://aas.org/ethics) or the [ASA Code of Ethics](http://asa.astronomy.org.au/code_of_ethics.php)
+    - Also the [Anti-Harassment Policy for AAS & Division Meetings & Activities](https://aas.org/policies/anti-harassment-policy-aas-division-meetings-activities)
+
+* [Astronomy and Astrophysics Outlist](https://astro-outlist.github.io/) 
+    - "As professionals in astronomy and astrophysics, whether we are students, faculty, staff, librarians or are working in other positions, we all like to believe that our work environment is determined only by our capabilities as students and researchers, and that it is free from personal bias. A productive professional atmosphere depends on open and accepting interactions of individuals free from discrimination and harassment."
+* [AstronomyAllies - Anti-harassment in Astronomy](http://www.astronomyallies.com/Astronomy_Allies/Welcome.html)
+* [Equal Opportunity Astronomy: Articles & Resources](http://www.astrobetter.com/wiki/Diversity) collected by AstroBetter.
+
 ## ORCID and Google Scholar
 
 * [ORCID](https://orcid.org/) provides a persistent digital identifier that distinguishes you from every other researcher and, through integration in key research workflows such as manuscript and grant submission, supports automated linkages between you and your professional activities ensuring that your work is recognized.
@@ -167,6 +177,8 @@
     - [Dan Foreman-Mackey](https://dfm.io/); the code can be found [here](https://github.com/dfm/dfm.io)
 
 ### Scientific Conference
+
+* Behave yourself professionally during conference or workshop. Please pay attention to the code of conduct. As an example, you can read the [Code of Conduct for ESO Workshops & Conferences](https://www.eso.org/sci/meetings/2018/tcl2018/code.html)
 
 * [CADA International Astronomy Meetings](http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/meetings/) is a very good place to check if there is anything conference that interests you in the future. There is a RSS Feed and a `iCal` subscription.
 * [@astromeetings Twitter account](https://twitter.com/astromeetings?lang=en) is also a good way to follow the on-going conferences in your field.

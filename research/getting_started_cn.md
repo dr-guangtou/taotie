@@ -2,20 +2,34 @@
 
 <img src="http://www.phdcomics.com/comics/archive/phd051017s.gif" width="80%">
 
-## 动机与使命
+## 审视你的动机与使命
 
-* To become a scientist is to dive into the unknown on behalf of the human-kind, it is never an easy job but can be very rewarding as well.  It is good idea to always check your motivation, think about your mission statement, and confront your career and personal choices sincerely.
-* [Choose Your Own Adventure: Developing A Values-Oriented Framework for Your Career by Lucianne Walkowicz](https://arxiv.org/abs/1805.09963)
-    - I think you should read this, every word of it, before you read anything else.  This is probably the best career advice I have ever read.  I worked on my **mission statement** right after I read this.
+* 成为一名科学工作者意味着你将代表人类勇敢地踏入未知。这样的旅程难免艰难险阻，但沿途风景却从不让人失望。在开始你的旅程前，希望你可以诚挚地考察自己的动机与决心，质问自己的每一个职业与个人选择，认真地思考自己的“使命” (Mission)。
+* [选择你自己的冒险 - 用价值观作为导向来规划你的职业 作者：Lucianne Walkowicz](https://arxiv.org/abs/1805.09963)
+    - 在我读过的关于职业建议的文章中，这篇来自天文学家Lucianne Walkowics的对我影响最大。在读完后，我立即着手思考我自己的“**职业使命**”。我个人觉得每一个立志从事天文科研的人都应该读读这篇文章。认真地讲，在读下面的内容前，我觉得你应该读一下这篇文章。
 
-## ORCID and Google Scholar
+## 建设包容和开放的社区
 
-* [ORCID](https://orcid.org/) provides a persistent digital identifier that distinguishes you from every other researcher and, through integration in key research workflows such as manuscript and grant submission, supports automated linkages between you and your professional activities ensuring that your work is recognized.
+* 成为一名科学工作者也意味着你成为了一个光荣社区的一员。在旅程中，你理应得到社区公平的对待，也会分享到社区的资源与经验。与此同时，你也有义务培养自己的职业道德，约束自己的言行，并为构建一个包容与开放的社区贡献自己的一点力量。
+
+* 职业道德是一个公平开放社区的基础。请抽空阅读[美国天文学会职业道德规范](https://aas.org/ethics) 或者 [澳大利亚天文学会职业道德规范](http://asa.astronomy.org.au/code_of_ethics.php)
+    - 同时也请考虑阅读[美国天文学会反骚扰的政策规范](https://aas.org/policies/anti-harassment-policy-aas-division-meetings-activities)
+
+* AstroBetter网站收藏整理了一系列[帮助天文学社区能分享平等机会的文章与资源](http://www.astrobetter.com/wiki/Diversity).
+
+* [AstronomyAllies - 由天文学家组成的反对性骚扰和性别歧视的联盟](http://www.astronomyallies.com/Astronomy_Allies/Welcome.html)
+
+* [天文学和天体物理学从业者的“出柜列表”](https://astro-outlist.github.io/) 
+    - "作为从事天文与天体物理科研的职业人士，无论我们是学生，教职人员，普通员工，资料管理员，还是身处任何其他职位，我们都坚信我们的工作环境应该仅仅由我们作为学生或者科研工作者的职业能力来塑造，并且不受任何个人偏见的干扰。只有所有成员能够在不受歧视和骚扰的情况下，在开放与包容的环境中沟通，我们才有可能培养出高效而健康的职业氛围。“
+
+## ORCID个人标识以及Google学术
+
+* [ORCID - 开放式科研人员与投稿身份识别码](https://orcid.org/) provides a persistent digital identifier that distinguishes you from every other researcher and, through integration in key research workflows such as manuscript and grant submission, supports automated linkages between you and your professional activities ensuring that your work is recognized.
     - It is a very good idea to register an ORCID and maintaine it from time to time.
 
 * It is also a good idead to start a [Google scholar](https://scholar.google.com) page
 
-## Choosing a Programing Language
+## 选择趁手的编程工具
 
 * It has become clear that [`Python`](https://www.python.org/) has become the new Lingua franca in astrophysics and cosmology research and it is probably the language you want to learn first. Please check the `python` directory in `taotie` for relevant topics.
 * As an advanced object-oriented programing language `C++` is still at the core of many important astrophysical applications, e.g. numerical simulations, data reduction or analysis that requires high efficiency or good performance.  Many important astrophysical softwares use `C++` as the core and then wrap it up using `Python`.
@@ -99,7 +113,6 @@
     - There is a [Youtube video that describes the motivation and design](https://www.youtube.com/watch?v=1RwJbhkCA58&feature=youtu.be)
     - [The LaTeX template](https://github.com/rafaelbailo/betterposter-latex-template)
     - [The R Markdown template](https://github.com/GerkeLab/betterposter)
-
 
 ## Reading Paper
 
