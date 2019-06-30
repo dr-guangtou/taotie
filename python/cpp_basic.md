@@ -46,6 +46,9 @@
 * [`Armadillo` - C++ library for linear algebra & scientific computing](http://arma.sourceforge.net/)
     - `Armadillo` is a high quality linear algebra library (matrix maths) for the C++ language, aiming towards a good balance between speed and ease of use
 
+* [`xtensor` - Multi-dimensional arrays with broadcasting and lazy computing](https://github.com/QuantStack/xtensor)
+    - `xtensor` is a C++ library meant for numerical analysis with multi-dimensional array expressions. `xtensor` can be used to process NumPy data structures inplace using Python's buffer protocol.
+
 ### Astronomy Related
 
 * [`CCfits` - object oriented interface to the cfitsio library](https://heasarc.gsfc.nasa.gov/fitsio/CCfits/)

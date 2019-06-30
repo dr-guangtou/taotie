@@ -9,6 +9,11 @@
 - [`pycgn` - Python package for processing Gamma-ray Coordinates Network (GCN) notices and circulars ](https://github.com/lpsinger/pygcn)
     * Anonymous VOEvent client for receiving GCN/TAN notices in XML format
 
+## Data Access
+
+- [`ztfquery` - Access ZTF data from Python](https://github.com/MickaelRigault/ztfquery)
+    * By Mickael Rigault. `ztfquery` is a python tool to download ZTF (and SEDM) data
+
 ## Differential Photometry
 
 - [`lemon` - Differential photometry for humans (and astronomers)](https://github.com/vterron/lemon)
