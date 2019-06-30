@@ -1,4 +1,4 @@
-# 如何正确的踏上科研的不归路
+# 如何正确地踏上科研的不归路
 
 <img src="http://www.phdcomics.com/comics/archive/phd051017s.gif" width="80%">
 

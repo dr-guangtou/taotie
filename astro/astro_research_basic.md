@@ -107,6 +107,7 @@
 
 * [ICRAR's Cosmology Calculator](http://cosmocalc.icrar.org)
 	- Based on the [celestial R-code](https://github.com/asgr/celestial)
+
 * [Ned Wright's Cosmology Calculator](http://www.astro.ucla.edu/%7Ewright/CosmoCalc.html)
 
 ## Simulate Galaxy Spectrum
@@ -116,3 +117,11 @@
 ## Sky Projection Maps of Surveys
 
 * [AstroMap - generating sky projection maps for astronomical surveys](http://astromap.icrar.org)
+
+
+## List of Observatories
+
+* [List of Astronomical Observatories on Wiki](https://en.wikipedia.org/wiki/List_of_astronomical_observatories)
+
+* [Observatories by GoAstronomy](https://www.go-astronomy.com/observatories.htm)
+	- Including U.S observatories and observatories worldwide.
