@@ -10,15 +10,18 @@
 
 * “The taotie is a motif commonly found on Chinese ritual bronze vessels from the Shang and Zhou dynasty” - [Wikipedia](https://en.wikipedia.org/wiki/Taotie)
 
-* Over the last few years, I have tried to collect useful resources for astrophysical research in several different ways.  Now, it seems a GitHub repo is the best solution. I will gradually transfer my notes and bookmarks here. This place is still heavily under construction. I will create a series of notes first, and I am thinking about what is the best way to organize them later.
+## Motivation and Goal
+
+* Over the past ~10 years, I have gradually accumulated some useful resources for astrophysical research and I believe the best way to make use of these information is to share them.
+* **The goal of `taotie`** is to become a curated list of resources for astronomy and astrophysics maintained by the community. Just like many other `awesome` lists available on `GitHub`. We hope `taotie` can become the first stop for new student or researcher in astronomy to seek for practical guidance and experience.  And `taotie` can also be a handy and organized "bookmark" for researchers in different fields.
+
+## Progress and Plans
+
+* The main language for `taotie` is English. Some of the important documents will be slowly translated into Chinese.
+* Now `taotie` is available on both `GitHub` and `GitLab`.  And you can also find `taotie` using [this address](https://dr-guangtou.github.io/taotie/)
+* **Under Construction**: This repo is still under heavy and frequent development. I am currently working on this as a weekend project.
 
 * Please let me know if you have any suggestion or recommendation.
-
-* **Under Construction**:
-    - This repo is still under heavy and frequent development. I am currently working on this as a weekend project.
-    - I am not 100% happy about the organization, so please forgive me if the structure is not perfect, I am working on it.
-
-* **Website**: I am also thinking about making a document-style website out of this repo. Please stay tuned.
 
 # Contents
 
