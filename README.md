@@ -39,9 +39,38 @@
         * Including the [basic learning materials](https://github.com/dr-guangtou/taotie/blob/master/research/machine_learning.md/machine_learning_basic.md), [some useful tools](https://github.com/dr-guangtou/taotie/blob/master/research/machine_learning.md/machine_learning_tools.md), and [examples of applications in astronomy](https://github.com/dr-guangtou/taotie/blob/master/research/machine_learning.md/mlearning_astro_application.md)
 
 ## [Astronomy or Astrophysics Related Topics](https://github.com/dr-guangtou/taotie/tree/master/astro)
-    - [Basic tools for astrophysical research](https://github.com/dr-guangtou/taotie/blob/master/astro/astro_research_basic.md) e.g. Flux, extinction, coordinates, and planning your observations.  Whatever you need.
-    - [Good reference for all astronomers](https://github.com/dr-guangtou/taotie/blob/master/astro/astro_readme.md): Reference and handbooks that will be handy in research.
 
+- [Basic tools for astrophysical research](https://github.com/dr-guangtou/taotie/blob/master/astro/astro_research_basic.md) e.g. Flux, extinction, coordinates, and planning your observations.  Whatever you need.
+- [Good reference for all astronomers](https://github.com/dr-guangtou/taotie/blob/master/astro/astro_readme.md): Reference and handbooks that will be handy in research.
+- [Useful resources and tools for specific field or topic](https://github.com/dr-guangtou/taotie/tree/master/astro/topics). Right now, we collect some resources for topics about:
+    * [Basic astronomical CCD reduction](https://github.com/dr-guangtou/taotie/blob/master/astro/topics/ccd_reduction.md)
+    * [Photometry and photometric measurement in astrophysics](https://github.com/dr-guangtou/taotie/blob/master/astro/topics/photometry.md)
+    * [Spectroscopy and spectroscopic measurement in astrophysics](https://github.com/dr-guangtou/taotie/blob/master/astro/topics/spectroscopy.md)
+    * [Extragalactic astrophysics](https://github.com/dr-guangtou/taotie/blob/master/astro/topics/extragalactic_astronomy.md)
+        - More details on [different approaches to model galaxy formation and evolution](https://github.com/dr-guangtou/taotie/blob/master/astro/topics/galaxy_formation_model.md)
+    * [Galactic astronomy and Milky Way-related topics](https://github.com/dr-guangtou/taotie/blob/master/astro/topics/galactic_astronomy.md)
+    * [Dust, inter-stellar or other diffuse medium in astrophysics](https://github.com/dr-guangtou/taotie/blob/master/astro/topics/ism_and_dust.md) (**Help Needed**)
+    * [Observational and theoretical cosmological research](https://github.com/dr-guangtou/taotie/blob/master/astro/topics/cosmology_tools.md)
+        - More details on finding [massive dark matter halo or galaxy group/cluster](https://github.com/dr-guangtou/taotie/blob/master/astro/topics/cluster_finder.md)
+        - More details on estimating [photometric redshift](https://github.com/dr-guangtou/taotie/blob/master/astro/topics/photoz.md)
+    * [Gravitational lensing: micro, weak, and strong](https://github.com/dr-guangtou/taotie/blob/master/astro/topics/lensing.md)
+    * [Time-domain astrophysics and transient targets](https://github.com/dr-guangtou/taotie/blob/master/astro/topics/transient_and_time_domain.md) (**Help Needed**)
+    * [Observational and theoretical high-energy astrophysics](https://github.com/dr-guangtou/taotie/blob/master/astro/topics/high_energy_astrophy.md) (**Help Needed**)
+    * [Radio and sub-mm observations in astrophysics](https://github.com/dr-guangtou/taotie/blob/master/astro/topics/radio_submm_astrophy.md) (**Help Needed**)
+    * [Exoplanet and astrobiology](https://github.com/dr-guangtou/taotie/blob/master/astro/topics/exoplanet.md) (**Help Needed**)
+    * [Astrophysical and cosmological numerical simulations](https://github.com/dr-guangtou/taotie/blob/master/astro/topics/simulations.md)
+    * [Stellar physics and the study of stellar population](https://github.com/dr-guangtou/taotie/blob/master/astro/topics/stellar_and_spops.md)
+    * [Solar physics and space weather](https://github.com/dr-guangtou/taotie/blob/master/astro/topics/solar_physics.md) (**Help Needed**)
+    * [Solar system and planetary science](https://github.com/dr-guangtou/taotie/blob/master/astro/topics/solar_system.md) (**Help Needed**)
+- [Information and resources about key projects in astrophysics and cosmology](https://github.com/dr-guangtou/taotie/tree/master/astro/projects)
+    * We want to provide a list of "cheat sheets" for people who want to become familar with a specific project. **Still under heavy constructions!!**
+    * Current list includes: [_Gaia_ satellite](https://github.com/dr-guangtou/taotie/blob/master/astro/projects/gaia.md), [Large Synoptic Survey Telescope (LSST)](https://github.com/dr-guangtou/taotie/blob/master/astro/projects/lsst.md), [Dark Energy Spectroscopic Instrument (DESI)](https://github.com/dr-guangtou/taotie/blob/master/astro/projects/desi.md), and [Wide Field Infrared Survey Telescope (WFIRST)](https://github.com/dr-guangtou/taotie/blob/master/astro/projects/wfirst.md)
+    * **Still working on including more projects** like the Dark Energy Survey (DES), _Euclid_ satellite, James Webb Space Telescope (JWST), Thirty Meter Telescope (TMT), etc.
+- [List of important references and reading list on some specific topics](https://github.com/dr-guangtou/taotie/tree/master/astro/reference)
+    * **This is still very preliminary** and only reflects one person's taste and interests.
+    * [Recent review articles on arXiv](https://github.com/dr-guangtou/taotie/blob/master/astro/reference/reviews.md)
+    * Reading list on some specific topics. Right now, only includes a few examples. e.g. [on cosmology using galaxy clusters](https://github.com/dr-guangtou/taotie/blob/master/astro/reference/cluster_cosmology.md), [on the splash-back radius of dark matter halo](https://github.com/dr-guangtou/taotie/blob/master/astro/reference/halo_splashback_radius.md), and [on the intrinsic alignment of galaxies and its impact on cosmology](https://github.com/dr-guangtou/taotie/blob/master/astro/reference/wl_intrinsic_alignment.md).
+    * In the future, will separate them into different categories or sub-fields.
 
 ## [`Python` - the official language for astronomers...for now](https://github.com/dr-guangtou/taotie/tree/master/python)
 
