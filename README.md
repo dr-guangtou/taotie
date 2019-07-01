@@ -1,6 +1,6 @@
 # Tao Tie (饕餮) - A curated collection of resources for astrophysical research
 
-<img src="doc/taotie_logo.png" width="80%">
+<img src="doc/taotie_logo.png" width="100%">
 
 [![Repo on GitHub](https://img.shields.io/badge/repo-GitHub-3D76C2.svg)](https://github.com/dr-guangtou/taotie)
 [![Repo on GitLab](https://img.shields.io/badge/repo-GitLab-6C488A.svg)](https://gitlab.com/dr-guangtou/taotie)
@@ -8,12 +8,15 @@
 
 ----
 
-> “The taotie is a motif commonly found on Chinese ritual bronze vessels from the Shang and Zhou dynasty” - [Wikipedia](https://en.wikipedia.org/wiki/Taotie)
+> “The taotie is a motif commonly found on Chinese ritual bronze vessels from the Shang and Zhou dynasty...In ancient Chinese mythology like "Classic of Mountains and Seas", the "taotie" (饕餮) is one of the "four evil creatures of the world"...a greedy and gluttonous son of the Jinyun clan, who lived during the time of the legendary Yellow Emperor.” - [Wikipedia](https://en.wikipedia.org/wiki/Taotie)
+
+> "缙云氏有不才子，贪于饮食，冒于货贿，天下谓之饕餮" - [《吕氏春秋·先识》](https://zh.wikipedia.org/wiki/%E9%A5%95%E9%A4%AE)
 
 Motivation and Goals
 --------------------
 
 * Over the past ~10 years, I have gradually accumulated some useful resources for astrophysical research and I believe the best way to make use of these information is to share them.
+* The name `taotie` (饕餮) refers to a greedy and gluttonous monster in ancient Chinese myth. It is indeed very greedy and over-ambitious to collect all useful resources for astrophysics and cosmology.
 * **The goal of `taotie`** is to become a curated list of resources for astronomy and astrophysics maintained by the community. Just like many other `awesome` lists available on `GitHub`. We hope `taotie` can become the first stop for new student or researcher in astronomy to seek for practical guidance and experience.  And `taotie` can also be a handy and organized "bookmark" for researchers in different fields.
 
 Progress and Plans
