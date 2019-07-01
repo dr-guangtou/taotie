@@ -25,27 +25,23 @@
 
 # Contents
 
-## [Prepare yourself for scientific research](https://github.com/dr-guangtou/taotie/tree/master/research)
+## [Research in General](https://github.com/dr-guangtou/taotie/tree/master/research)
 
-- [Start your life as a researcher in astronomy](https://github.com/dr-guangtou/taotie/blob/master/research/getting_started.md)
-    * Research life 101
-- [Getting a job inside or outside astronomy](https://github.com/dr-guangtou/taotie/blob/master/research/job_and_career.md)
-- [Setup your computer for research](https://github.com/dr-guangtou/taotie/blob/master/research/computer_basics.md)
-    * Shell, command line tool, and system related stuff.
-- [On writing scientific papers](https://github.com/dr-guangtou/taotie/blob/master/research/writing_paper.md)
-    * General advices, examples, and `LaTeX` related topics.
-- [A little bit background in statistics](https://github.com/dr-guangtou/taotie/blob/master/research/stats_basic.md)
-    * Courses and tutorials in statistics. Nowadays, you cannot get anywhere in astrophysics and cosmology without having enough knowledge of statistics.
-- [A little bit background in data science](https://github.com/dr-guangtou/taotie/blob/master/research/data_science.md)
-    * Data science related tutorial and cheatsheets.
+- Here, we tried to provide some basic information and practical guidance on important topics related to your life as a researcher. These topics include:
+    - [Start your life as a researcher in astronomy](https://github.com/dr-guangtou/taotie/blob/master/research/getting_started.md)
+        * [A Chinese version is also available (中文版)](https://github.com/dr-guangtou/taotie/blob/master/research/getting_started_cn.md)
+    - [Getting a job inside or outside astronomy](https://github.com/dr-guangtou/taotie/blob/master/research/job_and_career.md)
+    - [Setting up your computer for research](https://github.com/dr-guangtou/taotie/blob/master/research/computer_basics.md)
+    - [Writing scientific papers](https://github.com/dr-guangtou/taotie/blob/master/research/writing_paper.md)
+    - [A little bit background in statistics](https://github.com/dr-guangtou/taotie/blob/master/research/stats_basic.md)
+    - [A little bit background in data science](https://github.com/dr-guangtou/taotie/blob/master/research/data_science.md)
+    - [Also some information about machine learning](https://github.com/dr-guangtou/taotie/tree/master/research/machine_learning.md)
+        * Including the [basic learning materials](https://github.com/dr-guangtou/taotie/blob/master/research/machine_learning.md/machine_learning_basic.md), [some useful tools](https://github.com/dr-guangtou/taotie/blob/master/research/machine_learning.md/machine_learning_tools.md), and [examples of applications in astronomy](https://github.com/dr-guangtou/taotie/blob/master/research/machine_learning.md/mlearning_astro_application.md)
 
-## [Starting your journey as astronomer](https://github.com/dr-guangtou/taotie/tree/master/astro)
+## [Astronomy or Astrophysics Related Topics](https://github.com/dr-guangtou/taotie/tree/master/astro)
+    - [Basic tools for astrophysical research](https://github.com/dr-guangtou/taotie/blob/master/astro/astro_research_basic.md) e.g. Flux, extinction, coordinates, and planning your observations.  Whatever you need.
+    - [Good reference for all astronomers](https://github.com/dr-guangtou/taotie/blob/master/astro/astro_readme.md): Reference and handbooks that will be handy in research.
 
-- [Good reference for all astronomers](https://github.com/dr-guangtou/taotie/blob/master/astro/astro_readme.md)
-    * Reference and handbooks that will be handy in research.
-
-- [Basic tools for astrophysical research](https://github.com/dr-guangtou/taotie/blob/master/astro/astro_research_basic.md)
-    * Flux, extinction, coordinates, and planning your observations.  Whatever you need.
 
 ## [`Python` - the official language for astronomers...for now](https://github.com/dr-guangtou/taotie/tree/master/python)
 
