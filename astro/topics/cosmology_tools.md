@@ -12,6 +12,12 @@
 * [`CosmoHammer` - Cosmological parameter estimation with the MCMC Hammer](https://github.com/cosmo-ethz/CosmoHammer)
 	- A paper describing the software can be [found here](https://arxiv.org/abs/1212.1721)
 
+* [`Cobaya` - Code for Bayesian Analysis in Cosmology](https://github.com/CobayaSampler/cobaya)
+	- `Cobaya` is a framework for sampling and statistical modelling: it allows you to explore an arbitrary prior or posterior using a range of Monte Carlo samplers (including the advanced MCMC sampler from `CosmoMC`, and the advanced nested sampler `PolyChord`).
+
+* [`MontePython` - The Monte Carlo code for class in Python](https://baudren.github.io/montepython.html)
+	- `MontePython` is a Monte Carlo code for Cosmological Parameter extraction. It contains likelihood codes of most recent experiments, and interfaces with the Boltzmann code `Class` for computing the cosmological observables.
+
 ## Supernova related
 
 * [`sncosmo` - Python library for supernova cosmology](https://github.com/sncosmo/sncosmo)
