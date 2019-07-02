@@ -153,38 +153,35 @@
 
 * [`Astrobites`](https://astrobites.org)是一个通过简短的文章来介绍最新`arXiv`文章的网站。这个项目由一群天文学专业学生发起，目前依然由来自世界各地的学生供稿和维护。在介绍文章的同时，`Astrobites`也经常提供各种对学习和科研有帮助的参考文章。比如这个分成三部分的介绍如何阅读科学文献的文章：[Part I](https://astrobites.org/2017/12/19/tools-for-reading-papers-part-1/), [Part II](https://astrobites.org/2018/03/09/tools-for-reading-papers-part-2/), [Part III](https://astrobites.org/2018/09/06/tools-for-reading-papers-part-3/)
 
-- [To submit an article to arXiv](https://arxiv.org/help/submit)
-    * Please read this webpage first...submitting paper to arXiv sometimes can be annoying.
-- [Local time at arxiv.org](https://arxiv.org/localtime)
-    * To remind you the deadline for submitting paper to arXiv
-- [The official arXiv github repositories](https://github.com/arXiv)
-- [arXiv LaTeX Cleaner: Easily clean the LaTeX code of your paper to submit to arXiv](https://github.com/google-research/arxiv-latex-cleaner)
+#### 如何向`arXiv`"投稿"：
 
-#### SAO/NASA天文文献资料库ADS
+- 当你有了新的论文即将发表，及时将工作上传`arXiv`是很有必要的。`arXiv`支持上传`LaTeX`源文件，但会在其服务器上进行重新的编译。这个过程有时会比你想象的繁琐。所以，在上传之前，请务必阅读[`arXiv`官方提供的关于上传预印本的指南](https://arxiv.org/help/submit)
+- `arXiv`在每个工作日都有固定的截止时间来判断下一天会上线那些预印本文章。你可以在[这里查看`arXiv`系统的“本地时间”以及距离下个截止时间还有多久](https://arxiv.org/localtime)。
+    * `arXiv`系统会按照上传的顺序来在网页上展示预印本。有证据显示这个决定会在论文关注度上[展示出偏差](https://arxiv.org/pdf/0712.1037.pdf)让先上传的文章获得更高的关注度，甚至引用。一反面，利用这个系统设置，尽早上传并不是错误的；不过，另一方面，也请了解这个偏差并能用更全面的眼光来审视每天`arXiv`上的工作。目前有很多科学家在争取改变`arXiv`系统，用随机的顺序展示预印本以消除这个偏差。
+- [`arXiv` `LaTeX` 整理器](https://github.com/google-research/arxiv-latex-cleaner) 是一个很有用的`Python`工具。它可以帮助你“过滤”你论文的`LaTeX`源文件，并作出修改以适应`arXiv`的要求。
 
-- [Tutorial for using the new ADS search](http://adsabs.github.io/help/search/)
-- [Official SAO/NASA ADS github repositories](https://github.com/adsabs)
-- [ads - A Python Module to Interact with NASA's ADS that Doesn't Suck](https://github.com/andycasey/ads)
+#### SAO/NASA天文文献资料库`ADS`
 
-## 基本的天文数据搜索
+* 由美国哈佛-史密松森天体物理中心和美国航空航天局共同资助的“天体物理数据系统” (`ADS`)目前一共收藏整理了超过八百万篇来自于天文学和物理学领域的科学工作。这些工作包括了同行评议后发表的期刊文章，也有未经评议的会议记录和望远镜提案等信息。`ADS`是每一个进行天文科研的人都必须熟练使用的系统。近日，`ADS`系统进行了彻底的升级，拥有了一个[更为现代化和先进的系统和界面](https://github.com/adsabs)。如果你刚开始使用ADS，请直接学习使用新版的系统。[`ADS`提供了非常好的入门材料](http://adsabs.github.io/help/search/)
+    - [新版的`ADS`还提供了完整的API方便你进行交互](https://github.com/adsabs/adsabs-dev-api)。
+    - [`ads`](https://github.com/andycasey/ads) 是天文学家Andy Casey开发的`Python`工具。它可以帮助你和`ADS`系统进行交互，搜索资料。
+    - 新版的`ADS`系统允许你通过你的`ORCID`进行登录，并将你的工作和`ADS`记录联系起来。
+    - [`ADS`的个人图书馆系统](https://adsabs.github.io/help/libraries/creating-libraries)来分门别类的整理你自己感兴趣的工作，并批量输出论文引用信息。利用`ADS`的引用信息和作者网络，你也可以方便的通过一篇经典文章迅速学习一个领域的最新工作。
 
-* [SIMBAD Astronomical Database - CDS](http://simbad.u-strasbg.fr/simbad/)
-    - The `SIMBAD` astronomical database provides basic data, cross-identifications, bibliography and measurements for astronomical objects outside the solar system.
-* [VizieR Catalog Database](http://vizier.u-strasbg.fr/viz-bin/VizieR)
-    - `VizieR` provides the most complete library of published astronomical catalogues -tables and associated data- with verified and enriched data, accessible via multiple interfaces.
-* [Aladin Sky Atlas](https://aladin.u-strasbg.fr/aladin.gml#)
-    - `Aladin` is an interactive sky atlas allowing the user to visualize digitized astronomical images or full surveys, superimpose entries from astronomical catalogues or databases, and interactively access related data and information from the Simbad database, the VizieR service and other archives for all known astronomical objects in the field.
-* [NASA/IPAC Extragalactic Database](https://ned.ipac.caltech.edu/)
-    - `NED` is a comprehensive database of multiwavelength data for extragalactic objects, providing a systematic, ongoing fusion of information integrated from hundreds of large sky surveys and tens of thousands of research publications.
-* [NASA/IPAC Infrared Science Archive](https://irsa.ipac.caltech.edu/frontpage/)
-    - `IRSA` is chartered to curate the science products of NASA's infrared and submillimeter missions, including many large-area and all-sky surveys.
-* [MAST - Mikulski Archive for Space Telescopes](http://archive.stsci.edu/)
-    - `MAST` provides a variety of astronomical archives focused on scientific data sets in the optical, ultraviolet, and near-infrared parts of the spectrum.
-    - [The MAST Portal](https://mast.stsci.edu/portal/Mashup/Clients/Mast/Portal.html) lets you search multiple collections of astronomical datasets all in one place.
+#### 其他文献阅读和整理信息
+
+* 几乎所用的主流天文期刊都提供了RSS和邮件提醒系统。每当新一期的期刊发表，这些服务都可以把最新的论文通过邮件列表推送给你。这是另外一个及时了解最新**发表**论文的方式。
+* 天文论文中普遍使用`BibTex`格式整理论文引用信息。[`BibDesk`](https://bibdesk.sourceforge.io/) 和 [`JabRef`](http://www.jabref.org/) 都是很好的免费工具。将你阅读过的或者对你的领域有用的文献整理到一个`.bib`文件中对未来的论文和申请写作会很有帮助的。
+* 关于整理大量文献，[`Mendeley`](https://www.mendeley.com/?interaction_required=true) 和 [`Zotero`](https://www.zotero.org/) 都是很好的跨平台，免费的服务。都能够帮助你从网页上获取论文信息，并将你的文献资料进行备份的工具。`MacOSX`和`iOS`上的[`Papers`](https://www.papersapp.com/)也是非常好的文献整理工具，不过可惜售价不菲。
 
 ## 沟通与合作
 
-* [`Slack`](https://slack.com/) has become the most common way to organize a small collaboration.  Even the free version can be very useful.
+* 不分国界和时区的频繁沟通是当前科学合作的基础。目前，电子邮件仍然是最重要的沟通和学术交流工具。整体来说，天文社区规模并不算特别大，而且天文学家中性格放松的人居多，把日常工作邮件当做短信对待并不为过，一般不需要过分紧张。但如果是比较正式的场合，或者是和刚接触的合作者沟通，一封得体的职业邮件也是应该的。关于写邮件，也有一些简单的建议可以参考。如[`Grammarly`的这篇短文](https://www.grammarly.com/blog/professional-email-in-english/) 或者[美国管理学协会的这篇指导](https://www.amanet.org/articles/how-to-write-the-perfect-email/)
+    - 如果你在联系人的工作时间外发邮件，注明“请不必马上回复”或者“请按照您的工作时间安排回复邮件”是一种很礼貌的行为。
+* [`Slack`](https://slack.com/)作为从硅谷兴起的一种在线合作工具目前也得到了学术界的广泛喜爱。包括LSST或者DESI在内的一系列大科学合作均已开始使用`Slack`组织学术活动和进行日常科学交流。和邮件比，`Slack`既有聊天软件的放松，又有更好的享文件和扩展功能。根据自己合作的科学需求编写相应的`Slack`“机器人” (bot)也并不是很难的事情。`Slack`的缺点是只有付费版本才有完整的交流历史记录，但其实免费版本的功能已足以应付大多数使用场景。
+* 随着跨机构，跨国界的学术交流增多，电话或者电视
+
+
 * Telecon becomes more and more frequently used to communicate among collaborators in different institutes and timezones.  Commonly used telecon tools including [`Skype`](https://www.skype.com/en/), [`zoom`](https://zoom.us/), [`GoToMeetings`](https://www.gotomeeting.com/)
     - All of these tools are free and cross-platform, and easy to use. You can share screen using them for remote presentation too.
 * [Doodle](https://doodle.com/make-a-poll) is the most commonly used tool to create a poll to decide the time slot for a meeting or telecon.
@@ -221,3 +218,19 @@
     - [Heidelberg Astronomy](https://www.youtube.com/user/AstronomyHeidelberg)
     - [CCA Seminars](https://www.youtube.com/user/SimonsFoundation/playlists). Some of them are about astronomy and cosmology.
     - [Dept of Physics & Astronomy at the University of Utah](https://www.youtube.com/user/UofUPhysAstro/featured)
+
+## 基本的天文数据搜索
+
+* [SIMBAD Astronomical Database - CDS](http://simbad.u-strasbg.fr/simbad/)
+    - The `SIMBAD` astronomical database provides basic data, cross-identifications, bibliography and measurements for astronomical objects outside the solar system.
+* [VizieR Catalog Database](http://vizier.u-strasbg.fr/viz-bin/VizieR)
+    - `VizieR` provides the most complete library of published astronomical catalogues -tables and associated data- with verified and enriched data, accessible via multiple interfaces.
+* [Aladin Sky Atlas](https://aladin.u-strasbg.fr/aladin.gml#)
+    - `Aladin` is an interactive sky atlas allowing the user to visualize digitized astronomical images or full surveys, superimpose entries from astronomical catalogues or databases, and interactively access related data and information from the Simbad database, the VizieR service and other archives for all known astronomical objects in the field.
+* [NASA/IPAC Extragalactic Database](https://ned.ipac.caltech.edu/)
+    - `NED` is a comprehensive database of multiwavelength data for extragalactic objects, providing a systematic, ongoing fusion of information integrated from hundreds of large sky surveys and tens of thousands of research publications.
+* [NASA/IPAC Infrared Science Archive](https://irsa.ipac.caltech.edu/frontpage/)
+    - `IRSA` is chartered to curate the science products of NASA's infrared and submillimeter missions, including many large-area and all-sky surveys.
+* [MAST - Mikulski Archive for Space Telescopes](http://archive.stsci.edu/)
+    - `MAST` provides a variety of astronomical archives focused on scientific data sets in the optical, ultraviolet, and near-infrared parts of the spectrum.
+    - [The MAST Portal](https://mast.stsci.edu/portal/Mashup/Clients/Mast/Portal.html) lets you search multiple collections of astronomical datasets all in one place.
