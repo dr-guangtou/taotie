@@ -107,49 +107,57 @@
 * 投稿前请参考[天文学和天体物理学常见的期刊列表](https://www.scimagojr.com/journalrank.php?category=3103)
     - 请不要过分在意列出的期刊的影响因子和H-指数，这些数字参考价值有限。
 
-## 分享你的科学成果
+## 分享和传播你的科学成果
+
+### 让你的科研结果更加透明 
 
 * [开放的，可重复的科学](https://en.wikipedia.org/wiki/Open_science) 百利无一害! 近些年来，在天文学和宇宙领域里也看到了整个学术社区进一步开放的可喜迹象。应该努力借助各种现代工具和数据分享平台，努力使自己的科学结果做到可以被重现，应该在力所能及的范围内努力做到数据分享。
 * 如上所述，`Github`是非常好的用于整理和分享你的科研成果的平台。你可以将科研所用的代码，数据，交互式`Jupyter`笔记本，以及论文草稿一并在这里分享。目前已经有很多优秀的例子展示了`Github`在科学项目分享中的作用。但是，`Github`不是非常适合分享体积比较庞大的数据。
-* [zenodo - a general-purpose open-access repository developed under the European OpenAIRE program and operated by CERN](https://zenodo.org/)
-* [OSF - Open Science Framework](https://osf.io/)
+* [`zenodo`](https://zenodo.org/) 是由欧洲核子研究中心(CERN)支持在欧洲`OpenAIRE` (Open Access Infrastructure Research for Europe; 欧洲开放获取基础设施研究项目) 项目下发展起来的面向全科学界的通用科学结果公开获取平台。
+    - `zenodo`可以获取你`Github`仓库中的资料，并创建数字对象标识符 (DOI)，使得你的项目可以在各种学术文献中被正确认可。
+* [`figshare`](https://figshare.com/) 是另外一个可以协助你上传，整理，分享，以及发表科学结果的在线系统。`figshare`同样可以为你分享的数据创建永久的DOI标识，方便别人引用和参考。
+* [公开科学框架 (OSF)](https://osf.io/) 是另外一个协助公开科研合作的开源平台。
 
 ### 用报告介绍你的科研成果
 
-* It takes a lot of practice to know how to give a good talk, but there could be some useful tips to follow:
-    - [How to give a great scientific talk by Nature](https://www.nature.com/articles/d41586-018-07780-5)
-    - [Three tips for giving a great research talk by Science](https://www.sciencemag.org/careers/2019/04/three-tips-giving-great-research-talk)
-    - [Speak your science by Astrobites (three parts)](https://astrobites.org/2018/02/10/speak-your-science-part-1/)
+* 通过各种学术活动中的报告介绍，推广自己的科学成果也是学术生活中非常重要的一个环节。优秀的科学报告可以让同行对你和你的工作留下深刻的印象，不仅有助于开展合作，也对未来的求职非常有帮助。而做好一个科学报告并不是一件容易的事情，是需要反复的学习和练习的。虽然不会有一份简单的指南可以将你变成天文界的乔布斯，但总还是有一些经验可以参考的。下面这些文章虽然听上去有些“标题党”，但是其中的意见非常中肯：
+    - [讲出你的科学：如何在科学会议上做更出色的报告 - Emily Lakdawalla](http://www.planetary.org/blogs/emily-lakdawalla/2018/0206-speak-your-science.html)
+        * 这是一篇非常值得参考的文章。作者是行星学会的科学家，也非常善于介绍科学以及与公众沟通。
+    - [《自然》杂志给出的关于做好科学报告的建议](https://www.nature.com/articles/d41586-018-07780-5)
+    - [《科学》杂志给出的关于做好科学报告的三个小技巧](https://www.sciencemag.org/careers/2019/04/three-tips-giving-great-research-talk)
+    - [来自美国UCAR整理的关于做好科学报告的十个秘诀](http://www.cgd.ucar.edu/cms/agu/scientific_talk.html)
+    - [`AstroBites`网站曾经有过三期关于如何做好报告的文章](https://astrobites.org/2018/02/10/speak-your-science-part-1/)，也值得参考
+* 绝大多数科学报告场合都离不开使用“幻灯片”，无论你使用什么软件，一份清晰而美观的报告文件对你的报告总是加分的。虽然报告文件的制作取决于个人审美喜好，但同样有一些基本的标准可以参考：
+    - [《自然》杂志介绍的展示科学用的幻灯片的“快速入门”](http://blogs.nature.com/naturejobs/2017/01/11/scientific-presentations-a-cheat-sheet/)
+    - [《自然》杂志整理的用幻灯片展示科学结果时最容易犯的十大错误](http://blogs.nature.com/naturejobs/2016/02/10/a-david-letterman-like-countdown-to-the-10-biggest-pitfalls-in-scientific-presentations/)
+    - [`SlideShare`](https://www.slideshare.net/)是一个报告文件在线分享与展示平台。上面有很多来自不同领域的优秀报告文件供你参考。你也可以考虑把你的报告上传到这里分享。
+    - [`SpeakerDeck`](https://speakerdeck.com/) 与`SlideShare`功能和形式都类似，同样有很多优秀的报告文件可供参考。
 
 ### 制作一张醒目的科学海报
 
-* [We're Here To Help You Make The Best Scientific Poster](https://www.makesigns.com/tutorials/)
+* 科学海报的作用随着科学会议的组织形式变化在逐渐下降，但在很多场合依然不失为一种展示你的科学成果，增进科学合作的机会。任何类似的机会，无论是报告还是海报都值得认真对待。[这里也有一些关于制作优秀科学海报的技巧可以参考](https://www.makesigns.com/tutorials/)。
 
-* [Better Scientific Poster](https://osf.io/ef53g/)
-    - By Mike Morrison. A new, faster approach to designing research posters. Includes templates
-    - There is a [Youtube video that describes the motivation and design](https://www.youtube.com/watch?v=1RwJbhkCA58&feature=youtu.be)
-    - [The LaTeX template](https://github.com/rafaelbailo/betterposter-latex-template)
-    - [The R Markdown template](https://github.com/GerkeLab/betterposter)
+* 同时，传统的科学海报设计有一些不是很好避免的问题。为此，科学家Mike Morrison设计了一个叫做[“更好的科学海报” (Better Scientific Poster)](https://osf.io/ef53g/) 的模板来更快速的设计让人印象深刻的海报。这个模板背后的设计逻辑就是用海报清晰的传递一个最关键的科学成果，同时给出方便获取的链接让人可以进一步了解你的成果。
+    - [这个Youtube视频也详细地解释了这个海报模板的背后动机和设计理念](https://www.youtube.com/watch?v=1RwJbhkCA58&feature=youtu.be)
+    - 除了常见的`PowerPoint`和`Keynote`格式外，目前也有为[`LaTeX`](https://github.com/rafaelbailo/betterposter-latex-template) 和[`R` Markdown](https://github.com/GerkeLab/betterposter)准备的模板。
 
-## 文献阅读
+## 文献阅读和整理
 
-* It is important to read as much as you can. It is important to follow `arXiv` regularly.
-    - You can check if your institute is using [voxCharta](https://www.voxcharta.org), a on-line platform to vote on papers and organize `arXiv` discussion.
-    - It is good idea to have a routine that keeps record of interesting papers.  Here is an examply by [me](https://github.com/dr-guangtou/daily_astroph)
+### 论文预印本文库 arXiv
 
-* [Astrobites](https://astrobites.org) is a very good website to follow recent interesting papers from the perspective of a graduate student.
-    - They also provide some good advices on reading papers: [Part I](https://astrobites.org/2017/12/19/tools-for-reading-papers-part-1/), [Part II](https://astrobites.org/2018/03/09/tools-for-reading-papers-part-2/), [Part III](https://astrobites.org/2018/09/06/tools-for-reading-papers-part-3/)
+* 论文预印本文库`arXiv`是及时获取最新论文的最好手段。在日常的科研中，通过`arXiv`跟踪最新的科学动向和掌握领域内最新的科研进展是非常好的习惯。
+    - [`voxCharta`](https://www.voxcharta.org) 是一个在线组织`arXiv`讨论的平台。如果你所在研究机构已经在`voxCharta`上注册，你可以在这里看到你的同行都在读什么论文。在这里你还可以看到来自全世界的天文学者最关心以及最近最“流行”的工作是哪些。`voxCharta`还有按照你的个人关注话题定期推荐文章给你的功能。
+    - [`arXivSorter`](https://www.arxivsorter.org/)是一个由数据科学家和天文学家共同开发的，基于机器学习算法的`arXiv`论文推荐工具。在这里，你阅读的工作越多，`arXivSorter`背后的算法就能更准确地分析你的喜好，为你推荐工作。
+    - 按照一定的规范来记录自己感兴趣的工作也是一个很好的习惯。[这里是一个利用`Markdown`笔记和`GitHub`平台进行`arXiv`笔记整理的例子](https://github.com/dr-guangtou/daily_astroph)
+    - [`arxiv.py`是一个`Python`工具包](https://github.com/lukasschwab/arxiv.py)，可以帮助你通过`Python`搜索和获取`arXiv`论文。
 
-### 关于论文预印本文库arXiv和SAO/NASA天文文献资料库ADS的使用
-
-#### 论文预印本文库 arXiv
+* [`Astrobites`](https://astrobites.org)是一个通过简短的文章来介绍最新`arXiv`文章的网站。这个项目由一群天文学专业学生发起，目前依然由来自世界各地的学生供稿和维护。在介绍文章的同时，`Astrobites`也经常提供各种对学习和科研有帮助的参考文章。比如这个分成三部分的介绍如何阅读科学文献的文章：[Part I](https://astrobites.org/2017/12/19/tools-for-reading-papers-part-1/), [Part II](https://astrobites.org/2018/03/09/tools-for-reading-papers-part-2/), [Part III](https://astrobites.org/2018/09/06/tools-for-reading-papers-part-3/)
 
 - [To submit an article to arXiv](https://arxiv.org/help/submit)
     * Please read this webpage first...submitting paper to arXiv sometimes can be annoying.
 - [Local time at arxiv.org](https://arxiv.org/localtime)
     * To remind you the deadline for submitting paper to arXiv
 - [The official arXiv github repositories](https://github.com/arXiv)
-- [arxiv.py - Python wrapper for the arXiv API](https://github.com/lukasschwab/arxiv.py)
 - [arXiv LaTeX Cleaner: Easily clean the LaTeX code of your paper to submit to arXiv](https://github.com/google-research/arxiv-latex-cleaner)
 
 #### SAO/NASA天文文献资料库ADS
@@ -183,6 +191,7 @@
 
 ### 个人主页
 
+* 一个简洁，专业的个人主页
 * It is actually pretty important to have a visible personal website that links your CV and contact information.  Make sure that it can be found by search engine.
 * This is especially important if you try to find job in another country (e.g. get a PhD in China, want a post-doc job in Europe) or when you know the hiring committee is not familiar with you.
 
