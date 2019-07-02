@@ -46,6 +46,8 @@
 
 ## Solar and Stellar Astrophysics
 
+* [Pulsating white dwarfs: new insights](https://arxiv.org/abs/1907.00115)
+
 * [Asteroseismology of solar-type stars](https://arxiv.org/abs/1906.12262)
 
 * [An observer's view on the future of asteroseismology](https://arxiv.org/abs/1905.13036)
