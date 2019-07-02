@@ -1,6 +1,6 @@
 # 如何正确地踏上科研的不归路
 
-<img src="http://www.phdcomics.com/comics/archive/phd051017s.gif" width="80%">
+<img src="http://www.phdcomics.com/comics/archive/phd051017s.gif" width="100%">
 
 ## 审视你的动机与使命
 
@@ -21,7 +21,7 @@
 
 * [AstronomyAllies - 由天文学家组成的反对性骚扰和性别歧视的联盟](http://www.astronomyallies.com/Astronomy_Allies/Welcome.html)
 
-* [天文学和天体物理学从业者的“出柜列表”](https://astro-outlist.github.io/) 
+* [天文学和天体物理学从业者的“出柜列表”](https://astro-outlist.github.io/)
     > "作为从事天文与天体物理科研的职业人士，无论我们是学生，教职人员，普通员工，资料管理员，还是身处任何其他职位，我们都坚信我们的工作环境应该仅仅由我们作为学生或者科研工作者的职业能力来塑造，并且不受任何个人偏见的干扰。只有所有成员能够在不受歧视和骚扰的情况下，在开放与包容的环境中沟通，我们才有可能培养出高效而健康的职业氛围。“
 
 ## ORCID个人标识以及Google学术
@@ -88,36 +88,40 @@
 
 ## 让你的科研"有据可查"
 
+* 科研过程当中往往会产生大量的笔记或者其他文字资料。这些笔记包括了想法的整理，数据处理细节，理论推导，等等等等。建立良好的整理习惯，让科研笔记能够被随时查看和搜索是很有帮助的。
 
-* [`Markdown`](https://en.wikipedia.org/wiki/Markdown) is a lightweight markup language with plain text formatting syntax. It is very easy to learn and can help you make well-organize notes and documents that can be easily converted into other format (`HTML` or `LaTeX`).
-    - [Mastering Markdown by GitHub Guides](https://guides.github.com/features/mastering-markdown/) is a very good start.
-    - If you want to learn more details, use [the Markdown Guide](https://www.markdownguide.org/).
-    - Most of the editors and IDEs support the `.md` or `.markdown` format documents through extensions. They can help you check the syntax. There are also a lot of markdown editors on all platforms.
+* 无论你用什么方法整理笔记，都应该努力让资料做到随时备份以及可以搜索。现在已经有很多跨平台的软件或者在线服务可以帮助你整理笔记，比如微软的[`OneNote`](https://www.onenote.com/signin?wdorigin=ondc)，在线笔记和合作平台[`evernote`](https://evernote.com) (国内叫做象印笔记) 都是不错的选择. 如果你已经在使用`GitHub`这样的托管平台来整理你的科学项目，[使用其提供的维基页面服务](https://guides.github.com/features/wikis/) 同样是非常方便的选择。
 
-* Whatever notes or documents you are keeping for your research, make sure it can be backed-up and is searchable. Using software like the [`OneNote`](https://www.onenote.com/signin?wdorigin=ondc) from Microsoft, or on-line service like [`evernote`](https://evernote.com) would be a good idea.  If your project is already on `Github`, you can just use `git` to version control and back-up your documents.  [`GitHub` wiki pages](https://guides.github.com/features/wikis/) are another great way to keep notes.
+* [`Markdown`](https://en.wikipedia.org/wiki/Markdown) 是一种轻量级的普通文本标记语言，有着简洁易学的语法和很好的可移植性，是非常适合用来规范整理科研记录的工具。`Markdown`可以帮助生成非常优雅的在线文本，也可以很容易地通过特定工具将文本转换成其他格式 (如PDF甚至是LaTeX格式)。
+    - 网上提供`Markdown`语法教学的地方很多。[GitHub提供的这份`Markdown`教程](https://guides.github.com/features/mastering-markdown/) 是个不错的开始。
+    - 而更完整的语法说明可以在 [`Markdown`指南](https://www.markdownguide.org/) 中找到.
+    - 不同的平台上都有免费的`Markdown`查看和编辑软件 (比如[Typora](https://typora.io/))。也有很多方便的在线`Markdown`编辑器可以选用 (如[StackEdit](https://stackedit.io/))。大部分现有的代码编辑器都能通过扩展支持对`Markdown`格式的语法检查 (`.md`或者`.markdown`格式文件)。
 
-## Publishing Your Science
+## 发表你的科学成果
 
-* [A list of journals in Astronomy and Astrophysics](https://www.scimagojr.com/journalrank.php?category=3103)
-    - Don't pay too much attention to the impact factor or H-index.
+* 科学论文写作往往让人痛不欲生，但却又是科研生活中最为重要的一个环节。为此，我们[专门准备了一个单独的文件整理和论文写作的相关资源与工具](https://github.com/dr-guangtou/taotie/blob/master/research/writing_paper.md)。
+    - 目前，英语作为科研界通用语言的地位依然不可动摇，应当在日常科研中就坚持使用英语。
+    - 目前，[`LaTeX`](https://www.latex-project.org/) 依然是天文界最为常用的科学文献编辑工具。应当让自己尽快熟悉这个工具。目前在各个平台上都有相应的`LaTeX`软件，可以帮助你大大降低使用`LaTeX`写作的难度。在线编辑平台 [`Overleaf`](https://www.overleaf.com/) 和 [`Authorea`](https://www.authorea.com/) 的流行也进一步降低了合作写作和论文投稿的难度。
+    - 多阅读，多练习是唯一可靠的提高科研写作的手段。在实际写作中，也有一些[有用的经验可以帮助你有效地克服每个从事写作的人都会遇到的“脑闭塞”障碍](http://www.cws.illinois.edu/workshop/writers/tips/writersblock/)
 
-* Writing a paper can be painful, but it is one of the most important step in your research life. We have [a separate document talking about writing papers](https://github.com/dr-guangtou/taotie/blob/master/research/writing_paper.md).
+* 投稿前请参考[天文学和天体物理学常见的期刊列表](https://www.scimagojr.com/journalrank.php?category=3103)
+    - 请不要过分在意列出的期刊的影响因子和H-指数，这些数字参考价值有限。
 
-## Sharing Your Science
+## 分享你的科学成果
 
-* [Open Science](https://en.wikipedia.org/wiki/Open_science) is good for everybody!
-* You can share your results using `Github`: you can share codes, notebooks, and draft together. But it is not very good if you have large amount of data to share.
+* [开放的，可重复的科学](https://en.wikipedia.org/wiki/Open_science) 百利无一害! 近些年来，在天文学和宇宙领域里也看到了整个学术社区进一步开放的可喜迹象。应该努力借助各种现代工具和数据分享平台，努力使自己的科学结果做到可以被重现，应该在力所能及的范围内努力做到数据分享。
+* 如上所述，`Github`是非常好的用于整理和分享你的科研成果的平台。你可以将科研所用的代码，数据，交互式`Jupyter`笔记本，以及论文草稿一并在这里分享。目前已经有很多优秀的例子展示了`Github`在科学项目分享中的作用。但是，`Github`不是非常适合分享体积比较庞大的数据。
 * [zenodo - a general-purpose open-access repository developed under the European OpenAIRE program and operated by CERN](https://zenodo.org/)
 * [OSF - Open Science Framework](https://osf.io/)
 
-### Talking about Your Science
+### 用报告介绍你的科研成果
 
 * It takes a lot of practice to know how to give a good talk, but there could be some useful tips to follow:
     - [How to give a great scientific talk by Nature](https://www.nature.com/articles/d41586-018-07780-5)
     - [Three tips for giving a great research talk by Science](https://www.sciencemag.org/careers/2019/04/three-tips-giving-great-research-talk)
     - [Speak your science by Astrobites (three parts)](https://astrobites.org/2018/02/10/speak-your-science-part-1/)
 
-### Making a Scientific Poster
+### 制作一张醒目的科学海报
 
 * [We're Here To Help You Make The Best Scientific Poster](https://www.makesigns.com/tutorials/)
 
@@ -127,7 +131,7 @@
     - [The LaTeX template](https://github.com/rafaelbailo/betterposter-latex-template)
     - [The R Markdown template](https://github.com/GerkeLab/betterposter)
 
-## Reading Paper
+## 文献阅读
 
 * It is important to read as much as you can. It is important to follow `arXiv` regularly.
     - You can check if your institute is using [voxCharta](https://www.voxcharta.org), a on-line platform to vote on papers and organize `arXiv` discussion.
@@ -136,9 +140,9 @@
 * [Astrobites](https://astrobites.org) is a very good website to follow recent interesting papers from the perspective of a graduate student.
     - They also provide some good advices on reading papers: [Part I](https://astrobites.org/2017/12/19/tools-for-reading-papers-part-1/), [Part II](https://astrobites.org/2018/03/09/tools-for-reading-papers-part-2/), [Part III](https://astrobites.org/2018/09/06/tools-for-reading-papers-part-3/)
 
-### On Using arXiv and SAO/NASA ADS
+### 关于论文预印本文库arXiv和SAO/NASA天文文献资料库ADS的使用
 
-#### arXiv
+#### 论文预印本文库 arXiv
 
 - [To submit an article to arXiv](https://arxiv.org/help/submit)
     * Please read this webpage first...submitting paper to arXiv sometimes can be annoying.
@@ -148,18 +152,18 @@
 - [arxiv.py - Python wrapper for the arXiv API](https://github.com/lukasschwab/arxiv.py)
 - [arXiv LaTeX Cleaner: Easily clean the LaTeX code of your paper to submit to arXiv](https://github.com/google-research/arxiv-latex-cleaner)
 
-#### SAO/NASA ADS
+#### SAO/NASA天文文献资料库ADS
 
 - [Tutorial for using the new ADS search](http://adsabs.github.io/help/search/)
 - [Official SAO/NASA ADS github repositories](https://github.com/adsabs)
 - [ads - A Python Module to Interact with NASA's ADS that Doesn't Suck](https://github.com/andycasey/ads)
 
-## Finding Data
+## 基本的天文数据搜索
 
 * [SIMBAD Astronomical Database - CDS](http://simbad.u-strasbg.fr/simbad/)
     - The `SIMBAD` astronomical database provides basic data, cross-identifications, bibliography and measurements for astronomical objects outside the solar system.
 * [VizieR Catalog Database](http://vizier.u-strasbg.fr/viz-bin/VizieR)
-    - `VizieR` provides the most complete library of published astronomical catalogues -tables and associated data- with verified and enriched data, accessible via multiple interfaces. 
+    - `VizieR` provides the most complete library of published astronomical catalogues -tables and associated data- with verified and enriched data, accessible via multiple interfaces.
 * [Aladin Sky Atlas](https://aladin.u-strasbg.fr/aladin.gml#)
     - `Aladin` is an interactive sky atlas allowing the user to visualize digitized astronomical images or full surveys, superimpose entries from astronomical catalogues or databases, and interactively access related data and information from the Simbad database, the VizieR service and other archives for all known astronomical objects in the field.
 * [NASA/IPAC Extragalactic Database](https://ned.ipac.caltech.edu/)
@@ -170,14 +174,14 @@
     - `MAST` provides a variety of astronomical archives focused on scientific data sets in the optical, ultraviolet, and near-infrared parts of the spectrum.
     - [The MAST Portal](https://mast.stsci.edu/portal/Mashup/Clients/Mast/Portal.html) lets you search multiple collections of astronomical datasets all in one place.
 
-## Communicating with Others
+## 沟通与合作
 
 * [`Slack`](https://slack.com/) has become the most common way to organize a small collaboration.  Even the free version can be very useful.
 * Telecon becomes more and more frequently used to communicate among collaborators in different institutes and timezones.  Commonly used telecon tools including [`Skype`](https://www.skype.com/en/), [`zoom`](https://zoom.us/), [`GoToMeetings`](https://www.gotomeeting.com/)
     - All of these tools are free and cross-platform, and easy to use. You can share screen using them for remote presentation too.
 * [Doodle](https://doodle.com/make-a-poll) is the most commonly used tool to create a poll to decide the time slot for a meeting or telecon.
 
-### Personal Website
+### 个人主页
 
 * It is actually pretty important to have a visible personal website that links your CV and contact information.  Make sure that it can be found by search engine.
 * This is especially important if you try to find job in another country (e.g. get a PhD in China, want a post-doc job in Europe) or when you know the hiring committee is not familiar with you.
@@ -192,16 +196,16 @@
     - [Adrian Price-Whelan](http://adrian.pw/); the code can be found [here](https://github.com/adrn/adrn.github.io)
     - [Dan Foreman-Mackey](https://dfm.io/); the code can be found [here](https://github.com/dfm/dfm.io)
 
-### Scientific Conference
+### 参加学术会议
 
 * [CADA International Astronomy Meetings](http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/meetings/) is a very good place to check if there is anything conference that interests you in the future. There is a RSS Feed and a `iCal` subscription.
 * [@astromeetings Twitter account](https://twitter.com/astromeetings?lang=en) is also a good way to follow the on-going conferences in your field.
     - It has become routine for a conferece to have a designated hashtag on Twitter for people to twit about the talk.  We cannot go to all conferences (and it is [bad for the mother earth](https://onlinelibrary.wiley.com/doi/pdf/10.1111/1746-692X.12106))
 * [Future IAU Meetings](https://www.iau.org/science/meetings/future/)
 
-## Keep Learning
+## 不断学习
 
-### On-line Colloquium
+### 在线天文学报告
 
 * With Youtube, it is pretty easy to enjoy great astrophysical colloquium in universities and institutes all over the world.  Here are a few good channels to get started:
     - [CfA Colloquium](https://www.youtube.com/channel/UCApHNlZLkxmiV95A0ChueYg) and [ITC Video](https://www.youtube.com/channel/UCTuACIrLKPTlp6XMZbeipig/featured) from Harvard/CfA
