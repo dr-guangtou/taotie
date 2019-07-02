@@ -109,7 +109,7 @@
 
 ## 分享和传播你的科学成果
 
-### 让你的科研结果更加透明 
+### 让你的科研结果更加透明
 
 * [开放的，可重复的科学](https://en.wikipedia.org/wiki/Open_science) 百利无一害! 近些年来，在天文学和宇宙领域里也看到了整个学术社区进一步开放的可喜迹象。应该努力借助各种现代工具和数据分享平台，努力使自己的科学结果做到可以被重现，应该在力所能及的范围内努力做到数据分享。
 * 如上所述，`Github`是非常好的用于整理和分享你的科研成果的平台。你可以将科研所用的代码，数据，交互式`Jupyter`笔记本，以及论文草稿一并在这里分享。目前已经有很多优秀的例子展示了`Github`在科学项目分享中的作用。但是，`Github`不是非常适合分享体积比较庞大的数据。
@@ -179,28 +179,24 @@
 * 不分国界和时区的频繁沟通是当前科学合作的基础。目前，电子邮件仍然是最重要的沟通和学术交流工具。整体来说，天文社区规模并不算特别大，而且天文学家中性格放松的人居多，把日常工作邮件当做短信对待并不为过，一般不需要过分紧张。但如果是比较正式的场合，或者是和刚接触的合作者沟通，一封得体的职业邮件也是应该的。关于写邮件，也有一些简单的建议可以参考。如[`Grammarly`的这篇短文](https://www.grammarly.com/blog/professional-email-in-english/) 或者[美国管理学协会的这篇指导](https://www.amanet.org/articles/how-to-write-the-perfect-email/)
     - 如果你在联系人的工作时间外发邮件，注明“请不必马上回复”或者“请按照您的工作时间安排回复邮件”是一种很礼貌的行为。
 * [`Slack`](https://slack.com/)作为从硅谷兴起的一种在线合作工具目前也得到了学术界的广泛喜爱。包括LSST或者DESI在内的一系列大科学合作均已开始使用`Slack`组织学术活动和进行日常科学交流。和邮件比，`Slack`既有聊天软件的放松，又有更好的享文件和扩展功能。根据自己合作的科学需求编写相应的`Slack`“机器人” (bot)也并不是很难的事情。`Slack`的缺点是只有付费版本才有完整的交流历史记录，但其实免费版本的功能已足以应付大多数使用场景。
-* 随着跨机构，跨国界的学术交流增多，电话或者电视
-
-
-* Telecon becomes more and more frequently used to communicate among collaborators in different institutes and timezones.  Commonly used telecon tools including [`Skype`](https://www.skype.com/en/), [`zoom`](https://zoom.us/), [`GoToMeetings`](https://www.gotomeeting.com/)
-    - All of these tools are free and cross-platform, and easy to use. You can share screen using them for remote presentation too.
-* [Doodle](https://doodle.com/make-a-poll) is the most commonly used tool to create a poll to decide the time slot for a meeting or telecon.
+* 随着跨机构，跨国界的学术交流增多，电话或者电视会议("telecon")也变得越来越重要和普遍。目前常用的远程会议软件包括了[`Skype`](https://www.skype.com/en/), [`zoom`](https://zoom.us/), 和 [`GoToMeetings`](https://www.gotomeeting.com/)。这些软件的基本功能都不要付费，很容易上手，而且提供了远程分享桌面或者报告文件的功能，可以帮助你展示你的工作。
+    - 如果你的合作者来自五湖四海，确定一个对大家都合适的会议时间有时并不容易。[Doodle](https://doodle.com/make-a-poll)服务是最常用的在线投票系统，可以帮助你组织各种远程交流活动。
 
 ### 个人主页
 
-* 一个简洁，专业的个人主页
-* It is actually pretty important to have a visible personal website that links your CV and contact information.  Make sure that it can be found by search engine.
-* This is especially important if you try to find job in another country (e.g. get a PhD in China, want a post-doc job in Europe) or when you know the hiring committee is not familiar with you.
+* 简洁，专业的个人主页可以帮助别人迅速认识你和你的工作，对于学术交流和求职的帮助都很大。对于来自中国研究机构的学者，能够通过个人主页提供准确的个人信息在国际学术交流中尤其重要。毕竟很多国外学者并不熟悉国内的天文科研机构，而又有太多的中国学者重姓甚至重名。确保别人能够在搜索引擎中迅速找到你的个人简历和联系信息，把你和其他学者区分开，有的时候是非常重要的。
 
-* [`GitHub Pages`](https://pages.github.com/) is pretty good choice to make a nice-looking personal website.  And there are some [easy-to-use templates available](https://pages.github.com/themes/), and there are [more fancy ones available](https://jekyllthemes.io/github-pages-templates)
-    - [How to Create a Simple Academic Website](https://marisacarlos.com/pages/create-simple-academic-website)
+* 如果你不熟悉个人网站的制作，或者你所在的机构并不提供个人主页服务 [`GitHub`页面](https://pages.github.com/) 服务不失为一个很好的选择。它可以帮助你利用各种现有模板建立一个简洁的个人主页，并通过相应的`GitHub`软件仓库维护管理你的主页。
+    - [这里有一个关于如何用`GitHub`页面功能建立简单学术个人主页的指南](https://marisacarlos.com/pages/create-simple-academic-website)
+    - `GitHub`页面支持`Jekyll`格式的模板。`Jekyll`基于`Ruby`语言，可以很容易将普通文本转换成一个个人主页或者个人博客。而使用`GitHub`页面基本不需要你有任何`Ruby`或者`Jekyll`的知识，只需要使用`GitHub`提供的[一系列简洁模板](https://pages.github.com/themes/)，修改相应文件就可以了。
+    - 虽然`GitHub`的模板已经足够用，但如果你还是希望可以进一步丰富你的个人主页的话，[还有更多的`Jekyll`模板可以供你参考](https://jekyllthemes.io/github-pages-templates)。需要注意的是，一般认为学术个人主页不需要过于“花哨”，绝大多数场景下，访问者可能只需要你的个人简历和联系信息。确保访问者能够迅速找到这些信息就可以了。
+    - [`al-folio`](https://github.com/alshedivat/al-folio) 就是一个专门为学术场景设计的简洁美观的`Jekyll`模板，可以很方便的在`GitHub`页面上使用。
+    - 如果你不喜欢`GitHub`页面默认的： `https://user-name.github.io` 的域名，也可以[自己注册一个更容易记住的域名，并链接到你的`GitHub`页面](https://help.github.com/en/articles/using-a-custom-domain-with-github-pages)。
+    - [`GitHub`页面还通过`Jekyll`的插件支持搜索引擎优化功能](https://help.github.com/en/articles/search-engine-optimization-for-github-pages)。确保你的主页能在搜索引擎的第一页也是很有帮助的。
 
-* [al-folio - A beautiful Jekyll theme for academics](https://github.com/alshedivat/al-folio)
-    * This is a pretty good template for academic personal wesbsite
-
-* Good examples (personal choice: clean and informative)
-    - [Adrian Price-Whelan](http://adrian.pw/); the code can be found [here](https://github.com/adrn/adrn.github.io)
-    - [Dan Foreman-Mackey](https://dfm.io/); the code can be found [here](https://github.com/dfm/dfm.io)
+* 已经有很多科学家使用`GitHub`页面作为个人主页服务，并且有不少优秀的例子可供参考。如果以简洁和清晰作为标准的话，下面两位科学家的主页是很好的参考：
+    - [Adrian Price-Whelan](http://adrian.pw/)。[模板和网页代码在这里](https://github.com/adrn/adrn.github.io)
+    - [Dan Foreman-Mackey](https://dfm.io/); [模板和网页代码在这里](https://github.com/dfm/dfm.io)
 
 ### 参加学术会议
 
