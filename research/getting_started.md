@@ -144,22 +144,6 @@
 - [Official SAO/NASA ADS github repositories](https://github.com/adsabs)
 - [ads - A Python Module to Interact with NASA's ADS that Doesn't Suck](https://github.com/andycasey/ads)
 
-## Finding Data
-
-* [SIMBAD Astronomical Database - CDS](http://simbad.u-strasbg.fr/simbad/)
-    - The `SIMBAD` astronomical database provides basic data, cross-identifications, bibliography and measurements for astronomical objects outside the solar system.
-* [VizieR Catalog Database](http://vizier.u-strasbg.fr/viz-bin/VizieR)
-    - `VizieR` provides the most complete library of published astronomical catalogues -tables and associated data- with verified and enriched data, accessible via multiple interfaces. 
-* [Aladin Sky Atlas](https://aladin.u-strasbg.fr/aladin.gml#)
-    - `Aladin` is an interactive sky atlas allowing the user to visualize digitized astronomical images or full surveys, superimpose entries from astronomical catalogues or databases, and interactively access related data and information from the Simbad database, the VizieR service and other archives for all known astronomical objects in the field.
-* [NASA/IPAC Extragalactic Database](https://ned.ipac.caltech.edu/)
-    - `NED` is a comprehensive database of multiwavelength data for extragalactic objects, providing a systematic, ongoing fusion of information integrated from hundreds of large sky surveys and tens of thousands of research publications.
-* [NASA/IPAC Infrared Science Archive](https://irsa.ipac.caltech.edu/frontpage/)
-    - `IRSA` is chartered to curate the science products of NASA's infrared and submillimeter missions, including many large-area and all-sky surveys.
-* [MAST - Mikulski Archive for Space Telescopes](http://archive.stsci.edu/)
-    - `MAST` provides a variety of astronomical archives focused on scientific data sets in the optical, ultraviolet, and near-infrared parts of the spectrum.
-    - [The MAST Portal](https://mast.stsci.edu/portal/Mashup/Clients/Mast/Portal.html) lets you search multiple collections of astronomical datasets all in one place.
-
 ## Communicating with Others
 
 * [`Slack`](https://slack.com/) has become the most common way to organize a small collaboration.  Even the free version can be very useful.
@@ -167,7 +151,7 @@
     - All of these tools are free and cross-platform, and easy to use. You can share screen using them for remote presentation too.
 * [Doodle](https://doodle.com/make-a-poll) is the most commonly used tool to create a poll to decide the time slot for a meeting or telecon.
 
-### Personal Website
+## Personal Website
 
 * It is actually pretty important to have a visible personal website that links your CV and contact information.  Make sure that it can be found by search engine.
 * This is especially important if you try to find job in another country (e.g. get a PhD in China, want a post-doc job in Europe) or when you know the hiring committee is not familiar with you.
@@ -182,6 +166,8 @@
     - [Adrian Price-Whelan](http://adrian.pw/); the code can be found [here](https://github.com/adrn/adrn.github.io)
     - [Dan Foreman-Mackey](https://dfm.io/); the code can be found [here](https://github.com/dfm/dfm.io)
 
+## Conference and Talks
+
 ### Scientific Conference
 
 * Behave yourself professionally during conference or workshop. Please pay attention to the code of conduct. As an example, you can read the [Code of Conduct for ESO Workshops & Conferences](https://www.eso.org/sci/meetings/2018/tcl2018/code.html)
@@ -190,8 +176,6 @@
 * [@astromeetings Twitter account](https://twitter.com/astromeetings?lang=en) is also a good way to follow the on-going conferences in your field.
     - It has become routine for a conferece to have a designated hashtag on Twitter for people to twit about the talk.  We cannot go to all conferences (and it is [bad for the mother earth](https://onlinelibrary.wiley.com/doi/pdf/10.1111/1746-692X.12106))
 * [Future IAU Meetings](https://www.iau.org/science/meetings/future/)
-
-## Keep Learning
 
 ### On-line Colloquium
 

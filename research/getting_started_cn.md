@@ -1,6 +1,14 @@
 # 如何正确地踏上科研的不归路
 
+* **作者**：黄崧 (UCSC)
+* **最近更新**: 2019年7月
+
+
 <img src="http://www.phdcomics.com/comics/archive/phd051017s.gif" width="100%">
+
+* 这份“指南”不能帮你成为优秀的天文学家，也不能帮你更好的解决具体的科学问题，但是它列出了一些有助于你开启科研生涯的具有**可操作性**的建议。虽然每个人的经历经验都大不相同，但大体上，这份列表的作用是总结多数科学工作者在某个阶段都会感到“要是我当初知道这个就好了！”的那些经验。
+* 我们希望这份指南可以得到社区中不同阶段的科学工作者的共同维护，帮助它超越个人经验的局限。我们也希望这份指南可以被经常更新和纠错。
+* 除了这些大多不局限于天文领域的内容，我们还整理了[在线免费天文学教材以及对天文科研有实际帮助的各种指南](https://github.com/dr-guangtou/taotie/blob/master/astro/astro_readme.md)，和[日常天文科研中常用工具和服务的书签](https://github.com/dr-guangtou/taotie/blob/master/astro/astro_research_basic.md)。这两份文档也在不断更新中，但我们也很推荐刚刚开始天文科研的朋友作为参考。
 
 ## 审视你的动机与使命
 
@@ -30,7 +38,7 @@
     - **从一开始就为自己建立一个`ORCID`并保持更新是一个不错的主意**。
 * [谷歌学术](https://scholar.google.com) 是另一个常用的展示和整理自己科学成果的平台。它还可以协助你追踪自己的引用记录。
 
-## 选择趁手的编程工具
+## 选择趁手的编程语言
 
 * 熟练的掌握科研相关的计算机技能，熟练使用至少一门编程语言早已是成为一名科研工作者的最低要求。对一个科研工作者来说，熟练使用命令行环境，熟悉像`Linux`或者`MacOSX`这样基于`Unix`的操作系统是很有必要的。`饕餮`中也提供了[相关资料](https://github.com/dr-guangtou/taotie/blob/master/research/computer_basics.md)
 * 目前，[`Python`](https://www.python.org/) 已经正式成为了天文，天体物理，和宇宙学研究的“标准”语言。如果你刚刚开始科研训练，把Python作为第一门需要认真学习的语言也是最好的选择。不仅因为Python不错的性能，交互的特性，还因为社区里有一大批成熟的工具供你参考使用 (比如社区共同维护的[`Astropy`工具库](https://www.astropy.org/) 以及其旗下的一系列工具包)。
@@ -182,7 +190,7 @@
 * 随着跨机构，跨国界的学术交流增多，电话或者电视会议("telecon")也变得越来越重要和普遍。目前常用的远程会议软件包括了[`Skype`](https://www.skype.com/en/), [`zoom`](https://zoom.us/), 和 [`GoToMeetings`](https://www.gotomeeting.com/)。这些软件的基本功能都不要付费，很容易上手，而且提供了远程分享桌面或者报告文件的功能，可以帮助你展示你的工作。
     - 如果你的合作者来自五湖四海，确定一个对大家都合适的会议时间有时并不容易。[Doodle](https://doodle.com/make-a-poll)服务是最常用的在线投票系统，可以帮助你组织各种远程交流活动。
 
-### 个人主页
+## 个人主页
 
 * 简洁，专业的个人主页可以帮助别人迅速认识你和你的工作，对于学术交流和求职的帮助都很大。对于来自中国研究机构的学者，能够通过个人主页提供准确的个人信息在国际学术交流中尤其重要。毕竟很多国外学者并不熟悉国内的天文科研机构，而又有太多的中国学者重姓甚至重名。确保别人能够在搜索引擎中迅速找到你的个人简历和联系信息，把你和其他学者区分开，有的时候是非常重要的。
 
@@ -196,37 +204,29 @@
 
 * 已经有很多科学家使用`GitHub`页面作为个人主页服务，并且有不少优秀的例子可供参考。如果以简洁和清晰作为标准的话，下面两位科学家的主页是很好的参考：
     - [Adrian Price-Whelan](http://adrian.pw/)。[模板和网页代码在这里](https://github.com/adrn/adrn.github.io)
-    - [Dan Foreman-Mackey](https://dfm.io/); [模板和网页代码在这里](https://github.com/dfm/dfm.io)
+    - [Dan Foreman-Mackey](https://dfm.io/)。 [模板和网页代码在这里](https://github.com/dfm/dfm.io)
+
+## 学术会议和报告
 
 ### 参加学术会议
 
-* [CADA International Astronomy Meetings](http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/meetings/) is a very good place to check if there is anything conference that interests you in the future. There is a RSS Feed and a `iCal` subscription.
-* [@astromeetings Twitter account](https://twitter.com/astromeetings?lang=en) is also a good way to follow the on-going conferences in your field.
-    - It has become routine for a conferece to have a designated hashtag on Twitter for people to twit about the talk.  We cannot go to all conferences (and it is [bad for the mother earth](https://onlinelibrary.wiley.com/doi/pdf/10.1111/1746-692X.12106))
-* [Future IAU Meetings](https://www.iau.org/science/meetings/future/)
-
-## 不断学习
+* 参加不同级别和形式的学会会议是学术生涯中非常重要，也非常有意思的一部分。通过会议不仅可以让你推广自己的工作，也可以帮助你结识志同道合的合作者，以及快速地了解一个领域的最新进展。无论会议在何处举行，是什么级别，都请记住学术会议整个过程中务必要保证自己的行为[符合应用的学术行为规范](https://confcodeofconduct.com/)。
+* [加拿大天文数据中心维护着一个很好的国际天文会议档案](http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/meetings/)。在这里你可以搜索你关心的领域里会有哪些有意思的学术会议即将举行；你也可以通过这里找到之前举行的会议的主页，查看有哪些有趣的报告。页面提供了RSS订阅服务和苹果系统下`iCal`日历软件的订阅服务。
+* [推特上的 @astromeetings账号](https://twitter.com/astromeetings?lang=en) 是另外一个了解近期天文学术会议动向的途径。值得一提的是，越来越多的学术会议会制定一个推特话题("hashtag")，并利用推特宣传会议和展示有趣的报告。鉴于我们不可能参加我们关心的所有会议 (这样做[对环境也是有不友好](https://onlinelibrary.wiley.com/doi/pdf/10.1111/1746-692X.12106))，通过推特这样的媒介了解会议进展也是不错的选择。如果你参加国际会议，也可以选择利用这个手段增加自己工作的可见度。
+* 国际天文学联合会 (IAU) 每年都会组织一批面向不同领域的高规格会议。 [在这里你可以查看未来IAU会议的安排](https://www.iau.org/science/meetings/future/)
+* 此外，近年来有越来越多的科学家开始审视传统会议的组织形式，毕竟大量集中的报告并不一定是最高效的学术交流形式，而有研究现实[通风不良的会议甚至会不利于人的健康](http://blog.gigabase.org/en/contents/132)。目前，有一些新的会议组织形式更多的着眼于与会者的交流和合作，也非常值得参考：
+    - [`.Astronomy`](https://www.dotastronomy.com/) 会议面向大数据时代的天文学，努力构建一个活跃的会议氛围，让科学家，编程人员，和教育者可以开展有创造性的合作。目前已经进行到了第11次。
+    - [Astro Hack Week](http://astrohackweek.org/2019/) 从2015年开始，旨在通过一系列的讲座，活跃的交流，和围绕一定项目的集体编程来组织氛围活跃的学术会议。会议的话题也经常围绕天文学中的统计和机器学习应用，并强调与会者的动手参与。往年会议的讲座大多可以在网上找到。
+    - [_Gaia_ Sprint](http://gaia.lol/) 是围绕着 _Gaia_ 卫星数据和科学开展短期“冲刺周”。同样也是非常强调交流互动，并着眼于在短期内推动实际科学项目开展的新颖学术活动。
 
 ### 在线天文学报告
 
-* With Youtube, it is pretty easy to enjoy great astrophysical colloquium in universities and institutes all over the world.  Here are a few good channels to get started:
-    - [CfA Colloquium](https://www.youtube.com/channel/UCApHNlZLkxmiV95A0ChueYg) and [ITC Video](https://www.youtube.com/channel/UCTuACIrLKPTlp6XMZbeipig/featured) from Harvard/CfA
-    - [Heidelberg Astronomy](https://www.youtube.com/user/AstronomyHeidelberg)
-    - [CCA Seminars](https://www.youtube.com/user/SimonsFoundation/playlists). Some of them are about astronomy and cosmology.
-    - [Dept of Physics & Astronomy at the University of Utah](https://www.youtube.com/user/UofUPhysAstro/featured)
-
-## 基本的天文数据搜索
-
-* [SIMBAD Astronomical Database - CDS](http://simbad.u-strasbg.fr/simbad/)
-    - The `SIMBAD` astronomical database provides basic data, cross-identifications, bibliography and measurements for astronomical objects outside the solar system.
-* [VizieR Catalog Database](http://vizier.u-strasbg.fr/viz-bin/VizieR)
-    - `VizieR` provides the most complete library of published astronomical catalogues -tables and associated data- with verified and enriched data, accessible via multiple interfaces.
-* [Aladin Sky Atlas](https://aladin.u-strasbg.fr/aladin.gml#)
-    - `Aladin` is an interactive sky atlas allowing the user to visualize digitized astronomical images or full surveys, superimpose entries from astronomical catalogues or databases, and interactively access related data and information from the Simbad database, the VizieR service and other archives for all known astronomical objects in the field.
-* [NASA/IPAC Extragalactic Database](https://ned.ipac.caltech.edu/)
-    - `NED` is a comprehensive database of multiwavelength data for extragalactic objects, providing a systematic, ongoing fusion of information integrated from hundreds of large sky surveys and tens of thousands of research publications.
-* [NASA/IPAC Infrared Science Archive](https://irsa.ipac.caltech.edu/frontpage/)
-    - `IRSA` is chartered to curate the science products of NASA's infrared and submillimeter missions, including many large-area and all-sky surveys.
-* [MAST - Mikulski Archive for Space Telescopes](http://archive.stsci.edu/)
-    - `MAST` provides a variety of astronomical archives focused on scientific data sets in the optical, ultraviolet, and near-infrared parts of the spectrum.
-    - [The MAST Portal](https://mast.stsci.edu/portal/Mashup/Clients/Mast/Portal.html) lets you search multiple collections of astronomical datasets all in one place.
+* 除了学术会议，不同研究机构自己的学术报告活动也是非常重要的学习和交流机会。然而，任何一个研究机构的报告频率和覆盖范围都比较有限，尤其是对于规模不大的科研机构来说。不过，在网络时代，像`Youtube`这样的视频分享平台也给我们提供很多“免费”学习的机会。在这里你可以听到来自世界不同机构不同话题的报告。例如：
+    - [美国哈佛大学和CfA的每周正式学术报告](https://www.youtube.com/channel/UCApHNlZLkxmiV95A0ChueYg) and [理论与计算天体物理中心ITC的学术报告](https://www.youtube.com/channel/UCTuACIrLKPTlp6XMZbeipig/featured)
+    - [美国华盛顿卡耐基研究院天文台的学术报告](https://www.youtube.com/channel/UC7D7uBI6-47leDWg1sbuJLg)
+    - [美国空间望远镜科学中心的各种学术报告和会议视频](http://www.stsci.edu/events)
+    - [德国海德堡大学的天文学系列报告](https://www.youtube.com/user/AstronomyHeidelberg)
+    - [美国纽约的计算天体物理中心CCA](https://www.youtube.com/user/SimonsFoundation/playlists) 也会把很多讲座和报告上传到网上。其中有不少是关于天体物理和宇宙学的。
+    - [美国犹他大学天文和物理系的每周学术报告](https://www.youtube.com/user/UofUPhysAstro/featured)
+    - [加州大学高性能计算天体物理中心](https://www.youtube.com/user/UCHiPACCVideos) 也会把组织的各种学术会议的报告上传到网上。其中覆盖的话题很广，不只是关于计算天体物理的内容。
+    - [加州大学圣芭芭拉分校的科维理理论物理研究所](http://online.kitp.ucsb.edu/) 会把每年组织的多次学术活动的报告视频整理上传。其中有很多是和天体物理与宇宙学有关的。

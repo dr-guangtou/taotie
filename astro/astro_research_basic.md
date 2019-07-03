@@ -125,3 +125,19 @@
 
 * [Observatories by GoAstronomy](https://www.go-astronomy.com/observatories.htm)
 	- Including U.S observatories and observatories worldwide.
+
+## Basic Astronomy Database
+
+* [SIMBAD Astronomical Database - CDS](http://simbad.u-strasbg.fr/simbad/)
+    - The `SIMBAD` astronomical database provides basic data, cross-identifications, bibliography and measurements for astronomical objects outside the solar system.
+* [VizieR Catalog Database](http://vizier.u-strasbg.fr/viz-bin/VizieR)
+    - `VizieR` provides the most complete library of published astronomical catalogues -tables and associated data- with verified and enriched data, accessible via multiple interfaces.
+* [Aladin Sky Atlas](https://aladin.u-strasbg.fr/aladin.gml#)
+    - `Aladin` is an interactive sky atlas allowing the user to visualize digitized astronomical images or full surveys, superimpose entries from astronomical catalogues or databases, and interactively access related data and information from the Simbad database, the VizieR service and other archives for all known astronomical objects in the field.
+* [NASA/IPAC Extragalactic Database](https://ned.ipac.caltech.edu/)
+    - `NED` is a comprehensive database of multiwavelength data for extragalactic objects, providing a systematic, ongoing fusion of information integrated from hundreds of large sky surveys and tens of thousands of research publications.
+* [NASA/IPAC Infrared Science Archive](https://irsa.ipac.caltech.edu/frontpage/)
+    - `IRSA` is chartered to curate the science products of NASA's infrared and submillimeter missions, including many large-area and all-sky surveys.
+* [MAST - Mikulski Archive for Space Telescopes](http://archive.stsci.edu/)
+    - `MAST` provides a variety of astronomical archives focused on scientific data sets in the optical, ultraviolet, and near-infrared parts of the spectrum.
+    - [The MAST Portal](https://mast.stsci.edu/portal/Mashup/Clients/Mast/Portal.html) lets you search multiple collections of astronomical datasets all in one place.
