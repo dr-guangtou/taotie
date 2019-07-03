@@ -97,6 +97,8 @@
 * [Open Science](https://en.wikipedia.org/wiki/Open_science) is good for everybody!
 * You can share your results using `Github`: you can share codes, notebooks, and draft together. But it is not very good if you have large amount of data to share.
 * [zenodo - a general-purpose open-access repository developed under the European OpenAIRE program and operated by CERN](https://zenodo.org/)
+* [Dataverse - open source research data repository software](https://dataverse.org/)
+* [The Astrophysics Source Code Library (ASCL)](https://ascl.net/)
 * [OSF - Open Science Framework](https://osf.io/)
 
 ### Talking about Your Science
@@ -105,6 +107,7 @@
     - [How to give a great scientific talk by Nature](https://www.nature.com/articles/d41586-018-07780-5)
     - [Three tips for giving a great research talk by Science](https://www.sciencemag.org/careers/2019/04/three-tips-giving-great-research-talk)
     - [Speak your science by Astrobites (three parts)](https://astrobites.org/2018/02/10/speak-your-science-part-1/)
+    - [How to Give a Great Talk by Chat Hull](https://arxiv.org/abs/1712.08088)
 
 ### Making a Scientific Poster
 
