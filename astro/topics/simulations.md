@@ -53,6 +53,10 @@
 
 * [GreeM - Massively Parallel TreePM Code for Large Cosmological N-body Simulations](https://academic.oup.com/pasj/article/61/6/1319/1462224)
 
+* [`COLA` - COmoving Lagrangian Acceleration](https://github.com/HAWinther/MG-PICOLA-PUBLIC)
+    - Based on the work: [COLA with scale-dependent growth: applications to screened modified gravity models](https://arxiv.org/abs/1703.00879)
+    - [Parallel COLA cosmological simulation + 2LPT initial condition generator + FoF halo finder](https://github.com/junkoda/cola_halo)
+
 * [`Quijote-simulations`](https://github.com/franciscovillaescusa/Quijote-simulations)
     - The Quijote simulations are a set of 34500 N-body simulations. They are designed for two main tasks: 1) Quantify the information content on cosmological observables; 2) Provide enough statistics to train machine learning algorithms
 

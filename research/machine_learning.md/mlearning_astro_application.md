@@ -20,3 +20,8 @@
 
 * [TPZ: photometric redshift PDFs and ancillary information by using prediction trees and random forests](https://ui.adsabs.harvard.edu/abs/2013MNRAS.432.1483C/abstract)
     - Decision tree and random forest.
+
+## Cosmology
+
+* [`MiSTree` - Beyond two-point statistics: using the Minimum Spanning Tree as a tool for cosmology](https://knaidoo29.github.io/mistreedoc/index.html)
+    - The [public code can be found here](https://github.com/knaidoo29/mistree)
