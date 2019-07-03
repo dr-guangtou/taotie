@@ -7,6 +7,7 @@
 <img src="http://www.phdcomics.com/comics/archive/phd051017s.gif" width="100%">
 
 * 这份“指南”是[`饕餮`天文科研公共书签](https://dr-guangtou.github.io/taotie/)的一部分。它虽不能保证你成为优秀的天文学家，也不能帮你解决具体的科学问题，但它列出了一些有助于你开启科研生涯的，具有**可操作性**的建议。虽然每个人的经历经验大不相同，但大体上，这份列表的作用是总结那些让多数科学工作者在某个阶段感到“要是我当初知道这个就好了！”的经验和教训。
+* 虽然这份指南是中文的，但是其中的所有链接内容均是英语的。英语依然是天文学界和科学界的“lingua franca” (通用语言)，不畏惧英语阅读是迈入科研的重要一步。
 * 我们希望这份指南可以得到社区中不同背景和领域的科学工作者的共同维护，帮助它超越个人经验的局限。我们也希望这份指南可以被经常更新和纠错。
 * 除了这些大多不局限于天文领域的内容，我们还整理了[在线免费天文学教材以及对天文科研有实际帮助的各种指南](https://github.com/dr-guangtou/taotie/blob/master/astro/astro_readme.md)，和[日常天文科研中常用工具和服务的书签](https://github.com/dr-guangtou/taotie/blob/master/astro/astro_research_basic.md)。这两份文档也在不断更新中，但我们也很推荐刚刚开始天文科研的朋友作为参考。
 
@@ -42,41 +43,42 @@
 ## 选择趁手的编程语言
 
 * 熟练掌握科研相关的计算机技能，熟练使用至少一门编程语言早已是成为一名科研工作者的最低要求。对天文学工作者来说，熟练使用命令行环境，熟悉像`Linux`或者`MacOSX`这样基于`Unix`的操作系统是很有必要的。`饕餮`中也提供了[相关资料](https://github.com/dr-guangtou/taotie/blob/master/research/computer_basics.md)
-* 目前，[`Python`](https://www.python.org/) 已是天文，天体物理，和宇宙学研究的“标准”语言。如果你刚开始科研训练，把Python作为第一门认真学习的语言也是最好的选择，不仅因为Python不错的性能，交互的特性，更因为社区里已经有一大批成熟的工具供你参考使用 (比如社区共同维护的[`Astropy`工具库](https://www.astropy.org/) 以及其旗下的一系列工具包)。
-* `饕餮`中也为你提供了一系列关于Python的参考资料，比如关于[`Python`的基础学习资料](https://github.com/dr-guangtou/taotie/blob/master/programing/python_basic.md) ,[如何提升`Python`程序的性能](https://github.com/dr-guangtou/taotie/blob/master/programing/python_performance.md), [关于利用`Python`进行模型拟合和优化](https://github.com/dr-guangtou/taotie/blob/master/programing/python_optimazaton.md), [关于利用`Python`进行统计分析和建模](https://github.com/dr-guangtou/taotie/blob/master/programing/python_statistics.md), [关于`Python`中的数据可视化](https://github.com/dr-guangtou/taotie/blob/master/programing/python_visualization.md), [以及如何开始属于你自己的`Python`项目](https://github.com/dr-guangtou/taotie/blob/master/programing/python_write_yourown_project.md).
-* 在对计算性能和效率有更高要求的应用场景，[`C`](https://en.wikipedia.org/wiki/C_(programming_language)) 以及 [`C++`](https://en.wikipedia.org/wiki/C%2B%2B) 这样的需要编译的编程语言依然有着很大的需求。比如在数值模拟和大数据处理等领域里，你经常可以发现由`C`和`C++`写就的底层和核心程序。当然，现在很多这些工具都提供了更便于和用户进行交互的`Python`外层程序。学习基础的`C`和`C++`编程，至少可以读懂它们写成的程序会对科研很有帮助。`饕餮`中也提供了关于[C语言](https://github.com/dr-guangtou/taotie/blob/master/programing/clang_basic.md)和[C++语言](https://github.com/dr-guangtou/taotie/blob/master/programing/cpp_basic.md)的基础资料。[`Fortran`](http://fortranwiki.org/fortran/show/HomePage)是另一门更有历史的，主要用于数值计算的语言。目前`Fortran`在天文中的影响日渐降低，但依然可以在一些依赖高效计算的场景下遇到它。
+* 目前，[`Python`](https://www.python.org/) 已是天文，天体物理，和宇宙学研究的“标准”语言。如果你刚开始科研训练，**把Python作为第一门认真学习的语言也是最好的选择**，不仅因为Python不错的性能，交互的特性，更因为社区里已经有一大批成熟的工具供你参考使用 (比如社区共同维护的[`Astropy`工具库](https://www.astropy.org/) 以及其旗下的一系列工具包)。
+* `饕餮`中也为你提供了一系列关于Python的参考资料，比如关于[`Python`的基础学习资料](https://github.com/dr-guangtou/taotie/blob/master/programing/python_basic.md) ,[关于如何提升`Python`程序性能](https://github.com/dr-guangtou/taotie/blob/master/programing/python_performance.md), [关于利用`Python`进行模型拟合和优化](https://github.com/dr-guangtou/taotie/blob/master/programing/python_optimazaton.md), [关于利用`Python`进行统计分析和建模](https://github.com/dr-guangtou/taotie/blob/master/programing/python_statistics.md), [关于`Python`中的数据可视化](https://github.com/dr-guangtou/taotie/blob/master/programing/python_visualization.md), [以及如何开始属于你自己的`Python`项目](https://github.com/dr-guangtou/taotie/blob/master/programing/python_write_yourown_project.md)的资料。
+* 在对计算性能和效率有更高要求的应用场景，[`C`](https://en.wikipedia.org/wiki/C_(programming_language)) 以及 [`C++`](https://en.wikipedia.org/wiki/C%2B%2B) 这样需要编译的编程语言依然有很大的需求。比如在数值模拟和大数据处理等领域里，你经常可以发现由`C`和`C++`写就的底层和核心程序。当然，现在很多这些工具都提供了便于和用户进行交互的`Python`外层程序。学习基础的`C`和`C++`编程，至少可以读懂程序会对科研很有帮助。`饕餮`中也提供了关于[C语言](https://github.com/dr-guangtou/taotie/blob/master/programing/clang_basic.md)和[C++语言](https://github.com/dr-guangtou/taotie/blob/master/programing/cpp_basic.md) 的基础资料。[`Fortran`](http://fortranwiki.org/fortran/show/HomePage)是另一门历史悠久且主要用于数值计算的语言。目前`Fortran`在天文中的影响日渐降低，但依然可以在一些依赖高效计算的场景下遇到它。
 * [`Julia`语言](https://julialang.org/) 是另一种近期兴起的高级编程语言。`Julia`继承了`Python`的交互与易用特性，同时又试图解决`Python`语言的一些基本难题。虽然`Julia`还是一门非常年轻的语言，但是在很多[关键问题上，已经展现出了对`Python`的优势和潜力](https://discourse.julialang.org/t/julia-motivation-why-werent-numpy-scipy-numba-good-enough/2236)。如果你已经有了`Python`的编程基础，学习`Julia`应该不难。当然，目前专门针对`Julia`的天文工具包还不算健全，可能意味着你要更多依赖自己的探索。`饕餮`中也提供了[关于`Julia`的基础资料以及目前和天文相关的各种工具](https://github.com/dr-guangtou/taotie/blob/master/programing/julia_basic.md)
-* 走进大数据时代的天文学自然离不开优秀的统计工具和模型。而[`R`语言](https://www.r-project.org/about.html)是一种在统计研究界通用的高级交互式语言。尽管`Python`在统计方便的功能日趋健全，但很多前沿的统计工具依然首先登陆`R`语言。
-* [`IDL`-交互式数据语言](https://en.wikipedia.org/wiki/IDL_(programming_language))曾经是天文数据分析的主力工具，但随着`Python`的崛起已经迅速失宠。不过，由于历史原因，很多仪器的处理程序以及很多项目的默认数据分析平台依然是基于`IDL`的。在这里，我们不再建议刚刚开始进行天文学系和研究的人使用`IDL`语言。但如果在工作中不可避免的要使用它，理解`IDL`工具并上手[并不是很难的事情](http://mathesaurus.sourceforge.net/idl-numpy.html)
-* 尽管在天文界使用有限，[`MATLAB`](https://www.mathworks.com/products/matlab.html)在数据处理和数值模拟方面，[`Mathematica`](http://www.wolfram.com/mathematica/) 在符号计算和理论研究方面有着广泛的应用。注意这两种工具均不是免费获取的，请确保自己拥有正确的使用授权。
+* 走进大数据时代的天文学自然离不开优秀的统计工具和模型。而[`R`语言](https://www.r-project.org/about.html)是一种在统计研究界通用的高级交互式语言。尽管`Python`在统计方面的功能日趋健全，但很多前沿的统计模型依然会首选`R`语言。
+* [`IDL`-交互式数据语言](https://en.wikipedia.org/wiki/IDL_(programming_language))曾经是天文数据分析的主力工具，但随着`Python`的崛起已经迅速失宠。不过，由于历史原因，很多仪器的数据处理流程以及很多项目的默认数据分析平台依然是基于`IDL`的。在这里，我们**不再建议刚进入天文学的人学习`IDL`语言**。但如果在工作中不可避免的要使用它，理解`IDL`工具并上手[并不是很难的事情](http://mathesaurus.sourceforge.net/idl-numpy.html)。值得提醒的是，`IDL`不是免费工具，且授权价格不菲，请保证自己或者所在机构能够合法使用`IDL`工具。
+* 尽管在天文界使用有限，[`MATLAB`](https://www.mathworks.com/products/matlab.html)在数据处理和数值模拟方面，[`Mathematica`](http://www.wolfram.com/mathematica/) 在符号计算和理论研究方面都有着广泛的应用。同样，这两种工具均不是免费获取的，请确保自己拥有正确的使用授权。如果你感兴趣他们的功能但没有授权，开源工具[`Octave`](http://www.gnu.org/software/octave/), [`Scilab`](https://www.scilab.org/), 以及`Python`下的[符号计算系统`sympy`](https://www.sympy.org/en/index.html) 都可供考虑。
 * 在这个展示和沟通科研都离不开网络的时代，掌握一点点面向网络的编程技能是值得推荐的。[`HTML`](https://www.w3schools.com/html/), [`CSS`](https://www.w3schools.com/css/), 和[`Javascript`](https://www.javascript.com/) 是这方面最基本的编程语言。由于应用广泛，围绕着他们的资料和工具层出不穷，在这里就不赘述了。
-* 另外，也希望你可以 **永远不因为别人使用的编程语言和工具去带有偏见地评价他人的工作**。目前依然有很多科学工作者使用`IDL`, [`IRAF`](https://en.wikipedia.org/wiki/IRAF), `Fortran`做出优秀的科学工作，用[`SuperMongo`](https://www.astro.princeton.edu/~rhl/sm/), [`gnuplot`](http://www.gnuplot.info/)这样的工具进行数据可视化。继续使用这些工具有着多种多样的现实考虑，而且它们依然可以为杰出的科研成果做贡献。工具只是工具，请努力让自己带着积极和建设性的视角来进行科研工作。
+* 另外，也希望你可以 **永远不因为别人使用的编程语言和工具去带有偏见地评价他人的工作**。目前依然有很多科学工作者使用`IDL`, [`IRAF`](https://en.wikipedia.org/wiki/IRAF), `Fortran`做出优秀的科学工作，用[`SuperMongo`](https://www.astro.princeton.edu/~rhl/sm/), [`gnuplot`](http://www.gnuplot.info/) 这样的工具进行数据可视化。继续使用这些工具有着多种多样的现实考虑，而且它们依然可以为杰出的科研成果做贡献。工具只是工具，请努力让自己带着积极和建设性的视角来进行科研工作。
+* [`Jupyter`项目](https://jupyter.org/)是一个开源的交互式科研平台。通过其提供的[`Jypyter`笔记本](https://jupyter.org/try)，科学工作者可以在本地或者远程计算机上，[在`Python`, `Julia`, `R`, `C++`, `Ruby`等多种语言选择下进行交互式的工作](https://jupyter.org/try)。笔记本可以方便地被保存，移植，和分享。
 
 ### 杂七杂八
 
 * [Duke大学统计学课程STA663的在线文档收集了大量关于科研所需的计算机技能的资料](http://people.duke.edu/~ccc14/sta-663-2019/)
-* [`StackOverflow`](https://stackoverflow.com/) 是一个社区维护的编程和计算机知识库与问答平台。在未来的无数个被程序中的bug困扰的不眠夜晚，你都会意识到`StackOverflow`也许是你最知心的朋友。你可以大方地在这里寻求帮助，也请考虑在这里帮助别人。
+* [`StackOverflow`](https://stackoverflow.com/) 是一个社区维护的，关于编程和计算机的知识库与问答平台。在未来无数个被程序中的bug困扰的不眠夜晚，你都会意识到`StackOverflow`也许是你最知心的朋友。你可以大方地在这里寻求帮助，也请考虑在这里帮助别人。
 
 ## 整理你的科研项目
 
-* 每一个科研项目都会积累大量的笔记，程序，图表，文献，以及草稿等资料。应该从科研的初期就不断思考和探索如何整理好自己的科研项目。不仅这样有助于帮助自己保持效率，也可以更好地让你把科研成果分享给社区。
-* 当前，业界流行的在线版本控制代码托管平台，如[`GitHub`](https://github.com/), 或 [`GitLab`](https://about.gitlab.com/), [`bitbucket`](https://bitbucket.org/), 以及[`coding`](https://coding.net/git)) 都可以帮助你整理科研项目。它们通过[`git`](https://git-scm.com/)这样的软件实现了优秀的版本控制功能，也实现了本地关键文件的在线备份，还提供了分享科学的平台。(`git`并不难上手，网上有大量教学资料，也有像[这样的命令速查文档](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf))
+* 每一个科研项目都会积累大量的笔记，程序，图表，文献，以及草稿等资料。应该从科研初期就不断思考和探索如何整理好自己的科研项目。这样不仅有助于保持工作效率，也方便你分享科研成果给社区。
+* 当前，业界流行的在线版本控制代码托管平台，如[`GitHub`](https://github.com/), 或 [`GitLab`](https://about.gitlab.com/), [`bitbucket`](https://bitbucket.org/), 以及[`coding`](https://coding.net/git)) 都可以帮助你整理科研项目。它们通过[`git`](https://git-scm.com/) 或者[`mercurial`](https://www.mercurial-scm.org/) 进行版本控制，也实现了本地关键文件的在线备份，还提供了分享科学的平台。(`git`并不难上手，网上有大量教学资料，也有像[这样的命令速查文档](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf))
     - [hub](https://github.com/github/hub) 可以帮助你在命令行和`Github`进行交互。
     - [将你的项目或者程序同步到几个不同的托管平台也是很容易的](https://moox.io/blog/keep-in-sync-git-repos-on-github-gitlab-bitbucket/). (注意目前`gitlab`使用的是`v4` API接口). 基本上你要做的就是保持你的项目库在不同平台上命名一致，然后给本地库添加多个`remote`目标即可.
-* 目前，像`GitHub`这样的平台都[允许你从一个目标开始你的项目](https://github.blog/2019-06-06-generate-new-repositories-with-repository-templates): 你可以自己设计一个项目再保存成你的私有模板，也可以使用像[shablona](https://github.com/uwescience/shablona)这样为科研设计的现成模板。
+* 目前，像`GitHub`这样的平台都[允许你从一个模板开始你的项目](https://github.blog/2019-06-06-generate-new-repositories-with-repository-templates): 你可以自己设计一个项目再保存成私有模板，也可以使用像[shablona](https://github.com/uwescience/shablona)这样为科研设计的现成模板。
 * 如果你项目的基础是一个软件包，可以考虑使用 [`cookiecutter`](https://github.com/audreyr/cookiecutter) 工具，从命令行创建基于不同编程语言的模板。目前`cookiecutter`已经支持了包括`Python`, `Javascript`, `Ruby`, `Markdown`, `HTML`在内的主流语言。
 * 此外，`astropy`社区也专门准备了[`astropy`工具包模板](https://github.com/astropy/package-template)。如果你的项目需要一个规范的`Python`程序包作为核心，这是一个很好的选择。
 
 ## 构建自己的编程环境与习惯
 
-* 在兴奋地开始你自己的科研项目之前，希望你可以有耐心学习一下优秀的编程习惯，并结合自己的喜好建立一个高效的编程环境。刚开始走上“学习曲线”总会显得有些艰难，但相信我，越早熟悉各种编程工具，培养起好的工作习惯会在不远的未来起到事半功倍的效果。而且，借助网络，只要你耐心一定，体贴的经验和优秀的榜样无处不在。
+* 在兴奋地开始你自己的科研项目之前，希望你可以耐心地了解一下优秀的编程习惯，并结合自己的喜好建立一个高效的计算机工作环境。刚开始走上“学习曲线”总会显得有些艰难，但请相信，越早熟悉各种编程工具并培养起好的工作习惯会在不远的未来起到事半功倍的效果。另外，借助网络，体贴的经验和优秀的榜样无处不在。
     - 如果你的主要编程语言是`Python`, `C/C++`, 我们推荐你参考[大视场全景巡天项目的开发者指南](https://developer.lsst.io/)。其中包括了很多关于代码编写，测试的可以实际参考的规范。
     - 关于`Python`，也可以参考更为详细的[`Python`开发者指南](https://devguide.python.org/)。
-    - [`C++`核心指南](C++ Core Guidelines)的规范自己的`C++`编程习惯的教材。
-* 不过，**请不要浪费时间在挑选和比较代码编辑器或者编程环境 (IDE)** 上面。挑一个让你第一感觉良好的，开始学习上手使用，探索它的各种高级功能；如果趁手就坚持用下去，如果觉得别扭就试试下一个。工具只是工具，[`vim`](https://www.vim.org/) 和 [`emacs`](https://www.gnu.org/software/emacs/) 都是非常优秀的编辑器; [`atom`](https://atom.io/), [`VScode`](https://code.visualstudio.com/), 和 [`sublime`](https://www.sublimetext.com/) 都是非常高端的整合式编程环境. 它们都有优异的功能和非常优秀的扩展能力，可以在科研的道路上助你一臂之力。
+    - [`C++`核心指南](C++ Core Guidelines) 提供了`C++`编程的最权威的规范指南。
+* 与此同时，**请不要浪费时间在挑选和比较代码编辑器或者编程环境 (IDE)** 上：挑一个让你第一感觉良好的环境，上手使用，探索各种高级功能；如果趁手就坚持用下去，如果觉得别扭就试试下一个。工具只是工具，[`vim`](https://www.vim.org/) 和 [`emacs`](https://www.gnu.org/software/emacs/) 都是非常优秀的编辑器; [`atom`](https://atom.io/), [`VScode`](https://code.visualstudio.com/), 和 [`sublime`](https://www.sublimetext.com/) 都是非常高端的整合式编程环境. 它们都有优异的功能和强大的扩展能力，可以在科研的道路上助你一臂之力。
 * 而且，你不需要从零开始，已经有很多优秀的资源可以帮助你搭建一个优秀的工作环境：
     - [`spacemacs`](https://github.com/syl20bnr/spacemacs): 社区维护的`emacs`发行版本，包含了很多扩展。
-    - [`spacevim`](https://github.com/SpaceVim/SpaceVim): 同样，由社区维护，更为现代的`vim`编程环境。
+    - [`spacevim`](https://github.com/SpaceVim/SpaceVim): 同样由社区维护，更为现代的`vim`编程环境。
     - [Awesome Emacs](https://github.com/emacs-tw/awesome-emacs) 整理了关于`emacs`你需要了解的一切。而[Awesome Vim](https://github.com/akrawchyk/awesome-vim) 列出了大量对你有帮助的`vim`编辑器扩展。
     - [究极`vimrc`](https://github.com/amix/vimrc) 提供了一个非常优秀的`vim`编程环境的设置文件，可以拿来就用。
     - [`neovim`](https://github.com/neovim/neovim): 一个注重于提升扩展性和易用性的现代`vim`版本。
@@ -88,29 +90,29 @@
 * **你永远都不会高估备份对你科研项目的重要性！**
 
 * 线下备份:
-    - 你应该经常的利用移动硬盘等设备对你科研用电脑的系统和重要文件进行备份。各种操作系统上都有相关工具可以帮助你简化这一步骤，比如`MacOSX`下的 [`TimeMachine`](https://support.apple.com/en-us/HT201250)，以及`Linux`下的 [`TimeVault`](https://wiki.ubuntu.com/TimeVault) 和 [`Duplicity`](http://duplicity.nongnu.org/)。
-    - 命令行一键备份关键文件其实是很容易的，你只需要稍微学习一下[`rsync`](https://linux.die.net/man/1/rsync)这个命令行工具的使用: 基本上, `rsync -av --delete /Directory1/ /Directory2/` 这个命令就够了。
-        * 在`Linux`或者`MacOSX`上，你还可以使用[`Cron`](https://opensource.com/article/17/11/how-use-cron-linux)命令行工具设置在制定时间自动备份。可以参考[如下这个例子](https://nickjanetakis.com/blog/automatic-offline-file-backups-with-bash-and-rsync)。
+    - 你应该经常地利用移动硬盘等设备对你科研用电脑的系统和重要文件进行备份。各种操作系统上都有相关工具可以帮助你简化这一步骤，比如`MacOSX`下的 [`TimeMachine`](https://support.apple.com/en-us/HT201250)，以及`Linux`下的 [`TimeVault`](https://wiki.ubuntu.com/TimeVault) 和 [`Duplicity`](http://duplicity.nongnu.org/)。
+    - 命令行一键备份关键文件其实是很容易的，你只需要稍微学习一下[`rsync`](https://linux.die.net/man/1/rsync) 这个命令行工具的使用: 基本上, `rsync -av --delete /Directory1/ /Directory2/` 这个命令就够了。
+        * 在`Linux`或者`MacOSX`上，你还可以使用[`Cron`](https://opensource.com/article/17/11/how-use-cron-linux)命令行工具让电脑再指定时间自动备份。可以参考[如下这个例子](https://nickjanetakis.com/blog/automatic-offline-file-backups-with-bash-and-rsync)。
 
 * 在线备份:
     - 如果条件允许，也可以考虑使用 [`Dropbox`](https://www.dropbox.com) 或者 [`jianguoyun` (坚果云)](https://www.jianguoyun.com/) 这样的服务时刻保持关键科研文件的同步和备份。这些服务的免费部分往往容量有限，但对备份最为关键的草稿，笔记，代码等应该足足有余。
 
 ## 让你的科研"有据可查"
 
-* 科研过程当中往往会产生大量的笔记或者其他文字资料。这些笔记包括了想法的整理，数据处理细节，理论推导，等等等等。建立良好的整理习惯，让科研笔记能够被随时查看和搜索是很有帮助的。
+* 科研过程当中往往会产生大量的笔记或者其他文字资料。这些笔记包括了想法的整理，数据处理细节，理论推导，等等等等。建立良好的整理习惯是很有帮助的。
 
-* 无论你用什么方法整理笔记，都应该努力让资料做到随时备份以及可以搜索。现在已经有很多跨平台的软件或者在线服务可以帮助你整理笔记，比如微软的[`OneNote`](https://www.onenote.com/signin?wdorigin=ondc)，在线笔记和合作平台[`evernote`](https://evernote.com) (国内叫做象印笔记) 都是不错的选择. 如果你已经在使用`GitHub`这样的托管平台来整理你的科学项目，[使用其提供的维基页面服务](https://guides.github.com/features/wikis/) 同样是非常方便的选择。
+* 无论你用什么方法整理笔记，都应该努力让资料做到**随时备份以及可以被搜索** (从一个电脑文档中搜索一个关键词比从一个厚厚的笔记本中要容易得多)。现在已经有很多跨平台的软件或者在线服务可以帮助你整理笔记，比如微软的[`OneNote`](https://www.onenote.com/signin?wdorigin=ondc)，在线笔记和合作平台[`evernote`](https://evernote.com) (国内叫做象印笔记)，以及`Dropbox`旗下的[`Paper`服务](https://paper.dropbox.com) 都是不错的选择. 如果你还是习惯使用纸质笔记，这些服务的移动应用都可以帮助你扫描整理笔记。
+* 如果你已经在使用`GitHub`这样的托管平台来整理你的科学项目，[使用其提供的维基页面服务](https://guides.github.com/features/wikis/) 同样是非常方便的选择。
 
-* [`Markdown`](https://en.wikipedia.org/wiki/Markdown) 是一种轻量级的普通文本标记语言，有着简洁易学的语法和很好的可移植性，是非常适合用来规范整理科研记录的工具。`Markdown`可以帮助生成非常优雅的在线文本，也可以很容易地通过特定工具将文本转换成其他格式 (如PDF甚至是LaTeX格式)。
-    - 网上提供`Markdown`语法教学的地方很多。[GitHub提供的这份`Markdown`教程](https://guides.github.com/features/mastering-markdown/) 是个不错的开始。
-    - 而更完整的语法说明可以在 [`Markdown`指南](https://www.markdownguide.org/) 中找到.
+* [`Markdown`](https://en.wikipedia.org/wiki/Markdown) 是一种轻量级的普通文本标记语言，有着简洁易学的语法和很好的可移植性，是非常适合用来规范整理科研记录的工具。`Markdown`文件可以直接被渲染成优雅的在线文本，也可以很容易地通过特定工具转换成其他格式 ([如`PDF`甚至是`LaTeX`格式](https://pandoc.org/index.html))。
+    - 网上提供`Markdown`语法教学的地方很多。[GitHub的这份](https://guides.github.com/features/mastering-markdown/) 是个不错的开始。而更完整的语法说明可以在 [`Markdown`指南](https://www.markdownguide.org/) 中找到.
     - 不同的平台上都有免费的`Markdown`查看和编辑软件 (比如[Typora](https://typora.io/))。也有很多方便的在线`Markdown`编辑器可以选用 (如[StackEdit](https://stackedit.io/))。大部分现有的代码编辑器都能通过扩展支持对`Markdown`格式的语法检查 (`.md`或者`.markdown`格式文件)。
 
 ## 发表你的科学成果
 
-* 科学论文写作往往让人痛不欲生，但却又是科研生活中最为重要的一个环节。为此，我们[专门准备了一个单独的文件整理和论文写作的相关资源与工具](https://github.com/dr-guangtou/taotie/blob/master/research/writing_paper.md)。
-    - 目前，英语作为科研界通用语言的地位依然不可动摇，应当在日常科研中就坚持使用英语。
-    - 目前，[`LaTeX`](https://www.latex-project.org/) 依然是天文界最为常用的科学文献编辑工具。应当让自己尽快熟悉这个工具。目前在各个平台上都有相应的`LaTeX`软件，可以帮助你大大降低使用`LaTeX`写作的难度。在线编辑平台 [`Overleaf`](https://www.overleaf.com/) 和 [`Authorea`](https://www.authorea.com/) 的流行也进一步降低了合作写作和论文投稿的难度。
+* 科学论文写作往往让人痛不欲生，但却又是科研生活中最为重要的一个环节。为此，我们[专门准备了一个单独的文档整理和论文写作的相关资源与工具](https://github.com/dr-guangtou/taotie/blob/master/research/writing_paper.md)。
+    - 目前，**英语作为科研界通用语言的地位依然不可动摇，应当在日常科研中就坚持使用英语**。
+    - 同时，[`LaTeX`](https://www.latex-project.org/) 依然是天文界最为常用的科学文献编辑工具。应当让自己尽快熟悉这个工具。目前在各个平台上都有相应的`LaTeX`图形界面软件 (如[`LyX`](https://www.lyx.org/), [`WinEdit`](http://www.winedt.com/), [`TexShop`](https://pages.uoregon.edu/koch/texshop/), 和[`TexStudio`](https://www.texstudio.org/))，大大降低了使用`LaTeX`写作的难度。在线编辑平台 [`Overleaf`](https://www.overleaf.com/) 和 [`Authorea`](https://www.authorea.com/) 的流行也进一步降低了合作写作和论文投稿的难度。
     - 多阅读，多练习是唯一可靠的提高科研写作的手段。在实际写作中，也有一些[有用的经验可以帮助你有效地克服每个从事写作的人都会遇到的“脑闭塞”障碍](http://www.cws.illinois.edu/workshop/writers/tips/writersblock/)
 
 * 投稿前请参考[天文学和天体物理学常见的期刊列表](https://www.scimagojr.com/journalrank.php?category=3103)
@@ -120,16 +122,17 @@
 
 ### 让你的科研结果更加透明
 
-* [开放的，可重复的科学](https://en.wikipedia.org/wiki/Open_science) 百利无一害! 近些年来，在天文学和宇宙领域里也看到了整个学术社区进一步开放的可喜迹象。应该努力借助各种现代工具和数据分享平台，努力使自己的科学结果做到可以被重现，应该在力所能及的范围内努力做到数据分享。
+* [开放的，可重复的科学](https://en.wikipedia.org/wiki/Open_science) 百利无一害! 近些年来，在天文学和宇宙领域里也看到了整个学术社区进一步开放的可喜迹象。你也应该努力借助各种工具和数据分享平台，努力使自己的科学结果**可以被重现和检查**，应该在力所能及的范围内努力做到数据分享。
 * 如上所述，`Github`是非常好的用于整理和分享你的科研成果的平台。你可以将科研所用的代码，数据，交互式`Jupyter`笔记本，以及论文草稿一并在这里分享。目前已经有很多优秀的例子展示了`Github`在科学项目分享中的作用。但是，`Github`不是非常适合分享体积比较庞大的数据。
-* [`zenodo`](https://zenodo.org/) 是由欧洲核子研究中心(CERN)支持在欧洲`OpenAIRE` (Open Access Infrastructure Research for Europe; 欧洲开放获取基础设施研究项目) 项目下发展起来的面向全科学界的通用科学结果公开获取平台。
+* [`zenodo`](https://zenodo.org/) 是由欧洲核子研究中心(CERN)支持的，隶属于欧洲`OpenAIRE` (Open Access Infrastructure Research for Europe; 欧洲开放获取基础设施研究项目) 项目下的面向全科学界的通用科学结果公开获取平台。
     - `zenodo`可以获取你`Github`仓库中的资料，并创建数字对象标识符 (DOI)，使得你的项目可以在各种学术文献中被正确认可。
 * [`figshare`](https://figshare.com/) 是另外一个可以协助你上传，整理，分享，以及发表科学结果的在线系统。`figshare`同样可以为你分享的数据创建永久的DOI标识，方便别人引用和参考。
-* [公开科学框架 (OSF)](https://osf.io/) 是另外一个协助公开科研合作的开源平台。
+* [公开科学框架 (OSF)](https://osf.io/) 也是一个协助公开科研合作的开源平台，有着非常丰富的供能。
 
 ### 用报告介绍你的科研成果
 
-* 通过各种学术活动中的报告介绍，推广自己的科学成果也是学术生活中非常重要的一个环节。优秀的科学报告可以让同行对你和你的工作留下深刻的印象，不仅有助于开展合作，也对未来的求职非常有帮助。而做好一个科学报告并不是一件容易的事情，是需要反复的学习和练习的。虽然不会有一份简单的指南可以将你变成天文界的乔布斯，但总还是有一些经验可以参考的。下面这些文章虽然听上去有些“标题党”，但是其中的意见非常中肯：
+* 通过各种学术报告介绍、推广自己的科学成果也是学术生活中非常重要的一个环节。优秀的科学报告可以让同行对你和你的工作留下深刻的印象，不仅有助于开展合作，也对未来求职非常有帮助。
+* 做好一个科学报告并不是一件容易的事情，需要反复的学习和练习。虽然不会有一份简单的指南可以将你变成天文界的乔布斯，但总还是有一些经验可以参考的。下面这些文章虽然听上去有些“标题党”，但是其中的意见非常中肯：
     - [讲出你的科学：如何在科学会议上做更出色的报告 - Emily Lakdawalla](http://www.planetary.org/blogs/emily-lakdawalla/2018/0206-speak-your-science.html)
         * 这是一篇非常值得参考的文章。作者是行星学会的科学家，也非常善于介绍科学以及与公众沟通。
     - [《自然》杂志给出的关于做好科学报告的建议](https://www.nature.com/articles/d41586-018-07780-5)
@@ -144,13 +147,15 @@
 
 ### 制作一张醒目的科学海报
 
-* 科学海报的作用随着科学会议的组织形式变化在逐渐下降，但在很多场合依然不失为一种展示你的科学成果，增进科学合作的机会。任何类似的机会，无论是报告还是海报都值得认真对待。[这里也有一些关于制作优秀科学海报的技巧可以参考](https://www.makesigns.com/tutorials/)。
+* 科学海报的作用随着科学会议的组织形式的变化在逐渐下降，但在很多场合依然不失为一种展示你的科学成果，增进科学合作的机会。任何类似的机会，无论是报告还是海报都值得认真对待。[这里也有一些关于制作优秀科学海报的技巧可以参考](https://www.makesigns.com/tutorials/)。
 
-* 同时，传统的科学海报设计有一些不是很好避免的问题。为此，科学家Mike Morrison设计了一个叫做[“更好的科学海报” (Better Scientific Poster)](https://osf.io/ef53g/) 的模板来更快速的设计让人印象深刻的海报。这个模板背后的设计逻辑就是用海报清晰的传递一个最关键的科学成果，同时给出方便获取的链接让人可以进一步了解你的成果。
+* 同时，传统的科学海报设计有一些不是很好避免的问题。为此，科学家 Mike Morrison设计了一个叫做[“更好的科学海报” (Better Scientific Poster)](https://osf.io/ef53g/) 的模板来更快速的设计让人印象深刻的海报。这个模板背后的设计逻辑就是用海报清晰的传递一个最关键的科学成果，同时给出方便获取的链接让人可以进一步了解你的成果。
     - [这个Youtube视频也详细地解释了这个海报模板的背后动机和设计理念](https://www.youtube.com/watch?v=1RwJbhkCA58&feature=youtu.be)
     - 除了常见的`PowerPoint`和`Keynote`格式外，目前也有为[`LaTeX`](https://github.com/rafaelbailo/betterposter-latex-template) 和[`R` Markdown](https://github.com/GerkeLab/betterposter)准备的模板。
 
 ## 文献阅读和整理
+
+* 刚开始科学文献的阅读可能会显得很艰难，但请相信，[阅读科学论文是有章可循的](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf)。[《科学》杂志总结的这份来自不同研究者的经验](https://www.sciencemag.org/careers/2016/03/how-seriously-read-scientific-paper) 也值得参考。
 
 ### 论文预印本文库 arXiv
 
