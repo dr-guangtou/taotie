@@ -1,4 +1,4 @@
-# 如何正确地踏上科研的不归路
+# 如何正确地踏上天文科研的不归路
 
 * **作者**：黄崧 (UCSC)
 * **最近更新**: 2019年7月
@@ -6,42 +6,43 @@
 
 <img src="http://www.phdcomics.com/comics/archive/phd051017s.gif" width="100%">
 
-* 这份“指南”不能帮你成为优秀的天文学家，也不能帮你更好的解决具体的科学问题，但是它列出了一些有助于你开启科研生涯的具有**可操作性**的建议。虽然每个人的经历经验都大不相同，但大体上，这份列表的作用是总结多数科学工作者在某个阶段都会感到“要是我当初知道这个就好了！”的那些经验。
-* 我们希望这份指南可以得到社区中不同阶段的科学工作者的共同维护，帮助它超越个人经验的局限。我们也希望这份指南可以被经常更新和纠错。
+* 这份“指南”是[`饕餮`天文科研公共书签](https://dr-guangtou.github.io/taotie/)的一部分。它虽不能保证你成为优秀的天文学家，也不能帮你解决具体的科学问题，但它列出了一些有助于你开启科研生涯的，具有**可操作性**的建议。虽然每个人的经历经验大不相同，但大体上，这份列表的作用是总结那些让多数科学工作者在某个阶段感到“要是我当初知道这个就好了！”的经验和教训。
+* 我们希望这份指南可以得到社区中不同背景和领域的科学工作者的共同维护，帮助它超越个人经验的局限。我们也希望这份指南可以被经常更新和纠错。
 * 除了这些大多不局限于天文领域的内容，我们还整理了[在线免费天文学教材以及对天文科研有实际帮助的各种指南](https://github.com/dr-guangtou/taotie/blob/master/astro/astro_readme.md)，和[日常天文科研中常用工具和服务的书签](https://github.com/dr-guangtou/taotie/blob/master/astro/astro_research_basic.md)。这两份文档也在不断更新中，但我们也很推荐刚刚开始天文科研的朋友作为参考。
 
 ## 审视你的动机与使命
 
 * 成为一名科学工作者意味着你将代表人类勇敢地踏入未知。这样的旅程难免艰难险阻，但沿途风景却从不让人失望。在开始你的旅程前，希望你可以诚挚地考察自己的动机与决心，质问自己的每一个职业与个人选择，认真地思考自己的“使命” (Mission)。
 * [选择你自己的冒险 - 用价值观作为导向来规划你的职业 作者：Lucianne Walkowicz](https://arxiv.org/abs/1805.09963)
-    - 在我读过的关于职业建议的文章中，这篇来自天文学家Lucianne Walkowics的对我影响最大。在读完后，我立即着手思考我自己的“**职业使命**”。我个人觉得每一个立志从事天文科研的人都应该读读这篇文章。认真地讲，在读下面的内容前，我觉得你应该读一下这篇文章。
+    - 这份来自天文学家Lucianne Walkowics的职业建议值得推荐给每一个立志从事天文科研的人。在读完后，认真地思考一下自己的“**职业使命**”，并将其整理进入个人简历，并经常审视，更新是不错的选择。
 
-* 同时，也请记住，作为一个学习天文的学生，或者是一个科学工作者，你面对的求职道路注定不会那么轻松，但同时你也有着丰富和多样的职业道路可以选择。即便在科研生涯的早期，你也应该开始了解关于未来求职和职业规划的基本信息和经验。`饕餮`也试图提供[一些基本的资料供你参考](https://github.com/dr-guangtou/taotie/blob/master/research/job_and_career.md)
+* 同时，无论你是刚走出校园的学生，亦或已经是经验丰富的科学工作者，虽然求职道路都注定不会轻松，但请记得你有着丰富和多样的职业选择。学习天文或者在一段时间内从事天文科研，**并不意味着你必须要成为职业天文学家或者有义务将科研进行到底**，没有必要将各种科研外的职业道路视为“退路”，它们可以是属于你的新的冒险和同样精彩的人生。
+    - 即便在科研生涯的早期，也推荐你开始了解关于学术求职和其他职业规划的基本信息和经验。`饕餮`也试图提供[一些基本的资料供你参考](https://github.com/dr-guangtou/taotie/blob/master/research/job_and_career.md)
+    - 从一开始就为自己建立一份符合规范的[个人简历](https://gradschool.cornell.edu/academic-progress/pathways-to-success/prepare-for-your-career/take-action/resumes-and-cvs/) 并阶段性地审视和更新是非常好的习惯。
 
-## 建设包容和开放的社区
+## 维护社区的包容与开放
 
-* 成为一名科学工作者也意味着你成为了一个光荣社区的一员。在旅程中，你理应得到社区公平的对待，也会分享到社区的资源与经验。与此同时，你也有义务培养自己的职业道德，约束自己的言行，并为构建一个包容与开放的社区贡献自己的一点力量。
+* 成为一名科学工作者也意味着你进入了一个繁荣的社区。旅程中，你理应得到社区公平的对待，也会分享到社区的资源与经验。与此同时，你也有义务用规范的职业道德约束自己的言行，并为构建一个**包容与开放**的社区贡献自己的一点力量。
 
-* 职业道德是一个公平开放社区的基础。请抽空阅读[美国天文学会职业道德规范](https://aas.org/ethics) 或者 [澳大利亚天文学会职业道德规范](http://asa.astronomy.org.au/code_of_ethics.php)
-    - 同时也请考虑阅读[美国天文学会反骚扰的政策规范](https://aas.org/policies/anti-harassment-policy-aas-division-meetings-activities)
+* 职业道德是一个公平开放社区的基础。请抽空阅读[美国天文学会职业道德规范](https://aas.org/ethics) 或者 [澳大利亚天文学会职业道德规范](http://asa.astronomy.org.au/code_of_ethics.php) 作为参考。
+    - 同时也请考虑阅读[美国天文学会反骚扰的政策规范](https://aas.org/policies/anti-harassment-policy-aas-division-meetings-activities) 并不断审视和约束自己在学术活动中的一举一动。
 
-* AstroBetter网站收藏整理了一系列[帮助天文学社区能分享平等机会的文章与资源](http://www.astrobetter.com/wiki/Diversity).
+* 宇宙包容万物，但遗憾的是，研究宇宙的人依然不能免于一些人类社会里常见的先入为主与认知偏差。你应当有勇气去了解自己所处社区中的各种问题，包括任何人都不能避免的偏见，并试图减少它们对于科研环境的影响。`AstroBetter`网站收藏整理了一系列[帮助天文学社区能分享平等机会的文章与资源](http://www.astrobetter.com/wiki/Diversity)可供你参考。
+    - 在具体问题上，[由天文学家组成的反对性骚扰和性别歧视的联盟 - AstronomyAllies](http://www.astronomyallies.com/Astronomy_Allies/Welcome.html)，以及[由天文学和天体物理学从业者组成的“Outlist”](https://astro-outlist.github.io/) 也许能对你有所帮助。
 
-* [AstronomyAllies - 由天文学家组成的反对性骚扰和性别歧视的联盟](http://www.astronomyallies.com/Astronomy_Allies/Welcome.html)
-
-* [天文学和天体物理学从业者的“出柜列表”](https://astro-outlist.github.io/)
+* `AstroOutlist`网站上的这段话，值得每一个科研工作者都时刻记在心里：
     > "作为从事天文与天体物理科研的职业人士，无论我们是学生，教职人员，普通员工，资料管理员，还是身处任何其他职位，我们都坚信我们的工作环境应该仅仅由我们作为学生或者科研工作者的职业能力来塑造，并且不受任何个人偏见的干扰。只有所有成员能够在不受歧视和骚扰的情况下，在开放与包容的环境中沟通，我们才有可能培养出高效而健康的职业氛围。“
 
 ## ORCID个人标识以及Google学术
 
-* [`ORCID` - 开放式科研人员与投稿身份识别码](https://orcid.org/) 提供了一个便捷地收集你的科研成果并将你和其他研究人员区分开的数字工具。在广泛只使用姓标记科学成果的英语世界，这一点对经常出现重姓的中国科学工作者尤其重要。`ORCID`还有助于将你的科研记录和提交论文以及申请基金这样的科研需求整合起来，确保你的科研成果得到正确的认可。
+* [`ORCID` - 开放式科研人员与投稿身份识别码](https://orcid.org/) 提供了一个永久性的数字标识。这个ID系统可以方便地收集你的科研成果，并将你和其他研究人员区分开。在广泛只使用姓标记科学成果的英语世界，这一点对频繁重姓的中国科学工作者尤其重要。`ORCID`还有助于将你的科研记录与提交论文或者申请基金这样的科研需求整合起来，确保你的成果得到正确的认可。
     - **从一开始就为自己建立一个`ORCID`并保持更新是一个不错的主意**。
 * [谷歌学术](https://scholar.google.com) 是另一个常用的展示和整理自己科学成果的平台。它还可以协助你追踪自己的引用记录。
 
 ## 选择趁手的编程语言
 
-* 熟练的掌握科研相关的计算机技能，熟练使用至少一门编程语言早已是成为一名科研工作者的最低要求。对一个科研工作者来说，熟练使用命令行环境，熟悉像`Linux`或者`MacOSX`这样基于`Unix`的操作系统是很有必要的。`饕餮`中也提供了[相关资料](https://github.com/dr-guangtou/taotie/blob/master/research/computer_basics.md)
-* 目前，[`Python`](https://www.python.org/) 已经正式成为了天文，天体物理，和宇宙学研究的“标准”语言。如果你刚刚开始科研训练，把Python作为第一门需要认真学习的语言也是最好的选择。不仅因为Python不错的性能，交互的特性，还因为社区里有一大批成熟的工具供你参考使用 (比如社区共同维护的[`Astropy`工具库](https://www.astropy.org/) 以及其旗下的一系列工具包)。
+* 熟练掌握科研相关的计算机技能，熟练使用至少一门编程语言早已是成为一名科研工作者的最低要求。对天文学工作者来说，熟练使用命令行环境，熟悉像`Linux`或者`MacOSX`这样基于`Unix`的操作系统是很有必要的。`饕餮`中也提供了[相关资料](https://github.com/dr-guangtou/taotie/blob/master/research/computer_basics.md)
+* 目前，[`Python`](https://www.python.org/) 已是天文，天体物理，和宇宙学研究的“标准”语言。如果你刚开始科研训练，把Python作为第一门认真学习的语言也是最好的选择，不仅因为Python不错的性能，交互的特性，更因为社区里已经有一大批成熟的工具供你参考使用 (比如社区共同维护的[`Astropy`工具库](https://www.astropy.org/) 以及其旗下的一系列工具包)。
 * `饕餮`中也为你提供了一系列关于Python的参考资料，比如关于[`Python`的基础学习资料](https://github.com/dr-guangtou/taotie/blob/master/programing/python_basic.md) ,[如何提升`Python`程序的性能](https://github.com/dr-guangtou/taotie/blob/master/programing/python_performance.md), [关于利用`Python`进行模型拟合和优化](https://github.com/dr-guangtou/taotie/blob/master/programing/python_optimazaton.md), [关于利用`Python`进行统计分析和建模](https://github.com/dr-guangtou/taotie/blob/master/programing/python_statistics.md), [关于`Python`中的数据可视化](https://github.com/dr-guangtou/taotie/blob/master/programing/python_visualization.md), [以及如何开始属于你自己的`Python`项目](https://github.com/dr-guangtou/taotie/blob/master/programing/python_write_yourown_project.md).
 * 在对计算性能和效率有更高要求的应用场景，[`C`](https://en.wikipedia.org/wiki/C_(programming_language)) 以及 [`C++`](https://en.wikipedia.org/wiki/C%2B%2B) 这样的需要编译的编程语言依然有着很大的需求。比如在数值模拟和大数据处理等领域里，你经常可以发现由`C`和`C++`写就的底层和核心程序。当然，现在很多这些工具都提供了更便于和用户进行交互的`Python`外层程序。学习基础的`C`和`C++`编程，至少可以读懂它们写成的程序会对科研很有帮助。`饕餮`中也提供了关于[C语言](https://github.com/dr-guangtou/taotie/blob/master/programing/clang_basic.md)和[C++语言](https://github.com/dr-guangtou/taotie/blob/master/programing/cpp_basic.md)的基础资料。[`Fortran`](http://fortranwiki.org/fortran/show/HomePage)是另一门更有历史的，主要用于数值计算的语言。目前`Fortran`在天文中的影响日渐降低，但依然可以在一些依赖高效计算的场景下遇到它。
 * [`Julia`语言](https://julialang.org/) 是另一种近期兴起的高级编程语言。`Julia`继承了`Python`的交互与易用特性，同时又试图解决`Python`语言的一些基本难题。虽然`Julia`还是一门非常年轻的语言，但是在很多[关键问题上，已经展现出了对`Python`的优势和潜力](https://discourse.julialang.org/t/julia-motivation-why-werent-numpy-scipy-numba-good-enough/2236)。如果你已经有了`Python`的编程基础，学习`Julia`应该不难。当然，目前专门针对`Julia`的天文工具包还不算健全，可能意味着你要更多依赖自己的探索。`饕餮`中也提供了[关于`Julia`的基础资料以及目前和天文相关的各种工具](https://github.com/dr-guangtou/taotie/blob/master/programing/julia_basic.md)
