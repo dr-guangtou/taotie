@@ -4,6 +4,10 @@
 
 ----
 
+* [`Stingray` - X-Ray Spectral Timing Made Easy](https://github.com/StingraySoftware/stingray)
+    - `Stingray` is an in-development spectral-timing software package for astrophysical X-ray (and more) data
+    - Based on the work by [D. Huppenkothen et al. 2019: Stingray: A Modern Python Library For Spectral Timing](https://arxiv.org/abs/1901.07681)
+
 * [`gamma-sky` - Portal to the gamma-ray sky](http://gamma-sky.net/)
     - `gamma-sky.net` is a novel interactive website designed for exploring the gamma-ray sky. It is geared towards both professional astronomers and the general public.
 

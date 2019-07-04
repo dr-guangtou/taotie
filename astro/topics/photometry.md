@@ -4,19 +4,27 @@
 
 ### Source Extraction and Deblender
 
-* [photutils - Affiliated package for image photometry utilities](https://github.com/astropy/photutils)
+* [`photutils` - Affiliated package for image photometry utilities](https://github.com/astropy/photutils)
     * General Python package. Not the fastest one and is still growing.
-* [sep - Python library for Source Extraction and Photometry](https://github.com/kbarbary/sep/blob/v1.0.x/docs/index.rst)
-    * SEP makes the core algorithms of Source Extractor available as a library of stand-alone functions and classes.
-* [SExtractor](http://www.astromatic.net/software/sextractor)
+* [`sep` - Python library for Source Extraction and Photometry](https://github.com/kbarbary/sep/blob/v1.0.x/docs/index.rst)
+    * `SEP` makes the core algorithms of Source Extractor available as a library of stand-alone functions and classes.
+* [`SExtractor`](http://www.astromatic.net/software/sextractor)
     * It is very good software, just remember never call it `sex`, just don't.
     * The best document: [Don't Panic](http://mensa.ast.uct.ac.za/~holwerda/SE/Welcome.html) by Benne Holwerda.
-* [multiprofit - Multi-object/band source modelling/galaxy fitting code](https://github.com/lsst-dm/multiprofit)
+* [`multiprofit` - Multi-object/band source modelling/galaxy fitting code](https://github.com/lsst-dm/multiprofit)
     - By Dan Taranu. Still under-development.
-* [The Tractor: measuring astronomical sources via probabilistic inference](https://github.com/dstndstn/tractor)
+* [The `Tractor`: measuring astronomical sources via probabilistic inference](https://github.com/dstndstn/tractor)
     * By Dustin Lang and David Hogg.  Used by DECaLS, Probabilistic astronomical source detection & measurement.
-* [ngmix - Gaussian mixtures and image processing implemented in python](https://github.com/esheldon/ngmix)
+* [`ngmix` - Gaussian mixtures and image processing implemented in python](https://github.com/esheldon/ngmix)
     * By Erin Sheldon. Gaussian mixture models and other code for working with for 2d images, implemented in python. Used by DES data analysis.
+
+#### For Low Surface Brightness or Extremely Faint Targets
+
+* [`MTObjects` - a tool for detecting sources in astronomical images](https://github.com/CarolineHaigh/mtobjects)
+    * Working progress, based on the `C` code by Paul Teeninga's 2015 work: [Improved detection of faint extended astronomical objects through statistical attribute filtering](http://fse.studenttheses.ub.rug.nl/12972/1/INF-BA-2015-P.D.Teeninga.pdf)
+
+* [`DeepScan` - source extraction tool designed to identify very low surface brightness features in large astronomical data](https://github.com/danjampro/DeepScan)
+    * Based on the work by [Prole et al. 2018: Automated detectionof very low surface brightness galaxiesin the Virgo cluster](https://academic.oup.com/mnras/article-abstract/478/1/667/4980941?redirectedFrom=fulltext)
 
 #### Multiband Deblending and Force Photometry
 * [ProFound - source finding and extraction in R](https://github.com/asgr/ProFound)
