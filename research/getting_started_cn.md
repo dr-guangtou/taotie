@@ -126,6 +126,8 @@
 * 如上所述，`Github`是非常好的用于整理和分享你的科研成果的平台。你可以将科研所用的代码，数据，交互式`Jupyter`笔记本，以及论文草稿一并在这里分享。目前已经有很多优秀的例子展示了`Github`在科学项目分享中的作用。但是，`Github`不是非常适合分享体积比较庞大的数据。
 * [`zenodo`](https://zenodo.org/) 是由欧洲核子研究中心(CERN)支持的，隶属于欧洲`OpenAIRE` (Open Access Infrastructure Research for Europe; 欧洲开放获取基础设施研究项目) 项目下的面向全科学界的通用科学结果公开获取平台。
     - `zenodo`可以获取你`Github`仓库中的资料，并创建数字对象标识符 (DOI)，使得你的项目可以在各种学术文献中被正确认可。
+* [Dataverse](https://dataverse.org/) 类似zenodo，提供DOI。
+* [The Astrophysics Source Code Library (ASCL)](https://ascl.net/) 用于发布代码，可被ADS收录。
 * [`figshare`](https://figshare.com/) 是另外一个可以协助你上传，整理，分享，以及发表科学结果的在线系统。`figshare`同样可以为你分享的数据创建永久的DOI标识，方便别人引用和参考。
 * [公开科学框架 (OSF)](https://osf.io/) 也是一个协助公开科研合作的开源平台，有着非常丰富的供能。
 
@@ -139,6 +141,7 @@
     - [《科学》杂志给出的关于做好科学报告的三个小技巧](https://www.sciencemag.org/careers/2019/04/three-tips-giving-great-research-talk)
     - [来自美国UCAR整理的关于做好科学报告的十个秘诀](http://www.cgd.ucar.edu/cms/agu/scientific_talk.html)
     - [`AstroBites`网站曾经有过三期关于如何做好报告的文章](https://astrobites.org/2018/02/10/speak-your-science-part-1/)，也值得参考
+    - [Chat Hull的文章 How to Give a Great Talk](https://arxiv.org/abs/1712.08088)
 * 绝大多数科学报告场合都离不开使用“幻灯片”，无论你使用什么软件，一份清晰而美观的报告文件对你的报告总是加分的。虽然报告文件的制作取决于个人审美喜好，但同样有一些基本的标准可以参考：
     - [《自然》杂志介绍的展示科学用的幻灯片的“快速入门”](http://blogs.nature.com/naturejobs/2017/01/11/scientific-presentations-a-cheat-sheet/)
     - [《自然》杂志整理的用幻灯片展示科学结果时最容易犯的十大错误](http://blogs.nature.com/naturejobs/2016/02/10/a-david-letterman-like-countdown-to-the-10-biggest-pitfalls-in-scientific-presentations/)
