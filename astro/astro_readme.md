@@ -21,6 +21,20 @@
 
 * Below is a list of (relative short) manual, guide, tutorial on some specific but important topics in astrophysical research. You don't need to read all of them (although you are encouraged to do so...), but you should know they are available.
 
+### Math, Oh Math...
+
+- [The Matrix Cookbook](https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf)
+	* Quick desktop reference on everything related to matrix.
+
+- [Fisher Matrices and Confidence Ellipses: A Quick-Start Guide and Software](https://arxiv.org/abs/0906.4123)
+	- Also see [Fisher Matrix for Beginners](http://wittman.physics.ucdavis.edu/Fisher-matrix-guide.pdf)
+	- And [A Tutorial on Fisher Information](https://arxiv.org/pdf/1705.01064.pdf)
+
+- [Statistical uncertainty and error propagation](https://users.aalto.fi/~mvermeer/uncertainty.pdf)
+	* Quick summary of statistical error propagation.
+
+- [Dimensionality Reduction A Short Tutorial](https://www.math.uwaterloo.ca/~aghodsib/courses/f06stat890/readings/tutorial_stat890.pdf)
+
 ### Data Analysis
 
 - [A Beginner's Guide to Working with Astronomical Data](https://arxiv.org/abs/1905.13189)
@@ -34,11 +48,13 @@
 
 - [On Model Selection in Cosmology](https://arxiv.org/pdf/1901.07726.pdf)
 
+
 #### Data Analysis Recipes by David Hogg
 
 - The GitHub repo for this book is [here](https://github.com/davidwhogg/DataAnalysisRecipes)
 - [Data analysis recipes: Choosing the binning for a histogram](https://arxiv.org/abs/0807.4820)
 - [Data analysis recipes: Fitting a model to data](https://arxiv.org/abs/1008.4686)
+	- **This is really worth reading**
 - [Data analysis recipes: Probability calculus for inference](https://arxiv.org/abs/1205.4446)
 - [Data analysis recipes: Using Markov Chain Monte Carlo](https://arxiv.org/abs/1710.06068)
 
@@ -52,3 +68,6 @@
 	* The published version is [here](https://www.cambridge.org/core/journals/publications-of-the-astronomical-society-of-australia/article/damn-you-little-h-or-realworld-applications-of-the-hubble-constant-using-observed-and-simulated-data/EB4B786F4500F897A589C3ED980C17F5)
 	* This is a really useful note.  `little-h` can be really tricky!
 	* Also see [this conversion table by Ivan Baldry](http://www.astro.ljmu.ac.uk/~ikb/research/)
+
+- [Dark Matter Halo Mass Profiles](https://arxiv.org/abs/1005.0411)
+	* Notes on basic NFW and Einasto profiles.
