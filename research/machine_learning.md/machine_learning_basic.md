@@ -32,7 +32,10 @@
 ### Papers and Algorithms
 
 - [The GAN Zoo - A list of all named GANs](https://github.com/hindupuravinash/the-gan-zoo)
+
 - [`generative-models` - Collection of generative models, e.g. GAN, VAE in Pytorch and Tensorflow](https://github.com/wiseodd/generative-models)
+
+- [`tensorflow-recipes` - A collection of TensorFlow (Tensorpack) implementations of recent deep learning approaches including pretrained models](https://github.com/PatWie/tensorflow-recipes)
 
 ## In Chinese:
 
