@@ -19,6 +19,12 @@
 
 ### Performance
 
+* [Optimization of Computer Programs in C](http://icps.u-strasbg.fr/~bastoul/local_copies/lee.html)
+    - By Michael Lee. "It focuses on minimizing time spent by the CPU and gives sample source code transformations that often yield improvements. Memory and I/O speed improvements are also discussed." 
+
+* [Tips for Optimizing C/C++ Code](https://people.cs.clemson.edu/~dhouse/courses/405/papers/optimize.pdf)
+    - Very practical and useful guides for optimizing C/C++.
+
 * [`mimalloc` - mimalloc is a compact general purpose allocator with excellent performance](https://github.com/microsoft/mimalloc)
     - By Microsoft. mimalloc (pronounced "me-malloc") is a general purpose allocator with excellent performance characteristics. It is a drop-in replacement for malloc and can be used in other programs without code changes.
 

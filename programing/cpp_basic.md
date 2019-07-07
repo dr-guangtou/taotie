@@ -29,6 +29,12 @@
 
 ### Performance
 
+* [Tips for Optimizing C/C++ Code](https://people.cs.clemson.edu/~dhouse/courses/405/papers/optimize.pdf)
+    - Very practical and useful guides for optimizing C/C++.
+
+* [`AwesomePerfCpp` - A curated list of awesome C/C++ performance optimization resources](https://github.com/fenbf/AwesomePerfCpp)
+    - Including talks, articles, libraries, and tools
+
 * [`cpp-taskflow` - Modern C++ Parallel Task Programming Library](https://github.com/cpp-taskflow/cpp-taskflow)
     - A fast C++ header-only library to help you quickly write parallel programs with complex task dependencies
 
@@ -48,6 +54,21 @@
 
 * [`xtensor` - Multi-dimensional arrays with broadcasting and lazy computing](https://github.com/QuantStack/xtensor)
     - `xtensor` is a C++ library meant for numerical analysis with multi-dimensional array expressions. `xtensor` can be used to process NumPy data structures inplace using Python's buffer protocol.
+
+### Optimization
+
+* [`OptimLib` - a lightweight C++ library of numerical optimization methods for nonlinear functions](https://github.com/kthohr/optim)
+    - A C++11 library of local and global optimization algorithms, as well as root finding techniques, supporting a large number of algorithms.
+
+* [`nlopt` - library for nonlinear optimization](https://github.com/stevengj/nlopt)
+    - `NLopt` is a library for nonlinear local and global optimization, for functions with and without gradient information.
+
+* [`ceres-solver` - open source C++ library for modeling and solving large, complicated optimization problems](https://github.com/ceres-solver/ceres-solver)
+    - It can be used to solve Non-linear Least Squares problems with bounds constraints and general unconstrained optimization problems. [Used by Google for good reasons](http://ceres-solver.org/features.html). 
+
+* [`CppNumericalSolvers` - L-BFGS-B for TensorFlow or pure C++11 and other optimization methods](https://github.com/PatWie/CppNumericalSolvers)
+    - A **header-only** library with bindings to C++, `TensorFlow` and `Matlab`. 
+    - Easy to use, and support a list of algorithms.
 
 ### Astronomy Related
 
