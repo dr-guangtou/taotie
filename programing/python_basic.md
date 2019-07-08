@@ -18,6 +18,7 @@
 ## Dig Deeper
 
 * [All Algorithms implemented in Python](https://github.com/TheAlgorithms/Python)
+    - These implementations are for learning purposes. They may be less efficient than the implementations in the Python standard library.
 
 * Python Standard Library is a very good place to start learning Python:
     - There are a lot of useful tools in the standard library.
@@ -56,6 +57,7 @@
     * [Numpy and Scipy Documentation](https://docs.scipy.org/doc/)
     * [Quickstart tutorial of `Numpy`](https://www.numpy.org/devdocs/user/quickstart.html)
     * [Scipy Lecture Notes - One document to learn numerics, science, and data with Python](https://scipy-lectures.org/)
+    * [A Visual Intro to NumPy and Data Representation](https://jalammar.github.io/visual-numpy/)
 
 * [`pandas` - Python Data Analysis Library](http://pandas.pydata.org/)
     - `pandas` is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language.
