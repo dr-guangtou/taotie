@@ -6,7 +6,31 @@
 
 - [Code for the book "High Performance Python" by Micha Gorelick and Ian Ozsvald with OReilly](https://github.com/mynameisfiber/high_performance_python)
 
-### `Numba`, `Cython` and other JIT
+## Interfacing with C/C++
+
+- [Interfacing with C from Scipy lecture notes](https://scipy-lectures.org/advanced/interfacing_with_c/interfacing_with_c.html#introduction)
+	* Very nice overview and examples of four approaches.
+	1. [Python/C API](https://docs.python.org/3/c-api/index.html)
+		- [Extending Python3.7 with C or C++](https://docs.python.org/3/extending/extending.html)
+	2. [`ctypes` -  A foreign function library for Python](https://docs.python.org/3/library/ctypes.html)
+		- It provides C compatible data types, and allows calling functions in DLLs or shared libraries. It can be used to wrap these libraries in pure Python.
+	3. [`SWIG`](http://www.swig.org/exec.html)
+		- `SWIG` is an interface compiler that connects programs written in C and C++ with scripting languages such as Python
+	4. [`Cython` - C-Extensions for Python](https://cython.org/)
+		- [Basic tutorial of `Cython`](https://cython.readthedocs.io/en/latest/src/tutorial/cython_tutorial.html)
+		- [Tutorial on how to use Cython to optimize Python code by Adrian Price-Whelan](https://github.com/adrn/cython-tutorial)
+		- [Cython tutorial by Pauli Virtanen from 2011](https://python.g-node.org/python-summerschool-2011/_media/materials/cython/cython-slides.pdf)
+
+### Only for C++ 
+
+- [`Boost.Python`](https://www.boost.org/doc/libs/1_70_0/libs/python/doc/html/index.html)
+	* `Boost.Python`, a C++ library which enables seamless interoperability between C++ and the Python programming language.
+
+- [`pybind11` - Seamless operability between C++11 and Python](https://github.com/pybind/pybind11)
+	* `pybind11` is a lightweight header-only library that exposes C++ types in Python and vice versa, mainly to create Python bindings of existing C++ code.
+	* This is used by the `LSST` developers, please see the [DM `Pybind11` style guide](https://developer.lsst.io/pybind11/style.html) for details.
+
+## `Numba` and other JIT
 
 - [Optimizing Python in the Real World: NumPy, Numba, and the NUFFT by Jake VanderPlas](https://jakevdp.github.io/blog/2015/02/24/optimizing-python-with-numpy-and-numba/)
 
