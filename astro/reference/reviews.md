@@ -53,3 +53,18 @@
 * [An observer's view on the future of asteroseismology](https://arxiv.org/abs/1905.13036)
 
 * [The role of magnetic fields in the formation of protostellar discs](https://arxiv.org/abs/1812.06728)
+
+## Solar System
+
+### Near-Earth Asteroids
+
+* [Earth's Minimoons: Opportunities for Science and Technology](https://arxiv.org/abs/1905.13457)
+
+### Post-Rosetta Reviews
+
+* [The Thermal, Mechanical, Structural, and Dielectric Properties of Cometary Nuclei After Rosetta](https://arxiv.org/abs/1905.01156)
+* [Local Manifestations of Cometary Activity](https://arxiv.org/abs/1904.05607)
+
+### Meteors
+
+* [Physics of meteor generated shock waves in the Earth’s atmosphere – A review](https://arxiv.org/abs/1805.07842)
