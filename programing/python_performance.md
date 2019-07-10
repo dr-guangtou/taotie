@@ -30,13 +30,27 @@
 	* `pybind11` is a lightweight header-only library that exposes C++ types in Python and vice versa, mainly to create Python bindings of existing C++ code.
 	* This is used by the `LSST` developers, please see the [DM `Pybind11` style guide](https://developer.lsst.io/pybind11/style.html) for details.
 
-## `Numba` and other JIT
+## Using Just-in-Time (JIT) Compiler
+
+- [`pypy` -  a fast, compliant alternative implementation of the Python language](http://pypy.org/)
+
+- [`numba` - makes Python code fast](http://numba.pydata.org/)
+	- `Numba` is an open source JIT compiler that translates a subset of Python and `NumPy` code into fast machine code.  `Numba`only supports LLVM.
+	- `Numba` offers a range of options for parallelizing your code for CPUs and GPUs, often with only minor code changes.
+	- [`Numpy` supports in `Numba`](http://numba.pydata.org/numba-doc/0.15.1/numpy_support.html)
+	- `Numba` has a `vectorize` and `guvectorize` decorators that can be very useful.
+
+- [`hope` - A Python Just-In-Time compiler for astrophysical computations](https://github.com/jakeret/hope)
+	- `hope` is a specialized method-at-a-time JIT compiler written in Python for translating Python source code into C++ and compiles this at runtime.
+	- Has not been updated for three yeears.
+
+### Tutorial and notes
 
 - [Optimizing Python in the Real World: NumPy, Numba, and the NUFFT by Jake VanderPlas](https://jakevdp.github.io/blog/2015/02/24/optimizing-python-with-numpy-and-numba/)
 
 ### Making Numpy faster
 
-- [jax - GPU- and TPU-backed NumPy with differentiation and JIT compilation by Google](https://github.com/dr-guangtou/taotie/new/master)
+- [jax - GPU- and TPU-backed NumPy with differentiation and JIT compilation by Google](https://github.com/google/jax)
 	* JAX is Autograd and XLA, brought together for high-performance machine learning research.
 
 - [autograd - Efficiently computes derivatives of numpy code](https://github.com/HIPS/autograd)
