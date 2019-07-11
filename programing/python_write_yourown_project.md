@@ -42,15 +42,45 @@
 
 ### Document
 
+#### General instructions
+
 - [Writing change-controlled documentation](https://developer.lsst.io/project-docs/change-controlled-docs.html)
-	* LSST数据管理系统提供的指南
+	* Manual provided by LSST DM team
+
 - [LSST DM的Documenting Python APIs with Docstrings](https://developer.lsst.io/python/numpydoc.html#py-docstring-short-summary)
-	* LSST数据管理系统的代码文档规范，很好的例子。LSST使用Numpydoc格式
+	* Also very good example by LSST DM. LSST adopts the `Numpydoc` format.
+
+#### Tools
+
+- [`sphinx` - Python documentation generator](https://www.sphinx-doc.org/en/1.5/index.html)
+	* `Sphinx` is a tool that makes it easy to create intelligent and beautiful documentation.
+	* `Sphinx` uses [`reStructuredText`](http://docutils.sourceforge.net/rst.html) as its markup language, and many of its strengths come from the power and straightforwardness of `reStructuredText` and its parsing and translating suite, the [`Docutils`](http://docutils.sourceforge.net/).
+	* [First steps with `sphinx`](https://www.sphinx-doc.org/en/1.5/tutorial.html)
+	* [On `Markdown` v.s. `reStructuredText`](https://gist.github.com/dupuy/1855764): `Markdown` is easy to use; `reStructuredText` is more extensible and powerful.
+	* [Brandon’s `Sphinx` Tutorial from PyCon 2013](https://buildmedia.readthedocs.org/media/pdf/brandons-sphinx-tutorial/latest/brandons-sphinx-tutorial.pdf)
+	* [Sphinx Tutorial by Eric Holscher](https://sphinx-tutorial.readthedocs.io/start/) is the best place to start. The [GitHub repo itself](https://github.com/ericholscher/sphinx-tutorial) is a very good example.
+
+- [`pandoc` - A universal document converter](https://pandoc.org/)
+	* If you need to convert files from one markup format into another, `pandoc` is your swiss-army knife. e.g. It can convert `reStructuredText` to/from `Markdown`.
+
+- [`rinohtype` - The Python document processor](https://github.com/brechtm/rinohtype)
+	* `Rinohtype` is a document processor in the style of `LaTeX`. It renders structured documents to PDF based on a document template and a style sheet.
+	* [A Simple Tutorial on How to document your `Python` Project using `Sphinx` and `Rinohtype`](https://medium.com/@richdayandnight/a-simple-tutorial-on-how-to-document-your-python-project-using-sphinx-and-rinohtype-177c22a15b5b)
+
+- [`numpydoc` -- Numpy's Sphinx extensions](https://github.com/numpy/numpydoc)
+	* [The `numpydoc` docstring format guide](https://numpydoc.readthedocs.io/en/latest/format.html)
+
+- [`Doxygen` - Generate documentation from source code](http://www.doxygen.nl/)
+	* `Doxygen` is the de facto standard tool for generating documentation from annotated C++ sources, but it also supports other popular programming languages such as C, Objective-C, C#, PHP, Java, Python, IDL.
+	* [The `Doxygen` document site for `Galsim` is a very good example](http://galsim-developers.github.io/GalSim/index.html)
+
+- [Read the Docs - Technical documentation lives here](https://readthedocs.org/)
+	* Read the Docs simplifies software documentation by automating building, versioning, and hosting of your docs for you.
 
 ### Test
 
-- [LSST DM的Python Unit Testing Guide](https://developer.lsst.io/python/testing.html)
-	* LSST数据管理系统的代码测试规范：LSST tests should be written using the unittest framework, with default test discovery, and should support being run using the pytest test runner
+- [LSST DM: Python Unit Testing Guide](https://developer.lsst.io/python/testing.html)
+	* LSST DM standard is a very good example：LSST tests should be written using the unittest framework, with default test discovery, and should support being run using the pytest test runner
 
 ### Optimization
 
