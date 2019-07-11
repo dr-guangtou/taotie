@@ -60,6 +60,13 @@
 * [`Quijote-simulations`](https://github.com/franciscovillaescusa/Quijote-simulations)
     - The Quijote simulations are a set of 34500 N-body simulations. They are designed for two main tasks: 1) Quantify the information content on cosmological observables; 2) Provide enough statistics to train machine learning algorithms
 
+* [`UNIT` - Universe N-body simulations for the Investigation of Theoretical models from galaxy surveys](http://www.unitsims.org/)
+    - Based on the work by [Chia-Hsun Chuang et al. 2018](https://arxiv.org/pdf/1811.02111.pdf)
+    - `Unit` uses FastPM (Feng et al. 2016) to generate the paired initial conditions with fixed-amplitude.
+
+* [`MICE` - Marenostrum Institut de Ciències de l'Espai Simulations](http://maia.ice.cat/mice/)
+    - A suit of cosmological simulations. Lots of data are already available in public.
+
 ### Hydrodynamic and MHD Simulation
 
 #### SPH: Smoothed Particle Hydrodynamics
