@@ -79,8 +79,38 @@
 
 ### Test
 
+- [Testing Your Code from the Hitchhiker's Guide to Python](https://docs.python-guide.org/writing/tests/)
+	* A nice summary of multiple approaches of unit test in Python.
+- [Getting Started With Testing in Python from RealPython](https://realpython.com/python-testing/)
+	* Another very nice introduction, convering `unittest`, `pytest`, and `nose`.
+
 - [LSST DM: Python Unit Testing Guide](https://developer.lsst.io/python/testing.html)
-	* LSST DM standard is a very good example：LSST tests should be written using the unittest framework, with default test discovery, and should support being run using the pytest test runner
+	* LSST DM standard is a very good example：LSST tests should be written using the `unittest` framework, with default test discovery, and should support being run using the `pytest` test runner
+
+- [`unittest` — Unit testing framework](https://docs.python.org/3/library/unittest.html)
+	* Basic unit test in Python. The [list of assertion methods is here](https://docs.python.org/3/library/unittest.html#assert-methods)
+
+- [`pytest` - helps you write better programs](https://docs.pytest.org/en/latest/)
+	* The `pytest` framework makes it easy to write small tests, yet scales to support complex functional testing for applications and libraries.
+	* [Examples and customization tricks for `pytest`](https://docs.pytest.org/en/latest/example/): this is very useful.
+
+-[`nose2` - Nicer testing for Python](https://github.com/nose-devs/nose2)
+	* `nose2`'s purpose is to extend unittest to make testing nicer and easier to understand. 
+
+#### Code Coverage
+
+- [Code coverage](https://en.wikipedia.org/wiki/Code_coverage): 
+
+> In computer science, test coverage is a measure used to describe the degree to which the source code of a program is executed when a particular test suite runs. A program with high test coverage, measured as a percentage, has had more of its source code executed during testing, which suggests it has a lower chance of containing undetected software bugs compared to a program with low test coverage.  -- Wikipedia
+
+- [`Coverage.py` - Code coverage testing for Python](https://github.com/nedbat/coveragepy)
+	* `Coverage.py` measures code coverage, typically during test execution. It uses the code analysis tools and tracing hooks provided in the Python standard library to determine which lines are executable, and which have been executed.
+	* [Quick start guide](https://coverage.readthedocs.io/en/v4.5.x/#quick-start)
+	* [`pytest` has a `pytest-cov` plugin](https://pytest-cov.readthedocs.io/en/latest/)
+
+- [`Codecov` - Empower developers with tools to improve code quality and testing](https://github.com/codecov)
+	* It is web service that improves your code review workflow and quality. Free for open source. Plans starting at $2.50/month per repository. You can login with your `GitHub` or `Bitbucket` account.	
+	* [Here is a `Python` example for `Codecov`](https://github.com/codecov/example-python)
 
 ### Optimization
 
