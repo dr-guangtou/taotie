@@ -59,6 +59,7 @@
 
 - [How to speed up Python by scikit-learn](https://scikit-learn.org/stable/developers/performance.html)
 
+
 ## Parallel computing in Python
 
 ### Tutorial
@@ -68,8 +69,17 @@
 
 ### Software
 
+#### Common tools:
+
 - [mpi4py - Python bindings for MPI](https://github.com/mpi4py/mpi4py)
 - [joblib - a set of tools to provide lightweight pipelining in Python](https://github.com/joblib/joblib)
 - [loky - Robust and reusable Executor for joblib](https://github.com/tomMoral/loky)
 - [schwimmbad - A common interface to processing pools](https://github.com/adrn/schwimmbad)
+
+#### More "Big Data" approach:
+
+- [`Dask` - Parallel computing with task scheduling](https://dask.org/)
+	* `Dask` provides advanced parallelism for analytics, enabling performance at scale for the tools you love
+	* `Dask` is open source and freely available. It is developed in coordination with other community projects like `Numpy`, `Pandas`, and `Scikit-Learn`.
+	* [Official `Dask` tutorial using Jupyter notebook](https://github.com/dask/dask-tutorial)
 
