@@ -42,7 +42,7 @@ Progress and Plans
   of markdown files.
 
 On Using ``taotie`` (饕餮)
--------------------------
+--------------------------
 
 * Now ``taotie`` is available on both `GitHub <https://github.com/dr-guangtou/taotie>`_ 
   and `GitLab <https://gitlab.com/dr-guangtou/taotie>`_.  
