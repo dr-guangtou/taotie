@@ -59,6 +59,7 @@
 	* [On `Markdown` v.s. `reStructuredText`](https://gist.github.com/dupuy/1855764): `Markdown` is easy to use; `reStructuredText` is more extensible and powerful.
 	* [Brandon’s `Sphinx` Tutorial from PyCon 2013](https://buildmedia.readthedocs.org/media/pdf/brandons-sphinx-tutorial/latest/brandons-sphinx-tutorial.pdf)
 	* [Sphinx Tutorial by Eric Holscher](https://sphinx-tutorial.readthedocs.io/start/) is the best place to start. The [GitHub repo itself](https://github.com/ericholscher/sphinx-tutorial) is a very good example.
+	* [`Sphinx` Themes](https://sphinx-themes.org/)
 
 - [`pandoc` - A universal document converter](https://pandoc.org/)
 	* If you need to convert files from one markup format into another, `pandoc` is your swiss-army knife. e.g. It can convert `reStructuredText` to/from `Markdown`.
@@ -120,18 +121,28 @@
 	* Moving computation or memory allocation outside a for loop; Vectorizing for loops; Broadcasting;
 	  Use in place operations; Be easy on the memory: use views, and not copies;
 
+- [LSST DM Python performance profiling](https://developer.lsst.io/python/profiling.html)
+	- Very good guide.
+
 - [The Python Profilers](https://docs.python.org/3/library/profile.html)
 	* Python comes with a series of profiling tools. The most useful ones are `cProfile`, `profile`, and `pstats` (convert profiling results into a report)
 
 - [Profiling Python using cProfile: a concrete case](https://julien.danjou.info/guide-to-python-profiling-cprofile-concrete-case-carbonara/)
 	* `cProfile` 对于发现程序中的瓶颈很有帮助
 
-- [LSST DM Python performance profiling](https://developer.lsst.io/python/profiling.html)
+- [`line_profiler` and `kernprof` - Line-by-line profiling for Python](https://github.com/rkern/line_profiler)
+	* `line_profiler` is a module for doing line-by-line profiling of functions. `kernprof` is a convenient script for running either line_profiler or the Python standard library's cProfile or profile modules, depending on what is available.
+	* Can use `cProfile` to identify "hotspot" (function that is the "bottleneck"), then use `line_profiler` to exame the issue carefully.
+
 
 #### Visualization
 
-- [pycallgraph - Python module that creates call graphs for Python programs](https://github.com/gak/pycallgraph)
-	* 可惜原作者已经不再维护了，有一个还在更新的fork: [pycallgraph2](https://github.com/daneads/pycallgraph2)
 - [gprof2dot - Converts profiling output to a dot graph](https://github.com/jrfonseca/gprof2dot)
 	* A general tool to convert different profiling software output to a dot graph.
+
+- [`SnakeViz` - An in-browser Python profile viewer](https://jiffyclub.github.io/snakeviz)
+	* `SnakeViz` is a viewer for Python profiling data that runs as a web application in your browser.
+
+- [pycallgraph - Python module that creates call graphs for Python programs](https://github.com/gak/pycallgraph)
+	* No longer maintained by the original author, but still available through a fork: [pycallgraph2](https://github.com/daneads/pycallgraph2)
 
