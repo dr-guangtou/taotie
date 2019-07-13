@@ -7,9 +7,6 @@
 Tao Tie (饕餮) - A curated collection of resources for astrophysical research
 =============================================================================
 
-.. image:: taotie_logo.png
-   :width: 600
-
     “The taotie is a motif commonly found on Chinese ritual bronze vessels from the Shang and Zhou 
     dynasty...In ancient Chinese mythology like "Classic of Mountains and Seas", the "taotie" (饕餮) 
     is one of the "four evil creatures of the world"...a greedy and gluttonous son of the Jinyun 
@@ -18,6 +15,9 @@ Tao Tie (饕餮) - A curated collection of resources for astrophysical research
     
     "缙云氏有不才子，贪于饮食，冒于货贿，天下谓之饕餮" 
     - `《吕氏春秋·先识》 <https://zh.wikipedia.org/wiki/%E9%A5%95%E9%A4%AE>`_
+
+.. image:: images/taotie_logo.png
+   :width: 600
 
 Motivation and Goals
 --------------------

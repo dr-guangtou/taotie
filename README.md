@@ -1,6 +1,6 @@
 # Tao Tie (饕餮) - A curated collection of resources for astrophysical research
 
-<img src="doc/taotie_logo.png" width="100%">
+<img src="doc/images/taotie_logo.png" width="100%">
 
 [![Repo on GitHub](https://img.shields.io/badge/repo-GitHub-3D76C2.svg)](https://github.com/dr-guangtou/taotie)
 [![Repo on GitLab](https://img.shields.io/badge/repo-GitLab-6C488A.svg)](https://gitlab.com/dr-guangtou/taotie)
