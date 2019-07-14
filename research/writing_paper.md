@@ -1,6 +1,6 @@
 # About Writing Academic Paper
 
-<img src="https://github.com/dr-guangtou/taotie/blob/master/doc/keep_calm_write_on.png" width="80%">
+<img src="../doc/images/keep_calm_write_on.png" width="80%">
 
 ## Basics
 
