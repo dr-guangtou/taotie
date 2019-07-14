@@ -1,4 +1,4 @@
-# Resources and Tools about Lensing: Strong, Weak, and Micro
+# All about Lensing: Strong, Weak, and Micro
 
 ----
 

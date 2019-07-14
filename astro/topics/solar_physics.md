@@ -1,4 +1,4 @@
-# Resource about Solar Physics
+# Solar Physics and Space Science
 
 **Just started**
 

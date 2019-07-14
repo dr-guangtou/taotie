@@ -1,4 +1,4 @@
-# Cosmology Tools
+# Observational and Theoretical Cosmology
 
 ----
 

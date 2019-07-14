@@ -1,4 +1,4 @@
-# Important Tools and Projects for Astrophysical and Cosmological Simulations
+# Astrophysical and Cosmological Simulations
 
 ## Tools
 

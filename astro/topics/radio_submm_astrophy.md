@@ -1,4 +1,4 @@
-# Resources and Tools for Radio and Submm Astronomy
+# Radio and Sub-millimeter Astronomy
 
 **Just started**
 

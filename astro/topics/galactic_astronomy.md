@@ -1,4 +1,4 @@
-# Tools and Resources for Milky Way Related Research 
+# Galactic Astronomy and the Milky Way
 
 * Focusing on the dynamic and stellar population sides.
 

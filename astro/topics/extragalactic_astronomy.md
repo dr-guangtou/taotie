@@ -1,4 +1,4 @@
-# Extragalactic Data and Projects 
+# Extragalactic Astrophysics
 
 ## HST Surveys and Large Projects
 

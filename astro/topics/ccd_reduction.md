@@ -1,4 +1,4 @@
-# CCD and Image Reduction Related
+# Image Redcution and CCD Related
 
 * On the general topic of optical/NIR detector and data reduction.
 

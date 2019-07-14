@@ -1,4 +1,4 @@
-# Tools and Resources about Stellar Physics and Stellar Population
+# Stellar Physics and Stellar Population
 
 ## Stellar Evolution Code
 

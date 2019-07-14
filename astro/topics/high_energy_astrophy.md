@@ -1,4 +1,4 @@
-# Resources and Tools for High Energy Astrophysics
+# High Energy Astrophysics and Astroparticle Physics
 
 **Just started**
 
