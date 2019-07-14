@@ -1,0 +1,467 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Write a Python package &#8212; Taotie 0.1 documentation</title>
+    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/language_data.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="write-a-python-package">
+<h1>Write a Python package<a class="headerlink" href="#write-a-python-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="developer-guide">
+<h2>Developer Guide<a class="headerlink" href="#developer-guide" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://developer.lsst.io">LSST DM Developer Guide</a></p>
+<ul>
+<li><p>LSST的数据管理系统的开发指南是天文领域里非常具有参考价值的</p></li>
+<li><p>Python编程风格：<a class="reference external" href="https://developer.lsst.io/python/style.html">DM Python style
+guide</a></p></li>
+<li><p>类似的还有 <a class="reference external" href="https://developerskatelescopeorg.readthedocs.io/en/latest/">SKA develop
+portal</a>
+(建设中…)</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="structure">
+<h2>Structure<a class="headerlink" href="#structure" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>“Dress for the job you want, not the job you have.”</p></li>
+<li><p><a class="reference external" href="https://docs.python-guide.org/writing/structure/">Structuring Your
+Project</a></p>
+<ul>
+<li><p>从组织文件到代码结构，比较好的入门阅读</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://python-packaging.readthedocs.io/en/latest/index.html">How To Package Your Python
+Code</a></p>
+<ul>
+<li><p>可读性也很强: aims to put forth an opinionated and specific
+pattern to make trouble-free packages for community use</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://drivendata.github.io/cookiecutter-data-science/">Cookiecutter - A logical, reasonably standardized, but flexible
+project structure for doing and sharing data science
+work</a></p>
+<ul>
+<li><p>一个很好的组织基于数据的项目的例子，其中关于“Keep secrets and
+configuration out of version control”的部分很有用。</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="code-format">
+<h2>Code Format<a class="headerlink" href="#code-format" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>It is good practice to follow well-established code format. Not only
+it can help you write codes that are nice looking and easy to
+maintain, it will help others to read and contribute to the code.</p></li>
+<li><p>For Python, <cite>the ``PEP8`</cite> style
+guide &lt;<a class="reference external" href="https://www.python.org/dev/peps/pep-0008/">https://www.python.org/dev/peps/pep-0008/</a>&gt;`__ is the most
+important one. Some of these rules feel unecessary and annoying, but
+there are always good reasons behind them.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`autopep8</span></code>: A tool that automatically formats Python code to
+conform to the PEP 8 style
+guide &lt;<a class="reference external" href="https://github.com/hhatto/autopep8">https://github.com/hhatto/autopep8</a>&gt;`__</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`black</span></code>: The uncompromising Python code
+formatter &lt;<a class="reference external" href="https://github.com/python/black">https://github.com/python/black</a>&gt;`__</p>
+<ul>
+<li><p>Blackened code looks the same regardless of the project you’re
+reading. Formatting becomes transparent after a while and you can
+focus on the content instead.</p></li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`yapf</span></code>: A formatter for Python files from
+Google &lt;<a class="reference external" href="https://github.com/google/yapf">https://github.com/google/yapf</a>&gt;`__</p></li>
+</ul>
+</div>
+<div class="section" id="setup-py">
+<h2><code class="docutils literal notranslate"><span class="pre">setup.py</span></code><a class="headerlink" href="#setup-py" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/kennethreitz/setup.py">A Human’s Ultimate Guide to
+setup.py</a></p>
+<ul>
+<li><p>This is very good template for using <code class="docutils literal notranslate"><span class="pre">setup.py</span></code></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="readme">
+<h2>Readme<a class="headerlink" href="#readme" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/noffle/art-of-readme">Art of README</a></p>
+<ul>
+<li><p><a class="reference external" href="https://github.com/noffle/art-of-readme/blob/master/README-zh.md">中文版</a>
+基本上，想学习如何写好Readme看这篇就够了</p></li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`readme-md-generator</span></code> - CLI that generates beautiful README.md
+files &lt;<a class="reference external" href="https://github.com/kefranabg/readme-md-generator">https://github.com/kefranabg/readme-md-generator</a>&gt;`__</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">readme-md-generator</span></code> will suggest you default answers by
+reading your package.json and git configuration.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="document">
+<h2>Document<a class="headerlink" href="#document" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="general-instructions">
+<h3>General instructions<a class="headerlink" href="#general-instructions" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://developer.lsst.io/project-docs/change-controlled-docs.html">Writing change-controlled
+documentation</a></p>
+<ul>
+<li><p>Manual provided by LSST DM team</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://developer.lsst.io/python/numpydoc.html#py-docstring-short-summary">LSST DM的Documenting Python APIs with
+Docstrings</a></p>
+<ul>
+<li><p>Also very good example by LSST DM. LSST adopts the <code class="docutils literal notranslate"><span class="pre">Numpydoc</span></code>
+format.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="tools">
+<h3>Tools<a class="headerlink" href="#tools" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">`sphinx</span></code> - Python documentation
+generator &lt;<a class="reference external" href="https://www.sphinx-doc.org/en/1.5/index.html">https://www.sphinx-doc.org/en/1.5/index.html</a>&gt;`__</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">Sphinx</span></code> is a tool that makes it easy to create intelligent and
+beautiful documentation.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Sphinx</span></code> uses
+<code class="docutils literal notranslate"><span class="pre">`reStructuredText</span></code> &lt;<a class="reference external" href="http://docutils.sourceforge.net/rst.html">http://docutils.sourceforge.net/rst.html</a>&gt;`__
+as its markup language, and many of its strengths come from the
+power and straightforwardness of <code class="docutils literal notranslate"><span class="pre">reStructuredText</span></code> and its
+parsing and translating suite, the
+<code class="docutils literal notranslate"><span class="pre">`Docutils</span></code> &lt;<a class="reference external" href="http://docutils.sourceforge.net/">http://docutils.sourceforge.net/</a>&gt;`__.</p></li>
+<li><p><cite>First steps with
+``sphinx`</cite> &lt;<a class="reference external" href="https://www.sphinx-doc.org/en/1.5/tutorial.html">https://www.sphinx-doc.org/en/1.5/tutorial.html</a>&gt;`__</p></li>
+<li><p><cite>On ``Markdown`</cite> v.s.
+<code class="docutils literal notranslate"><span class="pre">reStructuredText</span></code> &lt;<a class="reference external" href="https://gist.github.com/dupuy/1855764">https://gist.github.com/dupuy/1855764</a>&gt;`__:
+<code class="docutils literal notranslate"><span class="pre">Markdown</span></code> is easy to use; <code class="docutils literal notranslate"><span class="pre">reStructuredText</span></code> is more
+extensible and powerful.</p></li>
+<li><p><cite>Brandon’s ``Sphinx`</cite> Tutorial from PyCon
+2013 &lt;<a class="reference external" href="https://buildmedia.readthedocs.org/media/pdf/brandons-sphinx-tutorial/latest/brandons-sphinx-tutorial.pdf">https://buildmedia.readthedocs.org/media/pdf/brandons-sphinx-tutorial/latest/brandons-sphinx-tutorial.pdf</a>&gt;`__</p></li>
+<li><p><a class="reference external" href="https://sphinx-tutorial.readthedocs.io/start/">Sphinx Tutorial by Eric
+Holscher</a> is the
+best place to start. The <a class="reference external" href="https://github.com/ericholscher/sphinx-tutorial">GitHub repo
+itself</a> is a
+very good example.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`Sphinx</span></code> Themes &lt;<a class="reference external" href="https://sphinx-themes.org/">https://sphinx-themes.org/</a>&gt;`__</p></li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`pandoc</span></code> - A universal document converter &lt;<a class="reference external" href="https://pandoc.org/">https://pandoc.org/</a>&gt;`__</p>
+<ul>
+<li><p>If you need to convert files from one markup format into another,
+<code class="docutils literal notranslate"><span class="pre">pandoc</span></code> is your swiss-army knife. e.g. It can convert
+<code class="docutils literal notranslate"><span class="pre">reStructuredText</span></code> to/from <code class="docutils literal notranslate"><span class="pre">Markdown</span></code>.</p></li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`rinohtype</span></code> - The Python document
+processor &lt;<a class="reference external" href="https://github.com/brechtm/rinohtype">https://github.com/brechtm/rinohtype</a>&gt;`__</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">Rinohtype</span></code> is a document processor in the style of <code class="docutils literal notranslate"><span class="pre">LaTeX</span></code>.
+It renders structured documents to PDF based on a document
+template and a style sheet.</p></li>
+<li><p><cite>A Simple Tutorial on How to document your ``Python`</cite> Project
+using <code class="docutils literal notranslate"><span class="pre">Sphinx</span></code> and
+<code class="docutils literal notranslate"><span class="pre">Rinohtype</span></code> &lt;<a class="reference external" href="https://medium.com/&#64;richdayandnight/a-simple-tutorial-on-how-to-document-your-python-project-using-sphinx-and-rinohtype-177c22a15b5b">https://medium.com/&#64;richdayandnight/a-simple-tutorial-on-how-to-document-your-python-project-using-sphinx-and-rinohtype-177c22a15b5b</a>&gt;`__</p></li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`numpydoc</span></code> – Numpy’s Sphinx
+extensions &lt;<a class="reference external" href="https://github.com/numpy/numpydoc">https://github.com/numpy/numpydoc</a>&gt;`__</p>
+<ul>
+<li><p><cite>The ``numpydoc`</cite> docstring format
+guide &lt;<a class="reference external" href="https://numpydoc.readthedocs.io/en/latest/format.html">https://numpydoc.readthedocs.io/en/latest/format.html</a>&gt;`__</p></li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`Doxygen</span></code> - Generate documentation from source
+code &lt;<a class="reference external" href="http://www.doxygen.nl/">http://www.doxygen.nl/</a>&gt;`__</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">Doxygen</span></code> is the de facto standard tool for generating
+documentation from annotated C++ sources, but it also supports
+other popular programming languages such as C, Objective-C, C#,
+PHP, Java, Python, IDL.</p></li>
+<li><p><cite>The ``Doxygen`</cite> document site for <code class="docutils literal notranslate"><span class="pre">Galsim</span></code> is a very good
+example &lt;<a class="reference external" href="http://galsim-developers.github.io/GalSim/index.html">http://galsim-developers.github.io/GalSim/index.html</a>&gt;`__</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://readthedocs.org/">Read the Docs - Technical documentation lives
+here</a></p>
+<ul>
+<li><p>Read the Docs simplifies software documentation by automating
+building, versioning, and hosting of your docs for you.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="test">
+<h2>Test<a class="headerlink" href="#test" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://docs.python-guide.org/writing/tests/">Testing Your Code from the Hitchhiker’s Guide to
+Python</a></p>
+<ul>
+<li><p>A nice summary of multiple approaches of unit test in Python.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://realpython.com/python-testing/">Getting Started With Testing in Python from
+RealPython</a></p>
+<ul>
+<li><p>Another very nice introduction, convering <code class="docutils literal notranslate"><span class="pre">unittest</span></code>,
+<code class="docutils literal notranslate"><span class="pre">pytest</span></code>, and <code class="docutils literal notranslate"><span class="pre">nose</span></code>.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://developer.lsst.io/python/testing.html">LSST DM: Python Unit Testing
+Guide</a></p>
+<ul>
+<li><p>LSST DM standard is a very good example：LSST tests should be
+written using the <code class="docutils literal notranslate"><span class="pre">unittest</span></code> framework, with default test
+discovery, and should support being run using the <code class="docutils literal notranslate"><span class="pre">pytest</span></code> test
+runner</p></li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`unittest</span></code> — Unit testing
+framework &lt;<a class="reference external" href="https://docs.python.org/3/library/unittest.html">https://docs.python.org/3/library/unittest.html</a>&gt;`__</p>
+<ul>
+<li><p>Basic unit test in Python. The <a class="reference external" href="https://docs.python.org/3/library/unittest.html#assert-methods">list of assertion methods is
+here</a></p></li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`pytest</span></code> - helps you write better
+programs &lt;<a class="reference external" href="https://docs.pytest.org/en/latest/">https://docs.pytest.org/en/latest/</a>&gt;`__</p>
+<ul>
+<li><p>The <code class="docutils literal notranslate"><span class="pre">pytest</span></code> framework makes it easy to write small tests, yet
+scales to support complex functional testing for applications and
+libraries.</p></li>
+<li><p><cite>Examples and customization tricks for
+``pytest`</cite> &lt;<a class="reference external" href="https://docs.pytest.org/en/latest/example/">https://docs.pytest.org/en/latest/example/</a>&gt;`__: this
+is very useful.</p></li>
+</ul>
+</li>
+</ul>
+<p>-<code class="docutils literal notranslate"><span class="pre">`nose2</span></code> - Nicer testing for
+Python &lt;<a class="reference external" href="https://github.com/nose-devs/nose2">https://github.com/nose-devs/nose2</a>&gt;`__ * <code class="docutils literal notranslate"><span class="pre">nose2</span></code>’s purpose
+is to extend unittest to make testing nicer and easier to understand.</p>
+<div class="section" id="code-coverage">
+<h3>Code Coverage<a class="headerlink" href="#code-coverage" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Code_coverage">Code coverage</a>:</p></li>
+</ul>
+<blockquote>
+<div><p>In computer science, test coverage is a measure used to describe the
+degree to which the source code of a program is executed when a
+particular test suite runs. A program with high test coverage,
+measured as a percentage, has had more of its source code executed
+during testing, which suggests it has a lower chance of containing
+undetected software bugs compared to a program with low test
+coverage. – Wikipedia</p>
+</div></blockquote>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">`Coverage.py</span></code> - Code coverage testing for
+Python &lt;<a class="reference external" href="https://github.com/nedbat/coveragepy">https://github.com/nedbat/coveragepy</a>&gt;`__</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">Coverage.py</span></code> measures code coverage, typically during test
+execution. It uses the code analysis tools and tracing hooks
+provided in the Python standard library to determine which lines
+are executable, and which have been executed.</p></li>
+<li><p><a class="reference external" href="https://coverage.readthedocs.io/en/v4.5.x/#quick-start">Quick start
+guide</a></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`pytest</span></code> has a <code class="docutils literal notranslate"><span class="pre">pytest-cov</span></code>
+plugin &lt;<a class="reference external" href="https://pytest-cov.readthedocs.io/en/latest/">https://pytest-cov.readthedocs.io/en/latest/</a>&gt;`__</p></li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`Codecov</span></code> - Empower developers with tools to improve code quality
+and testing &lt;<a class="reference external" href="https://github.com/codecov">https://github.com/codecov</a>&gt;`__</p>
+<ul>
+<li><p>It is web service that improves your code review workflow and
+quality. Free for open source. Plans starting at $2.50/month per
+repository. You can login with your <code class="docutils literal notranslate"><span class="pre">GitHub</span></code> or <code class="docutils literal notranslate"><span class="pre">Bitbucket</span></code>
+account.</p></li>
+<li><p><cite>Here is a ``Python`</cite> example for
+<code class="docutils literal notranslate"><span class="pre">Codecov</span></code> &lt;<a class="reference external" href="https://github.com/codecov/example-python">https://github.com/codecov/example-python</a>&gt;`__</p></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="optimization">
+<h2>Optimization<a class="headerlink" href="#optimization" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="http://www.scipy-lectures.org/advanced/optimizing/">Optimizing Python Code - Scipy Lecture
+Notes</a></p>
+<ul>
+<li><ol class="arabic simple">
+<li><p>Make it work; 2: Make it work reliably; 3: Optimization</p></li>
+</ol>
+</li>
+<li><p>No optimization without measuring: profiling and timing</p></li>
+<li><p>Moving computation or memory allocation outside a for loop;
+Vectorizing for loops; Broadcasting; Use in place operations; Be
+easy on the memory: use views, and not copies;</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://developer.lsst.io/python/profiling.html">LSST DM Python performance
+profiling</a></p>
+<ul>
+<li><p>Very good guide.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://docs.python.org/3/library/profile.html">The Python
+Profilers</a></p>
+<ul>
+<li><p>Python comes with a series of profiling tools. The most useful
+ones are <code class="docutils literal notranslate"><span class="pre">cProfile</span></code>, <code class="docutils literal notranslate"><span class="pre">profile</span></code>, and <code class="docutils literal notranslate"><span class="pre">pstats</span></code> (convert
+profiling results into a report)</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://julien.danjou.info/guide-to-python-profiling-cprofile-concrete-case-carbonara/">Profiling Python using cProfile: a concrete
+case</a></p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">cProfile</span></code> 对于发现程序中的瓶颈很有帮助</p></li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`line_profiler</span></code> and <code class="docutils literal notranslate"><span class="pre">kernprof</span></code> - Line-by-line profiling for
+Python &lt;<a class="reference external" href="https://github.com/rkern/line_profiler">https://github.com/rkern/line_profiler</a>&gt;`__</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">line_profiler</span></code> is a module for doing line-by-line profiling of
+functions. <code class="docutils literal notranslate"><span class="pre">kernprof</span></code> is a convenient script for running either
+line_profiler or the Python standard library’s cProfile or profile
+modules, depending on what is available.</p></li>
+<li><p>Can use <code class="docutils literal notranslate"><span class="pre">cProfile</span></code> to identify “hotspot” (function that is the
+“bottleneck”), then use <code class="docutils literal notranslate"><span class="pre">line_profiler</span></code> to exame the issue
+carefully.</p></li>
+</ul>
+</li>
+</ul>
+<div class="section" id="visualization">
+<h3>Visualization<a class="headerlink" href="#visualization" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/jrfonseca/gprof2dot">gprof2dot - Converts profiling output to a dot
+graph</a></p>
+<ul>
+<li><p>A general tool to convert different profiling software output to a
+dot graph.</p></li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`SnakeViz</span></code> - An in-browser Python profile
+viewer &lt;<a class="reference external" href="https://jiffyclub.github.io/snakeviz">https://jiffyclub.github.io/snakeviz</a>&gt;`__</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">SnakeViz</span></code> is a viewer for Python profiling data that runs as a
+web application in your browser.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/gak/pycallgraph">pycallgraph - Python module that creates call graphs for Python
+programs</a></p>
+<ul>
+<li><p>No longer maintained by the original author, but still available
+through a fork:
+<a class="reference external" href="https://github.com/daneads/pycallgraph2">pycallgraph2</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../../index.html">Taotie</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../astro/astro_readme.html">Astro README.md</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../astro/astro_research_basic.html">Basic Tools for Astrophysical Research</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../research.html"> Research in General</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../programming.html"> Programming and Developing Software</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2019, Song Huang.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../../_sources/resource/programing/python_write_yourown_project.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

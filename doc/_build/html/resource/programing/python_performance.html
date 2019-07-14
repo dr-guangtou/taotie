@@ -1,0 +1,290 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Performance Optimization for Python &#8212; Taotie 0.1 documentation</title>
+    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/language_data.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="performance-optimization-for-python">
+<h1>Performance Optimization for Python<a class="headerlink" href="#performance-optimization-for-python" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="basics">
+<h2>Basics<a class="headerlink" href="#basics" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://wiki.python.org/moin/PythonSpeed/PerformanceTips">Basic tips for optimizing the performace of your Python
+code</a></p></li>
+<li><p><a class="reference external" href="https://github.com/mynameisfiber/high_performance_python">Code for the book “High Performance Python” by Micha Gorelick and
+Ian Ozsvald with
+OReilly</a></p></li>
+</ul>
+</div>
+<div class="section" id="interfacing-with-c-c">
+<h2>Interfacing with C/C++<a class="headerlink" href="#interfacing-with-c-c" title="Permalink to this headline">¶</a></h2>
+<ul>
+<li><p><a class="reference external" href="https://scipy-lectures.org/advanced/interfacing_with_c/interfacing_with_c.html#introduction">Interfacing with C from Scipy lecture
+notes</a></p>
+<ul class="simple">
+<li><p>Very nice overview and examples of four approaches.</p></li>
+</ul>
+<ol class="arabic simple">
+<li><p><a class="reference external" href="https://docs.python.org/3/c-api/index.html">Python/C API</a></p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://docs.python.org/3/extending/extending.html">Extending Python3.7 with C or
+C++</a></p></li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`ctypes</span></code> - A foreign function library for
+Python &lt;<a class="reference external" href="https://docs.python.org/3/library/ctypes.html">https://docs.python.org/3/library/ctypes.html</a>&gt;`__</p>
+<ul class="simple">
+<li><p>It provides C compatible data types, and allows calling
+functions in DLLs or shared libraries. It can be used to wrap
+these libraries in pure Python.</p></li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`SWIG</span></code> &lt;<a class="reference external" href="http://www.swig.org/exec.html">http://www.swig.org/exec.html</a>&gt;`__</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">SWIG</span></code> is an interface compiler that connects programs
+written in C and C++ with scripting languages such as Python</p></li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`Cython</span></code> - C-Extensions for Python &lt;<a class="reference external" href="https://cython.org/">https://cython.org/</a>&gt;`__</p>
+<ul class="simple">
+<li><p><cite>Basic tutorial of
+``Cython`</cite> &lt;<a class="reference external" href="https://cython.readthedocs.io/en/latest/src/tutorial/cython_tutorial.html">https://cython.readthedocs.io/en/latest/src/tutorial/cython_tutorial.html</a>&gt;`__</p></li>
+<li><p><a class="reference external" href="https://github.com/adrn/cython-tutorial">Tutorial on how to use Cython to optimize Python code by
+Adrian
+Price-Whelan</a></p></li>
+<li><p><a class="reference external" href="https://python.g-node.org/python-summerschool-2011/_media/materials/cython/cython-slides.pdf">Cython tutorial by Pauli Virtanen from
+2011</a></p></li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+<div class="section" id="only-for-c">
+<h3>Only for C++<a class="headerlink" href="#only-for-c" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">`Boost.Python</span></code> &lt;<a class="reference external" href="https://www.boost.org/doc/libs/1_70_0/libs/python/doc/html/index.html">https://www.boost.org/doc/libs/1_70_0/libs/python/doc/html/index.html</a>&gt;`__</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">Boost.Python</span></code>, a C++ library which enables seamless
+interoperability between C++ and the Python programming language.</p></li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`pybind11</span></code> - Seamless operability between C++11 and
+Python &lt;<a class="reference external" href="https://github.com/pybind/pybind11">https://github.com/pybind/pybind11</a>&gt;`__</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">pybind11</span></code> is a lightweight header-only library that exposes C++
+types in Python and vice versa, mainly to create Python bindings
+of existing C++ code.</p></li>
+<li><p>This is used by the <code class="docutils literal notranslate"><span class="pre">LSST</span></code> developers, please see the <cite>DM
+``Pybind11`</cite> style
+guide &lt;<a class="reference external" href="https://developer.lsst.io/pybind11/style.html">https://developer.lsst.io/pybind11/style.html</a>&gt;`__ for
+details.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="using-just-in-time-jit-compiler">
+<h2>Using Just-in-Time (JIT) Compiler<a class="headerlink" href="#using-just-in-time-jit-compiler" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">`pypy</span></code> - a fast, compliant alternative implementation of the
+Python language &lt;<a class="reference external" href="http://pypy.org/">http://pypy.org/</a>&gt;`__</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`numba</span></code> - makes Python code fast &lt;<a class="reference external" href="http://numba.pydata.org/">http://numba.pydata.org/</a>&gt;`__</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">Numba</span></code> is an open source JIT compiler that translates a subset
+of Python and <code class="docutils literal notranslate"><span class="pre">NumPy</span></code> code into fast machine code.
+<code class="docutils literal notranslate"><span class="pre">Numba</span></code>only supports LLVM.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Numba</span></code> offers a range of options for parallelizing your code
+for CPUs and GPUs, often with only minor code changes.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`Numpy</span></code> supports in
+<code class="docutils literal notranslate"><span class="pre">Numba</span></code> &lt;<a class="reference external" href="http://numba.pydata.org/numba-doc/0.15.1/numpy_support.html">http://numba.pydata.org/numba-doc/0.15.1/numpy_support.html</a>&gt;`__</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Numba</span></code> has a <code class="docutils literal notranslate"><span class="pre">vectorize</span></code> and <code class="docutils literal notranslate"><span class="pre">guvectorize</span></code> decorators that
+can be very useful.</p></li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`hope</span></code> - A Python Just-In-Time compiler for astrophysical
+computations &lt;<a class="reference external" href="https://github.com/jakeret/hope">https://github.com/jakeret/hope</a>&gt;`__</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">hope</span></code> is a specialized method-at-a-time JIT compiler written in
+Python for translating Python source code into C++ and compiles
+this at runtime.</p></li>
+<li><p>Has not been updated for three yeears.</p></li>
+</ul>
+</li>
+</ul>
+<div class="section" id="tutorial-and-notes">
+<h3>Tutorial and notes<a class="headerlink" href="#tutorial-and-notes" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://jakevdp.github.io/blog/2015/02/24/optimizing-python-with-numpy-and-numba/">Optimizing Python in the Real World: NumPy, Numba, and the NUFFT by
+Jake
+VanderPlas</a></p></li>
+</ul>
+</div>
+<div class="section" id="making-numpy-faster">
+<h3>Making Numpy faster<a class="headerlink" href="#making-numpy-faster" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/google/jax">jax - GPU- and TPU-backed NumPy with differentiation and JIT
+compilation by Google</a></p>
+<ul>
+<li><p>JAX is Autograd and XLA, brought together for high-performance
+machine learning research.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/HIPS/autograd">autograd - Efficiently computes derivatives of numpy
+code</a></p></li>
+</ul>
+</div>
+<div class="section" id="other-packages">
+<h3>Other packages<a class="headerlink" href="#other-packages" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://scikit-learn.org/stable/developers/performance.html">How to speed up Python by
+scikit-learn</a></p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="parallel-computing-in-python">
+<h2>Parallel computing in Python<a class="headerlink" href="#parallel-computing-in-python" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="tutorial">
+<h3>Tutorial<a class="headerlink" href="#tutorial" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://sebastianraschka.com/Articles/2014_multiprocessing.html">An introduction to parallel programming using Python’s
+multiprocessing
+module</a></p></li>
+<li><p><a class="reference external" href="https://towardsdatascience.com/speed-up-your-algorithms-part-3-parallelization-4d95c0888748">Speed Up Your Algorithms Part
+3 — Parallel-ization</a></p></li>
+</ul>
+</div>
+<div class="section" id="software">
+<h3>Software<a class="headerlink" href="#software" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="common-tools">
+<h4>Common tools:<a class="headerlink" href="#common-tools" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/mpi4py/mpi4py">mpi4py - Python bindings for
+MPI</a></p></li>
+<li><p><a class="reference external" href="https://github.com/joblib/joblib">joblib - a set of tools to provide lightweight pipelining in
+Python</a></p></li>
+<li><p><a class="reference external" href="https://github.com/tomMoral/loky">loky - Robust and reusable Executor for
+joblib</a></p></li>
+<li><p><a class="reference external" href="https://github.com/adrn/schwimmbad">schwimmbad - A common interface to processing
+pools</a></p></li>
+</ul>
+</div>
+<div class="section" id="more-big-data-approach">
+<h4>More “Big Data” approach:<a class="headerlink" href="#more-big-data-approach" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">`Dask</span></code> - Parallel computing with task
+scheduling &lt;<a class="reference external" href="https://dask.org/">https://dask.org/</a>&gt;`__</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">Dask</span></code> provides advanced parallelism for analytics, enabling
+performance at scale for the tools you love</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Dask</span></code> is open source and freely available. It is developed in
+coordination with other community projects like <code class="docutils literal notranslate"><span class="pre">Numpy</span></code>,
+<code class="docutils literal notranslate"><span class="pre">Pandas</span></code>, and <code class="docutils literal notranslate"><span class="pre">Scikit-Learn</span></code>.</p></li>
+<li><p><cite>Official ``Dask`</cite> tutorial using Jupyter
+notebook &lt;<a class="reference external" href="https://github.com/dask/dask-tutorial">https://github.com/dask/dask-tutorial</a>&gt;`__</p></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../../index.html">Taotie</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../astro/astro_readme.html">Astro README.md</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../astro/astro_research_basic.html">Basic Tools for Astrophysical Research</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../research.html"> Research in General</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../programming.html"> Programming and Developing Software</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2019, Song Huang.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../../_sources/resource/programing/python_performance.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

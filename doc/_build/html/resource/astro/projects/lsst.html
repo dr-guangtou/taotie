@@ -1,0 +1,423 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Large Synoptic Survey Telescope (LSST) &#8212; Taotie 0.1 documentation</title>
+    <link rel="stylesheet" href="../../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../../_static/language_data.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+   
+  <link rel="stylesheet" href="../../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="large-synoptic-survey-telescope-lsst">
+<h1>Large Synoptic Survey Telescope (LSST)<a class="headerlink" href="#large-synoptic-survey-telescope-lsst" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>Opening a Window of Discovery on the Dynamic Universe</p></li>
+</ul>
+<hr class="docutils" />
+<div class="section" id="basic-information">
+<h2>Basic Information:<a class="headerlink" href="#basic-information" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.lsst.org/">LSST Organization Website</a></p>
+<ul>
+<li><p><a class="reference external" href="https://www.lsst.org/content/lsst-information-scientists">Information for
+scientists</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://community.lsst.org/categories">LSST Community Forum</a></p></li>
+<li><p><a class="reference external" href="https://www.lsstcorporation.org/">The LSST Corporation (LSSTC)</a></p>
+<ul>
+<li><p>LSSTC is a not-for-profit 501(c)3 corporation formed to initiate
+the LSST Project and advance the science of astronomy and physics.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://www.lsst.org/about/fact-sheets">LSST Fact Sheets</a></p></li>
+<li><p><a class="reference external" href="https://zenodo.org/search?page=1&amp;size=20&amp;q=%22LSST%22%20%22data%20management%22">LSST Data Management on
+Zenodo</a></p></li>
+<li><p><a class="reference external" href="https://lsst.slac.stanford.edu/#science-goals">LSST Camera Website at
+SLAC</a></p></li>
+<li><p><a class="reference external" href="https://project.lsst.org/groups/sac/welcome">LSST Science Advisory
+Committee</a></p></li>
+<li><p><a class="reference external" href="http://ast.noao.edu/lsst/">NOAO &amp; Large Synoptic Survey Telescope
+(LSST)</a></p></li>
+</ul>
+<div class="section" id="lsst-science-collaborations">
+<h3>LSST Science Collaborations<a class="headerlink" href="#lsst-science-collaborations" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="http://galaxies.science.lsst.org/">Galaxies Collaboration</a></p></li>
+<li><p><a class="reference external" href="http://milkyway.science.lsst.org/">Stars, Milky Way, and Local
+Volume</a></p></li>
+<li><p><a class="reference external" href="http://solarsystem.science.lsst.org/">Solar System Collaboration</a></p></li>
+<li><p><a class="reference external" href="http://lsst-desc.org/">Dark Energy Collaboration</a></p></li>
+<li><p><a class="reference external" href="https://agn.science.lsst.org/">Active Galactic Nuclei
+Collaboration</a></p></li>
+<li><p><a class="reference external" href="https://tvs.science.lsst.org/">Transients and Variable Stars
+Collaboration</a></p></li>
+<li><p><a class="reference external" href="https://sites.google.com/view/lsst-stronglensing">Strong Lensing
+Collaboration</a></p></li>
+<li><p><a class="reference external" href="https://issc.science.lsst.org/">Informatics and Statistics
+Collaboration</a></p></li>
+</ul>
+<div class="section" id="lsst-dark-matter">
+<h4>LSST Dark Matter<a class="headerlink" href="#lsst-dark-matter" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="https://lsstdarkmatter.github.io/">LSST Dark Matter - Probing the fundamental physics of dark matter
+with LSST</a></p>
+<ul>
+<li><p><a class="reference external" href="https://lsstdarkmatter.github.io/dark-matter-graph">Dark Matter
+Graphics</a> -
+This graphic is intended to help conceptually organize the LSST
+dark matter program and to serve as a road map for future
+scientific investigations.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="lsst-dark-energy-science-collaboration">
+<h4>LSST Dark Energy Science Collaboration<a class="headerlink" href="#lsst-dark-energy-science-collaboration" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="https://lsstdesc.org/">LSST Dark Energy Science Collaboration</a></p>
+<ul>
+<li><p>LSST DESC is the large international collaboration that will make
+high accuracy measurements of fundamental cosmological parameters
+using data from the Large Synoptic Survey Telescope</p></li>
+<li><p><a class="reference external" href="https://lsstdesc.org/assets/pdf/docs/DESC_SRM_latest.pdf">LSST DESC Science
+Roadmap</a></p></li>
+<li><p><a class="reference external" href="https://lsstdesc.org/pages/DESchool.html">LSST Dark Energy
+School</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="social-media">
+<h3>Social Media<a class="headerlink" href="#social-media" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.youtube.com/channel/UCoKgqaxFrkwnffyfyhKhC2w">LSST Youtube
+Channel</a></p></li>
+<li><p><a class="reference external" href="https://twitter.com/lsst?lang=en">LSST Twitter Handle</a></p></li>
+<li><p><a class="reference external" href="https://www.linkedin.com/company/large-synoptic-survey-telescope-lsst-">LSST
+LinkedIn</a></p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="important-documents">
+<h2>Important Documents:<a class="headerlink" href="#important-documents" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.lsst.org/scientists/scibook">LSST Science Book Version
+2.0</a></p>
+<ul>
+<li><p>596 pages, over 50 Mb. The <a class="reference external" href="https://arxiv.org/abs/0912.0201">arXiv version is
+here</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://arxiv.org/abs/1708.04058">Science-Driven Optimization of the LSST Observing
+Strategy</a></p>
+<ul>
+<li><p>The GitHub repo is
+<a class="reference external" href="https://github.com/LSSTScienceCollaborations/ObservingStrategy">here</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://docushare.lsstcorp.org/docushare/dsweb/Get/LPM-151/">Summary of Data Management
+Principles</a></p></li>
+<li><p><a class="reference external" href="https://docushare.lsstcorp.org/docushare/dsweb/Get/LSE-163/">Data Products Definition
+Document</a></p></li>
+</ul>
+<div class="section" id="important-publications">
+<h3>Important Publications:<a class="headerlink" href="#important-publications" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://arxiv.org/abs/0805.2366">LSST: from Science Drivers to Reference Design and Anticipated Data
+Products</a></p></li>
+<li><p><a class="reference external" href="https://arxiv.org/abs/1902.01055">Probing the Fundamental Nature of Dark Matter with the Large
+Synoptic Survey Telescope</a></p></li>
+</ul>
+<div class="section" id="planning-and-scheduling-observations">
+<h4>Planning and Scheduling Observations:<a class="headerlink" href="#planning-and-scheduling-observations" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="https://ui.adsabs.harvard.edu/abs/2019AJ....157..151N/abstract">A Framework for Telescope Schedulers: With Applications to the Large
+Synoptic Survey
+Telescope</a></p></li>
+<li><p><a class="reference external" href="https://arxiv.org/abs/1812.00515">Optimizing the LSST Observing Strategy for Dark Energy Science: DESC
+Recommendations for the Wide-Fast-Deep
+Survey</a></p></li>
+<li><p><a class="reference external" href="https://ui.adsabs.harvard.edu/abs/2019ApJ...874...88C/abstract">LSST Target-of-opportunity Observations of Gravitational-wave
+Events: Essential and
+Efficient</a></p></li>
+<li><p><a class="reference external" href="https://arxiv.org/abs/1906.08235">The Prospects of Observing Tidal Disruption Events with the
+LSST</a></p></li>
+</ul>
+</div>
+<div class="section" id="technical-papers">
+<h4>Technical Papers:<a class="headerlink" href="#technical-papers" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="https://ui.adsabs.harvard.edu/abs/2018arXiv181203248B/abstract">An Overview of the LSST Image Processing
+Pipelines</a></p></li>
+<li><p><a class="reference external" href="https://ui.adsabs.harvard.edu/abs/2019arXiv190311756K/abstract">Models and Simulations for the Photometric LSST Astronomical Time
+Series Classification Challenge
+(PLAsTiCC)</a></p></li>
+<li><p><a class="reference external" href="https://ui.adsabs.harvard.edu/abs/2018ApJS..234...36M/abstract">DESCQA: An Automated Validation Framework for Synthetic Sky
+Catalogs</a></p></li>
+</ul>
+</div>
+<div class="section" id="synergy-with-other-projects">
+<h4>Synergy with Other Projects<a class="headerlink" href="#synergy-with-other-projects" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="https://arxiv.org/abs/1904.10439">Enhancing LSST Science with Euclid
+Synergy</a></p></li>
+<li><p><a class="reference external" href="https://ui.adsabs.harvard.edu/abs/2018arXiv181203298C/abstract">The Gaia-LSST Synergy: resolved stellar populations in selected
+Local Group stellar
+systems</a></p></li>
+</ul>
+</div>
+<div class="section" id="need-for-spectroscopy">
+<h4>Need for Spectroscopy<a class="headerlink" href="#need-for-spectroscopy" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="https://ui.adsabs.harvard.edu/abs/2019BAAS...51c.358N/abstract">Deep Multi-object Spectroscopy to Enhance Dark Energy Science from
+LSST</a></p></li>
+<li><p><a class="reference external" href="https://ui.adsabs.harvard.edu/abs/2019BAAS...51c.369H/abstract">Single-object Imaging and Spectroscopy to Enhance Dark Energy
+Science from
+LSST</a></p></li>
+<li><p><a class="reference external" href="https://ui.adsabs.harvard.edu/abs/2019BAAS...51c.363M/abstract">Wide-field Multi-object Spectroscopy to Enhance Dark Energy Science
+from
+LSST</a></p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="science-and-system-requirements">
+<h3>Science and System Requirements:<a class="headerlink" href="#science-and-system-requirements" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://docushare.lsstcorp.org/docushare/dsweb/Get/LPM-17">Science Requirements
+Document</a></p></li>
+<li><p><a class="reference external" href="https://docushare.lsstcorp.org/docushare/dsweb/Get/LSE-29">LSST System Requirements
+(LSR)</a></p></li>
+<li><p><a class="reference external" href="https://docushare.lsstcorp.org/docushare/dsweb/Get/LSE-30">Observatory System Specifications
+(OSS)</a></p></li>
+<li><p><a class="reference external" href="https://docushare.lsstcorp.org/docushare/dsweb/Get/LSE-61">Data Management System (DMS)
+Requirements</a></p></li>
+<li><p><a class="reference external" href="https://docushare.lsstcorp.org/docushare/dsweb/Get/LSE-60">Telescope and Site (TS)
+Requirements</a></p></li>
+<li><p><a class="reference external" href="https://docushare.lsstcorp.org/docushare/dsweb/Get/LSE-59">Camera Subsystem
+Requirements</a></p></li>
+<li><p><a class="reference external" href="https://docushare.lsstcorp.org/docushare/dsweb/Get/LSE-62">Observatory Control System
+Requirements</a></p></li>
+</ul>
+</div>
+<div class="section" id="policy-and-community">
+<h3>Policy and Community<a class="headerlink" href="#policy-and-community" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://community.lsst.org/faq">LSST Community Guidelines</a></p></li>
+<li><p><a class="reference external" href="https://docushare.lsstcorp.org/docushare/dsweb/Get/Document-24920">LSST Communications Code of
+Conduct</a></p></li>
+<li><p><a class="reference external" href="https://docushare.lsst.org/docushare/dsweb/Get/Document-28973/NoContent2461049852211920670.txt">LSST Meetings Code of
+Conduct</a></p></li>
+<li><p><a class="reference external" href="https://docushare.lsstcorp.org/docushare/dsweb/Get/LPM-171/BullyingHarassmentComplaintsProcedure.pdf">Bullying and Harassment Complaints Procedural
+Manual</a></p></li>
+<li><p><a class="reference external" href="https://docushare.lsstcorp.org/docushare/dsweb/Get/Document-17995/">Template for Science Collaboration Publication
+Policy</a></p></li>
+<li><p><a class="reference external" href="https://github.com/lsst-pst/LSSTreferences/">How to Cite LSST
+Papers</a></p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="software-and-pipeline">
+<h2>Software and Pipeline:<a class="headerlink" href="#software-and-pipeline" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://pipelines.lsst.io/">The LSST Science Pipelines</a></p>
+<ul>
+<li><p><a class="reference external" href="https://github.com/lsst">GitHub Repositories</a></p></li>
+<li><p><a class="reference external" href="https://www.lsst.io/">LSST Documentation Hub</a></p></li>
+<li><p><a class="reference external" href="http://doxygen.lsst.codes/stack/doxygen/x_masterDoxyDoc/">Doxygen
+Documents</a></p></li>
+<li><p><a class="reference external" href="https://github.com/lsst/pipelines_lsst_io/blob/master/.github/CONTRIBUTING.rst">Documentation contribution
+guidelines</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/lsst-dm">LSST Data Management Team Github
+Organization</a></p></li>
+<li><p><a class="reference external" href="https://github.com/LSSTDESC">LSST Dark Energy Science Collaboration Github
+Organization</a></p></li>
+<li><p><a class="reference external" href="https://github.com/lsstdarkmatter">LSST Dark Matter Github
+Organization</a></p></li>
+</ul>
+<div class="section" id="important-components">
+<h3>Important Components:<a class="headerlink" href="#important-components" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">`afw</span></code>: LSST data management: pipeline library code and primitives
+including images and tables &lt;<a class="reference external" href="https://github.com/lsst/afw">https://github.com/lsst/afw</a>&gt;`__</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`lsst-build</span></code>: a builder and continuous integration tool for
+LSST &lt;<a class="reference external" href="https://github.com/lsst/lsst_build">https://github.com/lsst/lsst_build</a>&gt;`__</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`pipe_base</span></code>: LSST Data Management: base classes for data
+processing tasks &lt;<a class="reference external" href="https://github.com/lsst/pipe_base">https://github.com/lsst/pipe_base</a>&gt;`__</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`pipe_tasks</span></code>: LSST Data Management: astronomical data processing
+tasks &lt;<a class="reference external" href="https://github.com/lsst/pipe_tasks">https://github.com/lsst/pipe_tasks</a>&gt;`__</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`pipe_drivers</span></code>: LSST Data Management: high level task coordination
+scripts &lt;<a class="reference external" href="https://github.com/lsst/pipe_drivers">https://github.com/lsst/pipe_drivers</a>&gt;`__</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`daf_butler</span></code>: Prototype for data access framework described in
+DMTN-056 &lt;<a class="reference external" href="https://github.com/lsst/daf_butler">https://github.com/lsst/daf_butler</a>&gt;`__</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`daf_persistence</span></code>: Data access interface (the Butler) and
+deprecated persistence framework for LSST Data
+Management &lt;<a class="reference external" href="https://github.com/lsst/daf_persistence">https://github.com/lsst/daf_persistence</a>&gt;`__</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`daf_base</span></code>: Low-level data structures, including memory-management
+helpers (Citizen), mappings (PropertySet, PropertyList), and
+DateTime &lt;<a class="reference external" href="https://github.com/lsst/daf_base">https://github.com/lsst/daf_base</a>&gt;`__</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`skymap</span></code>: Sky pixelization interfaces and implementations used by
+LSST Data Management &lt;<a class="reference external" href="https://github.com/lsst/skymap">https://github.com/lsst/skymap</a>&gt;`__</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`jointcal</span></code>: Simultaneous astrometry and
+photometry &lt;<a class="reference external" href="https://github.com/lsst/jointcal">https://github.com/lsst/jointcal</a>&gt;`__</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`meas_mosaic</span></code>: determine consistent astrometry and photometry for
+multiple images &lt;<a class="reference external" href="https://github.com/lsst/meas_mosaic">https://github.com/lsst/meas_mosaic</a>&gt;`__</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`meas_modelfit</span></code>: LSST Data Management: model fitting
+algorithms &lt;<a class="reference external" href="https://github.com/lsst/meas_modelfit">https://github.com/lsst/meas_modelfit</a>&gt;`__</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`meas_extentions_shapeHSM</span></code>: LSST Data Management: HSM shape
+measurement &lt;<a class="reference external" href="https://github.com/lsst/meas_extensions_shapeHSM">https://github.com/lsst/meas_extensions_shapeHSM</a>&gt;`__</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`meas_extensions_psfex</span></code>: LSST Data Management: PSF
+Estimation &lt;<a class="reference external" href="https://github.com/lsst/meas_extensions_psfex">https://github.com/lsst/meas_extensions_psfex</a>&gt;`__</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`meas_base</span></code>: LSST Data Management: core astronomical measurement
+algorithms &lt;<a class="reference external" href="https://github.com/lsst/meas_base">https://github.com/lsst/meas_base</a>&gt;`__</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`meas_algorithms</span></code>: LSST Data Management: astronomical measurement
+algorithm &lt;<a class="reference external" href="https://github.com/lsst/meas_algorithms">https://github.com/lsst/meas_algorithms</a>&gt;`__</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`meas_deblender</span></code>: LSST Data Management: astronomical source
+deblender &lt;<a class="reference external" href="https://github.com/lsst/meas_deblender">https://github.com/lsst/meas_deblender</a>&gt;`__</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`meas_astrom</span></code>: LSST Data Management: astrometric measurement
+algorithms &lt;<a class="reference external" href="https://github.com/lsst/meas_astrom">https://github.com/lsst/meas_astrom</a>&gt;`__</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`ip_isr</span></code>: LSST data management: instrument signature removal
+(detrending) for astronomical
+images &lt;<a class="reference external" href="https://github.com/lsst/ip_isr">https://github.com/lsst/ip_isr</a>&gt;`__</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`ip_diffim</span></code>: LSST data management: astronomical image
+differencing &lt;<a class="reference external" href="https://github.com/lsst/ip_diffim">https://github.com/lsst/ip_diffim</a>&gt;`__</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`geom</span></code>: Low-level geometry primitives for LSST Data
+Management &lt;<a class="reference external" href="https://github.com/lsst/geom">https://github.com/lsst/geom</a>&gt;`__</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`coadd_utils</span></code>: LSST data management: base classes for coadding
+(stacking) astronomical
+images &lt;<a class="reference external" href="https://github.com/lsst/coadd_utils">https://github.com/lsst/coadd_utils</a>&gt;`__</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`throughputs</span></code>: LSST Simulations repository for baseline evaluation
+information &lt;<a class="reference external" href="https://github.com/lsst/throughputs">https://github.com/lsst/throughputs</a>&gt;`__</p></li>
+</ul>
+</div>
+<div class="section" id="simulation-related">
+<h3>Simulation Related:<a class="headerlink" href="#simulation-related" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">`imSim</span></code>: GalSim based Large Synoptic Survey Telescope (LSST) image
+simulation package &lt;<a class="reference external" href="https://github.com/LSSTDESC/imSim">https://github.com/LSSTDESC/imSim</a>&gt;`__</p>
+<ul>
+<li><p>It produces simulated images from the 3.25 Gigapixel camera which
+are suitable to be processed through the LSST Data Management
+pipeline.</p></li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`phoSim</span></code>: Photon
+Simulator &lt;<a class="reference external" href="https://bitbucket.org/phosim/phosim_release/wiki/Home">https://bitbucket.org/phosim/phosim_release/wiki/Home</a>&gt;`__</p>
+<ul>
+<li><p>A set of extremely fast photon Monte Carlo codes used to calculate
+the physics of the atmosphere and a telescope &amp; camera in order to
+simulate realistic optical/IR astronomical images.</p></li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`sims_utils</span></code>: LSST Simulations package for simulation utility
+functions &lt;<a class="reference external" href="https://github.com/lsst/sims_utils">https://github.com/lsst/sims_utils</a>&gt;`__</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`sims_photUtils</span></code>: LSST Simulations package for photometric utility
+functions &lt;<a class="reference external" href="https://github.com/lsst/sims_photUtils">https://github.com/lsst/sims_photUtils</a>&gt;`__</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`sims_survey_fields</span></code>: A package for retrieving LSST survey
+fields &lt;<a class="reference external" href="https://github.com/lsst/sims_survey_fields">https://github.com/lsst/sims_survey_fields</a>&gt;`__</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`sims_skybrightness</span></code>: Tool to predict the background sky emission
+SED at an arbitrary RA, Dec, and
+MJD &lt;<a class="reference external" href="https://github.com/lsst/sims_skybrightness">https://github.com/lsst/sims_skybrightness</a>&gt;`__</p></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../../../index.html">Taotie</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../astro_readme.html">Astro README.md</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../astro_research_basic.html">Basic Tools for Astrophysical Research</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../research.html"> Research in General</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../programming.html"> Programming and Developing Software</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2019, Song Huang.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../../../_sources/resource/astro/projects/lsst.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

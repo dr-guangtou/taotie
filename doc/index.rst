@@ -26,7 +26,8 @@ Astronomy, Astrophysics, & Cosmology
 .. toctree::
    :maxdepth: 2
 
-   astro_readme.md
+   resource/astro/astro_readme.rst
+   resource/astro/astro_research_basic.rst
 
 General Topics about Research
 -----------------------------

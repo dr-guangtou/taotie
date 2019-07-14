@@ -1,0 +1,418 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Cosmology Tools &#8212; Taotie 0.1 documentation</title>
+    <link rel="stylesheet" href="../../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../../_static/language_data.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+   
+  <link rel="stylesheet" href="../../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="cosmology-tools">
+<h1>Cosmology Tools<a class="headerlink" href="#cosmology-tools" title="Permalink to this headline">¶</a></h1>
+<hr class="docutils" />
+<div class="section" id="cosmology-parameters-and-model-optimization">
+<h2>Cosmology Parameters and Model Optimization<a class="headerlink" href="#cosmology-parameters-and-model-optimization" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">`CCL</span></code> - DESC Core Cosmology Library: cosmology routines with
+validated numerical accuracy &lt;<a class="reference external" href="https://github.com/LSSTDESC/CCL">https://github.com/LSSTDESC/CCL</a>&gt;`__</p>
+<ul>
+<li><p>On top of <code class="docutils literal notranslate"><span class="pre">CCL</span></code>, there is <code class="docutils literal notranslate"><span class="pre">firecrown</span></code>:</p></li>
+<li><p><a class="reference external" href="https://github.com/LSSTDESC/firecrown">firecrown: the “c” is for
+“cosmology”</a></p></li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`CosmoMC</span></code> - MCMC parameter sampling
+code &lt;<a class="reference external" href="https://github.com/cmbant/CosmoMC">https://github.com/cmbant/CosmoMC</a>&gt;`__</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">CosmoMC</span></code> is a Fortran 2008 Markov-Chain Monte-Carlo (MCMC)
+engine for exploring cosmological parameter space, together with
+Fortran and python code for analysing Monte-Carlo samples and
+importance sampling (plus a suite of scripts for building grids of
+runs, plotting and presenting results).</p></li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`CosmoHammer</span></code> - Cosmological parameter estimation with the MCMC
+Hammer &lt;<a class="reference external" href="https://github.com/cosmo-ethz/CosmoHammer">https://github.com/cosmo-ethz/CosmoHammer</a>&gt;`__</p>
+<ul>
+<li><p>A paper describing the software can be <a class="reference external" href="https://arxiv.org/abs/1212.1721">found
+here</a></p></li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`Cobaya</span></code> - Code for Bayesian Analysis in
+Cosmology &lt;<a class="reference external" href="https://github.com/CobayaSampler/cobaya">https://github.com/CobayaSampler/cobaya</a>&gt;`__</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">Cobaya</span></code> is a framework for sampling and statistical modelling:
+it allows you to explore an arbitrary prior or posterior using a
+range of Monte Carlo samplers (including the advanced MCMC sampler
+from <code class="docutils literal notranslate"><span class="pre">CosmoMC</span></code>, and the advanced nested sampler <code class="docutils literal notranslate"><span class="pre">PolyChord</span></code>).</p></li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`MontePython</span></code> - The Monte Carlo code for class in
+Python &lt;<a class="reference external" href="https://baudren.github.io/montepython.html">https://baudren.github.io/montepython.html</a>&gt;`__</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">MontePython</span></code> is a Monte Carlo code for Cosmological Parameter
+extraction. It contains likelihood codes of most recent
+experiments, and interfaces with the Boltzmann code <code class="docutils literal notranslate"><span class="pre">Class</span></code> for
+computing the cosmological observables.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="supernova-related">
+<h2>Supernova related<a class="headerlink" href="#supernova-related" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">`sncosmo</span></code> - Python library for supernova
+cosmology &lt;<a class="reference external" href="https://github.com/sncosmo/sncosmo">https://github.com/sncosmo/sncosmo</a>&gt;`__</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">SNCosmo</span></code> is a Python library for supernova cosmology analysis.
+It aims to make such analysis both as flexible and clear as
+possible. <a class="reference external" href="https://sncosmo.readthedocs.io/en/v2.0.x/">Online document is
+here</a></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`sndatasets</span></code> - Download and normalize published supernova
+photometric data &lt;<a class="reference external" href="https://github.com/sncosmo/sndatasets">https://github.com/sncosmo/sndatasets</a>&gt;`__</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="cmb-related">
+<h2>CMB related<a class="headerlink" href="#cmb-related" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">`CAMB</span></code> - Code for Anisotropies in the Microwave
+Background &lt;<a class="reference external" href="https://github.com/cmbant/CAMB">https://github.com/cmbant/CAMB</a>&gt;`__</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">CAMB</span></code> is a cosmology code for calculating cosmological
+observables, including CMB, lensing, source count and 21cm angular
+power spectra, matter power spectra, transfer functions and
+background evolution</p></li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`CLassylss</span></code> - a lightweight Python binding of the CLASS CMB
+Boltzmann code &lt;<a class="reference external" href="https://github.com/nickhand/classylss">https://github.com/nickhand/classylss</a>&gt;`__</p>
+<ul>
+<li><p>A very nice gateway to <code class="docutils literal notranslate"><span class="pre">CLASS</span></code></p></li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`CLASS</span></code> - Cosmic Linear Anisotropy Solving
+System &lt;<a class="reference external" href="http://class-code.net/">http://class-code.net/</a>&gt;`__</p>
+<ul>
+<li><p>The purpose of <code class="docutils literal notranslate"><span class="pre">CLASS</span></code> is to simulate the evolution of linear
+perturbations in the universe and to compute CMB and large scale
+structure observables.</p></li>
+<li><p>A public repository is available on
+<a class="reference external" href="https://github.com/lesgourg/class_public">github</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="correlation-functions">
+<h2>Correlation Functions<a class="headerlink" href="#correlation-functions" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">`Corrfunc</span></code> - Blazing fast correlation functions on the
+CPU &lt;<a class="reference external" href="https://github.com/manodeep/Corrfunc">https://github.com/manodeep/Corrfunc</a>&gt;`__</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`TreeCorr</span></code> - Code for efficiently computing 2-point and 3-point
+correlation functions &lt;<a class="reference external" href="https://github.com/rmjarvis/TreeCorr">https://github.com/rmjarvis/TreeCorr</a>&gt;`__</p>
+<ul>
+<li><p>It can compute correlations of regular number counts, weak lensing
+shears, or scalar quantities such as convergence or CMB
+temperature fluctutations.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="weak-lensing">
+<h2>Weak Lensing<a class="headerlink" href="#weak-lensing" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Both <code class="docutils literal notranslate"><span class="pre">corrfunc</span></code> and <code class="docutils literal notranslate"><span class="pre">treecorr</span></code> can be used for shear-shear or
+galaxy-shear analysis</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`LensTools</span></code> - collects together a suite of widely used analysis
+tools in Weak Gravitational
+Lensing &lt;<a class="reference external" href="https://github.com/apetri/LensTools">https://github.com/apetri/LensTools</a>&gt;`__</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`DESWL</span></code> - A collection of scripts and software related to DES weak
+lensing analysis &lt;<a class="reference external" href="https://github.com/rmjarvis/DESWL">https://github.com/rmjarvis/DESWL</a>&gt;`__</p>
+<ul>
+<li><p>By Marc Jarvis</p></li>
+</ul>
+</li>
+</ul>
+<div class="section" id="cluster-lensing">
+<h3>Cluster Lensing<a class="headerlink" href="#cluster-lensing" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">`cluster-lensing</span></code> - Galaxy Cluster and Weak Lensing
+Tools &lt;<a class="reference external" href="https://github.com/jesford/cluster-lensing">https://github.com/jesford/cluster-lensing</a>&gt;`__</p>
+<ul>
+<li><p>By Jes Ford. <a class="reference external" href="https://iopscience.iop.org/article/10.3847/1538-3881/152/6/228/meta">Paper can be found
+here</a></p></li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`cluster_toolkit</span></code> - Tools for analyzing galaxy
+clusters &lt;<a class="reference external" href="https://github.com/tmcclintock/cluster_toolkit">https://github.com/tmcclintock/cluster_toolkit</a>&gt;`__</p>
+<ul>
+<li><p>by <a class="reference external" href="https://tmcclintock.github.io/">Tom McClintock</a>. Contains
+routines used in the Dark Energy Survey Year 1 stacked cluster
+weak lensing analysis.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="igm-related-e-g-lya-forrest">
+<h2>IGM Related (e.g. Lya Forrest)<a class="headerlink" href="#igm-related-e-g-lya-forrest" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">`IGMHUB</span></code> - IGM analysis tools &lt;<a class="reference external" href="https://igmhub.github.io/">https://igmhub.github.io/</a>&gt;`__</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">`baofit</span></code> - Fits cosmological data to measure baryon acoustic
+oscillations &lt;<a class="reference external" href="https://github.com/igmhub/baofit">https://github.com/igmhub/baofit</a>&gt;`__</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">baofit</span></code> is a software package for analyzing cosmological
+correlation functions to estimate parameters related to baryon
+acoustic oscillations and redshift-space distortions</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="dark-matter-halos">
+<h2>Dark Matter Halos<a class="headerlink" href="#dark-matter-halos" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">`Halotools</span></code> - Python package for studying large scale structure,
+cosmology, and galaxy evolution using N-body simulations and halo
+models &lt;<a class="reference external" href="https://github.com/astropy/halotools">https://github.com/astropy/halotools</a>&gt;`__</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">Halotools</span></code> is a specialized python package for building and
+testing models of the galaxy-halo connection, and analyzing
+catalogs of dark matter halos.</p></li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`Colossus</span></code> - a python toolkit for calculations pertaining to
+cosmology, the large-scale structure of the universe, and the
+properties of dark matter
+halos &lt;<a class="reference external" href="http://www.benediktdiemer.com/code/colossus/">http://www.benediktdiemer.com/code/colossus/</a>&gt;`__</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`COMMAH</span></code> - COncentration-Mass relation and Mass Accretion
+History &lt;<a class="reference external" href="https://correacamila.com/code/commah/">https://correacamila.com/code/commah/</a>&gt;`__</p>
+<ul>
+<li><p>By Camila Correa; calculates dark matter halo concentrations as a
+function of halo mass and redshift. The <a class="reference external" href="https://github.com/astroduff/commah">source code is available
+on Github</a></p></li>
+<li><p>Based on the works of <a class="reference external" href="https://arxiv.org/abs/1409.5228">Correa et
+al. 2015a</a>; <a class="reference external" href="https://arxiv.org/abs/1502.00391">Correa et
+al. 2015c</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="emulators">
+<h2>Emulators:<a class="headerlink" href="#emulators" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Increasingly popular way to study cosmology based on a limit set of
+N-body simulations.</p></li>
+</ul>
+<div class="section" id="key-technique">
+<h3>Key Technique<a class="headerlink" href="#key-technique" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>A suite of N-body cosmology simulations</p>
+<ul>
+<li><p>2nd order Lagrangian perturbation theory (2LPT) initial conditions</p>
+<ul>
+<li><p>e.g. by <code class="docutils literal notranslate"><span class="pre">`2LPTIC</span></code> &lt;<a class="reference external" href="http://cosmo.nyu.edu/roman/2LPT/">http://cosmo.nyu.edu/roman/2LPT/</a>&gt;`__ or on
+Github <a class="reference external" href="https://github.com/manodeep/2LPTic">here</a></p></li>
+</ul>
+</li>
+<li><p>Input power spectrum. e.g. by <a class="reference external" href="https://camb.info">CAMB: Code for Anisotropies in the
+Microwave Background</a></p></li>
+</ul>
+</li>
+<li><p>Sampling the cosmological parameters:</p>
+<ul>
+<li><p>Latin Hypercube Designs (LHDs)</p></li>
+<li><p><a class="reference external" href="https://www.asc.ohio-state.edu/statistics/comp_exp/jour.club/optimal_sliced_lhd_ba2015.pdf">Maximin-distance “sliced” LHD
+(SLHD)</a></p>
+<ul>
+<li><p>Python implementation:
+<a class="reference external" href="https://pythonhosted.org/pyDOE/index.html">https://pythonhosted.org/pyDOE/index.html</a></p></li>
+<li><p>SMT: Surrogate Modeling Toolbox:
+<a class="reference external" href="https://smt.readthedocs.io/en/latest/index.html">https://smt.readthedocs.io/en/latest/index.html</a></p></li>
+<li><p>Another Python version: <a class="reference external" href="https://github.com/sahilm89/lhsmdu">https://github.com/sahilm89/lhsmdu</a></p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Principle Component Analysis (PCA)</p>
+<ul>
+<li><p>e.g. <code class="docutils literal notranslate"><span class="pre">`empca</span></code> &lt;<a class="reference external" href="https://github.com/sbailey/empca">https://github.com/sbailey/empca</a>&gt;`__ by Stephen
+Bailey</p></li>
+</ul>
+</li>
+<li><p>Gaussian process emulator</p>
+<ul>
+<li><p>e.g. <code class="docutils literal notranslate"><span class="pre">`george</span></code> &lt;<a class="reference external" href="http://dfm.io/george/current/">http://dfm.io/george/current/</a>&gt;`__ by Dan
+Foreman-Mackey</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="available-emulators">
+<h3>Available Emulators<a class="headerlink" href="#available-emulators" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://aemulusproject.github.io">Aemulus Project led by
+Stanford</a></p>
+<ul>
+<li><p>The basic structure of the code:
+<a class="reference external" href="https://github.com/AemulusProject/Aemulator">Aemulator</a></p></li>
+<li><p>Emulator of <a class="reference external" href="https://github.com/AemulusProject/hmf_emulator">halo mass
+function</a> and
+<a class="reference external" href="https://github.com/AemulusProject/bias_emulator">halo bias</a></p></li>
+<li><p><a class="reference external" href="https://arxiv.org/abs/1804.05865">The Aemulus Project I: Numerical Simulations for Precision
+Cosmology</a></p></li>
+<li><p><a class="reference external" href="https://arxiv.org/abs/1804.05866">The Aemulus Project II: Emulating the Halo Mass
+Function</a></p></li>
+<li><p><a class="reference external" href="https://arxiv.org/abs/1804.05867">The Aemulus Project III: Emulation of the Galaxy Correlation
+Function</a></p></li>
+<li><p>Documents for <a class="reference external" href="https://aemulus-data.readthedocs.io/en/latest/">data release
+1</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="http://www.hep.anl.gov/cosmology/CosmicEmu/emu.html">CosmicEmu led by
+ANL</a></p>
+<ul>
+<li><p>Code can be found <a class="reference external" href="https://github.com/lanl/CosmicEmu">here</a></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">CosmicEmu</span></code> produces predictions for the matter power spectrum
+based on eight cosmological parametersand redshift.</p></li>
+<li><p>Based on the <a class="reference external" href="https://arxiv.org/abs/1508.02654">Mira-Titan
+simulations</a></p></li>
+<li><p>Also related to the Coyote Universe emulator: <a class="reference external" href="https://arxiv.org/abs/0812.1052">Paper
+I</a>, <a class="reference external" href="https://arxiv.org/abs/0902.0429">Paper
+II</a>, <a class="reference external" href="https://arxiv.org/abs/0912.4490">Paper
+III</a>, and
+<a class="reference external" href="https://arxiv.org/abs/1304.7849">Extended</a></p></li>
+<li><p>Paper about the <a class="reference external" href="https://arxiv.org/abs/1311.6444">emulated
+power-spectrum</a></p></li>
+<li><p>Paper about the <a class="reference external" href="https://arxiv.org/abs/1210.1576">emulated halo mass-concentration
+relation</a></p></li>
+</ul>
+</li>
+<li><p><a href="#id1"><span class="problematic" id="id2">`ACME Emulator led by OSU &lt;&gt;`__</span></a></p>
+<ul>
+<li><p>Paper by Ben Wibking: <a class="reference external" href="http://adsabs.harvard.edu/doi/10.1093/mnras/sty2258">Emulating galaxy clustering and
+galaxy-galaxy lensing into the deeply nonlinear
+regime</a></p></li>
+<li><p>Use the <a class="reference external" href="https://lgarrison.github.io/AbacusCosmos/">AbacusCosmos suite of
+simulations</a></p>
+<ul>
+<li><p>The code used for the simulation is
+<a class="reference external" href="https://github.com/lgarrison/AbacusCosmos">here</a></p></li>
+<li><p>The <a class="reference external" href="https://arxiv.org/abs/1712.05768">AbacusCosmos description
+paper</a></p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><a href="#id1"><span class="problematic" id="id3">`Dark Emulator led by IPMU &lt;&gt;`__</span></a></p>
+<ul>
+<li><p>Based on the Dark Quest suite of simulations.</p></li>
+<li><p><a class="reference external" href="http://adsabs.harvard.edu/abs/2018arXiv181109504N">Dark Quest. I. Fast and Accurate Emulation of Halo Clustering
+Statistics and Its Application to Galaxy
+Clustering</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../../../index.html">Taotie</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../astro_readme.html">Astro README.md</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../astro_research_basic.html">Basic Tools for Astrophysical Research</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../research.html"> Research in General</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../programming.html"> Programming and Developing Software</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2019, Song Huang.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../../../_sources/resource/astro/topics/cosmology_tools.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

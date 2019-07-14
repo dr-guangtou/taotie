@@ -1,0 +1,512 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Important Tools and Projects for Astrophysical and Cosmological Simulations &#8212; Taotie 0.1 documentation</title>
+    <link rel="stylesheet" href="../../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../../_static/language_data.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+   
+  <link rel="stylesheet" href="../../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="important-tools-and-projects-for-astrophysical-and-cosmological-simulations">
+<h1>Important Tools and Projects for Astrophysical and Cosmological Simulations<a class="headerlink" href="#important-tools-and-projects-for-astrophysical-and-cosmological-simulations" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="tools">
+<h2>Tools<a class="headerlink" href="#tools" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="analysing-data-from-simulation">
+<h3>Analysing Data from Simulation<a class="headerlink" href="#analysing-data-from-simulation" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><cite>The ``yt`</cite> project &lt;<a class="reference external" href="https://yt-project.org/">https://yt-project.org/</a>&gt;`__</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">yt</span></code> is an open-source, permissively-licensed python package for
+analyzing and visualizing volumetric data. <a class="reference external" href="https://github.com/yt-project/yt">Source code is
+available on Github</a></p></li>
+<li><p>There is a list of useful <cite>extensions of
+``yt`</cite> &lt;<a class="reference external" href="https://yt-project.org/extensions.html">https://yt-project.org/extensions.html</a>&gt;`__</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`unyt</span></code> - Handle, manipulate, and convert data with units in
+Python &lt;<a class="reference external" href="https://github.com/yt-project/unyt">https://github.com/yt-project/unyt</a>&gt;`__</p></li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`Pynbody</span></code> - an analysis package for astrophysical N-body and
+Smooth Particle Hydrodynamics
+simulations &lt;<a class="reference external" href="https://pynbody.github.io/pynbody/index.html">https://pynbody.github.io/pynbody/index.html</a>&gt;`__</p>
+<ul>
+<li><p><a class="reference external" href="https://github.com/pynbody/pynbody">Source code available on
+Github</a></p></li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`Pylians</span></code> - Libraries to analyze numerical
+simulations &lt;<a class="reference external" href="https://github.com/franciscovillaescusa/Pylians">https://github.com/franciscovillaescusa/Pylians</a>&gt;`__</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">Pylians</span></code> stands for Python libraries for the analysis of
+numerical simulations. They are a set of python libraries, written
+in python, cython and C, whose purposes is to facilitate the
+analysis of numerical simulations (both N-body and hydro).</p></li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`tipsy</span></code> - The Theoretical Image Processing SYstem for
+visualizing/analyzing n-body
+simulations &lt;<a class="reference external" href="https://github.com/N-BodyShop/tipsy">https://github.com/N-BodyShop/tipsy</a>&gt;`__</p></li>
+</ul>
+<div class="section" id="halo-and-subhalo-finder">
+<h4>Halo and Subhalo Finder<a class="headerlink" href="#halo-and-subhalo-finder" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>For an overview and comparison of current algorithms:</p>
+<ul>
+<li><p><a class="reference external" href="https://arxiv.org/abs/1104.0949">Haloes gone MAD: The Halo-Finder Comparison
+Project</a></p></li>
+<li><p><a class="reference external" href="https://arxiv.org/abs/1203.3695">Subhaloes going Notts: the subhalo-finder comparison
+project</a></p></li>
+<li><p><a class="reference external" href="https://arxiv.org/abs/1210.2578">Galaxies going MAD: the Galaxy-Finder Comparison
+Project</a></p></li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`Rockstar</span></code> - Robust Overdensity Calculation using K-Space
+Topologically Adaptive
+Refinement &lt;<a class="reference external" href="https://bitbucket.org/gfcstanford/rockstar/src/master/">https://bitbucket.org/gfcstanford/rockstar/src/master/</a>&gt;`__</p>
+<ul>
+<li><p>By Peter Behroozi. Based on <a class="reference external" href="https://arxiv.org/abs/1110.4372">Phase-Space Temporal Halo Finder and
+the Velocity Offsets of Cluster
+Cores</a></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">rockstar</span></code> identifies dark matter halos, substructure, and tidal
+features. The approach is based on adaptive hierarchical
+refinement of friends-of-friends groups in six phase-space
+dimensions and one time dimension, which allows for robust
+(grid-independent, shape-independent, and noise-resilient)
+tracking of substructure.</p></li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`FoF</span></code> - Friends-of-friends method to find
+groups &lt;<a class="reference external" href="https://faculty.washington.edu/trq/hpcc/tools/fof.html">https://faculty.washington.edu/trq/hpcc/tools/fof.html</a>&gt;`__</p>
+<ul>
+<li><p>A particle belongs to a friends-of-friends group if it is within
+some linking length of any other particle in the group. After all
+such groups are found, those with less than a specified minimum
+number of group members are rejected.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="merger-tree-construction">
+<h4>Merger Tree Construction<a class="headerlink" href="#merger-tree-construction" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>For an overview and comparison of current algorithms:</p>
+<ul>
+<li><p><a class="reference external" href="https://arxiv.org/abs/1307.3577">Sussing Merger Trees: The Merger Trees Comparison
+Project</a></p></li>
+<li><p><a class="reference external" href="https://arxiv.org/abs/1604.01463">Sussing Merger Trees: Stability and
+Convergence</a></p></li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`consistent-trees</span></code> - Gravitationally Consistent Merger
+Trees &lt;<a class="reference external" href="https://bitbucket.org/pbehroozi/consistent-trees/src/master/">https://bitbucket.org/pbehroozi/consistent-trees/src/master/</a>&gt;`__</p>
+<ul>
+<li><p>By Peter Behroozi. Based on <a class="reference external" href="https://arxiv.org/abs/1110.4370">Gravitationally Consistent Halo
+Catalogs and Merger Trees for Precision
+Cosmology</a></p></li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`VELOCIraptor</span></code> - Galaxy/(sub)Halo finder for N-body
+simulations &lt;<a class="reference external" href="https://github.com/pelahi/VELOCIraptor-STF">https://github.com/pelahi/VELOCIraptor-STF</a>&gt;`__</p>
+<ul>
+<li><p>By Pascal Jahan Elahi.</p></li>
+<li><p>Also see <code class="docutils literal notranslate"><span class="pre">`TreeFrog</span></code> - Software to build Halo Merger
+Trees/compare halo
+catalogs &lt;<a class="reference external" href="https://github.com/pelahi/TreeFrog">https://github.com/pelahi/TreeFrog</a>&gt;`__</p></li>
+<li><p>And <code class="docutils literal notranslate"><span class="pre">`VELOCIraptor_Python_Tools</span></code> - python tools for manipulating
+velociraptor
+data &lt;<a class="reference external" href="https://github.com/pelahi/VELOCIraptor_Python_Tools">https://github.com/pelahi/VELOCIraptor_Python_Tools</a>&gt;`__</p></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="n-body-simulation">
+<h3>N-body Simulation<a class="headerlink" href="#n-body-simulation" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">`HACC</span></code> - Hardware/Hybrid Accelerated Cosmology Code &lt;&gt;`__</p>
+<ul>
+<li><p>A recently developed and evolving cosmology N-body code framework,
+designed to run efficiently on diverse computing architectures and
+to scale to millions of cores and beyond. See <a class="reference external" href="https://arxiv.org/abs/1410.2805">publication here
+for details</a></p></li>
+<li><p><a class="reference external" href="https://xgitlab.cels.anl.gov/hacc">Some relevant codes are available on
+Gitlab</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://academic.oup.com/pasj/article/61/6/1319/1462224">GreeM - Massively Parallel TreePM Code for Large Cosmological N-body
+Simulations</a></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`COLA</span></code> - COmoving Lagrangian
+Acceleration &lt;<a class="reference external" href="https://github.com/HAWinther/MG-PICOLA-PUBLIC">https://github.com/HAWinther/MG-PICOLA-PUBLIC</a>&gt;`__</p>
+<ul>
+<li><p>Based on the work: <a class="reference external" href="https://arxiv.org/abs/1703.00879">COLA with scale-dependent growth: applications
+to screened modified gravity
+models</a></p></li>
+<li><p><a class="reference external" href="https://github.com/junkoda/cola_halo">Parallel COLA cosmological simulation + 2LPT initial condition
+generator + FoF halo
+finder</a></p></li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`Quijote-simulations</span></code> &lt;<a class="reference external" href="https://github.com/franciscovillaescusa/Quijote-simulations">https://github.com/franciscovillaescusa/Quijote-simulations</a>&gt;`__</p>
+<ul>
+<li><p>The Quijote simulations are a set of 34500 N-body simulations.
+They are designed for two main tasks: 1) Quantify the information
+content on cosmological observables; 2) Provide enough statistics
+to train machine learning algorithms</p></li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`UNIT</span></code> - Universe N-body simulations for the Investigation of
+Theoretical models from galaxy surveys &lt;<a class="reference external" href="http://www.unitsims.org/">http://www.unitsims.org/</a>&gt;`__</p>
+<ul>
+<li><p>Based on the work by <a class="reference external" href="https://arxiv.org/pdf/1811.02111.pdf">Chia-Hsun Chuang et
+al. 2018</a></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Unit</span></code> uses FastPM (Feng et al. 2016) to generate the paired
+initial conditions with fixed-amplitude.</p></li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`MICE</span></code> - Marenostrum Institut de Ciències de l’Espai
+Simulations &lt;<a class="reference external" href="http://maia.ice.cat/mice/">http://maia.ice.cat/mice/</a>&gt;`__</p>
+<ul>
+<li><p>A suit of cosmological simulations. Lots of data are already
+available in public.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="hydrodynamic-and-mhd-simulation">
+<h3>Hydrodynamic and MHD Simulation<a class="headerlink" href="#hydrodynamic-and-mhd-simulation" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="sph-smoothed-particle-hydrodynamics">
+<h4>SPH: Smoothed Particle Hydrodynamics<a class="headerlink" href="#sph-smoothed-particle-hydrodynamics" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">`Gadget-2</span></code> - A code for cosmological simulations of structure
+formation &lt;<a class="reference external" href="https://wwwmpa.mpa-garching.mpg.de/gadget/">https://wwwmpa.mpa-garching.mpg.de/gadget/</a>&gt;`__</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">Gadget-2</span></code> is a freely available code for cosmological
+N-body/SPH simulations on massively parallel computers with
+distributed memory. There are multiple spin-off of <code class="docutils literal notranslate"><span class="pre">Gadget</span></code> now.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`MP-Gadget</span></code> - massively-parallel cosmology
+simulator &lt;<a class="reference external" href="https://github.com/MP-Gadget/MP-Gadget">https://github.com/MP-Gadget/MP-Gadget</a>&gt;`__</p>
+<ul>
+<li><p>This version of Gadget is derived from main P-Gadget /
+Gadget-2. It is the source code used to run the BlueTides
+simulation</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`SWIFT</span></code> - SPH With Inter-dependent Fine-grained
+Tasking &lt;<a class="reference external" href="http://swift.dur.ac.uk">http://swift.dur.ac.uk</a>&gt;`__</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">SWIFT</span></code> is a hydrodynamics and gravity code for astrophysics and
+cosmology.</p></li>
+<li><p><a class="reference external" href="https://gitlab.cosma.dur.ac.uk/swift/swiftsim">Source codes can be found on
+GitLab</a></p></li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`GIZMO</span></code> by Phil
+Hopkins &lt;<a class="reference external" href="http://www.tapir.caltech.edu/~phopkins/Site/GIZMO.html">http://www.tapir.caltech.edu/~phopkins/Site/GIZMO.html</a>&gt;`__</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">GIZMO</span></code> is a flexible, massively-parallel, multi-physics
+simulation code. The <a class="reference external" href="https://bitbucket.org/phopkins/gizmo-public/src/default/">public version code can be found
+here</a></p></li>
+<li><p>It introduces new Lagrangian Godunov-type methods that allow you
+to solve the fluid equations with a moving particle distribution
+that is automatically adaptive in resolution and avoids the
+advection errors, angular momentum conservation errors, and
+excessive diffusion problems that limit the applicability of
+“adaptive mesh” (AMR) codes, while simultaneously avoiding the
+low-order errors inherent to simpler methods like
+smoothed-particle hydrodynamics (SPH).</p></li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`Gasoline</span></code> - Particle hydrodynamics have never been
+smoother &lt;<a class="reference external" href="https://gasoline-code.com/">https://gasoline-code.com/</a>&gt;`__</p>
+<ul>
+<li><p>Gasoline is a modern SPH simulation code for astrophysical
+problems. <a class="reference external" href="https://github.com/N-BodyShop/gasoline">Source code is available
+publicly</a></p></li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`flecsph</span></code> - A Parallel and Distributed SPH Implementation Based on
+the FleCSI &lt;<a class="reference external" href="https://github.com/laristra/flecsph">https://github.com/laristra/flecsph</a>&gt;`__</p>
+<ul>
+<li><p>This project implements smoothed particles hydrodynamics (SPH)
+method of simulating fluids and gases using the FleCSI framework.
+Currently, particle affinity and gravitation is handled using the
+parallel implementation of the octree data structure provided by
+FleCSI.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="amr-adaptive-mesh-refinement">
+<h4>AMR: Adaptive Mesh Refinement<a class="headerlink" href="#amr-adaptive-mesh-refinement" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">`AMReX-Codes</span></code> - Block-Structured AMR Software Framework and
+Applications &lt;<a class="reference external" href="https://amrex-codes.github.io/">https://amrex-codes.github.io/</a>&gt;`__</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">`AMReX</span></code> - A software framework for massively parallel,
+block-structured adaptive mesh refinement (AMR)
+applications &lt;<a class="reference external" href="https://amrex-codes.github.io/amrex/">https://amrex-codes.github.io/amrex/</a>&gt;`__</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`AMReX</span></code> Astrophysics - An Astrophysical Hydrodynamics Code
+Suite &lt;<a class="reference external" href="https://amrex-astro.github.io/">https://amrex-astro.github.io/</a>&gt;`__</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">AMReX</span></code> Astrophysics codes can model subsonic convection and
+compressible flows in stars, explosive burning in stellar
+environments, and large scale structure on cosmological scales.
+They share a common design and an open development model.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`Castro</span></code> - An adaptive mesh, astrophysical radiation
+hydrodynamics simulation
+code &lt;<a class="reference external" href="https://github.com/AMReX-Astro/Castro">https://github.com/AMReX-Astro/Castro</a>&gt;`__</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`MAESTRO</span></code> - A low Mach number stellar hydrodynamics
+code &lt;<a class="reference external" href="https://github.com/AMReX-Astro/MAESTRO">https://github.com/AMReX-Astro/MAESTRO</a>&gt;`__</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`Nyx</span></code> - An adaptive mesh, N-body hydro cosmological
+simulation code &lt;<a class="reference external" href="https://github.com/AMReX-Astro/Nyx">https://github.com/AMReX-Astro/Nyx</a>&gt;`__</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`ENZO</span></code> - adaptive mesh-refinement simulation
+code &lt;<a class="reference external" href="https://enzo-project.github.io/">https://enzo-project.github.io/</a>&gt;`__</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">Enzo</span></code> is a community-developed adaptive mesh refinement
+simulation code, designed for rich, multi-physics hydrodynamic
+astrophysical calculations. <a class="reference external" href="https://github.com/enzo-project/enzo-dev">Source codes are available on
+Github</a></p></li>
+</ul>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`FLASH5</span></code> - multiphysics, multiscale simulation
+code &lt;<a class="reference external" href="https://github.com/ECP-Astro/FLASH5">https://github.com/ECP-Astro/FLASH5</a>&gt;`__</p></li>
+</ul>
+</div>
+<div class="section" id="moving-mesh-approach">
+<h4>Moving Mesh Approach<a class="headerlink" href="#moving-mesh-approach" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">`Arepo</span></code> - Galilean-invariant cosmological hydrodynamical
+simulations on a moving mesh &lt;<a class="reference external" href="https://www.h-its.org/arepo/">https://www.h-its.org/arepo/</a>&gt;`__</p>
+<ul>
+<li><p>The <code class="docutils literal notranslate"><span class="pre">AREPO</span></code> code is a cosmological hydrodynamical simulation
+code on a fully dynamic unstructured mesh. Code is not publicly
+available yet.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="section" id="projects">
+<h2>Projects<a class="headerlink" href="#projects" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="cosmological-simulations">
+<h3>Cosmological Simulations<a class="headerlink" href="#cosmological-simulations" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="n-body-simulations">
+<h4>N-Body Simulations<a class="headerlink" href="#n-body-simulations" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.cosmosim.org/">CosmoSim Database</a></p>
+<ul>
+<li><p>The Spanish MultiDark Consolider project supports efforts to
+identify and detect matter, including dark matter simulations of
+the universe. Including <code class="docutils literal notranslate"><span class="pre">SMDPL</span></code>, <code class="docutils literal notranslate"><span class="pre">MDPL</span></code>, <code class="docutils literal notranslate"><span class="pre">MDPL2</span></code>,
+<code class="docutils literal notranslate"><span class="pre">BigMDPL</span></code>, <code class="docutils literal notranslate"><span class="pre">Bolshoi</span></code>, and <code class="docutils literal notranslate"><span class="pre">BolshoiP</span></code> simulations.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://cosmology.alcf.anl.gov/">HACC Simulation Data Portal</a></p>
+<ul>
+<li><p>This webpage provides access to results from large cosmological
+simulations carried out with <code class="docutils literal notranslate"><span class="pre">HACC</span></code>, the Hardware/Hybrid
+Accelerated Cosmology Code, developed primarily at Argonne</p></li>
+<li><p><a class="reference external" href="https://cosmology.alcf.anl.gov/transfer/miratitan">Mira-Titan Universe
+Simulations</a></p>
+<ul>
+<li><p>A suite of eleven cosmological models, evolving almost 33
+billion particles each in a (2.1Gpc)^3 volume.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://cosmology.alcf.anl.gov/outerrim">Outer Rim Simulation</a></p>
+<ul>
+<li><p>A LCDM simulation evolving more than 1 trillion particles in a
+(4.225Gpc)^3 volume.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://cosmology.alcf.anl.gov/transfer/qcontinuum">QContinuum
+Simulation</a></p>
+<ul>
+<li><p>A LCDM simulation evolving more than 0.5 trillion particles in
+a (1.3Gpc)3 volume.</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://wwwmpa.mpa-garching.mpg.de/galform/virgo/">VIRGO: Cosmological N-Body
+Simulations</a></p>
+<ul>
+<li><p>The VIRGO Consortium is an international grouping of scientists
+carrying out supercomputer simulations of the formation of
+galaxies, galaxy clusters, large-scale structure, and of the
+evolution of the intergalactic medium.</p></li>
+<li><p><a class="reference external" href="https://wwwmpa.mpa-garching.mpg.de/galform/virgo/millennium/index.shtml">The Millennium Simulation
+Project</a></p></li>
+<li><p><a class="reference external" href="https://wwwmpa.mpa-garching.mpg.de/galform/virgo/hubble/index.shtml">The Hubble Volume
+Project</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="hydrodynamic-or-mhb-simulations">
+<h4>Hydrodynamic or MHB Simulations<a class="headerlink" href="#hydrodynamic-or-mhb-simulations" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="http://www.illustris-project.org/">The Illustris Simulation - Towards a predictive theory of galaxy
+formation</a></p>
+<ul>
+<li><p>The Illustris project is a large cosmological simulation of galaxy
+formation, completed in late 2013, using a state of the art
+numerical code and a comprehensive physical model.</p></li>
+<li><p>All the data have been <a class="reference external" href="http://www.illustris-project.org/data/">released to
+public</a>. See the [About
+page] for general information.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="http://www.tng-project.org/">The IllustrisTNG Project</a></p>
+<ul>
+<li><p>The IllustrisTNG project is an ongoing series of large,
+cosmological magnetohydrodynamical simulations of galaxy
+formation.</p></li>
+<li><p>Some of the IllustrisTNG data have been <a class="reference external" href="http://www.tng-project.org/data/">released to the
+public</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="http://icc.dur.ac.uk/Eagle/">The EAGLE Project - Evolution and Assembly of GaLaxies and their
+Environments</a></p>
+<ul>
+<li><p><a class="reference external" href="http://icc.dur.ac.uk/Eagle/database.php">Public data release is available
+here</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://wwwmpa.mpa-garching.mpg.de/auriga/">Auriga project - High resolution disc galaxy simulations in a
+cosmological context</a></p>
+<ul>
+<li><p>The Auriga Project is a large suite of high-resolution
+magneto-hydrodynamical simulations of Milky Way-sized galaxies,
+simulated in a fully cosmological environment by means of the
+‘zoom-in’ technique. It is simulated with the state-of-the-art
+hydrodynamic moving mesh code AREPO, and includes a comprehensive
+galaxy formation model based on the successful cosmological
+simulation Illustris.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="http://bluetides-project.org/">BlueTides Simulation</a></p>
+<ul>
+<li><p>BlueTides was run on the BlueWaters super computer at NCSA with an
+allocation of 2.6 million node-hours. It simulated the universe
+from z=99 to z=8.0.</p></li>
+<li><p>Bluetides is the largest hydrodynamic simulation ever performed at
+such high redshift.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="http://www.astro.ljmu.ac.uk/~igm/BAHAMAS/">The BAHAMAS Project - BAryons and HAloes of MAssive
+Systems</a></p>
+<ul>
+<li><p>BAHAMAS is a first attempt to do large-scale structure (LSS)
+cosmology using self-consistent full cosmological hydrodynamical
+simulations.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../../../index.html">Taotie</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../astro_readme.html">Astro README.md</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../astro_research_basic.html">Basic Tools for Astrophysical Research</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../research.html"> Research in General</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../programming.html"> Programming and Developing Software</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2019, Song Huang.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../../../_sources/resource/astro/topics/simulations.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
