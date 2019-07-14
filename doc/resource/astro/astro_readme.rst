@@ -76,7 +76,7 @@ Data Analysis
 -  `A Beginner’s Guide to Working with Astronomical
    Data <https://arxiv.org/abs/1905.13189>`__
 
-   -  Basics about astronomical data analysis using ``Python``.
+   -  Basics about astronomical data analysis using **Python**.
 
 -  `Astronomical
    Spectroscopy <http://adsabs.harvard.edu/abs/2013pss2.book...35M>`__
@@ -123,7 +123,7 @@ Cosmology
 
    -  The published version is
       `here <https://www.cambridge.org/core/journals/publications-of-the-astronomical-society-of-australia/article/damn-you-little-h-or-realworld-applications-of-the-hubble-constant-using-observed-and-simulated-data/EB4B786F4500F897A589C3ED980C17F5>`__
-   -  This is a really useful note. ``little-h`` can be really tricky!
+   -  This is a really useful note. **little-h** can be really tricky!
    -  Also see `this conversion table by Ivan
       Baldry <http://www.astro.ljmu.ac.uk/~ikb/research/>`__
 

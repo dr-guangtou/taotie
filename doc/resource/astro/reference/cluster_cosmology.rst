@@ -430,7 +430,7 @@ Using Velocity Distribution Function
 -  `Penna-Lima et al. 2017 - Calibrating the Planck cluster mass scale
    with CLASH <http://adsabs.harvard.edu/abs/2017A%26A...604A..89P>`__
 
-   -  ``1 - b_sz = 0.73 +/- 0.10``
+   -  **1 - b_sz = 0.73 +/- 0.10**
 
 Lectures and Conferences
 ------------------------

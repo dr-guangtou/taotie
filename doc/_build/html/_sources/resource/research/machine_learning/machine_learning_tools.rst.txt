@@ -4,17 +4,17 @@ Collection of Useful Tools for Machine Learning and Artificial Intelligence
 Basic Tools
 -----------
 
--  ```autograd`` - Efficiently computes derivatives of numpy
+-  `autograd - Efficiently computes derivatives of numpy
    code <https://github.com/HIPS/autograd>`__
 
    -  Very useful tool when building statistical and machine learning
-      tools in Python. ``Autograd`` can automatically differentiate
+      tools in Python. **Autograd** can automatically differentiate
       native Python and Numpy code.
 
 Machine Learning Framework
 --------------------------
 
--  ```tensorflow`` - An Open Source Machine Learning Framework for
+-  `tensorflow - An Open Source Machine Learning Framework for
    Everyone <https://github.com/tensorflow/tensorflow>`__
 
    -  TensorFlow is an open source software library for numerical
@@ -25,7 +25,7 @@ Machine Learning Framework
       one or more CPUs or GPUs in a desktop, server, or mobile device
       without rewriting code.
    -  `The official tutorial of
-      ``tensorflow`` <https://www.tensorflow.org/tutorials/>`__
+      tensorflow <https://www.tensorflow.org/tutorials/>`__
    -  `Models and examples built with
       TensorFlow <https://github.com/tensorflow/models>`__
    -  `TensorFlow
@@ -36,35 +36,35 @@ Machine Learning Framework
    -  `awesome-tensorflow - A curated list of dedicated
       resources <https://github.com/jtoy/awesome-tensorflow>`__
 
--  ```keras`` - Deep Learning for
+-  `keras - Deep Learning for
    humans <https://github.com/keras-team/keras>`__
 
    -  Keras is a high-level neural networks API, written in Python and
       capable of running on top of TensorFlow, CNTK, or Theano. It was
       developed with a focus on enabling fast experimentation.
-   -  `Official documents of ``keras`` <https://keras.io/>`__
+   -  `Official documents of keras <https://keras.io/>`__
    -  `Keras code and weights files for popular deep learning models by
       the author <https://github.com/fchollet/deep-learning-models>`__
       (A little out of date.)
-   -  ``Keras`` also lives in ``tensorflow`` now: “tf.keras\` is
+   -  **Keras** also lives in **tensorflow** now: “tf.keras_\_ is
       TensorFlow’s implementation of the Keras API specification. This
       is a high-level API to build and train models that includes
       first-class support for TensorFlow-specific functionality”
 
--  ```pytorch`` - Tensors and Dynamic neural networks in Python with
-   strong GPU acceleration <https://github.com/pytorch/pytorch>`__
+-  `pytorch - Tensors and Dynamic neural networks in Python with strong
+   GPU acceleration <https://github.com/pytorch/pytorch>`__
 
    -  Usually one uses PyTorch either as 1) a replacement for NumPy to
       use the power of GPUs; 2) a deep learning research platform that
       provides maximum flexibility and speed.
 
--  ```scikit-learn`` - machine learning in
+-  `scikit-learn - machine learning in
    Python <https://github.com/scikit-learn/scikit-learn>`__
 
-   -  ``scikit-learn`` is a Python module for machine learning built on
+   -  **scikit-learn** is a Python module for machine learning built on
       top of SciPy
 
--  ```caffe`` - a fast open framework for deep
+-  `caffe - a fast open framework for deep
    learning <https://github.com/BVLC/caffe>`__
 
    -  Caffe is a deep learning framework made with expression, speed,
@@ -73,17 +73,17 @@ Machine Learning Framework
 Reinformcement Learning
 ~~~~~~~~~~~~~~~~~~~~~~~
 
--  ```gym`` - A toolkit for developing and comparing reinforcement
-   learning algorithms <https://github.com/openai/gym>`__
+-  `gym - A toolkit for developing and comparing reinforcement learning
+   algorithms <https://github.com/openai/gym>`__
 
    -  OpenAI Gym is a toolkit for developing and comparing reinforcement
       learning algorithms.
-   -  ```gym`` project website <https://gym.openai.com/>`__
+   -  `gym project website <https://gym.openai.com/>`__
 
 Visualization
 -------------
 
--  ```PlotNeuralNet`` - Latex code for making neural networks
+-  `PlotNeuralNet - Latex code for making neural networks
    diagrams <https://github.com/HarisIqbal88/PlotNeuralNet>`__
 
    -  By Haris Iqbal. Latex code for drawing neural networks for reports

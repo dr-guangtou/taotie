@@ -7,7 +7,7 @@ Learning C++
 -  **The best way to learn programming is, always, writing your own
    code!**
 
--  ```CppCoreGuidelines`` - The C++ Core Guidelines are a set of
+-  `CppCoreGuidelines - The C++ Core Guidelines are a set of
    tried-and-true guidelines, rules, and best practices about coding in
    C++ <https://github.com/isocpp/CppCoreGuidelines>`__
 
@@ -41,7 +41,7 @@ Learning C++
 
    -  This is a **Chinese** on-line book: <高速上手 C++11/14/17>
 
--  ```modern-cpp-features`` - A cheatsheet of modern C++ language and
+-  `modern-cpp-features - A cheatsheet of modern C++ language and
    library
    features <https://github.com/AnthonyCalandra/modern-cpp-features>`__
 
@@ -64,18 +64,18 @@ Performance
 
    -  Very practical and useful guides for optimizing C/C++.
 
--  ```AwesomePerfCpp`` - A curated list of awesome C/C++ performance
+-  `AwesomePerfCpp - A curated list of awesome C/C++ performance
    optimization resources <https://github.com/fenbf/AwesomePerfCpp>`__
 
    -  Including talks, articles, libraries, and tools
 
--  ```cpp-taskflow`` - Modern C++ Parallel Task Programming
+-  `cpp-taskflow - Modern C++ Parallel Task Programming
    Library <https://github.com/cpp-taskflow/cpp-taskflow>`__
 
    -  A fast C++ header-only library to help you quickly write parallel
       programs with complex task dependencies
 
--  ```mimalloc`` - mimalloc is a compact general purpose allocator with
+-  `mimalloc - mimalloc is a compact general purpose allocator with
    excellent performance <https://github.com/microsoft/mimalloc>`__
 
    -  By Microsoft. mimalloc (pronounced “me-malloc”) is a general
@@ -86,8 +86,7 @@ Performance
 Numerical
 ~~~~~~~~~
 
--  ```GSL`` - GNU Scientific
-   Library <https://www.gnu.org/software/gsl/>`__
+-  `GSL - GNU Scientific Library <https://www.gnu.org/software/gsl/>`__
 
    -  The library provides a wide range of mathematical routines such as
       random number generators, special functions and least-squares
@@ -96,42 +95,42 @@ Numerical
    -  The `online reference manual can be found
       here <https://www.gnu.org/software/gsl/doc/html/index.html>`__.
 
--  ```Eigen`` - a C++ template library for linear algebra: matrices,
+-  `Eigen - a C++ template library for linear algebra: matrices,
    vectors, numerical solvers, and related
    algorithms <http://eigen.tuxfamily.org/index.php?title=Main_Page>`__
 
--  ```Armadillo`` - C++ library for linear algebra & scientific
+-  `Armadillo - C++ library for linear algebra & scientific
    computing <http://arma.sourceforge.net/>`__
 
-   -  ``Armadillo`` is a high quality linear algebra library (matrix
+   -  **Armadillo** is a high quality linear algebra library (matrix
       maths) for the C++ language, aiming towards a good balance between
       speed and ease of use
 
--  ```xtensor`` - Multi-dimensional arrays with broadcasting and lazy
+-  `xtensor - Multi-dimensional arrays with broadcasting and lazy
    computing <https://github.com/QuantStack/xtensor>`__
 
-   -  ``xtensor`` is a C++ library meant for numerical analysis with
-      multi-dimensional array expressions. ``xtensor`` can be used to
+   -  **xtensor** is a C++ library meant for numerical analysis with
+      multi-dimensional array expressions. **xtensor** can be used to
       process NumPy data structures inplace using Python’s buffer
       protocol.
 
 Optimization
 ~~~~~~~~~~~~
 
--  ```OptimLib`` - a lightweight C++ library of numerical optimization
+-  `OptimLib - a lightweight C++ library of numerical optimization
    methods for nonlinear functions <https://github.com/kthohr/optim>`__
 
    -  A C++11 library of local and global optimization algorithms, as
       well as root finding techniques, supporting a large number of
       algorithms.
 
--  ```nlopt`` - library for nonlinear
+-  `nlopt - library for nonlinear
    optimization <https://github.com/stevengj/nlopt>`__
 
-   -  ``NLopt`` is a library for nonlinear local and global
+   -  **NLopt** is a library for nonlinear local and global
       optimization, for functions with and without gradient information.
 
--  ```ceres-solver`` - open source C++ library for modeling and solving
+-  `ceres-solver - open source C++ library for modeling and solving
    large, complicated optimization
    problems <https://github.com/ceres-solver/ceres-solver>`__
 
@@ -140,18 +139,18 @@ Optimization
       problems. `Used by Google for good
       reasons <http://ceres-solver.org/features.html>`__.
 
--  ```CppNumericalSolvers`` - L-BFGS-B for TensorFlow or pure C++11 and
+-  `CppNumericalSolvers - L-BFGS-B for TensorFlow or pure C++11 and
    other optimization
    methods <https://github.com/PatWie/CppNumericalSolvers>`__
 
-   -  A **header-only** library with bindings to C++, ``TensorFlow`` and
-      ``Matlab``.
+   -  A **header-only** library with bindings to C++, **TensorFlow** and
+      **Matlab**.
    -  Easy to use, and support a list of algorithms.
 
 Astronomy Related
 ~~~~~~~~~~~~~~~~~
 
--  ```CCfits`` - object oriented interface to the cfitsio
+-  `CCfits - object oriented interface to the cfitsio
    library <https://heasarc.gsfc.nasa.gov/fitsio/CCfits/>`__
 
    -  It is designed to make the capabilities of cfitsio available to
@@ -162,25 +161,25 @@ Astronomy Related
 Code to Study
 -------------
 
--  ```GalSim`` - The modular galaxy image simulation
+-  `GalSim - The modular galaxy image simulation
    toolkit <https://github.com/GalSim-developers/GalSim>`__
 
-   -  ``GalSim`` is a very sophisticated system that pretty much
+   -  **GalSim** is a very sophisticated system that pretty much
       includes everything you need to know about optics, observational
       astronomy, photometry, models of galaxies, and weak lensing.
    -  It also teachs you how to communicate between C++ and Python.
 
--  ```imfit`` - an open-source astronomical image-fitting
+-  `imfit - an open-source astronomical image-fitting
    program <https://github.com/perwin/imfit>`__
 
    -  Everything on modeling galaxies using least-chi-square or MCMC
       methods.
 
--  ```libprofit`` - low-level C++ library that produces images based on
+-  `libprofit - low-level C++ library that produces images based on
    different luminosity profiles <https://github.com/ICRAR/libprofit>`__
 
    -  Light-weight library to learn about modeling galaxies and image
       convolution.
 
--  ```TreeCorr`` - Code for efficiently computing 2-point and 3-point
+-  `TreeCorr - Code for efficiently computing 2-point and 3-point
    correlation functions <https://github.com/rmjarvis/TreeCorr>`__

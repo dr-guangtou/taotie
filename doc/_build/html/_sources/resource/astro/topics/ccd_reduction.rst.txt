@@ -10,7 +10,7 @@ Tutorial and Guide
    and affiliated
    packages <https://github.com/mwcraig/ccd-reduction-and-photometry-guide>`__
 
-   -  Only use ``astropy`` affiliated Python packages.
+   -  Only use **astropy** affiliated Python packages.
 
 Software
 --------
@@ -18,7 +18,7 @@ Software
 Display CCD Images
 ~~~~~~~~~~~~~~~~~~
 
--  ```SAOImage DS9`` - Astronomical imaging and data visualization
+-  `SAOImage DS9 - Astronomical imaging and data visualization
    application <http://ds9.si.edu/site/Home.html>`__
 
    -  DS9 supports FITS images and binary tables, multiple frame
@@ -26,25 +26,25 @@ Display CCD Images
       colormaps. DS9 is actually a very powerful tool for displaying and
       manipulating image. `Here is a very nice
       guide <http://www.jb.man.ac.uk/~gbendo/Sci/Pict/DS9guide.pdf>`__
-   -  ```pyds9`` - Python connection to SAOimage DS9 via
+   -  `pyds9 - Python connection to SAOimage DS9 via
       XPA <https://github.com/ericmandel/pyds9>`__
 
--  ```imexam`` by astropy - Python version of the famous imexamine in
+-  `imexam by astropy - Python version of the famous imexamine in
    IRAF <https://github.com/spacetelescope/imexam>`__
 
-   -  ``imexam`` is a python tool for simple image examination, and
+   -  **imexam** is a python tool for simple image examination, and
       plotting, with similar functionality to IRAF’s imexamine. `Online
       document is here <https://imexam.readthedocs.io/en/latest/>`__
 
--  ```ginga`` - astronomical FITS file
+-  `ginga - astronomical FITS file
    viewer <https://github.com/ejeschke/ginga>`__
 
-   -  ``Ginga`` is a toolkit designed for building viewers for
+   -  **Ginga** is a toolkit designed for building viewers for
       scientific image data in Python, visualizing 2D pixel data in
       numpy arrays. `Online document is
       here <https://ginga.readthedocs.io/en/latest/>`__
 
--  ```regions`` by astropy - Astropy affiliated package for region
+-  `regions by astropy - Astropy affiliated package for region
    handling <https://github.com/astropy/regions>`__
 
 General Reduction
@@ -60,10 +60,10 @@ General Reduction
    -  `The HSC
       Pipeline <https://hsc.mtk.nao.ac.jp/pipedoc/pipedoc_6_e/index.html>`__
 
--  ```ccdproc`` - Astropy affiliated package for reducing optical/IR CCD
+-  `ccdproc - Astropy affiliated package for reducing optical/IR CCD
    data <https://github.com/astropy/ccdproc>`__
 
-   -  ``ccdproc`` is is an affiliated package for the AstroPy package
+   -  **ccdproc** is is an affiliated package for the AstroPy package
       for basic data reductions of CCD images. The ccdproc package
       provides many of the necessary tools for processing of ccd images
       built on a framework to provide error propagation and bad pixel
@@ -76,30 +76,30 @@ Image Detrend and Correction
 Cosmic Ray Removal
 ^^^^^^^^^^^^^^^^^^
 
--  ```astroscrappy`` by astropy - Speedy Cosmic Ray Annihilation Package
-   in Python <https://github.com/astropy/astroscrappy>`__
+-  `astroscrappy by astropy - Speedy Cosmic Ray Annihilation Package in
+   Python <https://github.com/astropy/astroscrappy>`__
 
-   -  ``Astro-SCRAPPY`` is designed to detect cosmic rays in images
-      (numpy arrays), based on Pieter van Dokkum’s ``L.A.Cosmic``
+   -  **Astro-SCRAPPY** is designed to detect cosmic rays in images
+      (numpy arrays), based on Pieter van Dokkum’s **L.A.Cosmic**
       algorithm.
 
--  `The original ``L.A.Cosmic`` code - Laplacian Cosmic Ray
+-  `The original L.A.Cosmic code - Laplacian Cosmic Ray
    Identification <http://www.astro.yale.edu/dokkum/lacosmic/>`__
 
-   -  ```lacosmicx`` - A fast implementation of the LA Cosmic
+   -  `lacosmicx - A fast implementation of the LA Cosmic
       algorithm <https://github.com/cmccully/lacosmicx>`__
 
 Satellite Trail Removal
 ^^^^^^^^^^^^^^^^^^^^^^^
 
--  ```ASTRiDE`` - Automated Streak Detection for Astronomical
+-  `ASTRiDE - Automated Streak Detection for Astronomical
    Images <https://github.com/dwkim78/ASTRiDE>`__
 
-   -  By Dae-Won Kim. ``ASTRiDE`` aims to detect streaks in astronomical
+   -  By Dae-Won Kim. **ASTRiDE** aims to detect streaks in astronomical
       images using a “border” of each object
 
--  ```pyradon`` - Python tools for streak detection in astronomical
-   images using the Fast Radon
+-  `pyradon - Python tools for streak detection in astronomical images
+   using the Fast Radon
    Transform <https://github.com/guynir42/pyradon>`__
 
    -  By Guy Nir. Based on `Optimal and Efficient Streak Detection in
@@ -124,7 +124,7 @@ Satellite Trail Removal
 -  `Brighter-fatter effect in near-infrared detectors – I. Theory of
    flat auto-correlations <https://arxiv.org/abs/1906.01846>`__
 
-   -  ```nghxrg`` - Teledyne HxRG Read Noise
+   -  `nghxrg - Teledyne HxRG Read Noise
       Generator <https://github.com/BJRauscher/nghxrg>`__
 
 -  `Brighter-fatter effect in near-infrared detectors – II.
@@ -136,23 +136,23 @@ Satellite Trail Removal
 Astrometric Calibration
 ~~~~~~~~~~~~~~~~~~~~~~~
 
--  ```Astrometry.net`` – automatic recognition of astronomical
+-  `Astrometry.net – automatic recognition of astronomical
    images <https://github.com/dstndstn/astrometry.net>`__
 
    -  Made by Dustin Lang. The best astrometric calibration tool on the
       market.
 
--  ```SCAMP`` from
+-  `SCAMP from
    Astromatic.net <https://www.astromatic.net/software/scamp>`__
 
-   -  ``SCAMP`` reads SExtractor catalogs and computes astrometric and
+   -  **SCAMP** reads SExtractor catalogs and computes astrometric and
       photometric solutions for any arbitrary sequence of FITS images in
       a completely automatic way.
 
 Photometric Calibration
 ~~~~~~~~~~~~~~~~~~~~~~~
 
--  ```FGCM`` - Forward Global Calibration
+-  `FGCM - Forward Global Calibration
    Method <https://github.com/erykoff/fgcm>`__
 
    -  Based on the algorithm developed in `Forward Global Photometric
@@ -167,36 +167,36 @@ Photometric Calibration
 Image Reproection and Co-addition
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  ```drizzle`` - A package for combining dithered images into a single
+-  `drizzle - A package for combining dithered images into a single
    image <https://github.com/spacetelescope/drizzle>`__
 
    -  The drizzle library is a Python package for combining dithered
       images into a single image. This library is derived from code used
       in DrizzlePac. Like DrizzlePac, most of the code is implemented in
       the C language.
-   -  `The original ``drizzlepac`` library for HST
+   -  `The original drizzlepac library for HST
       images <https://github.com/spacetelescope/drizzlepac>`__
    -  `The online document for
-      ``DrizzlePac`` <https://drizzlepac.readthedocs.io/en/latest/#>`__
+      DrizzlePac <https://drizzlepac.readthedocs.io/en/latest/#>`__
 
--  ```reproject`` by astropy - Python-based Astronomical image
+-  `reproject by astropy - Python-based Astronomical image
    reprojection <https://github.com/astropy/reproject>`__
 
    -  By reprojection, we mean the re-gridding of images from one world
       coordinate system to another (for example changing the pixel
       resolution, orientation, coordinate system).
 
--  ```SWarp`` by
+-  `SWarp by
    Astromatic.net <https://www.astromatic.net/software/swarp>`__
 
-   -  ``SWarp`` is a program that resamples and co-adds together FITS
+   -  **SWarp** is a program that resamples and co-adds together FITS
       images using any arbitrary astrometric projection defined in the
       WCS standard
 
--  ```Montage`` - Image Mosaic Software for
+-  `Montage - Image Mosaic Software for
    Astronomers <http://montage.ipac.caltech.edu/>`__
 
-   -  ``Montage`` is a toolkit for assembling Flexible Image Transport
+   -  **Montage** is a toolkit for assembling Flexible Image Transport
       System (FITS) images into custom mosaics. `Online document is
       here <http://montage.ipac.caltech.edu/docs/index.html>`__
    -  It is also on
@@ -204,7 +204,7 @@ Image Reproection and Co-addition
       an `Image Mosaic
       Service <http://hachi.ipac.caltech.edu:8080/montage>`__ for 2MASS,
       SDSS, WISE images.
-   -  ```montage-wrapper`` - Python wrapper for the Montage mosaicking
+   -  `montage-wrapper - Python wrapper for the Montage mosaicking
       toolkit <https://github.com/astropy/montage-wrapper>`__
 
       -  This package provides a python wrapper to the Montage

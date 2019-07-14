@@ -4,7 +4,7 @@ A Collection of Interesting Revew Articles
 **Just started, Help needed**
 
 -  A (personal) collection of useful or interesting review articles
-   classified based on the ``astro-ph`` categories for arXiv.
+   classified based on the **astro-ph** categories for arXiv.
 -  Will try to make this list up-to-date by only keeping the reviews
    from the last five years.
 -  Right now, will only keep review articles published (or posted) after

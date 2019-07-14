@@ -49,7 +49,7 @@ guidelines</a></p></li>
 <li><p><a class="reference external" href="https://heasarc.gsfc.nasa.gov/fitsio/">CFITSIO</a> is a library
 of C and Fortran subroutines for reading and writing data files in
 FITS.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">`astropy.io.fits</span></code> &lt;<a class="reference external" href="https://docs.astropy.org/en/stable/io/fits/">https://docs.astropy.org/en/stable/io/fits/</a>&gt;`__
+<li><p><a class="reference external" href="https://docs.astropy.org/en/stable/io/fits/">astropy.io.fits</a>
 can help you deal with FITS files in Python</p></li>
 </ul>
 </li>
@@ -62,23 +62,23 @@ by STScI</p></li>
 Standard</a></p></li>
 </ul>
 </li>
-<li><p><code class="docutils literal notranslate"><span class="pre">`HDF5</span></code> - High-performance data management and storage
-suite &lt;<a class="reference external" href="https://www.hdfgroup.org/solutions/hdf5/">https://www.hdfgroup.org/solutions/hdf5/</a>&gt;`__</p>
+<li><p><a class="reference external" href="https://www.hdfgroup.org/solutions/hdf5/">HDF5 - High-performance data management and storage
+suite</a></p>
 <ul>
 <li><p>In the age of big data, HDF5 format is also becoming more popular
 in astronomy. For example, many hydro-simulations use HDF5 to
 store large and complex data.</p></li>
 <li><p><a class="reference external" href="https://www.h5py.org/">h5py is a Pythonic interface to the HDF5 binary data
 format</a></p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">`fits2hdf</span></code> is a FITS to HDFITS conversion
-utility &lt;<a class="reference external" href="https://github.com/telegraphic/fits2hdf">https://github.com/telegraphic/fits2hdf</a>&gt;`__</p></li>
+<li><p><a class="reference external" href="https://github.com/telegraphic/fits2hdf">fits2hdf is a FITS to HDFITS conversion
+utility</a></p></li>
 </ul>
 </li>
 <li><p>If you use Python, it is also convenient to use the
-<code class="docutils literal notranslate"><span class="pre">`pickle</span></code> &lt;<a class="reference external" href="https://docs.python.org/3/library/pickle.html">https://docs.python.org/3/library/pickle.html</a>&gt;`__ and
-<code class="docutils literal notranslate"><span class="pre">`dill</span></code> &lt;<a class="reference external" href="https://pypi.org/project/dill/">https://pypi.org/project/dill/</a>&gt;`__ (an even better
-<code class="docutils literal notranslate"><span class="pre">pickle</span></code>) module for serializing and de-serializing python objects
-to the majority of the built-in python types.</p></li>
+<a class="reference external" href="https://docs.python.org/3/library/pickle.html">pickle</a> and
+<a class="reference external" href="https://pypi.org/project/dill/">dill</a> (an even better <strong>pickle</strong>)
+module for serializing and de-serializing python objects to the
+majority of the built-in python types.</p></li>
 </ul>
 </div>
 <div class="section" id="world-coordinate-systems-wcs">
@@ -87,28 +87,28 @@ to the majority of the built-in python types.</p></li>
 <li><p><a class="reference external" href="https://fits.gsfc.nasa.gov/fits_wcs.html">FITS World Coordinate System
 (WCS)</a></p>
 <ul>
-<li><p><code class="docutils literal notranslate"><span class="pre">`wcslib</span></code> &lt;<a class="reference external" href="http://www.atnf.csiro.au/people/mcalabre/WCS/wcslib/index.html">http://www.atnf.csiro.au/people/mcalabre/WCS/wcslib/index.html</a>&gt;`__
+<li><p><a class="reference external" href="http://www.atnf.csiro.au/people/mcalabre/WCS/wcslib/index.html">wcslib</a>
 is a C library, supplied with a full set of Fortran wrappers, that
 implements the “World Coordinate System” (WCS) standard in FITS</p></li>
 <li><p>All the tools that deals with FITS format can also deal with WCS
 information (normally stored in the header). For example, the
-<code class="docutils literal notranslate"><span class="pre">`astropy.wcs</span></code> &lt;<a class="reference external" href="http://docs.astropy.org/en/stable/wcs/">http://docs.astropy.org/en/stable/wcs/</a>&gt;`__</p></li>
+<a class="reference external" href="http://docs.astropy.org/en/stable/wcs/">astropy.wcs</a></p></li>
 </ul>
 </li>
 <li><p><a class="reference external" href="https://gwcs.readthedocs.io/en/latest/">Generalized World Coordinate
 System</a></p>
 <ul>
-<li><p><code class="docutils literal notranslate"><span class="pre">`gwcs</span></code> - provides tools for managing WCS in a general
-way &lt;<a class="reference external" href="https://github.com/spacetelescope/gwcs">https://github.com/spacetelescope/gwcs</a>&gt;`__</p></li>
+<li><p><a class="reference external" href="https://github.com/spacetelescope/gwcs">gwcs - provides tools for managing WCS in a general
+way</a></p></li>
 </ul>
 </li>
-<li><p><code class="docutils literal notranslate"><span class="pre">`stwcs</span></code> - WCS based distortion models and coordinate
-transformation &lt;<a class="reference external" href="https://github.com/spacetelescope/stwcs">https://github.com/spacetelescope/stwcs</a>&gt;`__</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">`tweakwcs</span></code> - Algorithms for matching and aligning catalogs and for
+<li><p><a class="reference external" href="https://github.com/spacetelescope/stwcs">stwcs - WCS based distortion models and coordinate
+transformation</a></p></li>
+<li><p><a class="reference external" href="https://github.com/spacetelescope/tweakwcs">tweakwcs - Algorithms for matching and aligning catalogs and for
 tweaking the WCS so as to minimize catalog mismatch
-errors &lt;<a class="reference external" href="https://github.com/spacetelescope/tweakwcs">https://github.com/spacetelescope/tweakwcs</a>&gt;`__</p>
+errors</a></p>
 <ul>
-<li><p><code class="docutils literal notranslate"><span class="pre">tweakwcs</span></code> is a package that provides core algorithms for
+<li><p><strong>tweakwcs</strong> is a package that provides core algorithms for
 computing and applying corrections to WCS objects such as to
 minimize mismatch between image and reference catalogs. Currently
 only aligning images with FITS WCS and JWST gWCS are supported.</p></li>
@@ -119,10 +119,10 @@ only aligning images with FITS WCS and JWST gWCS are supported.</p></li>
 <div class="section" id="astrometry-and-positional-astronomy">
 <h2>Astrometry and Positional Astronomy<a class="headerlink" href="#astrometry-and-positional-astronomy" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">`Skyfield</span></code> - Elegant Astronomy for
-Python &lt;<a class="reference external" href="https://rhodesmill.org/skyfield/">https://rhodesmill.org/skyfield/</a>&gt;`__</p>
+<li><p><a class="reference external" href="https://rhodesmill.org/skyfield/">Skyfield - Elegant Astronomy for
+Python</a></p>
 <ul>
-<li><p><code class="docutils literal notranslate"><span class="pre">Skyfield</span></code> computes positions for the stars, planets, and
+<li><p><strong>Skyfield</strong> computes positions for the stars, planets, and
 satellites in orbit around the Earth. Its results should agree
 with the positions generated by the United States Naval
 Observatory and their Astronomical Almanac to within 0.0005
@@ -130,38 +130,38 @@ arcseconds. The <a class="reference external" href="https://github.com/skyfielde
 here</a></p></li>
 </ul>
 </li>
-<li><p><code class="docutils literal notranslate"><span class="pre">`Astrometry.net</span></code> – automatic recognition of astronomical
-images &lt;<a class="reference external" href="https://github.com/dstndstn/astrometry.net">https://github.com/dstndstn/astrometry.net</a>&gt;`__</p>
+<li><p><a class="reference external" href="https://github.com/dstndstn/astrometry.net">Astrometry.net – automatic recognition of astronomical
+images</a></p>
 <ul>
 <li><p>Made by Dustin Lang. The best astrometric calibration tool on the
 market.</p></li>
 </ul>
 </li>
-<li><p><code class="docutils literal notranslate"><span class="pre">`SOFA</span></code> - Standard of Fundamental
-Astronomy &lt;<a class="reference external" href="http://www.iausofa.org/tandc.html">http://www.iausofa.org/tandc.html</a>&gt;`__</p>
+<li><p><a class="reference external" href="http://www.iausofa.org/tandc.html">SOFA - Standard of Fundamental
+Astronomy</a></p>
 <ul>
 <li><p>The International Astronomical Union’s SOFA service has the task
 of establishing and maintaining an accessible and authoritative
 set of algorithms and procedures that implement standard models
 used in fundamental astronomy. The library is now in <a class="reference external" href="http://www.iausofa.org/current.html">Fortran and
 C</a></p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">`pysofa2</span></code> - A python module for wrapping the International
+<li><p><a class="reference external" href="https://gitlab.com/deddy/pysofa2">pysofa2 - A python module for wrapping the International
 Astronomical Union’s C SOFA
-libraries &lt;<a class="reference external" href="https://gitlab.com/deddy/pysofa2">https://gitlab.com/deddy/pysofa2</a>&gt;`__</p></li>
+libraries</a></p></li>
 </ul>
 </li>
-<li><p><code class="docutils literal notranslate"><span class="pre">`ERFA</span></code> - Essential Routines for Fundamental
-Astronomy &lt;<a class="reference external" href="https://github.com/liberfa/erfa">https://github.com/liberfa/erfa</a>&gt;`__</p>
+<li><p><a class="reference external" href="https://github.com/liberfa/erfa">ERFA - Essential Routines for Fundamental
+Astronomy</a></p>
 <ul>
-<li><p><code class="docutils literal notranslate"><span class="pre">ERFA</span></code> is a C library containing key algorithms for astronomy,
-and is based on the <code class="docutils literal notranslate"><span class="pre">`SOFA</span></code> &lt;<a class="reference external" href="http://www.iausofa.org/">http://www.iausofa.org/</a>&gt;`__ library
+<li><p><strong>ERFA</strong> is a C library containing key algorithms for astronomy,
+and is based on the <a class="reference external" href="http://www.iausofa.org/">SOFA</a> library
 published by the International Astronomical Union (IAU).</p></li>
 </ul>
 </li>
-<li><p><code class="docutils literal notranslate"><span class="pre">`NOVAS</span></code> - The United States Naval Observatory NOVAS astronomy
-library &lt;<a class="reference external" href="https://github.com/brandon-rhodes/python-novas">https://github.com/brandon-rhodes/python-novas</a>&gt;`__</p>
+<li><p><a class="reference external" href="https://github.com/brandon-rhodes/python-novas">NOVAS - The United States Naval Observatory NOVAS astronomy
+library</a></p>
 <ul>
-<li><p><code class="docutils literal notranslate"><span class="pre">NOVAS</span></code> is an integrated package of functions for computing
+<li><p><strong>NOVAS</strong> is an integrated package of functions for computing
 various commonly needed quantities in positional astronomy. At a
 lower level, NOVAS also provides astrometric utility
 transformations, such as those for precession, nutation,
@@ -169,9 +169,9 @@ aberration, parallax, and gravitational deflection of light.</p></li>
 <li><p>The computations are accurate to better than one milliarcsecond.</p></li>
 </ul>
 </li>
-<li><p><code class="docutils literal notranslate"><span class="pre">`spherical_geometry</span></code> - A Python package for handling spherical
+<li><p><a class="reference external" href="https://github.com/spacetelescope/spherical_geometry">spherical_geometry - A Python package for handling spherical
 polygons that represent arbitrary regions of the
-sky &lt;<a class="reference external" href="https://github.com/spacetelescope/spherical_geometry">https://github.com/spacetelescope/spherical_geometry</a>&gt;`__</p>
+sky</a></p>
 <ul>
 <li><p>Made by STScI. <a class="reference external" href="https://spacetelescope.github.io/spherical_geometry/spherical_geometry/">Online document is
 here</a></p></li>
@@ -234,7 +234,7 @@ Johnson</a></p></li>
 <li><p><a class="reference external" href="https://github.com/bmorris3/tynt">tynt - Color filter approximations in
 Python</a></p>
 <ul>
-<li><p>By Brett Morris. <code class="docutils literal notranslate"><span class="pre">tynt</span></code> is a super lightweight package
+<li><p>By Brett Morris. <strong>tynt</strong> is a super lightweight package
 containing approximate transmittance curves for more than five
 hundred astronomical filters, weighing in at just under 150 KB.
 Document can be found
@@ -267,41 +267,42 @@ calculator</a></p></li>
 <div class="section" id="managing-catalogs">
 <h2>Managing Catalogs<a class="headerlink" href="#managing-catalogs" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">`astropy.table</span></code> &lt;<a class="reference external" href="https://docs.astropy.org/en/stable/table/">https://docs.astropy.org/en/stable/table/</a>&gt;`__ is
-a flexible Python module that can handle a variant types of tables.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">`TOPCAT</span></code> - Tool for OPerations on Catalogues And
-Tables &lt;<a class="reference external" href="http://www.star.bris.ac.uk/~mbt/topcat/">http://www.star.bris.ac.uk/~mbt/topcat/</a>&gt;`__</p>
+<li><p><a class="reference external" href="https://docs.astropy.org/en/stable/table/">astropy.table</a> is a
+flexible Python module that can handle a variant types of tables.</p></li>
+<li><p><a class="reference external" href="http://www.star.bris.ac.uk/~mbt/topcat/">TOPCAT - Tool for OPerations on Catalogues And
+Tables</a></p>
 <ul>
 <li><p>Really powerful GUI tool to deal with tables. It is written as a
 Java application.</p></li>
 <li><p>Have great functions for cross-matching catalogs, querying on-line
 databases, and making publication-grade figures.</p></li>
-<li><p>[<code class="docutils literal notranslate"><span class="pre">STILTS</span></code> - Starlink Tables Infrastructure Library Tool Set]
-provides most of <code class="docutils literal notranslate"><span class="pre">TOPCAT</span></code>’s capabilities in command line.</p></li>
+<li><p><a class="reference external" href="http://www.star.bris.ac.uk/~mbt/stilts/">STILTS - Starlink Tables Infrastructure Library Tool
+Set</a> provides most of
+<strong>TOPCAT</strong>’s capabilities in command line.</p></li>
 </ul>
 </li>
 </ul>
 <div class="section" id="table-cross-match">
 <h3>Table cross-match<a class="headerlink" href="#table-cross-match" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">`smatch</span></code> - Code to match points on the sphere using the healpix
-scheme &lt;<a class="reference external" href="https://github.com/esheldon/smatch">https://github.com/esheldon/smatch</a>&gt;`__</p>
+<li><p><a class="reference external" href="https://github.com/esheldon/smatch">smatch - Code to match points on the sphere using the healpix
+scheme</a></p>
 <ul>
 <li><p>By Erin Sheldon. Very fast cross-match tool, C-code wrapped in
 Python.</p></li>
 </ul>
 </li>
-<li><p><code class="docutils literal notranslate"><span class="pre">`nway</span></code> - Bayesian cross-matching of astronomical
-catalogues &lt;<a class="reference external" href="https://github.com/JohannesBuchner/nway">https://github.com/JohannesBuchner/nway</a>&gt;`__</p>
+<li><p><a class="reference external" href="https://github.com/JohannesBuchner/nway">nway - Bayesian cross-matching of astronomical
+catalogues</a></p>
 <ul>
 <li><p>Bayesian match probabilities based on astronomical sky coordinates
 (RA, DEC)</p></li>
 </ul>
 </li>
-<li><p><code class="docutils literal notranslate"><span class="pre">`C3</span></code> - Command-line Catalogue Cross-matching
-Tool &lt;<a class="reference external" href="http://dame.dsf.unina.it/c3.html">http://dame.dsf.unina.it/c3.html</a>&gt;`__</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">`xmatch</span></code> - Cross match of
-catalogs &lt;<a class="reference external" href="https://git.ias.u-psud.fr/abeelen/xmatch">https://git.ias.u-psud.fr/abeelen/xmatch</a>&gt;`__</p>
+<li><p><a class="reference external" href="http://dame.dsf.unina.it/c3.html">C3 - Command-line Catalogue Cross-matching
+Tool</a></p></li>
+<li><p><a class="reference external" href="https://git.ias.u-psud.fr/abeelen/xmatch">xmatch - Cross match of
+catalogs</a></p>
 <ul>
 <li><p>By Alexandre Beelen.</p></li>
 </ul>
@@ -355,7 +356,7 @@ GoAstronomy</a></p>
 <li><p><a class="reference external" href="http://simbad.u-strasbg.fr/simbad/">SIMBAD Astronomical Database -
 CDS</a></p>
 <ul>
-<li><p>The <code class="docutils literal notranslate"><span class="pre">SIMBAD</span></code> astronomical database provides basic data,
+<li><p>The <strong>SIMBAD</strong> astronomical database provides basic data,
 cross-identifications, bibliography and measurements for
 astronomical objects outside the solar system.</p></li>
 </ul>
@@ -363,14 +364,14 @@ astronomical objects outside the solar system.</p></li>
 <li><p><a class="reference external" href="http://vizier.u-strasbg.fr/viz-bin/VizieR">VizieR Catalog
 Database</a></p>
 <ul>
-<li><p><code class="docutils literal notranslate"><span class="pre">VizieR</span></code> provides the most complete library of published
+<li><p><strong>VizieR</strong> provides the most complete library of published
 astronomical catalogues -tables and associated data- with verified
 and enriched data, accessible via multiple interfaces.</p></li>
 </ul>
 </li>
 <li><p><a class="reference external" href="https://aladin.u-strasbg.fr/aladin.gml#">Aladin Sky Atlas</a></p>
 <ul>
-<li><p><code class="docutils literal notranslate"><span class="pre">Aladin</span></code> is an interactive sky atlas allowing the user to
+<li><p><strong>Aladin</strong> is an interactive sky atlas allowing the user to
 visualize digitized astronomical images or full surveys,
 superimpose entries from astronomical catalogues or databases, and
 interactively access related data and information from the Simbad
@@ -380,7 +381,7 @@ astronomical objects in the field.</p></li>
 </li>
 <li><p><a class="reference external" href="https://ned.ipac.caltech.edu/">NASA/IPAC Extragalactic Database</a></p>
 <ul>
-<li><p><code class="docutils literal notranslate"><span class="pre">NED</span></code> is a comprehensive database of multiwavelength data for
+<li><p><strong>NED</strong> is a comprehensive database of multiwavelength data for
 extragalactic objects, providing a systematic, ongoing fusion of
 information integrated from hundreds of large sky surveys and tens
 of thousands of research publications.</p></li>
@@ -389,7 +390,7 @@ of thousands of research publications.</p></li>
 <li><p><a class="reference external" href="https://irsa.ipac.caltech.edu/frontpage/">NASA/IPAC Infrared Science
 Archive</a></p>
 <ul>
-<li><p><code class="docutils literal notranslate"><span class="pre">IRSA</span></code> is chartered to curate the science products of NASA’s
+<li><p><strong>IRSA</strong> is chartered to curate the science products of NASA’s
 infrared and submillimeter missions, including many large-area and
 all-sky surveys.</p></li>
 </ul>
@@ -397,7 +398,7 @@ all-sky surveys.</p></li>
 <li><p><a class="reference external" href="http://archive.stsci.edu/">MAST - Mikulski Archive for Space
 Telescopes</a></p>
 <ul>
-<li><p><code class="docutils literal notranslate"><span class="pre">MAST</span></code> provides a variety of astronomical archives focused on
+<li><p><strong>MAST</strong> provides a variety of astronomical archives focused on
 scientific data sets in the optical, ultraviolet, and
 near-infrared parts of the spectrum.</p></li>
 <li><p><a class="reference external" href="https://mast.stsci.edu/portal/Mashup/Clients/Mast/Portal.html">The MAST

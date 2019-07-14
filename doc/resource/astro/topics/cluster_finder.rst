@@ -61,7 +61,7 @@ Test cluster finder in mock catalog
 
 -  `pycymatch <https://github.com/sfarrens/pycymatch>`__
 
-   -  ``Pycymatch`` is a cylindrical matching code for identifying
+   -  **Pycymatch** is a cylindrical matching code for identifying
       matches between a catalogue of simulated dark matter haloes
       populated with galaxies and the results of a cluster detection
       algorithm run on said catalogue.

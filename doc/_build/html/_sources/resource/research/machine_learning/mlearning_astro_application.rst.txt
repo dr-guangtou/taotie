@@ -20,11 +20,11 @@ Galaxy Morphology
    -  By Ryan Hausen & Brant Robertson. Based on the `work
       here <https://arxiv.org/pdf/1906.11248.pdf>`__. `Source code is on
       Github <https://github.com/morpheus-project/morpheus>`__.
-   -  ``Morpheus`` is a neural network model used to generate
+   -  **Morpheus** is a neural network model used to generate
       pixel-level morphological classifications for astronomical
       sources. This model can be used to generate segmentation maps or
       to inform other photometric measurements with granular
-      morphological information. Built on ``Tensorflow``.
+      morphological information. Built on **Tensorflow**.
    -  `Online document is
       here <https://morpheus-astro.readthedocs.io/en/latest/>`__; and
       `this
@@ -47,8 +47,8 @@ Photometric Redshift
 Cosmology
 ---------
 
--  ```MiSTree`` - Beyond two-point statistics: using the Minimum
-   Spanning Tree as a tool for
+-  `MiSTree - Beyond two-point statistics: using the Minimum Spanning
+   Tree as a tool for
    cosmology <https://knaidoo29.github.io/mistreedoc/index.html>`__
 
    -  The `public code can be found

@@ -71,7 +71,7 @@ Using *Gaia* Data
    astrometry <https://www.cosmos.esa.int/documents/29201/1770596/Lindegren_GaiaDR2_Astrometry_extended.pdf/1ebddb25-f010-6437-cb14-0e360e2d9f09>`__
 -  Slides about `Working with Gaia
    Data <https://www.cosmos.esa.int/documents/915837/915858/2016_11_02_dr1Workshop_AlcioneMora.pdf/39b2492b-e74c-4b28-bd1f-71258b25fd08>`__
--  The *Gaia* TAP+ catalog can be accessed through ``astroquery.gaia``
+-  The *Gaia* TAP+ catalog can be accessed through **astroquery.gaia**
    module. Here is a `Python example for
    DR2 <https://gea.esac.esa.int/archive-help/tutorials/python_cluster/index.html>`__
 -  `Exploring Gaia data with TOPCAT and
@@ -120,30 +120,30 @@ Important Publications:
 Softwares and Tools:
 --------------------
 
--  ```PyGaia`` - Python toolkit for basic Gaia data simulation,
+-  `PyGaia - Python toolkit for basic Gaia data simulation,
    manipulation, and analysis <https://github.com/agabrown/PyGaia>`__
 
    -  By Anthony Brown. PyGaia provides python modules for the
       simulation of Gaia data and their errors, as well modules for the
       manipulation and analysis of the Gaia catalogue data
 
--  [`gaia_tools\` - Tools for working with the @ESAGaia data and related
-   data sets](https://github.com/jobovy/gaia_tools)
+-  [__gaia_tools_\_ - Tools for working with the @ESAGaia data and
+   related data sets](https://github.com/jobovy/gaia_tools)
 
    -  By Jo Bovy. Tools for working with the ESA/Gaia data and related
       data sets (APOGEE, GALAH, LAMOST DR2, and RAVE).
 
--  ```GaiaTools`` - A collection of scripts for analyzing the data from
-   the Gaia
+-  `GaiaTools - A collection of scripts for analyzing the data from the
+   Gaia
    satellite <https://github.com/GalacticDynamics-Oxford/GaiaTools>`__
 
    -  By the Oxford’s Galactic Dynamics group.
 
 -  `Gaia TAP+ through
-   ``astroquery.gaia`` <https://astroquery.readthedocs.io/en/latest/gaia/gaia.html>`__
--  ```find_gaia_dr2.py`` <http://cds.u-strasbg.fr/resources/doku.php?id=cdsclient:doc-find_gaia_dr2>`__
+   astroquery.gaia <https://astroquery.readthedocs.io/en/latest/gaia/gaia.html>`__
+-  `find_gaia_dr2.py <http://cds.u-strasbg.fr/resources/doku.php?id=cdsclient:doc-find_gaia_dr2>`__
 
-   -  By CDS. Depends on ``python-cdsclient``
+   -  By CDS. Depends on **python-cdsclient**
 
 -  `Gaia Sky - a real-time, 3D, astronomy visualisation
    software <https://zah.uni-heidelberg.de/institutes/ari/gaia/outreach/gaiasky/>`__

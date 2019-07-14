@@ -28,6 +28,16 @@ Astronomy, Astrophysics, & Cosmology
 
    resource/astro/astro_readme.rst
    resource/astro/astro_research_basic.rst
+  
+Resources and Tools for a Specific Topic
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. doctree::
+   :maxdepth: 1
+
+   resource/astro/topics/ccd_reduction.rst
+   resource/astro/topics/cluster_finder.rst
+
 
 General Topics about Research
 -----------------------------

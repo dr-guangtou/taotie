@@ -24,22 +24,22 @@ Interfacing with C/C++
       -  `Extending Python3.7 with C or
          C++ <https://docs.python.org/3/extending/extending.html>`__
 
-   2. ```ctypes`` - A foreign function library for
+   2. `ctypes - A foreign function library for
       Python <https://docs.python.org/3/library/ctypes.html>`__
 
       -  It provides C compatible data types, and allows calling
          functions in DLLs or shared libraries. It can be used to wrap
          these libraries in pure Python.
 
-   3. ```SWIG`` <http://www.swig.org/exec.html>`__
+   3. `SWIG <http://www.swig.org/exec.html>`__
 
-      -  ``SWIG`` is an interface compiler that connects programs
+      -  **SWIG** is an interface compiler that connects programs
          written in C and C++ with scripting languages such as Python
 
-   4. ```Cython`` - C-Extensions for Python <https://cython.org/>`__
+   4. `Cython - C-Extensions for Python <https://cython.org/>`__
 
       -  `Basic tutorial of
-         ``Cython`` <https://cython.readthedocs.io/en/latest/src/tutorial/cython_tutorial.html>`__
+         Cython <https://cython.readthedocs.io/en/latest/src/tutorial/cython_tutorial.html>`__
       -  `Tutorial on how to use Cython to optimize Python code by
          Adrian
          Price-Whelan <https://github.com/adrn/cython-tutorial>`__
@@ -49,44 +49,44 @@ Interfacing with C/C++
 Only for C++
 ~~~~~~~~~~~~
 
--  ```Boost.Python`` <https://www.boost.org/doc/libs/1_70_0/libs/python/doc/html/index.html>`__
+-  `Boost.Python <https://www.boost.org/doc/libs/1_70_0/libs/python/doc/html/index.html>`__
 
-   -  ``Boost.Python``, a C++ library which enables seamless
+   -  **Boost.Python**, a C++ library which enables seamless
       interoperability between C++ and the Python programming language.
 
--  ```pybind11`` - Seamless operability between C++11 and
+-  `pybind11 - Seamless operability between C++11 and
    Python <https://github.com/pybind/pybind11>`__
 
-   -  ``pybind11`` is a lightweight header-only library that exposes C++
+   -  **pybind11** is a lightweight header-only library that exposes C++
       types in Python and vice versa, mainly to create Python bindings
       of existing C++ code.
-   -  This is used by the ``LSST`` developers, please see the `DM
-      ``Pybind11`` style
+   -  This is used by the **LSST** developers, please see the `DM
+      Pybind11 style
       guide <https://developer.lsst.io/pybind11/style.html>`__ for
       details.
 
 Using Just-in-Time (JIT) Compiler
 ---------------------------------
 
--  ```pypy`` - a fast, compliant alternative implementation of the
-   Python language <http://pypy.org/>`__
+-  `pypy - a fast, compliant alternative implementation of the Python
+   language <http://pypy.org/>`__
 
--  ```numba`` - makes Python code fast <http://numba.pydata.org/>`__
+-  `numba - makes Python code fast <http://numba.pydata.org/>`__
 
-   -  ``Numba`` is an open source JIT compiler that translates a subset
-      of Python and ``NumPy`` code into fast machine code.
-      ``Numba``\ only supports LLVM.
-   -  ``Numba`` offers a range of options for parallelizing your code
+   -  **Numba** is an open source JIT compiler that translates a subset
+      of Python and **NumPy** code into fast machine code.
+      \__Numba__only supports LLVM.
+   -  **Numba** offers a range of options for parallelizing your code
       for CPUs and GPUs, often with only minor code changes.
-   -  ```Numpy`` supports in
-      ``Numba`` <http://numba.pydata.org/numba-doc/0.15.1/numpy_support.html>`__
-   -  ``Numba`` has a ``vectorize`` and ``guvectorize`` decorators that
+   -  `Numpy supports in
+      Numba <http://numba.pydata.org/numba-doc/0.15.1/numpy_support.html>`__
+   -  **Numba** has a **vectorize** and **guvectorize** decorators that
       can be very useful.
 
--  ```hope`` - A Python Just-In-Time compiler for astrophysical
+-  `hope - A Python Just-In-Time compiler for astrophysical
    computations <https://github.com/jakeret/hope>`__
 
-   -  ``hope`` is a specialized method-at-a-time JIT compiler written in
+   -  **hope** is a specialized method-at-a-time JIT compiler written in
       Python for translating Python source code into C++ and compiles
       this at runtime.
    -  Has not been updated for three yeears.
@@ -146,13 +146,13 @@ Common tools:
 More “Big Data” approach:
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
--  ```Dask`` - Parallel computing with task
+-  `Dask - Parallel computing with task
    scheduling <https://dask.org/>`__
 
-   -  ``Dask`` provides advanced parallelism for analytics, enabling
+   -  **Dask** provides advanced parallelism for analytics, enabling
       performance at scale for the tools you love
-   -  ``Dask`` is open source and freely available. It is developed in
-      coordination with other community projects like ``Numpy``,
-      ``Pandas``, and ``Scikit-Learn``.
-   -  `Official ``Dask`` tutorial using Jupyter
+   -  **Dask** is open source and freely available. It is developed in
+      coordination with other community projects like **Numpy**,
+      **Pandas**, and **Scikit-Learn**.
+   -  `Official Dask tutorial using Jupyter
       notebook <https://github.com/dask/dask-tutorial>`__

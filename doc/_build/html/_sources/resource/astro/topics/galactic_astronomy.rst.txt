@@ -48,7 +48,7 @@ Tools
 -  `wendy - A one-dimensional gravitational N-body
    code <https://github.com/jobovy/wendy>`__
 
-   -  By Jo Bovy. ``wendy`` solves the one-dimensional gravitational
+   -  By Jo Bovy. **wendy** solves the one-dimensional gravitational
       N-body problem to machine precision with an efficient algorithm
       [O(log N) / particle-collision]. Alternatively, it can solve the
       problem with approximate integration, but with exact forces.
@@ -63,7 +63,7 @@ Tools
 -  `Agama - Action-based galaxy modeling
    framework <https://github.com/GalacticDynamics-Oxford/Agama>`__
 
-   -  ``Agama`` is a library intended for a broad range of tasks within
+   -  **Agama** is a library intended for a broad range of tasks within
       the field of stellar dynamics.
 
 -  `NEMO - A Stellar Dynamics
@@ -75,28 +75,28 @@ Tools
 Jeans Modeling
 ~~~~~~~~~~~~~~
 
--  ```JAM`` - Jeans Anisotropic MGE modeling
+-  `JAM - Jeans Anisotropic MGE modeling
    method <http://www-astro.physics.ox.ac.uk/~mxc/software/#jam>`__
 
    -  By Michelle Cappellari. Available in Python and IDL.
 
--  ```CJAM`` - Jeans Anisotropic MGE modelling code written in
+-  `CJAM - Jeans Anisotropic MGE modelling code written in
    C <https://github.com/lauralwatkins/cjam>`__
 
    -  By Laura Watkins. Extended JAM models to calculate all three (x,
       y, z) first moments and all six (xx, yy, zz, xy, xz, yz) second
       moments.
 
--  ```slomo`` - Jeans modeling with multiple tracer
+-  `slomo - Jeans modeling with multiple tracer
    populations <https://github.com/adwasser/slomo>`__
 
    -  By Asher Wasserman. There is also a Julia version:
-      ```Slomo.jl`` <https://github.com/adwasser/Slomo.jl>`__
+      `Slomo.jl <https://github.com/adwasser/Slomo.jl>`__
 
 Schwarzschild Modeling
 ~~~~~~~~~~~~~~~~~~~~~~
 
--  ```TriaxSchwarzschild`` by Remco van den
+-  `TriaxSchwarzschild by Remco van den
    Bosch <https://github.com/remcovandenbosch/TriaxSchwarzschild>`__
 
    -  Fortran source codes.
@@ -112,7 +112,7 @@ Tools
 -  `kimmy - Galactic chemical evolution in
    python <https://github.com/jobovy/kimmy>`__
 
-   -  By Jo Bovy. ``kimmy`` contains simple tools to study chemical
+   -  By Jo Bovy. **kimmy** contains simple tools to study chemical
       evolution in galaxies.
 
 Spectra of Milky Way Stars
@@ -151,7 +151,7 @@ Stellar structures in the Milky Way
       streams and overdensities in the Milky Way (MW) and Python tools
       for visualizing them.
 
-``Gaia`` related
+**Gaia** related
 ----------------
 
 Python tools:

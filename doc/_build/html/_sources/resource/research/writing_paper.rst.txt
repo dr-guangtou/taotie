@@ -85,7 +85,7 @@ Useful LaTeX tips
 -  `Link to aribitary part of
    text <https://tex.stackexchange.com/questions/280462/link-to-arbitrary-part-of-text>`__
 
-   -  Using ``\hypertarget`` and ``\hyperlink``
+   -  Using **\\hypertarget** and **\\hyperlink**
 
 Figure
 ------
@@ -93,8 +93,8 @@ Figure
 Flowchart
 ~~~~~~~~~
 
--  ```mermaid`` - Generation of diagram and flowchart from text in a
-   similar manner as markdown <https://github.com/knsv/mermaid>`__
+-  `mermaid - Generation of diagram and flowchart from text in a similar
+   manner as markdown <https://github.com/knsv/mermaid>`__
 
-   -  ``mermaid``, a simple markdown-like script language for generating
+   -  **mermaid**, a simple markdown-like script language for generating
       charts from text via javascript.

@@ -25,14 +25,14 @@ Resources
 Tools
 -----
 
--  ```meshio`` - I/O for various mesh
+-  `meshio - I/O for various mesh
    formats <https://github.com/nschloe/meshio>`__
 
    -  By Nico Schlömer. There are various mesh formats available for
       representing unstructured meshes. meshio can read and write a lot
       of them, and can convert among them.
 
--  ```quadpy`` - Numerical integration (quadrature, cubature) in
+-  `quadpy - Numerical integration (quadrature, cubature) in
    Python <https://github.com/nschloe/quadpy>`__
 
    -  By Nico Schlömer. More than 1500 numerical integration schemes for
@@ -42,7 +42,7 @@ Tools
       weight functions exp(-r) and exp(-r2) for fast integration of
       real-, complex-, and vector-valued functions.
 
--  ```optimesh`` - Mesh optimization, mesh
+-  `optimesh - Mesh optimization, mesh
    smoothing <https://github.com/nschloe/optimesh>`__
 
    -  By Nico Schlömer. Several mesh smoothing/optimization methods with

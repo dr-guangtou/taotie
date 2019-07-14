@@ -63,77 +63,77 @@ ORCID and Google Scholar
 Choosing a Programing Language
 ------------------------------
 
--  It has become clear that ```Python`` <https://www.python.org/>`__ has
+-  It has become clear that `Python <https://www.python.org/>`__ has
    become the new Lingua franca in astrophysics and cosmology research
    and it is probably the language you want to learn first. We also
-   prepare a series of lists to collect ``Python`` related resources and
+   prepare a series of lists to collect **Python** related resources and
    tools, including `basic learning materials for
-   ``Python`` <https://github.com/dr-guangtou/taotie/blob/master/programing/python_basic.md>`__
+   Python <https://github.com/dr-guangtou/taotie/blob/master/programing/python_basic.md>`__
    ,\ `resources on improving the performace of
-   ``Python`` <https://github.com/dr-guangtou/taotie/blob/master/programing/python_performance.md>`__,
+   Python <https://github.com/dr-guangtou/taotie/blob/master/programing/python_performance.md>`__,
    `on model fitting or optimization in
-   ``Python`` <https://github.com/dr-guangtou/taotie/blob/master/programing/python_optimazaton.md>`__,
+   Python <https://github.com/dr-guangtou/taotie/blob/master/programing/python_optimazaton.md>`__,
    `on statistical analysis and model in
-   ``Python`` <https://github.com/dr-guangtou/taotie/blob/master/programing/python_statistics.md>`__,
+   Python <https://github.com/dr-guangtou/taotie/blob/master/programing/python_statistics.md>`__,
    `on data visualization in
-   ``Python`` <https://github.com/dr-guangtou/taotie/blob/master/programing/python_visualization.md>`__,
-   `on getting started with your own ``Python``
+   Python <https://github.com/dr-guangtou/taotie/blob/master/programing/python_visualization.md>`__,
+   `on getting started with your own Python
    project <https://github.com/dr-guangtou/taotie/blob/master/programing/python_write_yourown_project.md>`__.
--  ```C`` <https://en.wikipedia.org/wiki/C_(programming_language)>`__
-   and ```C++`` <https://en.wikipedia.org/wiki/C%2B%2B>`__ are still at
-   the core of many important astrophysical applications, e.g. numerical
+-  `C <https://en.wikipedia.org/wiki/C_(programming_language)>`__ and
+   `C++ <https://en.wikipedia.org/wiki/C%2B%2B>`__ are still at the core
+   of many important astrophysical applications, e.g. numerical
    simulations, data reduction or analysis that requires high efficiency
-   or good performance. Many important astrophysical softwares use ``C``
-   or ``C++`` as the core and then wrap it up using ``Python``. Here we
+   or good performance. Many important astrophysical softwares use **C**
+   or **C++** as the core and then wrap it up using **Python**. Here we
    also provide some basic resources for using
-   ```C`` <https://github.com/dr-guangtou/taotie/blob/master/programing/clang_basic.md>`__
+   `C <https://github.com/dr-guangtou/taotie/blob/master/programing/clang_basic.md>`__
    and
-   ```C++`` <https://github.com/dr-guangtou/taotie/blob/master/programing/cpp_basic.md>`__
+   `C++ <https://github.com/dr-guangtou/taotie/blob/master/programing/cpp_basic.md>`__
    in research.
-   ```Fortran`` <http://fortranwiki.org/fortran/show/HomePage>`__ is
-   another historically important language known for its excellent
-   numerical performance. Its influence in astronomy is decreasing right
-   now, but you will still see it in scenarios that rely on
-   high-performance computing.
--  ```Julia`` <https://julialang.org/>`__ is another intersting
-   high-level programming language on the rising. There are `several key
-   advantages over
-   ``Python`` <https://discourse.julialang.org/t/julia-motivation-why-werent-numpy-scipy-numba-good-enough/2236>`__
-   but it is still a young language. Right now, ``Julia`` tools for
+   `Fortran <http://fortranwiki.org/fortran/show/HomePage>`__ is another
+   historically important language known for its excellent numerical
+   performance. Its influence in astronomy is decreasing right now, but
+   you will still see it in scenarios that rely on high-performance
+   computing.
+-  `Julia <https://julialang.org/>`__ is another intersting high-level
+   programming language on the rising. There are `several key advantages
+   over
+   Python <https://discourse.julialang.org/t/julia-motivation-why-werent-numpy-scipy-numba-good-enough/2236>`__
+   but it is still a young language. Right now, **Julia** tools for
    astronomy and astrophysics are still limited, but we decide to start
    to `collect relevant resoures and
    tools <https://github.com/dr-guangtou/taotie/blob/master/programing/julia_basic.md>`__
--  At the same time, ```R`` <https://www.r-project.org/about.html>`__
+-  At the same time, `R <https://www.r-project.org/about.html>`__
    statistical language also has some interesting applications in
    astronomy;
-   ```IDL`` <https://en.wikipedia.org/wiki/IDL_(programming_language)>`__
+   `IDL <https://en.wikipedia.org/wiki/IDL_(programming_language)>`__
    was yesterday’s language for astronomical data reduction, but for
    historical reasons, many projects/instruments are still using it. If
    you just start your research in astronomy, we no longer recommend you
    to learn it. But in case you have to face it in research, it is `not
    difficult if you have a background in
-   ``Python`` <http://mathesaurus.sourceforge.net/idl-numpy.html>`__
+   Python <http://mathesaurus.sourceforge.net/idl-numpy.html>`__
 -  Although their applications in astrophysics are limited,
-   ```MATLAB`` <https://www.mathworks.com/products/matlab.html>`__ is
-   widely used for data reduction and numerical simulation, and
-   ```Mathematica`` <http://www.wolfram.com/mathematica/>`__ is a very
+   `MATLAB <https://www.mathworks.com/products/matlab.html>`__ is widely
+   used for data reduction and numerical simulation, and
+   `Mathematica <http://www.wolfram.com/mathematica/>`__ is a very
    popular tool for symbolic analysis and theoretical research. Neither
    of them is free, so please make sure you have the correct license to
    use them.
 -  And it never hurts if you can learn some basic programming skills
    related to webpage making,
-   e.g. \ ```HTML`` <https://www.w3schools.com/html/>`__,
-   ```CSS`` <https://www.w3schools.com/css/>`__, and
-   ```Javascript`` <https://www.javascript.com/>`__.
+   e.g. \ `HTML <https://www.w3schools.com/html/>`__,
+   `CSS <https://www.w3schools.com/css/>`__, and
+   `Javascript <https://www.javascript.com/>`__.
 -  **It is also important to remember: never tool-shaming others!**.
-   There are excellent scientists who still rely on ``IDL``,
-   ```IRAF`` <https://en.wikipedia.org/wiki/IRAF>`__, ``Fortran`` for
+   There are excellent scientists who still rely on **IDL**,
+   `IRAF <https://en.wikipedia.org/wiki/IRAF>`__, **Fortran** for
    research, and using
-   ```SuperMongo`` <https://www.astro.princeton.edu/~rhl/sm/>`__ or
-   ```gnuplot`` <http://www.gnuplot.info/>`__ for data visualization.
-   There are plenty of personal and practical reasons to do so and they
-   can still do great science. Use your energy for something more
-   positive and productive.
+   `SuperMongo <https://www.astro.princeton.edu/~rhl/sm/>`__ or
+   `gnuplot <http://www.gnuplot.info/>`__ for data visualization. There
+   are plenty of personal and practical reasons to do so and they can
+   still do great science. Use your energy for something more positive
+   and productive.
 
 Misc
 ~~~~
@@ -141,17 +141,17 @@ Misc
 -  `The STA663 courses at Duke University compiled a nice list of useful
    resources for computer skills that are useful for
    research <http://people.duke.edu/~ccc14/sta-663-2019/>`__
--  ```StackOverflow`` <https://stackoverflow.com/>`__ is a community
+-  `StackOverflow <https://stackoverflow.com/>`__ is a community
    knowledge database for programming. It can be your best friends in so
    many situations, and you should consider helping others too.
 
 Organizing Your Research Project
 --------------------------------
 
--  ```GitHub`` <https://github.com/>`__ or any other on line code
-   repositories (e.g. ```GitLab`` <https://about.gitlab.com/>`__,
-   ```bitbucket`` <https://bitbucket.org/>`__,
-   ```coding`` <https://coding.net/git>`__) can help organize your
+-  `GitHub <https://github.com/>`__ or any other on line code
+   repositories (e.g. `GitLab <https://about.gitlab.com/>`__,
+   `bitbucket <https://bitbucket.org/>`__,
+   `coding <https://coding.net/git>`__) can help organize your
    scientific project. It can help you do version control, back up
    research results, and also share results and code with the community.
 
@@ -160,14 +160,14 @@ Organizing Your Research Project
    -  You can also keep your project synced across multiple platforms.
       Please see `this
       article <https://moox.io/blog/keep-in-sync-git-repos-on-github-gitlab-bitbucket/>`__.
-      Notice that ``gitlab`` is using ``v4`` API now.
-   -  It is easy to `keeping in sync your ``Git`` repos on Github,
-      Gitlab, and
+      Notice that **gitlab** is using **v4** API now.
+   -  It is easy to `keeping in sync your Git repos on Github, Gitlab,
+      and
       Bitbucket <https://moox.io/blog/keep-in-sync-git-repos-on-github-gitlab-bitbucket/>`__.
       All you need to do is to make sure the repos share the same name,
       and add multiple remotes to the same local data.
 
--  And ``GitHub`` allows you to `create new repository based on a
+-  And **GitHub** allows you to `create new repository based on a
    template <https://github.blog/2019-06-06-generate-new-repositories-with-repository-templates>`__
 
    -  There are template available that can help you get started:
@@ -176,12 +176,12 @@ Organizing Your Research Project
          projects <https://github.com/uwescience/shablona>`__
 
 -  If you want to start a package as your project, you can try
-   ```cookiecutter`` <https://github.com/audreyr/cookiecutter>`__ - A
+   `cookiecutter <https://github.com/audreyr/cookiecutter>`__ - A
    command-line utility that creates projects from templates for Python,
    Javascript, Ruby, Markdown, CSS, HTML etc.
 
-   -  If you are interested in using ``astropy`` as a good template for
-      Python project, the ```astropy`` package
+   -  If you are interested in using **astropy** as a good template for
+      Python project, the `astropy package
       template <https://github.com/astropy/package-template>`__ is
       available too.
 
@@ -193,29 +193,28 @@ Organizing a Programming Environment
    Good examples are everywhere!
 -  Don’t waste too much time choosing editors or IDEs, just pick the
    first one you like, learn how to use it; if it does grow on you,
-   change to another one. Both ```vim`` <https://www.vim.org/>`__ and
-   ```emacs`` <https://www.gnu.org/software/emacs/>`__ are excellent
-   tools; ```atom`` <https://atom.io/>`__,
-   ```VScode`` <https://code.visualstudio.com/>`__, and
-   ```sublime`` <https://www.sublimetext.com/>`__ are all very good
-   IDEs. They **all** have amazing capabilities and can help you become
-   a great coder and scientist.
+   change to another one. Both `vim <https://www.vim.org/>`__ and
+   `emacs <https://www.gnu.org/software/emacs/>`__ are excellent tools;
+   `atom <https://atom.io/>`__,
+   `VScode <https://code.visualstudio.com/>`__, and
+   `sublime <https://www.sublimetext.com/>`__ are all very good IDEs.
+   They **all** have amazing capabilities and can help you become a
+   great coder and scientist.
 -  There are some useful resources that will save your time setting up
    the environment:
 
-   -  ```spacemacs`` - A community-driven Emacs
+   -  `spacemacs - A community-driven Emacs
       distribution <https://github.com/syl20bnr/spacemacs>`__
-   -  ```spacevim`` - A community-driven modular vim
+   -  `spacevim - A community-driven modular vim
       distribution <https://github.com/SpaceVim/SpaceVim>`__
    -  `Awesome Emacs - A community driven list of useful Emacs packages,
       libraries and
       others <https://github.com/emacs-tw/awesome-emacs>`__
-   -  ```neovim`` - Vim-fork focused on extensibility and
+   -  `neovim - Vim-fork focused on extensibility and
       usability <https://github.com/neovim/neovim>`__
-   -  ```awesome-vscode`` - A curated list of delightful VS Code
-      packages and
-      resources <https://github.com/viatsko/awesome-vscode>`__
-   -  ```awesome-atom`` - A curated list of delightful Atom packages and
+   -  `awesome-vscode - A curated list of delightful VS Code packages
+      and resources <https://github.com/viatsko/awesome-vscode>`__
+   -  `awesome-atom - A curated list of delightful Atom packages and
       resources <https://github.com/mehcode/awesome-atom>`__
 
 Backing-up Your Research
@@ -227,17 +226,17 @@ Backing-up Your Research
 
    -  You should constantly back-up your harddrive using external
       harddrive. Both MacOSX
-      (e.g. ```TimeMachine`` <https://support.apple.com/en-us/HT201250>`__)
-      and Linux (```TimeVault`` <https://wiki.ubuntu.com/TimeVault>`__
-      and ```Duplicity`` <http://duplicity.nongnu.org/>`__) have systems
-      that help you backup data.
+      (e.g. `TimeMachine <https://support.apple.com/en-us/HT201250>`__)
+      and Linux (`TimeVault <https://wiki.ubuntu.com/TimeVault>`__ and
+      `Duplicity <http://duplicity.nongnu.org/>`__) have systems that
+      help you backup data.
    -  You can also easily backup your entire system or certain directory
       using a command line tool
-      ```rsync`` <https://linux.die.net/man/1/rsync>`__:
-      ``rsync -av --delete /Directory1/ /Directory2/``
+      `rsync <https://linux.die.net/man/1/rsync>`__: **rsync -av –delete
+      /Directory1/ /Directory2/**
 
       -  On Linux, you can also use
-         ```Cron`` <https://opensource.com/article/17/11/how-use-cron-linux>`__
+         `Cron <https://opensource.com/article/17/11/how-use-cron-linux>`__
          to automatically backup files at any given time. For example,
          you can follow the instruction
          `here <https://nickjanetakis.com/blog/automatic-offline-file-backups-with-bash-and-rsync>`__
@@ -245,36 +244,36 @@ Backing-up Your Research
 -  Online Backup:
 
    -  It is encouraged to use service like the
-      ```Dropbox`` <https://www.dropbox.com>`__ to constantly backup
+      `Dropbox <https://www.dropbox.com>`__ to constantly backup
       important research-related files (e.g. draft, code, and figures).
-      In mainland China, ```jianguoyun``
+      In mainland China, `jianguoyun
       (坚果云) <https://www.jianguoyun.com/>`__ is an alternative.
 
 Keeping Research Notes and Documents
 ------------------------------------
 
--  ```Markdown`` <https://en.wikipedia.org/wiki/Markdown>`__ is a
+-  `Markdown <https://en.wikipedia.org/wiki/Markdown>`__ is a
    lightweight markup language with plain text formatting syntax. It is
    very easy to learn and can help you make well-organize notes and
-   documents that can be easily converted into other format (``HTML`` or
-   ``LaTeX``).
+   documents that can be easily converted into other format (**HTML** or
+   **LaTeX**).
 
    -  `Mastering Markdown by GitHub
       Guides <https://guides.github.com/features/mastering-markdown/>`__
       is a very good start.
    -  If you want to learn more details, use `the Markdown
       Guide <https://www.markdownguide.org/>`__.
-   -  Most of the editors and IDEs support the ``.md`` or ``.markdown``
+   -  Most of the editors and IDEs support the **.md** or **.markdown**
       format documents through extensions. They can help you check the
       syntax. There are also a lot of markdown editors on all platforms.
 
 -  Whatever notes or documents you are keeping for your research, make
    sure it can be backed-up and is searchable. Using software like the
-   ```OneNote`` <https://www.onenote.com/signin?wdorigin=ondc>`__ from
+   `OneNote <https://www.onenote.com/signin?wdorigin=ondc>`__ from
    Microsoft, or on-line service like
-   ```evernote`` <https://evernote.com>`__ would be a good idea. If your
-   project is already on ``Github``, you can just use ``git`` to version
-   control and back-up your documents. ```GitHub`` wiki
+   `evernote <https://evernote.com>`__ would be a good idea. If your
+   project is already on **Github**, you can just use **git** to version
+   control and back-up your documents. `GitHub wiki
    pages <https://guides.github.com/features/wikis/>`__ are another
    great way to keep notes.
 
@@ -296,7 +295,7 @@ Sharing Your Science
 
 -  `Open Science <https://en.wikipedia.org/wiki/Open_science>`__ is good
    for everybody!
--  You can share your results using ``Github``: you can share codes,
+-  You can share your results using **Github**: you can share codes,
    notebooks, and draft together. But it is not very good if you have
    large amount of data to share.
 -  `zenodo - a general-purpose open-access repository developed under
@@ -343,11 +342,11 @@ Reading Paper
 -------------
 
 -  It is important to read as much as you can. It is important to follow
-   ``arXiv`` regularly.
+   **arXiv** regularly.
 
    -  You can check if your institute is using
       `voxCharta <https://www.voxcharta.org>`__, a on-line platform to
-      vote on papers and organize ``arXiv`` discussion.
+      vote on papers and organize **arXiv** discussion.
    -  It is good idea to have a routine that keeps record of interesting
       papers. Here is an examply by
       `me <https://github.com/dr-guangtou/daily_astroph>`__
@@ -398,14 +397,14 @@ SAO/NASA ADS
 Communicating with Others
 -------------------------
 
--  ```Slack`` <https://slack.com/>`__ has become the most common way to
+-  `Slack <https://slack.com/>`__ has become the most common way to
    organize a small collaboration. Even the free version can be very
    useful.
 -  Telecon becomes more and more frequently used to communicate among
    collaborators in different institutes and timezones. Commonly used
-   telecon tools including ```Skype`` <https://www.skype.com/en/>`__,
-   ```zoom`` <https://zoom.us/>`__,
-   ```GoToMeetings`` <https://www.gotomeeting.com/>`__
+   telecon tools including `Skype <https://www.skype.com/en/>`__,
+   `zoom <https://zoom.us/>`__,
+   `GoToMeetings <https://www.gotomeeting.com/>`__
 
    -  All of these tools are free and cross-platform, and easy to use.
       You can share screen using them for remote presentation too.
@@ -425,11 +424,10 @@ Personal Website
    country (e.g. get a PhD in China, want a post-doc job in Europe) or
    when you know the hiring committee is not familiar with you.
 
--  ```GitHub Pages`` <https://pages.github.com/>`__ is pretty good
-   choice to make a nice-looking personal website. And there are some
-   `easy-to-use templates
-   available <https://pages.github.com/themes/>`__, and there are `more
-   fancy ones
+-  `GitHub Pages <https://pages.github.com/>`__ is pretty good choice to
+   make a nice-looking personal website. And there are some `easy-to-use
+   templates available <https://pages.github.com/themes/>`__, and there
+   are `more fancy ones
    available <https://jekyllthemes.io/github-pages-templates>`__
 
    -  `How to Create a Simple Academic
@@ -461,7 +459,7 @@ Scientific Conference
 -  `CADA International Astronomy
    Meetings <http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/meetings/>`__
    is a very good place to check if there is anything conference that
-   interests you in the future. There is a RSS Feed and a ``iCal``
+   interests you in the future. There is a RSS Feed and a **iCal**
    subscription.
 
 -  [@astromeetings Twitter

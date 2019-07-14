@@ -78,11 +78,10 @@ Personal Website
    country (e.g. get a PhD in China, want a post-doc job in Europe) or
    when you know the hiring committee is not familiar with you.
 
--  ```GitHub Pages`` <https://pages.github.com/>`__ is pretty good
-   choice to make a nice-looking personal website. And there are some
-   `easy-to-use templates
-   available <https://pages.github.com/themes/>`__, and there are `more
-   fancy ones
+-  `GitHub Pages <https://pages.github.com/>`__ is pretty good choice to
+   make a nice-looking personal website. And there are some `easy-to-use
+   templates available <https://pages.github.com/themes/>`__, and there
+   are `more fancy ones
    available <https://jekyllthemes.io/github-pages-templates>`__
 
    -  `How to Create a Simple Academic
@@ -110,7 +109,7 @@ General Career Advice
 ---------------------
 
 -  Astrobites also have some nice career inside and outside astronomy
-   (use ``Career Navigation`` as keyword):
+   (use **Career Navigation** as keyword):
 
    -  `Alternative Careers: Leveraging your Astronomy Degree for Data
       Science <https://astrobites.org/2016/06/01/alternative-careers-leveraging-your-astronomy-degree-for-data-science/>`__

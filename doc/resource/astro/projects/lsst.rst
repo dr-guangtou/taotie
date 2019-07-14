@@ -210,80 +210,80 @@ Software and Pipeline:
 Important Components:
 ~~~~~~~~~~~~~~~~~~~~~
 
--  ```afw``: LSST data management: pipeline library code and primitives
+-  `afw: LSST data management: pipeline library code and primitives
    including images and tables <https://github.com/lsst/afw>`__
--  ```lsst-build``: a builder and continuous integration tool for
+-  `lsst-build: a builder and continuous integration tool for
    LSST <https://github.com/lsst/lsst_build>`__
--  ```pipe_base``: LSST Data Management: base classes for data
-   processing tasks <https://github.com/lsst/pipe_base>`__
--  ```pipe_tasks``: LSST Data Management: astronomical data processing
+-  `pipe_base: LSST Data Management: base classes for data processing
+   tasks <https://github.com/lsst/pipe_base>`__
+-  `pipe_tasks: LSST Data Management: astronomical data processing
    tasks <https://github.com/lsst/pipe_tasks>`__
--  ```pipe_drivers``: LSST Data Management: high level task coordination
+-  `pipe_drivers: LSST Data Management: high level task coordination
    scripts <https://github.com/lsst/pipe_drivers>`__
--  ```daf_butler``: Prototype for data access framework described in
+-  `daf_butler: Prototype for data access framework described in
    DMTN-056 <https://github.com/lsst/daf_butler>`__
--  ```daf_persistence``: Data access interface (the Butler) and
-   deprecated persistence framework for LSST Data
+-  `daf_persistence: Data access interface (the Butler) and deprecated
+   persistence framework for LSST Data
    Management <https://github.com/lsst/daf_persistence>`__
--  ```daf_base``: Low-level data structures, including memory-management
+-  `daf_base: Low-level data structures, including memory-management
    helpers (Citizen), mappings (PropertySet, PropertyList), and
    DateTime <https://github.com/lsst/daf_base>`__
--  ```skymap``: Sky pixelization interfaces and implementations used by
-   LSST Data Management <https://github.com/lsst/skymap>`__
--  ```jointcal``: Simultaneous astrometry and
+-  `skymap: Sky pixelization interfaces and implementations used by LSST
+   Data Management <https://github.com/lsst/skymap>`__
+-  `jointcal: Simultaneous astrometry and
    photometry <https://github.com/lsst/jointcal>`__
--  ```meas_mosaic``: determine consistent astrometry and photometry for
+-  `meas_mosaic: determine consistent astrometry and photometry for
    multiple images <https://github.com/lsst/meas_mosaic>`__
--  ```meas_modelfit``: LSST Data Management: model fitting
+-  `meas_modelfit: LSST Data Management: model fitting
    algorithms <https://github.com/lsst/meas_modelfit>`__
--  ```meas_extentions_shapeHSM``: LSST Data Management: HSM shape
+-  `meas_extentions_shapeHSM: LSST Data Management: HSM shape
    measurement <https://github.com/lsst/meas_extensions_shapeHSM>`__
--  ```meas_extensions_psfex``: LSST Data Management: PSF
+-  `meas_extensions_psfex: LSST Data Management: PSF
    Estimation <https://github.com/lsst/meas_extensions_psfex>`__
--  ```meas_base``: LSST Data Management: core astronomical measurement
+-  `meas_base: LSST Data Management: core astronomical measurement
    algorithms <https://github.com/lsst/meas_base>`__
--  ```meas_algorithms``: LSST Data Management: astronomical measurement
+-  `meas_algorithms: LSST Data Management: astronomical measurement
    algorithm <https://github.com/lsst/meas_algorithms>`__
--  ```meas_deblender``: LSST Data Management: astronomical source
+-  `meas_deblender: LSST Data Management: astronomical source
    deblender <https://github.com/lsst/meas_deblender>`__
--  ```meas_astrom``: LSST Data Management: astrometric measurement
+-  `meas_astrom: LSST Data Management: astrometric measurement
    algorithms <https://github.com/lsst/meas_astrom>`__
--  ```ip_isr``: LSST data management: instrument signature removal
+-  `ip_isr: LSST data management: instrument signature removal
    (detrending) for astronomical
    images <https://github.com/lsst/ip_isr>`__
--  ```ip_diffim``: LSST data management: astronomical image
+-  `ip_diffim: LSST data management: astronomical image
    differencing <https://github.com/lsst/ip_diffim>`__
--  ```geom``: Low-level geometry primitives for LSST Data
+-  `geom: Low-level geometry primitives for LSST Data
    Management <https://github.com/lsst/geom>`__
--  ```coadd_utils``: LSST data management: base classes for coadding
+-  `coadd_utils: LSST data management: base classes for coadding
    (stacking) astronomical
    images <https://github.com/lsst/coadd_utils>`__
--  ```throughputs``: LSST Simulations repository for baseline evaluation
+-  `throughputs: LSST Simulations repository for baseline evaluation
    information <https://github.com/lsst/throughputs>`__
 
 Simulation Related:
 ~~~~~~~~~~~~~~~~~~~
 
--  ```imSim``: GalSim based Large Synoptic Survey Telescope (LSST) image
+-  `imSim: GalSim based Large Synoptic Survey Telescope (LSST) image
    simulation package <https://github.com/LSSTDESC/imSim>`__
 
    -  It produces simulated images from the 3.25 Gigapixel camera which
       are suitable to be processed through the LSST Data Management
       pipeline.
 
--  ```phoSim``: Photon
+-  `phoSim: Photon
    Simulator <https://bitbucket.org/phosim/phosim_release/wiki/Home>`__
 
    -  A set of extremely fast photon Monte Carlo codes used to calculate
       the physics of the atmosphere and a telescope & camera in order to
       simulate realistic optical/IR astronomical images.
 
--  ```sims_utils``: LSST Simulations package for simulation utility
+-  `sims_utils: LSST Simulations package for simulation utility
    functions <https://github.com/lsst/sims_utils>`__
--  ```sims_photUtils``: LSST Simulations package for photometric utility
+-  `sims_photUtils: LSST Simulations package for photometric utility
    functions <https://github.com/lsst/sims_photUtils>`__
--  ```sims_survey_fields``: A package for retrieving LSST survey
+-  `sims_survey_fields: A package for retrieving LSST survey
    fields <https://github.com/lsst/sims_survey_fields>`__
--  ```sims_skybrightness``: Tool to predict the background sky emission
-   SED at an arbitrary RA, Dec, and
+-  `sims_skybrightness: Tool to predict the background sky emission SED
+   at an arbitrary RA, Dec, and
    MJD <https://github.com/lsst/sims_skybrightness>`__

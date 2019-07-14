@@ -12,7 +12,7 @@ Template Based
 -  `EAZY - photometric redshift
    code <https://github.com/gbrammer/eazy-photoz>`__
 
-   -  ``EAZY`` is a photometric redshift code designed to produce
+   -  **EAZY** is a photometric redshift code designed to produce
       high-quality redshifts for situations where complete spectroscopic
       calibration samples are not available. See `Brammer, van Dokkum &
       Coppi 2008 <http://adsabs.harvard.edu/abs/2008ApJ...686.1503B>`__
@@ -40,7 +40,7 @@ Machine Learning
 -  `frankenz - A photometric redshift
    monstrosity <https://github.com/joshspeagle/frankenz>`__
 
-   -  By Josh Speagle. ``frankenz`` is a Pure Python implementation of a
+   -  By Josh Speagle. **frankenz** is a Pure Python implementation of a
       variety of methods to quickly yet robustly perform (hierarchical)
       Bayesian inference using large (but discrete) sets of (possibly
       noisy) models with (noisy) photometric data.
@@ -60,7 +60,7 @@ Clustering
 -  `the-wizz - A clustering redshift estimation code for us
    folks <https://github.com/morriscb/the-wizz>`__
 
-   -  By Chris Morrison. ``the-wizz`` is a clustering redshift
+   -  By Chris Morrison. **the-wizz** is a clustering redshift
       estimating tool designed with ease of use for end users in mind.
    -  For information on the method see Schmidt et al. 2013, Menard et
       al. 2013, and Rahman et al. 2015, 2016b. Details on this

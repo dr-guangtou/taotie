@@ -106,24 +106,22 @@ Software and Pipeline:
 Key Components:
 ~~~~~~~~~~~~~~~
 
--  ```desisurvey``: Code for desi survey planning and
+-  `desisurvey: Code for desi survey planning and
    implementation <https://github.com/desihub/desisurvey>`__
--  ```surveysim``: Simulate afternoon planning and nightly tile
-   scheduling for the DESI
-   survey <https://github.com/desihub/surveysim>`__
--  ```specter``: A toolkit for simulating multi-object
+-  `surveysim: Simulate afternoon planning and nightly tile scheduling
+   for the DESI survey <https://github.com/desihub/surveysim>`__
+-  `specter: A toolkit for simulating multi-object
    spectrographs <https://github.com/desihub/specter>`__
--  ```desitarget``: DESI
+-  `desitarget: DESI
    targeting <https://github.com/desihub/desitarget>`__
--  ```desispec``: DESI spectral
+-  `desispec: DESI spectral
    pipeline <https://github.com/desihub/desispec>`__
--  ```specsim``: Quick simulations of spectrograph
+-  `specsim: Quick simulations of spectrograph
    response <https://github.com/desihub/specsim>`__
--  ```desisim``: DESI
-   simulations <https://github.com/desihub/desisim>`__
--  ```fiberassign``: Fiber assignment code for
+-  `desisim: DESI simulations <https://github.com/desihub/desisim>`__
+-  `fiberassign: Fiber assignment code for
    DESI <https://github.com/desihub/fiberassign>`__
--  ```redrock``: Redshift fitting for
+-  `redrock: Redshift fitting for
    spectroperfectionism <https://github.com/desihub/redrock>`__
--  ```desietc``: Online exposure time
+-  `desietc: Online exposure time
    calculator <https://github.com/desihub/desietc>`__

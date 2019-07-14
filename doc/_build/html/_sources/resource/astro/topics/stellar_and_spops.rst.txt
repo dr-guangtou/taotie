@@ -100,11 +100,11 @@ Observed
 -  `MILES Stellar
    Library <http://www.iac.es/proyecto/miles/pages/stellar-libraries.php>`__
 
-   -  ``MILES``: ~1000 stars spanning a large range in atmospheric
+   -  **MILES**: ~1000 stars spanning a large range in atmospheric
       parameters. The spectra were obtained at the 2.5m INT telescope
       and cover the range 3525-7500 Å at 2.5 Å (FWHM) spectral
       resolution
-   -  ``CaII Triplet Library``: 700 stars with spectra around the Ca II
+   -  **CaII Triplet Library**: 700 stars with spectra around the Ca II
       triplet region. Cover the spectral range between 8350-9020 Å at
       1.5 Å (FWHM)
 
@@ -271,9 +271,8 @@ Tools
 Stellar Population Synthesis or SED Fitting
 -------------------------------------------
 
--  This ```sedfitting.org``
-   page <http://www.sedfitting.org/Models.html>`__ is a very good
-   one-stop shopping place for all SED related resources.
+-  This `sedfitting.org page <http://www.sedfitting.org/Models.html>`__
+   is a very good one-stop shopping place for all SED related resources.
 
    -  There is also a `review
       paper <http://www.sedfitting.org/Paper_vs1.0_online/walcher_ms.html>`__
@@ -288,10 +287,10 @@ Tools:
 
    -  If you want to see how sausage is made, this is it, including
       every details of stellar population synthesis. Original code in
-      ``Frotran``. Supports different isochrones and libraries.
-   -  ```python-fsps`` <http://dfm.io/python-fsps/current/>`__ can help
-      you use it in ``Python``
-   -  ```cloudyfsps`` - Python interface between FSPS and
+      **Frotran**. Supports different isochrones and libraries.
+   -  `python-fsps <http://dfm.io/python-fsps/current/>`__ can help you
+      use it in **Python**
+   -  `cloudyfsps - Python interface between FSPS and
       Cloudy <https://github.com/nell-byler/cloudyfsps>`__
 
 -  `sedpy - Utilities for astronomical spectral energy
@@ -319,7 +318,7 @@ SED or Spectral Fitting
 
    -  By Ben Johnson. Conduct principled inference of stellar population
       properties from photometric and/or spectroscopic data.
-   -  Bayesian method, can use ``emcee``, ``nestle``, and ``dynesty`` as
+   -  Bayesian method, can use **emcee**, **nestle**, and **dynesty** as
       sampling tool
    -  Can fit spectrum and/or SED.
 
@@ -351,7 +350,7 @@ SED or Spectral Fitting
 -  `iSEDfit - IDL routines to fit
    SED <https://github.com/moustakas/impro>`__
 
-   -  By John Moustakas. Part of the ``impro`` suite. `Website for
+   -  By John Moustakas. Part of the **impro** suite. `Website for
       downloading library and documents is
       here <http://www.sos.siena.edu/~jmoustakas/isedfit/>`__
    -  Based on model grid, only fit SED.

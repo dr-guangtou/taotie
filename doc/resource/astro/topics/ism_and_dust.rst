@@ -54,13 +54,13 @@ Tools
 Interstellar Dust Model
 -----------------------
 
--  ```THEMIS`` - The Heterogeneous dust Evolution Model for Interstellar
+-  `THEMIS - The Heterogeneous dust Evolution Model for Interstellar
    Solids <https://www.ias.u-psud.fr/themis/THEMIS_model.html>`__
 
--  ```SHIVA`` - a numerical tool for evolution of dust in the
+-  `SHIVA - a numerical tool for evolution of dust in the
    ISM <http://www.inasan.rssi.ru/~khramtsova/SHIVA.html>`__
 
-   -  ``SHIVA`` simulates the dust destruction in warm neutral, warm
+   -  **SHIVA** simulates the dust destruction in warm neutral, warm
       ionized, and hot ionized media under the influence of
       photo-processing, sputtering, and shattering. Based on `this
       work <https://arxiv.org/pdf/1906.11308.pdf>`__

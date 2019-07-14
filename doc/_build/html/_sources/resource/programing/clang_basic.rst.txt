@@ -20,7 +20,7 @@ Learning C
 -  `learn-c.org free interactive C
    tutorial <https://www.learn-c.org/>`__
 
--  ```30-seconds-of-c`` <https://github.com/fredsiika/30-seconds-of-c>`__
+-  `30-seconds-of-c <https://github.com/fredsiika/30-seconds-of-c>`__
 
    -  Curated collection of useful C Programming tutorials, snippets,
       and projects that you can understand in 30 seconds or less
@@ -44,7 +44,7 @@ Performance
 
    -  Very practical and useful guides for optimizing C/C++.
 
--  ```mimalloc`` - mimalloc is a compact general purpose allocator with
+-  `mimalloc - mimalloc is a compact general purpose allocator with
    excellent performance <https://github.com/microsoft/mimalloc>`__
 
    -  By Microsoft. mimalloc (pronounced “me-malloc”) is a general
@@ -55,8 +55,7 @@ Performance
 Numerical
 ~~~~~~~~~
 
--  ```GSL`` - GNU Scientific
-   Library <https://www.gnu.org/software/gsl/>`__
+-  `GSL - GNU Scientific Library <https://www.gnu.org/software/gsl/>`__
 
    -  The library provides a wide range of mathematical routines such as
       random number generators, special functions and least-squares
@@ -65,9 +64,9 @@ Numerical
    -  The `online reference manual can be found
       here <https://www.gnu.org/software/gsl/doc/html/index.html>`__.
 
--  ```FFTW`` <http://www.fftw.org/>`__
+-  `FFTW <http://www.fftw.org/>`__
 
-   -  ``FFTW`` is a C subroutine library for computing the discrete
+   -  **FFTW** is a C subroutine library for computing the discrete
       Fourier transform (DFT) in one or more dimensions, of arbitrary
       input size, and of both real and complex data (as well as of
       even/odd data, i.e. the discrete cosine/sine transforms or
@@ -78,8 +77,8 @@ Numerical
 Astronomy Related
 ~~~~~~~~~~~~~~~~~
 
--  ```cfitsio`` - ANSI C routines for reading and writing FITS format
-   data files <https://github.com/healpy/cfitsio>`__
+-  `cfitsio - ANSI C routines for reading and writing FITS format data
+   files <https://github.com/healpy/cfitsio>`__
 
 Specific Topics
 ---------------
@@ -93,36 +92,36 @@ GPU Enhancement
 Code to Study
 -------------
 
--  ```sextractor`` - Extract catalogs of sources from astronomical
+-  `sextractor - Extract catalogs of sources from astronomical
    images <https://github.com/astromatic/sextractor>`__
 
--  ```psfex`` - Generate PSF super-tabulated
+-  `psfex - Generate PSF super-tabulated
    models <https://github.com/astromatic/psfex>`__
 
--  ```CCL`` - DESC Core Cosmology
+-  `CCL - DESC Core Cosmology
    Library <https://github.com/LSSTDESC/CCL>`__
 
    -  Also teaches you how to interact with Python.
 
--  ```Corrfunc`` - fast correlation functions on the
+-  `Corrfunc - fast correlation functions on the
    CPU <https://github.com/manodeep/Corrfunc>`__
 
-   -  ``utils`` are written in C; and wrapped in Python.
+   -  **utils** are written in C; and wrapped in Python.
 
 On Interacting with Python
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  ```sep`` - Python and C library for source extraction and
+-  `sep - Python and C library for source extraction and
    photometry <https://github.com/kbarbary/sep>`__
 
-   -  Using ``Cython``.
+   -  Using **Cython**.
 
--  ```cosmology`` - Some code for calculating cosmological
+-  `cosmology - Some code for calculating cosmological
    distances <https://github.com/esheldon/cosmology>`__
 
-   -  By Erin Sheldon. Using ``CPython``
+   -  By Erin Sheldon. Using **CPython**
 
--  ```smatch`` - Code to match points on the sphere using the healpix
+-  `smatch - Code to match points on the sphere using the healpix
    scheme <https://github.com/esheldon/smatch>`__
 
-   -  By Erin Sheldon. Using ``CPython``
+   -  By Erin Sheldon. Using **CPython**

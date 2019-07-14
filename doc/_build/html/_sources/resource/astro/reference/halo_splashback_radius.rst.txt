@@ -135,7 +135,7 @@ splashback radius around redMaPPer clusters using DES)
 
    -  **Detection** using galaxy number density profile around SZ
       selected clusters
-   -  ``R_sp`` consistent with prediction from simulation, in different
+   -  **R_sp** consistent with prediction from simulation, in different
       with optically selected clusters
    -  Blue galaxies show just power law profile without splashback
       signiture, consistent with first infall
@@ -158,7 +158,7 @@ General discussion about mass density profiles
    with arbitrary mass accretion
    rates <http://adsabs.harvard.edu/abs/2016MNRAS.461.1804S>`__
 -  `Trevisan, Mamon & Stalder 2017 - Group galaxy number density
-   profiles far out: Is the \`one-halo’ term NFW out to >10 virial
+   profiles far out: Is the \__one-halo’ term NFW out to >10 virial
    radii? <http://adsabs.harvard.edu/abs/2017MNRAS.471L..47T>`__
 -  `Fong et al. 2018 - Prospects for determining the mass distributions
    of galaxy clusters on large scales using weak gravitational

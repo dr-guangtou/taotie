@@ -7,37 +7,37 @@ General Tools
 Source Extraction and Deblender
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  ```photutils`` - Affiliated package for image photometry
+-  `photutils - Affiliated package for image photometry
    utilities <https://github.com/astropy/photutils>`__
 
    -  General Python package. Not the fastest one and is still growing.
 
--  ```sep`` - Python library for Source Extraction and
+-  `sep - Python library for Source Extraction and
    Photometry <https://github.com/kbarbary/sep/blob/v1.0.x/docs/index.rst>`__
 
-   -  ``SEP`` makes the core algorithms of Source Extractor available as
+   -  **SEP** makes the core algorithms of Source Extractor available as
       a library of stand-alone functions and classes.
 
--  ```SExtractor`` <http://www.astromatic.net/software/sextractor>`__
+-  `SExtractor <http://www.astromatic.net/software/sextractor>`__
 
-   -  It is very good software, just remember never call it ``sex``,
+   -  It is very good software, just remember never call it **sex**,
       just don’t.
    -  The best document: `Don’t
       Panic <http://mensa.ast.uct.ac.za/~holwerda/SE/Welcome.html>`__ by
       Benne Holwerda.
 
--  ```multiprofit`` - Multi-object/band source modelling/galaxy fitting
+-  `multiprofit - Multi-object/band source modelling/galaxy fitting
    code <https://github.com/lsst-dm/multiprofit>`__
 
    -  By Dan Taranu. Still under-development.
 
--  `The ``Tractor``: measuring astronomical sources via probabilistic
+-  `The Tractor: measuring astronomical sources via probabilistic
    inference <https://github.com/dstndstn/tractor>`__
 
    -  By Dustin Lang and David Hogg. Used by DECaLS, Probabilistic
       astronomical source detection & measurement.
 
--  ```ngmix`` - Gaussian mixtures and image processing implemented in
+-  `ngmix - Gaussian mixtures and image processing implemented in
    python <https://github.com/esheldon/ngmix>`__
 
    -  By Erin Sheldon. Gaussian mixture models and other code for
@@ -47,15 +47,15 @@ Source Extraction and Deblender
 For Low Surface Brightness or Extremely Faint Targets
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
--  ```MTObjects`` - a tool for detecting sources in astronomical
+-  `MTObjects - a tool for detecting sources in astronomical
    images <https://github.com/CarolineHaigh/mtobjects>`__
 
-   -  Working progress, based on the ``C`` code by Paul Teeninga’s 2015
+   -  Working progress, based on the **C** code by Paul Teeninga’s 2015
       work: `Improved detection of faint extended astronomical objects
       through statistical attribute
       filtering <http://fse.studenttheses.ub.rug.nl/12972/1/INF-BA-2015-P.D.Teeninga.pdf>`__
 
--  ```DeepScan`` - source extraction tool designed to identify very low
+-  `DeepScan - source extraction tool designed to identify very low
    surface brightness features in large astronomical
    data <https://github.com/danjampro/DeepScan>`__
 
@@ -86,7 +86,7 @@ Image Simulation
 
    -  Application in DES: `No galaxy left
       behind <https://arxiv.org/abs/1507.08336>`__
-   -  ```Balrog`` run in DES
+   -  `Balrog run in DES
       Y3 <https://cdcvs.fnal.gov/redmine/projects/des/wiki/des_balrog_y3>`__
 
 -  `Synpipe - Synthetic Object Pipeline for the LSST
@@ -109,23 +109,23 @@ Tools
 -  `GalSim - The modular galaxy image simulation
    toolkit <https://github.com/GalSim-developers/GalSim>`__
 
-   -  ``GalSim`` is open-source software for simulating images of
+   -  **GalSim** is open-source software for simulating images of
       astronomical objects (stars, galaxies) in a variety of ways.
-   -  ``GalSim`` paper can be found
+   -  **GalSim** paper can be found
       `here <http://adsabs.harvard.edu/abs/2015A%26C....10..121R>`__
 
 1-D Galaxy Profile Extraction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--  ```stsdas.analysis.isophote`` - fits elliptical isophotes to galaxy
+-  `stsdas.analysis.isophote - fits elliptical isophotes to galaxy
    images <http://stsdas.stsci.edu/cgi-bin/gethelp.cgi?ellipse>`__
 
    -  The OG.
 
--  ```photutils.isophote`` - Python version of the ``ellipse``
+-  `photutils.isophote - Python version of the ellipse
    code <https://github.com/astropy/photutils/tree/master/photutils/isophote>`__
 
-   -  Not as fast as the ``IRAF`` version, but it is useful. Document is
+   -  Not as fast as the **IRAF** version, but it is useful. Document is
       `here <https://photutils.readthedocs.io/en/stable/isophote.html>`__
 
 -  `ARCHANGEL: Galaxy Photometry
@@ -146,7 +146,7 @@ Tools
       used for fitting other sources
    -  This is today’s first choice.
    -  `pymfit <https://github.com/johnnygreco/pymfit>`__ by Johnny Greco
-      to use ``imfit`` in Python.
+      to use **imfit** in Python.
 
 -  `Galfit - Detailed Structural Decomposition of Galaxy
    Images <https://users.obs.carnegiescience.edu/peng/work/galfit/galfit.html>`__
@@ -178,10 +178,10 @@ Tools
    imaging data <https://github.com/sibirrer/lenstronomy>`__
 
    -  By `Simon Birrer <http://www.astro.ucla.edu/~sibirrer/>`__.
-      ``lenstronomy`` is a multi-purpose package to model strong
+      **lenstronomy** is a multi-purpose package to model strong
       gravitational lenses. The software package is presented in Birrer
       & Amara 2018 and is based on Birrer et al 2015.
-   -  It can also be used to fit galaxies like ``Galfit``. See `example
+   -  It can also be used to fit galaxies like **Galfit**. See `example
       here <https://github.com/sibirrer/lenstronomy_extensions/blob/master/lenstronomy_extensions/Notebooks/galfitting.ipynb>`__
 
 Stellar or PSF Photometry
@@ -201,10 +201,10 @@ Stellar or PSF Photometry
    -  `pydolphot - python wrappers for
       DOLPHOT <https://github.com/dweisz/pydolphot>`__ by Dan Weisz.
 
--  ```photutils.psf`` - PSF photometry in
+-  `photutils.psf - PSF photometry in
    Python <https://photutils.readthedocs.io/en/stable/psf.html>`__
 
-   -  Provides Python approaches to do ``DAOPhot`` or ``IRAF`` style PSF
+   -  Provides Python approaches to do **DAOPhot** or **IRAF** style PSF
       photometry.
 
 Useful papers
