@@ -26,11 +26,11 @@ Starting Your Career as a Researcher
 .. toctree::
    :maxdepth: 1
 
-    resource/research/getting_started.rst
-    resource/research/computer_basics.rst
-    resource/research/job_and_career.rst
-    resource/research/writing_paper.rst
-    stats_data_ml.rst
+   resource/research/getting_started.rst
+   resource/research/computer_basics.rst
+   resource/research/job_and_career.rst
+   resource/research/writing_paper.rst
+   stats_data_ml.rst
 
 
 Astronomy, Astrophysics, & Cosmology
@@ -41,13 +41,15 @@ Astronomy, Astrophysics, & Cosmology
 
    resource/astro/astro_readme.rst
    resource/astro/astro_research_basic.rst
+   astro_topic.rst
 
 Programing and Developing Software
 ----------------------------------
 
 .. toctree::
    :maxdepth: 1
-
+   
+   python.rst
    resource/programing/clang_basic.rst
    resource/programing/cpp_basic.rst
    resource/programing/julia_basic.rst

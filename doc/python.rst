@@ -14,3 +14,4 @@ Everything about Python
 
    resource/programing/python_basic
    resource/programing/python_performance
+   resource/programing/python_optimization
