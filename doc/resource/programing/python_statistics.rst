@@ -103,7 +103,6 @@ Gaussian Process
 -  A full introduction to the theory of Gaussian Processes is available
    for free online: `Rasmussen & Williams
    (2006) <http://www.gaussianprocess.org/gpml/>`__.
-
 -  `An Astronomer’s Introduction to Gaussian
    Processes <https://astrostatistics.psu.edu/su14/lectures/penn-gp.pdf>`__
 
@@ -174,15 +173,12 @@ Survival Analysis
    developed to measure lifespans of individuals. The analysis can be
    further applied to not just traditional births and deaths, but any
    duration.
-
 -  **Survival function**: the survival function defines the probability
    the death event has not occured yet at time t, or equivalently, the
    probability of surviving past time t
-
 -  **Hazard curve**: the probability of the death event occurring at
    time t, given that the death event has not occurred until time t.
    Hazard function is non-parametric.
-
 -  **Kaplan-Meier estimator for survival function**: Survival analysis
    assumes that upper limits have the same underlying distribution as
    the data, and the Kaplan-Meier esti- mator further assumes that

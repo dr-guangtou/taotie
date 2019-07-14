@@ -73,7 +73,6 @@ Personal Website
 -  It is actually pretty important to have a visible personal website
    that links your CV and contact information. Make sure that it can be
    found by search engine.
-
 -  This is especially important if you try to find job in another
    country (e.g. get a PhD in China, want a post-doc job in Europe) or
    when you know the hiring committee is not familiar with you.
