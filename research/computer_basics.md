@@ -1,4 +1,4 @@
-# Basic computer environment for research
+# Setting Up a Computer Environment for Research
 
 ----
 

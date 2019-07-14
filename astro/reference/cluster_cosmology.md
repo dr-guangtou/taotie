@@ -1,4 +1,4 @@
-# Papers about Cosmology using Galaxy Clusters
+# Constraining Cosmology using Galaxy Clusters
 
 ## Reviews 
 
