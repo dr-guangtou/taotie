@@ -18,6 +18,24 @@ Tao Tie (饕餮) - A curated collection of resources for astrophysical research
 
 .. image:: images/taotie_logo.png
    :width: 600
+   :alt: Taotie logo
+
+Astronomy, Astrophysics, & Cosmology
+------------------------------------
+
+.. toctree::
+   :maxdepth: 2
+
+   astro_readme.md
+
+General Topics about Research
+-----------------------------
+
+.. toctree::
+   :maxdepth: 2
+
+    Research in General <research>
+    Programming and Developing Software <programming>
 
 Motivation and Goals
 --------------------
@@ -56,17 +74,6 @@ On Using ``taotie`` (饕餮)
 * The main language for ``taotie`` is English. Some of the important documents will be slowly 
   translated into Chinese.
 * **Please let me know if you have any suggestion or recommendation**.
-
-Contents
---------
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
-    Research in General <research>
-    Astronomy and Astrophysics <astro>
-    Programming and Developing Software <programming>
 
 Contribution
 ============
