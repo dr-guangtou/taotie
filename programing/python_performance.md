@@ -12,36 +12,36 @@
 	* Very nice overview and examples of four approaches.
 	1. [Python/C API](https://docs.python.org/3/c-api/index.html)
 		- [Extending Python3.7 with C or C++](https://docs.python.org/3/extending/extending.html)
-	2. [`ctypes` -  A foreign function library for Python](https://docs.python.org/3/library/ctypes.html)
+	2. [__ctypes__ -  A foreign function library for Python](https://docs.python.org/3/library/ctypes.html)
 		- It provides C compatible data types, and allows calling functions in DLLs or shared libraries. It can be used to wrap these libraries in pure Python.
-	3. [`SWIG`](http://www.swig.org/exec.html)
-		- `SWIG` is an interface compiler that connects programs written in C and C++ with scripting languages such as Python
-	4. [`Cython` - C-Extensions for Python](https://cython.org/)
-		- [Basic tutorial of `Cython`](https://cython.readthedocs.io/en/latest/src/tutorial/cython_tutorial.html)
+	3. [__SWIG__](http://www.swig.org/exec.html)
+		- __SWIG__ is an interface compiler that connects programs written in C and C++ with scripting languages such as Python
+	4. [__Cython__ - C-Extensions for Python](https://cython.org/)
+		- [Basic tutorial of __Cython__](https://cython.readthedocs.io/en/latest/src/tutorial/cython_tutorial.html)
 		- [Tutorial on how to use Cython to optimize Python code by Adrian Price-Whelan](https://github.com/adrn/cython-tutorial)
 		- [Cython tutorial by Pauli Virtanen from 2011](https://python.g-node.org/python-summerschool-2011/_media/materials/cython/cython-slides.pdf)
 
 ### Only for C++ 
 
-- [`Boost.Python`](https://www.boost.org/doc/libs/1_70_0/libs/python/doc/html/index.html)
-	* `Boost.Python`, a C++ library which enables seamless interoperability between C++ and the Python programming language.
+- [__Boost.Python__](https://www.boost.org/doc/libs/1_70_0/libs/python/doc/html/index.html)
+	* __Boost.Python__, a C++ library which enables seamless interoperability between C++ and the Python programming language.
 
-- [`pybind11` - Seamless operability between C++11 and Python](https://github.com/pybind/pybind11)
-	* `pybind11` is a lightweight header-only library that exposes C++ types in Python and vice versa, mainly to create Python bindings of existing C++ code.
-	* This is used by the `LSST` developers, please see the [DM `Pybind11` style guide](https://developer.lsst.io/pybind11/style.html) for details.
+- [__pybind11__ - Seamless operability between C++11 and Python](https://github.com/pybind/pybind11)
+	* __pybind11__ is a lightweight header-only library that exposes C++ types in Python and vice versa, mainly to create Python bindings of existing C++ code.
+	* This is used by the __LSST__ developers, please see the [DM __Pybind11__ style guide](https://developer.lsst.io/pybind11/style.html) for details.
 
 ## Using Just-in-Time (JIT) Compiler
 
-- [`pypy` -  a fast, compliant alternative implementation of the Python language](http://pypy.org/)
+- [__pypy__ -  a fast, compliant alternative implementation of the Python language](http://pypy.org/)
 
-- [`numba` - makes Python code fast](http://numba.pydata.org/)
-	- `Numba` is an open source JIT compiler that translates a subset of Python and `NumPy` code into fast machine code.  `Numba`only supports LLVM.
-	- `Numba` offers a range of options for parallelizing your code for CPUs and GPUs, often with only minor code changes.
-	- [`Numpy` supports in `Numba`](http://numba.pydata.org/numba-doc/0.15.1/numpy_support.html)
-	- `Numba` has a `vectorize` and `guvectorize` decorators that can be very useful.
+- [__numba__ - makes Python code fast](http://numba.pydata.org/)
+	- __Numba__ is an open source JIT compiler that translates a subset of Python and __NumPy__ code into fast machine code.  __Numba__only supports LLVM.
+	- __Numba__ offers a range of options for parallelizing your code for CPUs and GPUs, often with only minor code changes.
+	- [__Numpy__ supports in __Numba__](http://numba.pydata.org/numba-doc/0.15.1/numpy_support.html)
+	- __Numba__ has a __vectorize__ and __guvectorize__ decorators that can be very useful.
 
-- [`hope` - A Python Just-In-Time compiler for astrophysical computations](https://github.com/jakeret/hope)
-	- `hope` is a specialized method-at-a-time JIT compiler written in Python for translating Python source code into C++ and compiles this at runtime.
+- [__hope__ - A Python Just-In-Time compiler for astrophysical computations](https://github.com/jakeret/hope)
+	- __hope__ is a specialized method-at-a-time JIT compiler written in Python for translating Python source code into C++ and compiles this at runtime.
 	- Has not been updated for three yeears.
 
 ### Tutorial and notes
@@ -78,8 +78,8 @@
 
 #### More "Big Data" approach:
 
-- [`Dask` - Parallel computing with task scheduling](https://dask.org/)
-	* `Dask` provides advanced parallelism for analytics, enabling performance at scale for the tools you love
-	* `Dask` is open source and freely available. It is developed in coordination with other community projects like `Numpy`, `Pandas`, and `Scikit-Learn`.
-	* [Official `Dask` tutorial using Jupyter notebook](https://github.com/dask/dask-tutorial)
+- [__Dask__ - Parallel computing with task scheduling](https://dask.org/)
+	* __Dask__ provides advanced parallelism for analytics, enabling performance at scale for the tools you love
+	* __Dask__ is open source and freely available. It is developed in coordination with other community projects like __Numpy__, __Pandas__, and __Scikit-Learn__.
+	* [Official __Dask__ tutorial using Jupyter notebook](https://github.com/dask/dask-tutorial)
 

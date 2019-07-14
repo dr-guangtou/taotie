@@ -46,8 +46,8 @@
     - Original dispersion of 0.44 Angstroms/pixel, at a resolution of ~1 Angstroms FWHM.
     - Cover the entire wavelength range of 3460 Angstroms to 9464 Angstroms
 * [MILES Stellar Library](http://www.iac.es/proyecto/miles/pages/stellar-libraries.php)
-    - `MILES`: ~1000 stars spanning a large range in atmospheric parameters. The spectra were obtained at the 2.5m INT telescope and cover the range 3525-7500 Å at 2.5 Å (FWHM) spectral resolution
-    - `CaII Triplet Library`: 700 stars with spectra around the Ca II triplet region. Cover the spectral range between 8350-9020 Å at 1.5 Å (FWHM)
+    - __MILES__: ~1000 stars spanning a large range in atmospheric parameters. The spectra were obtained at the 2.5m INT telescope and cover the range 3525-7500 Å at 2.5 Å (FWHM) spectral resolution
+    - __CaII Triplet Library__: 700 stars with spectra around the Ca II triplet region. Cover the spectral range between 8350-9020 Å at 1.5 Å (FWHM)
 * [The X-Shooter Spectral Library](http://xsl.u-strasbg.fr/)
     - The current release contains more than 200 stars. 3000–25000 Å all stellar spectra observed at a resolving power of R = λ/Δλ ~ 10000 with the medium-resolution spectrograph X-Shooter
 * [MaStar - MaNGA Stellar Library](https://www.sdss.org/surveys/mastar/)
@@ -106,15 +106,15 @@
 
 ## Stellar Population Synthesis or SED Fitting
 
-* This [`sedfitting.org` page](http://www.sedfitting.org/Models.html) is a very good one-stop shopping place for all SED related resources.
+* This [__sedfitting.org__ page](http://www.sedfitting.org/Models.html) is a very good one-stop shopping place for all SED related resources.
     - There is also a [review paper](http://www.sedfitting.org/Paper_vs1.0_online/walcher_ms.html)
 
 ### Tools:
 
 * [FSPS - Flexible Stellar Population Synthesis](https://github.com/cconroy20/fsps)
-    - If you want to see how sausage is made, this is it, including every details of stellar population synthesis. Original code in `Frotran`. Supports different isochrones and libraries.
-    - [`python-fsps`](http://dfm.io/python-fsps/current/) can help you use it in `Python`
-    - [`cloudyfsps` - Python interface between FSPS and Cloudy](https://github.com/nell-byler/cloudyfsps)
+    - If you want to see how sausage is made, this is it, including every details of stellar population synthesis. Original code in __Frotran__. Supports different isochrones and libraries.
+    - [__python-fsps__](http://dfm.io/python-fsps/current/) can help you use it in __Python__
+    - [__cloudyfsps__ - Python interface between FSPS and Cloudy](https://github.com/nell-byler/cloudyfsps)
 * [sedpy - Utilities for astronomical spectral energy distributions](https://github.com/bd-j/sedpy)
     - By Ben Johnson. Modules for storing and operating on astronomical source spectral energy distributions.
     - Has nice function to handle filters and measure SED from spectrum.
@@ -126,7 +126,7 @@
 
 * [prospector - Python code for Stellar Population Inference from Spectra and SEDs](https://github.com/bd-j/prospector)
     - By Ben Johnson. Conduct principled inference of stellar population properties from photometric and/or spectroscopic data.
-    - Bayesian method, can use `emcee`, `nestle`, and `dynesty` as sampling tool
+    - Bayesian method, can use __emcee__, __nestle__, and __dynesty__ as sampling tool
     - Can fit spectrum and/or SED.
 * [fastpp - C++ version of the SED fitting code FAST (Kriek et al. 2009);](https://github.com/cschreib/fastpp)
     - By Corentin Schreiber. "it's faster, uses less memory, and has more features."
@@ -140,7 +140,7 @@
     - By Michelle Cappellari. Extract the stellar or gas kinematics and stellar population from galaxy spectra via full spectrum fitting.
     - Available in Python and IDL. Can fit spectrum.
 * [iSEDfit - IDL routines to fit SED](https://github.com/moustakas/impro)
-    - By John Moustakas. Part of the `impro` suite. [Website for downloading library and documents is here](http://www.sos.siena.edu/~jmoustakas/isedfit/)
+    - By John Moustakas. Part of the __impro__ suite. [Website for downloading library and documents is here](http://www.sos.siena.edu/~jmoustakas/isedfit/)
     - Based on model grid, only fit SED.
 * [Firefly – A Full Spectral Fitting Code](https://github.com/FireflySpectra/firefly_release)
     - FIREFLY is a chi-squared minimisation fitting code for deriving the stellar population properties of stellar systems, be these observed galaxy or star cluster spectra, or model spectra from simulations. Document can be [found here](http://www.icg.port.ac.uk/firefly/)

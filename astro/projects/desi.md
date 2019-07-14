@@ -63,13 +63,13 @@
 
 ### Key Components:
 
-* [`desisurvey`: Code for desi survey planning and implementation](https://github.com/desihub/desisurvey)
-* [`surveysim`: Simulate afternoon planning and nightly tile scheduling for the DESI survey](https://github.com/desihub/surveysim)
-* [`specter`: A toolkit for simulating multi-object spectrographs](https://github.com/desihub/specter)
-* [`desitarget`: DESI targeting](https://github.com/desihub/desitarget)
-* [`desispec`: DESI spectral pipeline](https://github.com/desihub/desispec)
-* [`specsim`: Quick simulations of spectrograph response](https://github.com/desihub/specsim)
-* [`desisim`: DESI simulations](https://github.com/desihub/desisim)
-* [`fiberassign`: Fiber assignment code for DESI](https://github.com/desihub/fiberassign)
-* [`redrock`: Redshift fitting for spectroperfectionism](https://github.com/desihub/redrock)
-* [`desietc`: Online exposure time calculator](https://github.com/desihub/desietc)
+* [__desisurvey__: Code for desi survey planning and implementation](https://github.com/desihub/desisurvey)
+* [__surveysim__: Simulate afternoon planning and nightly tile scheduling for the DESI survey](https://github.com/desihub/surveysim)
+* [__specter__: A toolkit for simulating multi-object spectrographs](https://github.com/desihub/specter)
+* [__desitarget__: DESI targeting](https://github.com/desihub/desitarget)
+* [__desispec__: DESI spectral pipeline](https://github.com/desihub/desispec)
+* [__specsim__: Quick simulations of spectrograph response](https://github.com/desihub/specsim)
+* [__desisim__: DESI simulations](https://github.com/desihub/desisim)
+* [__fiberassign__: Fiber assignment code for DESI](https://github.com/desihub/fiberassign)
+* [__redrock__: Redshift fitting for spectroperfectionism](https://github.com/desihub/redrock)
+* [__desietc__: Online exposure time calculator](https://github.com/desihub/desietc)

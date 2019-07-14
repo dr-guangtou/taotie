@@ -40,7 +40,7 @@
 * It is actually pretty important to have a visible personal website that links your CV and contact information.  Make sure that it can be found by search engine.
 * This is especially important if you try to find job in another country (e.g. get a PhD in China, want a post-doc job in Europe) or when you know the hiring committee is not familiar with you.
 
-* [`GitHub Pages`](https://pages.github.com/) is pretty good choice to make a nice-looking personal website.  And there are some [easy-to-use templates available](https://pages.github.com/themes/), and there are [more fancy ones available](https://jekyllthemes.io/github-pages-templates)
+* [__GitHub Pages__](https://pages.github.com/) is pretty good choice to make a nice-looking personal website.  And there are some [easy-to-use templates available](https://pages.github.com/themes/), and there are [more fancy ones available](https://jekyllthemes.io/github-pages-templates)
     - [How to Create a Simple Academic Website](https://marisacarlos.com/pages/create-simple-academic-website)
 
 * Good examples (personal choice: clean and informative)
@@ -56,7 +56,7 @@
 
 ## General Career Advice
 
-* Astrobites also have some nice career inside and outside astronomy (use `Career Navigation` as keyword):
+* Astrobites also have some nice career inside and outside astronomy (use __Career Navigation__ as keyword):
     - [Alternative Careers: Leveraging your Astronomy Degree for Data Science](https://astrobites.org/2016/06/01/alternative-careers-leveraging-your-astronomy-degree-for-data-science/)
     - [Astronomers Beyond Astronomy: Using Your Degree Outside of Academia](https://astrobites.org/2017/01/20/astronomers-beyond-astronomy-using-your-degree-outside-of-academia/)
 
