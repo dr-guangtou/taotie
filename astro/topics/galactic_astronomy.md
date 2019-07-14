@@ -1,5 +1,6 @@
 # Galactic Astronomy and the Milky Way
 
+* **Just started**
 * Focusing on the dynamic and stellar population sides.
 
 ## Galactic Dynamics
@@ -9,7 +10,7 @@
 * [Dynamics and Astrophysics of Galaxies by Jo Bovy](http://astro.utoronto.ca/~bovy/AST1420/notes/index.html#)
 * [Dynamics of Collisionless Systems by Frank van den Bosch](http://www.astro.yale.edu/vdbosch/galdyn.html)
 
-### Tools
+### Tools for Galactic Dynamic
 
 * [gala - Galactic and gravitational dynamics in Python](https://github.com/adrn/gala)
     * By [Adrian Price-Whelan](http://adrian.pw/). Provide a class-based and user-friendly interface to fast (C or Cython-optimized) implementations of common operations such as gravitational potential and force evaluation, orbit integration, dynamical transformations, and chaos indicators for nonlinear dynamics.
@@ -46,7 +47,7 @@
 
 ## Galactic Chemical Evolution
 
-### Tools
+### Models of Chemical Evolution
 
 * [kimmy - Galactic chemical evolution in python](https://github.com/jobovy/kimmy)
     - By Jo Bovy. __kimmy__ contains simple tools to study chemical evolution in galaxies.

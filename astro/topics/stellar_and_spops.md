@@ -86,7 +86,7 @@
 * [Paula Coelho's Theoretical Spectra of Stars and Stellar Populations](http://specmodels.iag.usp.br/)
     - A new theoretical library which covers 3000 <= Teff <= 25 000 K, -0.5 <= log g <= 5.5 and 12 chemical mixtures covering 0.0017 <= Z <= 0.049 at both scaled-solar and alpha-enhanced compositions.
 
-### Tools
+### Tools for Stellar Physics
 
 * [BEAST - Bayesian Extinction and Stellar Tool](https://github.com/BEAST-Fitting/beast)
     - Fits the ultraviolet to near-infrared photometric SEDs of stars to extract stellar and dust extinction parameters. See [Gordon et al. 2016](http://adsabs.harvard.edu/abs/2016ApJ...826..104G) for details.
@@ -109,7 +109,7 @@
 * This [__sedfitting.org__ page](http://www.sedfitting.org/Models.html) is a very good one-stop shopping place for all SED related resources.
     - There is also a [review paper](http://www.sedfitting.org/Paper_vs1.0_online/walcher_ms.html)
 
-### Tools:
+### Tools for Generating or Manipulating Stellar Population Model
 
 * [FSPS - Flexible Stellar Population Synthesis](https://github.com/cconroy20/fsps)
     - If you want to see how sausage is made, this is it, including every details of stellar population synthesis. Original code in __Frotran__. Supports different isochrones and libraries.
@@ -122,7 +122,7 @@
     - PopStar generates single-age, single-metallicity populations (i.e. star clusters). It supports different initial mass functions, multiplicity perscriptions, reddening laws, filter functions, atmosphere models, and evolution models.
     - Support a large variety of theoretical models.
 
-### SED or Spectral Fitting
+### Tools for SED or Spectral Fitting
 
 * [prospector - Python code for Stellar Population Inference from Spectra and SEDs](https://github.com/bd-j/prospector)
     - By Ben Johnson. Conduct principled inference of stellar population properties from photometric and/or spectroscopic data.
@@ -152,8 +152,7 @@
 * [BEAGLE - BayEsian Analysis of GaLaxy sEds](http://www.jacopochevallard.org/beagle/)
     - A new-generation tool to model and interpret galaxy spectral energy distributions (SEDs) developed by Jacopo Chevallard (ESA) and Stephane Charlot (IAP).
 
-
-### Models:
+### Stellar Population Models:
 
 * [MILES - Population synthesis for the 21st Century](http://miles.iac.es/)
     - The new extended MILES ([E-MILES](http://adsabs.harvard.edu/abs/2016MNRAS.463.3409V)) models covering from 1680Å to 5.0μm

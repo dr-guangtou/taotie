@@ -1,7 +1,5 @@
 # Setting Up a Computer Environment for Research
 
-----
-
 ## Terminal Tools
 
 ## Shell

@@ -19,7 +19,7 @@
     - Keras is a high-level neural networks API, written in Python and capable of running on top of TensorFlow, CNTK, or Theano. It was developed with a focus on enabling fast experimentation.
     - [Official documents of __keras__](https://keras.io/)
     - [Keras code and weights files for popular deep learning models by the author](https://github.com/fchollet/deep-learning-models) (A little out of date.)
-    - __Keras__ also lives in __tensorflow__ now: "tf.keras__ is TensorFlow's implementation of the Keras API specification. This is a high-level API to build and train models that includes first-class support for TensorFlow-specific functionality"
+    - __Keras__ also lives in __tensorflow__ now: "``tf.keras`` is TensorFlow's implementation of the Keras API specification. This is a high-level API to build and train models that includes first-class support for TensorFlow-specific functionality"
 
 * [__pytorch__ - Tensors and Dynamic neural networks in Python with strong GPU acceleration](https://github.com/pytorch/pytorch)
     - Usually one uses PyTorch either as 1) a replacement for NumPy to use the power of GPUs; 2) a deep learning research platform that provides maximum flexibility and speed.

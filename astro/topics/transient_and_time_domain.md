@@ -49,7 +49,7 @@
 - [__eleanor__ - light curves from TESS](https://github.com/afeinstein20/eleanor)
     * __eleanor__ is a python package to extract target pixel files from TESS Full Frame Images and produce systematics-corrected light curves for any star observed by the TESS mission.
 
-- [__starry__ - Analytic occultation light curves for astronomy]()
+- [__starry__ - Analytic occultation light curves for astronomy](https://github.com/rodluger/starry)
     * By [Rodrigo Luger](https://rodluger.github.io/). Based on [a very nice paper](https://docs.google.com/viewer?url=https://github.com/rodluger/starry/raw/master-pdf/tex/starry.pdf)
 
 - [__everest__ - EPIC Variability Extraction and Removal for Exoplanet Science Targets](https://github.com/rodluger/everest)

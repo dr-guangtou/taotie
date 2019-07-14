@@ -1,10 +1,8 @@
 # Statistical Analysis and Model in Python
 
------
-
 ## Error Propagation
 
-* [__astropy.uncertainty__]()
+* [__astropy.uncertainty__](http://docs.astropy.org/en/stable/uncertainty/)
 	- Provides a __Distribution__ object to represent statistical distributions in a form that acts as a drop-in replacement for __Quantity__ or a regular __numpy.ndarray__. Still work in progress.
 
 * [__uncertainties__ - Transparent calculations with uncertainties on the quantities involved](https://github.com/lebigot/uncertainties)

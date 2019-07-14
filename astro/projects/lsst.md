@@ -2,8 +2,6 @@
 
 * Opening a Window of Discovery on the Dynamic Universe
 
------
-
 ## Basic Information:
 
 * [LSST Organization Website](https://www.lsst.org/)

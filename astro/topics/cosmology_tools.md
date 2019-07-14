@@ -1,7 +1,5 @@
 # Observational and Theoretical Cosmology
 
-----
-
 ## Cosmology Parameters and Model Optimization
 
 * [__CCL__ - DESC Core Cosmology Library: cosmology routines with validated numerical accuracy](https://github.com/LSSTDESC/CCL)
@@ -90,9 +88,9 @@
 * Sampling the cosmological parameters:
 	- Latin Hypercube Designs (LHDs)
 	- [Maximin-distance “sliced” LHD (SLHD)](https://www.asc.ohio-state.edu/statistics/comp_exp/jour.club/optimal_sliced_lhd_ba2015.pdf)
-    	- Python implementation: https://pythonhosted.org/pyDOE/index.html
-    	- SMT: Surrogate Modeling Toolbox: https://smt.readthedocs.io/en/latest/index.html
-    	- Another Python version: https://github.com/sahilm89/lhsmdu
+    	- [A Python implementation](https://pythonhosted.org/pyDOE/index.html)
+    	- [__SMT__ - Surrogate Modeling Toolbox](https://smt.readthedocs.io/en/latest/index.html)
+    	- [Another Python version](https://github.com/sahilm89/lhsmdu)
 
 * Principle Component Analysis (PCA)
 	- e.g. [__empca__](https://github.com/sbailey/empca) by Stephen Bailey
@@ -118,13 +116,13 @@
 	* Paper about the [emulated power-spectrum](https://arxiv.org/abs/1311.6444)
 	* Paper about the [emulated halo mass-concentration relation](https://arxiv.org/abs/1210.1576)
 
-- [ACME Emulator led by OSU]()
+- ACME Emulator led by OSU
 	* Paper by Ben Wibking: [Emulating galaxy clustering and galaxy-galaxy lensing into the deeply nonlinear regime](http://adsabs.harvard.edu/doi/10.1093/mnras/sty2258)
 	* Use the [AbacusCosmos suite of simulations](https://lgarrison.github.io/AbacusCosmos/)
 		- The code used for the simulation is [here](https://github.com/lgarrison/AbacusCosmos)
 		- The [AbacusCosmos description paper](https://arxiv.org/abs/1712.05768)
 
-- [Dark Emulator led by IPMU]()
+- Dark Emulator led by IPMU
 	* Based on the Dark Quest suite of simulations.
 	* [Dark Quest. I. Fast and Accurate Emulation of Halo Clustering Statistics and Its Application to Galaxy Clustering](http://adsabs.harvard.edu/abs/2018arXiv181109504N)
 

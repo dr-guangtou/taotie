@@ -55,17 +55,17 @@
     - Originally based on the classic paper by [Shaun Cole et al. 2010](https://ui.adsabs.harvard.edu/abs/2000MNRAS.319..168C/abstract). The new version of __GALFORM__ model is presented in the work led by [Cedric Lacey et al. 2016](https://ui.adsabs.harvard.edu/abs/2016MNRAS.462.3854L/abstract)
     - This is also known as the "Durham" galaxy formation model.
 
-* [The "Santa Cruz" Galaxy Formation Model]()
+* The "Santa Cruz" Galaxy Formation Model
     - Originally based on the work by [Rachel Somerville & Joel Primack 1998](https://ui.adsabs.harvard.edu/abs/1999MNRAS.310.1087S/abstract)
     - The updated version is presented in the work: [Star formation in semi-analytic galaxy formation models with multiphase gas by Somerville, Popping, & Trager 2015](https://ui.adsabs.harvard.edu/abs/2015MNRAS.453.4337S/abstract)
 
-* [__GAEA__ - GAlaxy Evolution and Assembly model]()
+* __GAEA__ - GAlaxy Evolution and Assembly model
     - Based on the work ["Galaxy assembly, stellar feedback and metal enrichment: the view from the GAEA model" by Michaela Hirschmann, Gabriella De Lucia, & Fabio Fontanot 2015](https://ui.adsabs.harvard.edu/abs/2016MNRAS.461.1760H/abstract)
 
 * [__MORGANA__ - MOdel for the Rise of GAlaxies aNd Active nuclei](http://adlibitum.oats.inaf.it/monaco/Homepage/morgana.html)
     - Originally based on the work led by [Pierluigi Monaco et al. 2007](https://ui.adsabs.harvard.edu/abs/2007MNRAS.375.1189M/abstract). 
 
-* [__GalICS__ - Galaxies In Cosmological Simulations]()
+* __GalICS__ - Galaxies In Cosmological Simulations
     - Originally based on the work led by [Steve Hatton et al. 2005](https://ieeexplore.ieee.org/document/8148635). The updated __V2.0__ is presented in the work led by [Cattaneo et al. 2017](https://ui.adsabs.harvard.edu/abs/2017MNRAS.471.1401C/abstract)
 
 ## Semi-Empirical Model (SEM)
