@@ -50,10 +50,8 @@ High Energy Astrophysical Phenomena
 -----------------------------------
 
 -  `Multi-Messenger Astrophysics <https://arxiv.org/abs/1906.10212>`__
-
 -  `Multi-Messenger Physics with the Pierre Auger
    Observatory <https://arxiv.org/abs/1904.11918>`__
-
 -  `Multi-Messenger Astrophysics with Pulsar Timing
    Arrays <https://arxiv.org/abs/1903.07644>`__
 

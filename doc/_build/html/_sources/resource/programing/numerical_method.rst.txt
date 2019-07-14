@@ -11,7 +11,7 @@ Resources
    -  A `Second Edition of the C
       version <https://www.cec.uchile.cl/cinetica/pcordero/MC_libros/NumericalRecipesinC.pdf>`__
       is available here.
-   -  `Numerical Recipes 2nd ed. ANSI C++
+   -  `Numerical Recipes 2nd ed. ANSI C++
       Files <https://www.astro.umd.edu/~ricotti/NEWWEB/teaching/ASTR415/InClassExamples/NR3/legacy/nr2/CPP_211/index.htm>`__
 
 -  `Awesome Scientific Computing - Curated list of awesome software for

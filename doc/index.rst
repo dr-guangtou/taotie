@@ -43,6 +43,7 @@ Astronomy, Astrophysics, & Cosmology
    resource/astro/astro_research_basic.rst
    astro_topic.rst
    astro_project.rst
+   astro_reading.rst
 
 Programing and Developing Software
 ----------------------------------

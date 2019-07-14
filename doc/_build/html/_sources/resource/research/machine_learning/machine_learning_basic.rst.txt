@@ -7,8 +7,8 @@ Basics of Machine Learning
 
 --------------
 
-Courses:
---------
+Basic Courses
+-------------
 
 -  `Stanford CS229 - Machine
    Learning <https://see.stanford.edu/Course/CS229>`__
@@ -23,8 +23,8 @@ Courses:
 
    -  Lectures and video recordings are available for free.
 
-Cheatsheets:
-------------
+Handy Cheatsheets
+-----------------
 
 -  `VIP cheatsheets for Stanford’s CS 229 Machine
    Learning <https://github.com/afshinea/stanford-cs-229-machine-learning>`__
@@ -35,8 +35,8 @@ Cheatsheets:
 -  `Essential Cheat Sheets for deep learning and machine learning
    researchers <https://github.com/kailashahirwar/cheatsheets-ai>`__
 
-Curated List:
--------------
+Curated and Awesome List of Resources
+-------------------------------------
 
 -  `Awesome Machine
    Learning <https://github.com/josephmisiti/awesome-machine-learning>`__
@@ -68,8 +68,8 @@ Papers and Algorithms
    implementations of recent deep learning approaches including
    pretrained models <https://github.com/PatWie/tensorflow-recipes>`__
 
-In Chinese:
------------
+Materials In Chinese
+--------------------
 
 -  `PumpkinBook -
    《机器学习》（西瓜书）公式推导解析 <https://github.com/datawhalechina/pumpkin-book>`__
@@ -85,8 +85,8 @@ In Chinese:
 
    -  Deep learning through 500 questions, a Markdown book.
 
-Tutorial and Examples:
-----------------------
+Tutorial and Examples
+---------------------
 
 -  `Machine Learning From
    Scratch <https://github.com/eriklindernoren/ML-From-Scratch>`__
@@ -107,8 +107,8 @@ Tutorial and Examples:
    -  A collection of various deep learning architectures, models, and
       tips for TensorFlow and PyTorch in Jupyter Notebooks
 
-More Serious Stuff:
--------------------
+More Serious Stuff
+------------------
 
 -  `Deep Learning Papers Reading
    Roadmap <https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap>`__

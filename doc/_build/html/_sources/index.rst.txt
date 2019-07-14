@@ -20,33 +20,43 @@ Tao Tie (饕餮) - A curated collection of resources for astrophysical research
    :width: 600
    :alt: Taotie logo
 
+Starting Your Career as a Researcher
+------------------------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   resource/research/getting_started.rst
+   resource/research/computer_basics.rst
+   resource/research/job_and_career.rst
+   resource/research/writing_paper.rst
+   stats_data_ml.rst
+
+
 Astronomy, Astrophysics, & Cosmology
 ------------------------------------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    resource/astro/astro_readme.rst
    resource/astro/astro_research_basic.rst
-  
-Resources and Tools for a Specific Topic
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   astro_topic.rst
+   astro_project.rst
+   astro_reading.rst
 
-.. doctree::
-   :maxdepth: 1
-
-   resource/astro/topics/ccd_reduction.rst
-   resource/astro/topics/cluster_finder.rst
-
-
-General Topics about Research
------------------------------
+Programing and Developing Software
+----------------------------------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
+   
+   python.rst
+   resource/programing/clang_basic.rst
+   resource/programing/cpp_basic.rst
+   resource/programing/julia_basic.rst
+   resource/programing/numerical_method.rst
 
-    Research in General <research>
-    Programming and Developing Software <programming>
 
 Motivation and Goals
 --------------------

@@ -67,7 +67,6 @@ LaTeX resources
 
 -  `Complete list of LaTeX symbols
    (PDF) <https://math.uoregon.edu/wp-content/uploads/2014/12/compsymb-1qyb3zd.pdf>`__
-
 -  `List of LaTeX mathematical
    symbols <https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols>`__
 
