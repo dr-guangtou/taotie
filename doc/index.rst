@@ -57,6 +57,13 @@ Programing and Developing Software
    resource/programing/julia_basic.rst
    resource/programing/numerical_method.rst
 
+中文内容 (Material in Chinese)
+-----------------------------
+
+.. toctree::
+   :maxdepth: 2
+
+   resource/research/getting_started_cn.rst
 
 Motivation and Goals
 --------------------

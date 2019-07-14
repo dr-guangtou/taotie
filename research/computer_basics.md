@@ -1,6 +1,9 @@
 # Setting Up a Computer Environment for Research
 
-## Terminal Tools
+## Terminal Emulators
+
+* [__iTerm2__ - macOS Terminal Replacement](https://www.iterm2.com/)
+	-  A nice free choice for __MacOSX__. __iTerm2__ brings the terminal into the modern age with features you never knew you always wanted.
 
 ## Shell
 

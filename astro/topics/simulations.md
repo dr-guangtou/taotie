@@ -47,11 +47,11 @@
 
 ### N-body Simulation
 
-* [__HACC__ - Hardware/Hybrid Accelerated Cosmology Code]()
+* [__HACC__ - Hardware/Hybrid Accelerated Cosmology Code](https://xgitlab.cels.anl.gov/hacc/HACCKernels/tree/master)
     - A recently developed and evolving cosmology N-body code framework, designed to run efficiently on diverse computing architectures and to scale to millions of cores and beyond. See [publication here for details](https://arxiv.org/abs/1410.2805)
     - [Some relevant codes are available on Gitlab](https://xgitlab.cels.anl.gov/hacc)
 
-* [GreeM - Massively Parallel TreePM Code for Large Cosmological N-body Simulations](https://academic.oup.com/pasj/article/61/6/1319/1462224)
+* [__GreeM__ - Massively Parallel TreePM Code for Large Cosmological N-body Simulations](https://academic.oup.com/pasj/article/61/6/1319/1462224)
 
 * [__COLA__ - COmoving Lagrangian Acceleration](https://github.com/HAWinther/MG-PICOLA-PUBLIC)
     - Based on the work: [COLA with scale-dependent growth: applications to screened modified gravity models](https://arxiv.org/abs/1703.00879)
