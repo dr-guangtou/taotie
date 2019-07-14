@@ -5,7 +5,7 @@
 
 -----
 
-## Courses:
+## Basic Courses
 
 * [Stanford CS229 - Machine Learning](https://see.stanford.edu/Course/CS229)
 	- By Andrew Ng. This course provides a broad introduction to machine learning and statistical pattern recognition. Videos and lectures are available freely.
@@ -14,13 +14,13 @@
 * [Cornell CS4780/CS5780 - Machine Learning for Intelligent Systems](http://www.cs.cornell.edu/courses/cs4780/2018fa/)
 	- Lectures and video recordings are available for free.
 
-## Cheatsheets:
+## Handy Cheatsheets
 
 - [VIP cheatsheets for Stanford's CS 229 Machine Learning](https://github.com/afshinea/stanford-cs-229-machine-learning)
 	* This one has a [Chinese version](https://github.com/afshinea/stanford-cs-229-machine-learning/tree/master/zh)
 - [Essential Cheat Sheets for deep learning and machine learning researchers](https://github.com/kailashahirwar/cheatsheets-ai)
 
-## Curated List:
+## Curated and Awesome List of Resources
 
 - [Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning)
 	* A curated list of awesome machine learning frameworks, libraries and software (by language).
@@ -37,7 +37,7 @@
 
 - [__tensorflow-recipes__ - A collection of TensorFlow (Tensorpack) implementations of recent deep learning approaches including pretrained models](https://github.com/PatWie/tensorflow-recipes)
 
-## In Chinese:
+## Materials In Chinese
 
 - [PumpkinBook - 《机器学习》（西瓜书）公式推导解析](https://github.com/datawhalechina/pumpkin-book)
 	* In Chinese. Read online [here](https://datawhalechina.github.io/pumpkin-book/)
@@ -46,7 +46,7 @@
 - [DeepLearning-500-questions - 深度学习500问](https://github.com/scutan90/DeepLearning-500-questions)
 	- Deep learning through 500 questions, a Markdown book.
 
-## Tutorial and Examples:
+## Tutorial and Examples
 
 - [Machine Learning From Scratch](https://github.com/eriklindernoren/ML-From-Scratch)
 	* Bare bones NumPy implementations of machine learning models and algorithms with a focus on accessibility. Aims to cover everything from linear regression to deep learning
@@ -55,6 +55,6 @@
 - [Deep Learning Models](https://github.com/rasbt/deeplearning-models)
 	* A collection of various deep learning architectures, models, and tips for TensorFlow and PyTorch in Jupyter Notebooks
 
-## More Serious Stuff:
+## More Serious Stuff
 
 - [Deep Learning Papers Reading Roadmap](https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap)
