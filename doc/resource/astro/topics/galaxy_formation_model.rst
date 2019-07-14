@@ -138,7 +138,7 @@ Semi-Analytic Model
       al. 2016 <https://ui.adsabs.harvard.edu/abs/2016MNRAS.462.3854L/abstract>`__
    -  This is also known as the “Durham” galaxy formation model.
 
--  `The “Santa Cruz” Galaxy Formation Model <>`__
+-  The “Santa Cruz” Galaxy Formation Model
 
    -  Originally based on the work by `Rachel Somerville & Joel Primack
       1998 <https://ui.adsabs.harvard.edu/abs/1999MNRAS.310.1087S/abstract>`__
@@ -147,7 +147,7 @@ Semi-Analytic Model
       Somerville, Popping, & Trager
       2015 <https://ui.adsabs.harvard.edu/abs/2015MNRAS.453.4337S/abstract>`__
 
--  `GAEA - GAlaxy Evolution and Assembly model <>`__
+-  **GAEA** - GAlaxy Evolution and Assembly model
 
    -  Based on the work `“Galaxy assembly, stellar feedback and metal
       enrichment: the view from the GAEA model” by Michaela Hirschmann,
@@ -160,7 +160,7 @@ Semi-Analytic Model
    -  Originally based on the work led by `Pierluigi Monaco et
       al. 2007 <https://ui.adsabs.harvard.edu/abs/2007MNRAS.375.1189M/abstract>`__.
 
--  `GalICS - Galaxies In Cosmological Simulations <>`__
+-  **GalICS** - Galaxies In Cosmological Simulations
 
    -  Originally based on the work led by `Steve Hatton et
       al. 2005 <https://ieeexplore.ieee.org/document/8148635>`__. The

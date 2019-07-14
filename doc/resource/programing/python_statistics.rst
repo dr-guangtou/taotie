@@ -1,12 +1,10 @@
 Statistical Analysis and Model in Python
 ========================================
 
---------------
-
 Error Propagation
 -----------------
 
--  `astropy.uncertainty <>`__
+-  `astropy.uncertainty <http://docs.astropy.org/en/stable/uncertainty/>`__
 
    -  Provides a **Distribution** object to represent statistical
       distributions in a form that acts as a drop-in replacement for

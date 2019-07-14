@@ -1,12 +1,13 @@
 The Julia Programming Language
 ==============================
 
+-  **Still highly imcomplete**
 -  High-level programming language for future astronomer….maybe?
 
 --------------
 
 Basic Information
-=================
+-----------------
 
 -  `The JuliaLab@MIT <https://julia.mit.edu/>`__
 -  `The Julia Programming Language <https://julialang.org/>`__
@@ -28,13 +29,13 @@ Basic Information
       for astro-related packages.
 
 Distributions
--------------
+~~~~~~~~~~~~~
 
 -  `JuliaPro - A Julia distribution crafted for your
    success <https://juliacomputing.com/products/juliapro.html>`__
 
 Learning Materials
-------------------
+~~~~~~~~~~~~~~~~~~
 
 -  `Learn Julia the hard
    way! <https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way>`__
@@ -51,10 +52,10 @@ Learning Materials
    Julia语言中文文档 <https://github.com/JuliaCN/JuliaZH.jl>`__
 
 Useful Packages
-===============
+---------------
 
 Basic
------
+~~~~~
 
 -  `DataFrames.jl - In-memory tabular data in
    Julia <https://github.com/JuliaData/DataFrames.jl>`__
@@ -75,7 +76,7 @@ Basic
       applications.
 
 Visualization
--------------
+~~~~~~~~~~~~~
 
 -  `Plots.jl - Powerful convenience for Julia visualizations and data
    analysis <https://github.com/JuliaPlots/Plots.jl>`__
@@ -90,7 +91,7 @@ Visualization
       Julia.
 
 Optimization
-------------
+~~~~~~~~~~~~
 
 -  `Optim.jl - Optimization functions for
    Julia <https://github.com/JuliaNLSolvers/Optim.jl>`__
@@ -105,7 +106,7 @@ Optimization
       least-squares fitting in pure Julia under an MIT license.
 
 Statistics
-----------
+~~~~~~~~~~
 
 -  `Turing.jl - The Turing language for probabilistic
    programming <https://github.com/TuringLang/Turing.jl>`__
@@ -116,7 +117,7 @@ Statistics
       statistics and data science etc.
 
 Machine Learning
-----------------
+~~~~~~~~~~~~~~~~
 
 -  `Flux.jl - the ML library that doesn’t make you
    tensor <https://github.com/FluxML/Flux.jl>`__

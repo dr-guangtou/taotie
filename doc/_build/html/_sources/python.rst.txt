@@ -15,3 +15,6 @@ Everything about Python
    resource/programing/python_basic
    resource/programing/python_performance
    resource/programing/python_optimization
+   resource/programing/python_statistics
+   resource/programing/python_visualization
+   resource/programing/python_write_your_project

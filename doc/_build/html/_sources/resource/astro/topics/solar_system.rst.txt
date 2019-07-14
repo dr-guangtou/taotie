@@ -1,5 +1,5 @@
-Solar System Related
-====================
+Planet Science and Small Bodies in the Solar System
+===================================================
 
 **Just started**
 

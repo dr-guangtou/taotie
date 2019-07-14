@@ -1,5 +1,5 @@
-Important Tools and Projects for Astrophysical and Cosmological Simulations
-===========================================================================
+Astrophysical and Cosmological Simulations
+==========================================
 
 Tools
 -----
@@ -100,7 +100,8 @@ Merger Tree Construction
 N-body Simulation
 ~~~~~~~~~~~~~~~~~
 
--  `HACC - Hardware/Hybrid Accelerated Cosmology Code <>`__
+-  `HACC - Hardware/Hybrid Accelerated Cosmology
+   Code <https://xgitlab.cels.anl.gov/hacc/HACCKernels/tree/master>`__
 
    -  A recently developed and evolving cosmology N-body code framework,
       designed to run efficiently on diverse computing architectures and

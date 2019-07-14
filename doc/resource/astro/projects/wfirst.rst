@@ -9,8 +9,6 @@ Wide Field Infrared Survey Telescope
    the top-ranked large space mission in the 2010 Decadal Survey of
    Astronomy and Astrophysics, and is slated to launch in the mid-2020s.
 
---------------
-
 Basic Information:
 ------------------
 

@@ -24,6 +24,7 @@ Sub-field in Astronomy and Astrophysics
 
    resource/astro/topics/exoplanet.rst
    resource/astro/topics/extragalactic_astronomy.rst
+   resource/astro/topics/galactic_astronomy.rst
    resource/astro/topics/cosmology_tools.rst
    resource/astro/topics/stellar_and_spops.rst
    resource/astro/topics/transient_and_time_domain.rst

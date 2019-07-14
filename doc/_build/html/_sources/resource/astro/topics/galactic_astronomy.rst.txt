@@ -1,6 +1,7 @@
-Tools and Resources for Milky Way Related Research
-==================================================
+Galactic Astronomy and the Milky Way
+====================================
 
+-  **Just started**
 -  Focusing on the dynamic and stellar population sides.
 
 Galactic Dynamics
@@ -14,8 +15,8 @@ Courses
 -  `Dynamics of Collisionless Systems by Frank van den
    Bosch <http://www.astro.yale.edu/vdbosch/galdyn.html>`__
 
-Tools
-~~~~~
+Tools for Galactic Dynamic
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  `gala - Galactic and gravitational dynamics in
    Python <https://github.com/adrn/gala>`__
@@ -104,10 +105,8 @@ Schwarzschild Modeling
 Galactic Chemical Evolution
 ---------------------------
 
-.. _tools-1:
-
-Tools
-~~~~~
+Models of Chemical Evolution
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  `kimmy - Galactic chemical evolution in
    python <https://github.com/jobovy/kimmy>`__
@@ -132,8 +131,6 @@ Spectroscopic Surveys
    Experiment <https://www.rave-survey.org/project/>`__
 -  `LAMOST - Large Sky Area Multi-Object Fiber Spectroscopic
    Telescope <http://dr4.lamost.org/>`__
-
-.. _tools-2:
 
 Tools
 ~~~~~

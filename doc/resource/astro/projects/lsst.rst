@@ -3,8 +3,6 @@ Large Synoptic Survey Telescope (LSST)
 
 -  Opening a Window of Discovery on the Dynamic Universe
 
---------------
-
 Basic Information:
 ------------------
 

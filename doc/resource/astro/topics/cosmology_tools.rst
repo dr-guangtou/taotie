@@ -1,7 +1,5 @@
-Cosmology Tools
-===============
-
---------------
+Observational and Theoretical Cosmology
+=======================================
 
 Cosmology Parameters and Model Optimization
 -------------------------------------------
@@ -187,11 +185,11 @@ Key Technique
    -  `Maximin-distance “sliced” LHD
       (SLHD) <https://www.asc.ohio-state.edu/statistics/comp_exp/jour.club/optimal_sliced_lhd_ba2015.pdf>`__
 
-      -  Python implementation:
-         https://pythonhosted.org/pyDOE/index.html
-      -  SMT: Surrogate Modeling Toolbox:
-         https://smt.readthedocs.io/en/latest/index.html
-      -  Another Python version: https://github.com/sahilm89/lhsmdu
+      -  `A Python
+         implementation <https://pythonhosted.org/pyDOE/index.html>`__
+      -  `SMT - Surrogate Modeling
+         Toolbox <https://smt.readthedocs.io/en/latest/index.html>`__
+      -  `Another Python version <https://github.com/sahilm89/lhsmdu>`__
 
 -  Principle Component Analysis (PCA)
 
@@ -241,7 +239,7 @@ Available Emulators
    -  Paper about the `emulated halo mass-concentration
       relation <https://arxiv.org/abs/1210.1576>`__
 
--  `ACME Emulator led by OSU <>`__
+-  ACME Emulator led by OSU
 
    -  Paper by Ben Wibking: `Emulating galaxy clustering and
       galaxy-galaxy lensing into the deeply nonlinear
@@ -254,7 +252,7 @@ Available Emulators
       -  The `AbacusCosmos description
          paper <https://arxiv.org/abs/1712.05768>`__
 
--  `Dark Emulator led by IPMU <>`__
+-  Dark Emulator led by IPMU
 
    -  Based on the Dark Quest suite of simulations.
    -  `Dark Quest. I. Fast and Accurate Emulation of Halo Clustering

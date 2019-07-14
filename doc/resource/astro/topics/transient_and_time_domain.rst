@@ -116,7 +116,8 @@ Lightcurve and Exoplanet
       TESS Full Frame Images and produce systematics-corrected light
       curves for any star observed by the TESS mission.
 
--  `starry - Analytic occultation light curves for astronomy <>`__
+-  `starry - Analytic occultation light curves for
+   astronomy <https://github.com/rodluger/starry>`__
 
    -  By `Rodrigo Luger <https://rodluger.github.io/>`__. Based on `a
       very nice

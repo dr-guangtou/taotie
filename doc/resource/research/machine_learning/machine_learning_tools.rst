@@ -46,7 +46,7 @@ Machine Learning Framework
    -  `Keras code and weights files for popular deep learning models by
       the author <https://github.com/fchollet/deep-learning-models>`__
       (A little out of date.)
-   -  **Keras** also lives in **tensorflow** now: “tf.keras_\_ is
+   -  **Keras** also lives in **tensorflow** now: “``tf.keras`` is
       TensorFlow’s implementation of the Keras API specification. This
       is a high-level API to build and train models that includes
       first-class support for TensorFlow-specific functionality”

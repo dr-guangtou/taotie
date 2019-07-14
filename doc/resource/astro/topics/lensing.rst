@@ -1,7 +1,5 @@
-Resources and Tools about Lensing: Strong, Weak, and Micro
-==========================================================
-
---------------
+All about Lensing: Strong, Weak, and Micro
+==========================================
 
 Strong Lensing
 --------------
@@ -32,3 +30,11 @@ Modeling
 
    -  **Visilens** is a python module for modeling gravitational lensing
       systems observed by a radio/mm interferometer like ALMA or ATCA.
+
+Weak Lensing
+------------
+
+-  Some of the tools overlap with the cosmology tools section.
+
+Micro Lensing
+-------------

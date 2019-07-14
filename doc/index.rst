@@ -58,7 +58,7 @@ Programing and Developing Software
    resource/programing/numerical_method.rst
 
 中文内容 (Material in Chinese)
------------------------------
+------------------------------
 
 .. toctree::
    :maxdepth: 2

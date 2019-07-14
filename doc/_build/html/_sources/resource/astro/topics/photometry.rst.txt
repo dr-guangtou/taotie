@@ -1,5 +1,5 @@
-Photometry of Galaxies and Stars
-================================
+Photometric Analysis of Astronomical Targets
+============================================
 
 General Tools
 -------------

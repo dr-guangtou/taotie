@@ -1,8 +1,7 @@
-Exoplanet Related
-=================
+Exoplanet and Astrobiology
+==========================
 
-**Just started**
-
+-  **Just started**
 -  **Help wanted**: I am not very familiar with this topic, but it
    clearly has become one of the most important field in astronomy.
 

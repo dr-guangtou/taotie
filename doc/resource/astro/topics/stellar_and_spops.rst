@@ -1,5 +1,5 @@
-Tools and Resources about Stellar Physics and Stellar Population
-================================================================
+Stellar Physics and Stellar Population
+======================================
 
 Stellar Evolution Code
 ----------------------
@@ -214,8 +214,8 @@ Theoretical
       -0.5 <= log g <= 5.5 and 12 chemical mixtures covering 0.0017 <= Z
       <= 0.049 at both scaled-solar and alpha-enhanced compositions.
 
-Tools
-~~~~~
+Tools for Stellar Physics
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  `BEAST - Bayesian Extinction and Stellar
    Tool <https://github.com/BEAST-Fitting/beast>`__
@@ -277,10 +277,8 @@ Stellar Population Synthesis or SED Fitting
    -  There is also a `review
       paper <http://www.sedfitting.org/Paper_vs1.0_online/walcher_ms.html>`__
 
-.. _tools-1:
-
-Tools:
-~~~~~~
+Tools for Generating or Manipulating Stellar Population Model
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  `FSPS - Flexible Stellar Population
    Synthesis <https://github.com/cconroy20/fsps>`__
@@ -310,8 +308,8 @@ Tools:
       functions, atmosphere models, and evolution models.
    -  Support a large variety of theoretical models.
 
-SED or Spectral Fitting
-~~~~~~~~~~~~~~~~~~~~~~~
+Tools for SED or Spectral Fitting
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  `prospector - Python code for Stellar Population Inference from
    Spectra and SEDs <https://github.com/bd-j/prospector>`__
@@ -385,8 +383,8 @@ SED or Spectral Fitting
       energy distributions (SEDs) developed by Jacopo Chevallard (ESA)
       and Stephane Charlot (IAP).
 
-Models:
-~~~~~~~
+Stellar Population Models:
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  `MILES - Population synthesis for the 21st
    Century <http://miles.iac.es/>`__

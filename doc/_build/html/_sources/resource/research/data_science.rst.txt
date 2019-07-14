@@ -1,7 +1,8 @@
 Basic Data Science Related Topics
 =================================
 
---------------
+Baisc Tutorials
+---------------
 
 -  `Python Data Science
    Handbook <https://github.com/jakevdp/PythonDataScienceHandbook>`__

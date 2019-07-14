@@ -49,7 +49,7 @@ Color and Colour
    harmful <https://blogs.egu.eu/divisions/gd/2017/08/23/the-rainbow-colour-map/>`__
 
 Matplotlib
-^^^^^^^^^^
+~~~~~~~~~~
 
 -  `Gallery of named colors in
    Matplotlib <https://matplotlib.org/examples/color/named_colors.html>`__
@@ -57,7 +57,7 @@ Matplotlib
    Matplotlib <https://matplotlib.org/examples/color/colormaps_reference.html>`__
 
 Fancier and Better
-^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~
 
 -  `ColorBrewer2 - Interactive colormap
    builder <http://colorbrewer2.org>`__
