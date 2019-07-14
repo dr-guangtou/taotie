@@ -12,7 +12,7 @@
 	- It follows the new [ASDF Standard](https://asdf-standard.readthedocs.io/en/latest/)
 * [__HDF5__ - High-performance data management and storage suite](https://www.hdfgroup.org/solutions/hdf5/)
 	- In the age of big data, HDF5 format is also becoming more popular in astronomy. For example, many hydro-simulations use HDF5 to store large and complex data.
-	- [h5py is a Pythonic interface to the HDF5 binary data format](https://www.h5py.org/)
+	- [__h5py__ is a Pythonic interface to the HDF5 binary data format](https://www.h5py.org/)
 	- [__fits2hdf__ is a FITS to HDFITS conversion utility](https://github.com/telegraphic/fits2hdf)
 * If you use Python, it is also convenient to use the [__pickle__](https://docs.python.org/3/library/pickle.html) and [__dill__](https://pypi.org/project/dill/) (an even better __pickle__) module for serializing and de-serializing python objects to the majority of the built-in python types.
 
@@ -55,11 +55,11 @@
 
 ## Plan an observation
 
-* [astroplan - Python package to help astronomers plan observations](https://github.com/astropy/astroplan)
-* [iObserve](http://onekilopars.ec/iobserve/)
+* [__astroplan__ - Python package to help astronomers plan observations](https://github.com/astropy/astroplan)
+* [__iObserve__](http://onekilopars.ec/iobserve/)
 	- The free on-line version is [here](https://www.arcsecond.io/iobserve)
 * [Object Visibility by ING](http://catserver.ing.iac.es/staralt/)
-* [JSkyCalc -- A Convenient, Portable Observing Aid](https://www.dartmouth.edu/~physics/labs/skycalc/flyer.html)
+* [__JSkyCalc__ -- A Convenient, Portable Observing Aid](https://www.dartmouth.edu/~physics/labs/skycalc/flyer.html)
 * [Keck telescopes' own planning tool](https://www2.keck.hawaii.edu/software/obsplan/obsplan.php)
 * [Astronomical Observatory Sites by Latitude and Longitude](http://www.eso.org/~ndelmott/obs_sites.html)
 
@@ -71,7 +71,7 @@
 ## Filter Response Curves
 
 * [Response curved collected in sedpy package by Ben Johnson](https://github.com/bd-j/sedpy/tree/master/sedpy/data/filters)
-* [tynt - Color filter approximations in Python](https://github.com/bmorris3/tynt)
+* [__tynt__ - Color filter approximations in Python](https://github.com/bmorris3/tynt)
 	- By Brett Morris. __tynt__ is a super lightweight package containing approximate transmittance curves for more than five hundred astronomical filters, weighing in at just under 150 KB. Document can be found [here](https://tynt.readthedocs.io/en/latest/)
 
 ## Extinction calculator
@@ -91,7 +91,7 @@
 * [__TOPCAT__ - Tool for OPerations on Catalogues And Tables](http://www.star.bris.ac.uk/~mbt/topcat/)
 	- Really powerful GUI tool to deal with tables. It is written as a Java application.
 	- Have great functions for cross-matching catalogs, querying on-line databases, and making publication-grade figures.
-	- [__STILTS__ - Starlink Tables Infrastructure Library Tool Set] provides most of __TOPCAT__'s capabilities in command line.
+	- [__STILTS__ - Starlink Tables Infrastructure Library Tool Set](http://www.star.bris.ac.uk/~mbt/stilts/) provides most of __TOPCAT__'s capabilities in command line.
 
 ### Table cross-match
 
@@ -112,11 +112,11 @@
 
 ## Simulate Galaxy Spectrum
 
-* [SpecGen - Mock Galaxy Spectra Generator](http://specgen.icrar.org)
+* [__SpecGen__ - Mock Galaxy Spectra Generator](http://specgen.icrar.org)
 
 ## Sky Projection Maps of Surveys
 
-* [AstroMap - generating sky projection maps for astronomical surveys](http://astromap.icrar.org)
+* [__AstroMap__ - generating sky projection maps for astronomical surveys](http://astromap.icrar.org)
 
 
 ## List of Observatories
