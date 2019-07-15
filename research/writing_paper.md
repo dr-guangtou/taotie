@@ -1,6 +1,6 @@
 # About Writing Academic Paper
 
-![Keep calm and write on](../doc/images/keep_calm_write_on.png)
+![Keep calm and write on](https://gitlab.com/dr-guangtou/taotie/blob/master/doc/images/keep_calm_write_on.png)
 
 ## Basics
 
