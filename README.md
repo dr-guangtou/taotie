@@ -30,6 +30,7 @@ Progress and Plans
 On Using `taotie` (饕餮)
 -----------------------
 
+* You can find `taotie` on [this website](https://taotie.readthedocs.io/en/latest/python.html)
 * Now `taotie` is available on both [`GitHub`](https://github.com/dr-guangtou/taotie) and [`GitLab`](https://gitlab.com/dr-guangtou/taotie).  And you can also find `taotie` using [this address](https://dr-guangtou.github.io/taotie/)
 * For users in mainland China: in case the `Github` link below is not available, please replace `github` with `gitlab` and try again. Please let me know if you have trouble accessing both sites.
 * The main language for `taotie` is English. Some of the important documents will be slowly translated into Chinese.
@@ -90,9 +91,9 @@ Contents
 
 - Resources and tools for `Python`, which is the most popular programming language in astrophysics (for now).
     * [Basic learning materials and documents for `Python`](https://github.com/dr-guangtou/taotie/blob/master/programing/python_basic.md)
-    * [On writing your own `Python` package](https://github.com/dr-guangtou/taotie/blob/master/programing/python_write_yourown_project.md)
+    * [On writing your own `Python` package](https://github.com/dr-guangtou/taotie/blob/master/programing/python_write_your_project.md)
     - [On improving the performance of your `Python` code](https://github.com/dr-guangtou/taotie/blob/master/programing/python_performance.md)
-    - [On fitting data, optimizing models...you know, astrophysics](https://github.com/dr-guangtou/taotie/blob/master/programing/python_optimazaton.md)
+    - [On fitting data, optimizing models...you know, astrophysics](https://github.com/dr-guangtou/taotie/blob/master/programing/python_optimizaton.md)
     - [On doing statistical analysis right in `Python`](https://github.com/dr-guangtou/taotie/blob/master/programing/python_statistics.md)
     - [On visualizing data using `Python`](https://github.com/dr-guangtou/taotie/blob/master/programing/python_visualization.md)
 - Resources and tools for the [C programming language](https://github.com/dr-guangtou/taotie/blob/master/programing/clang_basic.md) and the [C++ programming langunage](https://github.com/dr-guangtou/taotie/blob/master/programing/cpp_basic.md).

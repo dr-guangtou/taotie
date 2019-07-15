@@ -176,7 +176,7 @@
 * Behave yourself professionally during conference or workshop. Please pay attention to the code of conduct. As an example, you can read the [Code of Conduct for ESO Workshops & Conferences](https://www.eso.org/sci/meetings/2018/tcl2018/code.html)
 
 * [CADA International Astronomy Meetings](http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/meetings/) is a very good place to check if there is anything conference that interests you in the future. There is a RSS Feed and a __iCal__ subscription.
-* [@astromeetings Twitter account](https://twitter.com/astromeetings?lang=en) is also a good way to follow the on-going conferences in your field.
+* [astromeetings Twitter account](https://twitter.com/astromeetings?lang=en) is also a good way to follow the on-going conferences in your field.
     - It has become routine for a conferece to have a designated hashtag on Twitter for people to twit about the talk.  We cannot go to all conferences (and it is [bad for the mother earth](https://onlinelibrary.wiley.com/doi/pdf/10.1111/1746-692X.12106))
 * [Future IAU Meetings](https://www.iau.org/science/meetings/future/)
 
