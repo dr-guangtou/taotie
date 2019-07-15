@@ -1,6 +1,11 @@
 About Writing Academic Paper
 ============================
 
+.. figure:: https://gitlab.com/dr-guangtou/taotie/blob/master/doc/images/keep_calm_write_on.png
+   :alt: Keep calm and write on
+
+   Keep calm and write on
+
 Basics
 ------
 

@@ -1,6 +1,11 @@
 Getting Started as a Researcher
 ===============================
 
+.. figure:: http://www.phdcomics.com/comics/archive/phd051017s.gif
+   :alt: Ah..research life
+
+   Ah..research life
+
 Motivation and Mission Statement
 --------------------------------
 

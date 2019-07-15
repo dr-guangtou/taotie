@@ -1,6 +1,6 @@
 # Getting Started as a Researcher
 
-<img src="http://www.phdcomics.com/comics/archive/phd051017s.gif" width="80%">
+![Ah..research life](http://www.phdcomics.com/comics/archive/phd051017s.gif)
 
 ## Motivation and Mission Statement
 

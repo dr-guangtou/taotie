@@ -1,6 +1,11 @@
 Job Search and Career Related
 =============================
 
+.. figure:: http://phdcomics.com/comics/archive/phd091007s.gif
+   :alt: Can I have a job
+
+   Can I have a job
+
 Find Astronomy Related Jobs
 ---------------------------
 

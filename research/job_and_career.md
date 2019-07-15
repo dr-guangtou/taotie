@@ -1,6 +1,6 @@
 # Job Search and Career Related
 
-<img src="http://phdcomics.com/comics/archive/phd091007s.gif" width="80%">
+![Can I have a job](http://phdcomics.com/comics/archive/phd091007s.gif)
 
 ## Find Astronomy Related Jobs
 
