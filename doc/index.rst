@@ -20,6 +20,18 @@ Tao Tie (饕餮) - A curated collection of resources for astrophysical research
    :width: 600
    :alt: Taotie logo
 
+.. image:: https://readthedocs.org/projects/taotie/badge/?version=latest
+   :target: https://taotie.readthedocs.io/en/latest/?badge=latest
+   :alt: Documentation Status
+.. image:: https://img.shields.io/badge/repo-GitHub-3D76C2.svg
+   :target: https://github.com/dr-guangtou/taotie 
+   :alt: Repo on GitHub
+.. image:: https://img.shields.io/badge/repo-GitLab-6C488A.svg
+   :target: https://gitlab.com/dr-guangtou/taotie 
+   :alt: Repo on GitLab
+.. image:: https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg 
+   :alt: Awesome List
+
 Starting Your Career as a Researcher
 ------------------------------------
 
