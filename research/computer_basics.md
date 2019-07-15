@@ -37,6 +37,8 @@
 * [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line)
 	- In multiple languages, including Chinese
 
+* [37 Important Linux Commands You Should Know](https://www.howtogeek.com/412055/37-important-linux-commands-you-should-know/)
+
 * [__awesome-command-line-apps__ - Use your terminal shell to do awesome things](https://github.com/herrbischoff/awesome-command-line-apps)
 	- A curated list of useful command line apps, in celebration of the TUI.
 

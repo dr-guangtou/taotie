@@ -1,6 +1,6 @@
 # About Writing Academic Paper
 
-<img src="../doc/images/keep_calm_write_on.png" width="80%">
+![Keep calm and write on](../doc/images/keep_calm_write_on.png)
 
 ## Basics
 
