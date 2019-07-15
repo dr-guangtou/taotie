@@ -465,8 +465,8 @@ Scientific Conference
    is a very good place to check if there is anything conference that
    interests you in the future. There is a RSS Feed and a **iCal**
    subscription.
--  [@astromeetings Twitter
-   account](https://twitter.com/astromeetings?lang=en) is also a good
+-  `astromeetings Twitter
+   account <https://twitter.com/astromeetings?lang=en>`__ is also a good
    way to follow the on-going conferences in your field.
 
    -  It has become routine for a conferece to have a designated hashtag

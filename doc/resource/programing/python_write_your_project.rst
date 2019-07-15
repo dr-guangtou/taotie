@@ -6,12 +6,14 @@ Developer Guide
 
 -  `LSST DM Developer Guide <https://developer.lsst.io>`__
 
-   -  LSST的数据管理系统的开发指南是天文领域里非常具有参考价值的
-   -  Python编程风格：\ `DM Python style
+   -  Very valuable reference for developing and organizing codes for
+      large research project.
+   -  `DM Python style
       guide <https://developer.lsst.io/python/style.html>`__
-   -  类似的还有 `SKA develop
-      portal <https://developerskatelescopeorg.readthedocs.io/en/latest/>`__
-      (建设中…)
+
+-  Similarly, also see `SKA develop
+   portal <https://developerskatelescopeorg.readthedocs.io/en/latest/>`__
+   (Still under construction…)
 
 Structure
 ~~~~~~~~~
@@ -21,20 +23,18 @@ Structure
 -  `Structuring Your
    Project <https://docs.python-guide.org/writing/structure/>`__
 
-   -  从组织文件到代码结构，比较好的入门阅读
+   -  From organizing files to the structure of the code, very good for
+      beginners.
 
 -  `How To Package Your Python
    Code <https://python-packaging.readthedocs.io/en/latest/index.html>`__
 
-   -  可读性也很强: aims to put forth an opinionated and specific
-      pattern to make trouble-free packages for community use
+   -  Aims to put forth an opinionated and specific pattern to make
+      trouble-free packages for community use
 
 -  `Cookiecutter - A logical, reasonably standardized, but flexible
    project structure for doing and sharing data science
    work <https://drivendata.github.io/cookiecutter-data-science/>`__
-
-   -  一个很好的组织基于数据的项目的例子，其中关于“Keep secrets and
-      configuration out of version control”的部分很有用。
 
 Code Format
 ~~~~~~~~~~~
@@ -58,8 +58,8 @@ Code Format
 -  `yapf: A formatter for Python files from
    Google <https://github.com/google/yapf>`__
 
-**setup.py**
-~~~~~~~~~~~~
+Python setup.py file
+~~~~~~~~~~~~~~~~~~~~
 
 -  `A Human’s Ultimate Guide to
    setup.py <https://github.com/kennethreitz/setup.py>`__
@@ -71,8 +71,10 @@ Readme
 
 -  `Art of README <https://github.com/noffle/art-of-readme>`__
 
-   -  `中文版 <https://github.com/noffle/art-of-readme/blob/master/README-zh.md>`__
-      基本上，想学习如何写好Readme看这篇就够了
+   -  This is basically the only thing you need to study about writing a
+      good readme file.
+   -  `Chinese version
+      (中文版) <https://github.com/noffle/art-of-readme/blob/master/README-zh.md>`__
 
 -  `readme-md-generator - CLI that generates beautiful README.md
    files <https://github.com/kefranabg/readme-md-generator>`__
