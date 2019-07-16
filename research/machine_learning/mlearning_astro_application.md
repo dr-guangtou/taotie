@@ -23,5 +23,9 @@
 
 ## Cosmology
 
+* [__ml-in-cosmology__ - a comprehensive list of published machine learning applications to cosmology](https://github.com/georgestein/ml-in-cosmology)
+    - A beautiful list compiled by [George Stein](https://github.com/georgestein)
+    - "Each entry contains the paper title, a simple summary of the machine learning methods used in the work, and the arxiv link"
+
 * [__MiSTree__ - Beyond two-point statistics: using the Minimum Spanning Tree as a tool for cosmology](https://knaidoo29.github.io/mistreedoc/index.html)
     - The [public code can be found here](https://github.com/knaidoo29/mistree)
