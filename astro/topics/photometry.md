@@ -18,6 +18,14 @@
 * [__ngmix__ - Gaussian mixtures and image processing implemented in python](https://github.com/esheldon/ngmix)
     * By Erin Sheldon. Gaussian mixture models and other code for working with for 2d images, implemented in python. Used by DES data analysis.
 
+### Probabilistic Cataloging
+
+* [__PCAT__ - A transdimensional, hierarchical, Bayesian framework to sample from a metamodel](https://github.com/tdaylan/pcat)
+    * Based on the work by [Daylan et al. 2016](https://ui.adsabs.harvard.edu/abs/2017ApJ...839....4D/abstract); the application on crowded field photometry can be found in [Portillo et al. 2018](https://ui.adsabs.harvard.edu/abs/2017AJ....154..132P/abstract)
+
+* [__multiband_pcat__ - A transdimensional, Bayesian sampler using hierarchical modeling to catalog point sources in multiple passbands](https://github.com/RichardFeder/multiband_pcat)
+    * Based on the work by [Feder et al. 2019](https://ui.adsabs.harvard.edu/abs/2019arXiv190704929F/abstract). Now only works for point sources.
+
 #### For Low Surface Brightness or Extremely Faint Targets
 
 * [__MTObjects__ - a tool for detecting sources in astronomical images](https://github.com/CarolineHaigh/mtobjects)
