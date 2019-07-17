@@ -11,7 +11,6 @@
 
 ---
 <a name=''>accretionhistory</a>
-
 ## Accretion History of the Milky Way
 
 | Title | ML technique(s) used | arxiv link |
