@@ -1,0 +1,415 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Photometric Analysis of Astronomical Targets &#8212; Taotie 0.1 documentation</title>
+    <link rel="stylesheet" href="../../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../../_static/language_data.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Spectroscopic Data Reduction and Analysis" href="spectroscopy.html" />
+    <link rel="prev" title="Image Redcution and CCD Related" href="ccd_reduction.html" />
+   
+  <link rel="stylesheet" href="../../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="photometric-analysis-of-astronomical-targets">
+<h1>Photometric Analysis of Astronomical Targets<a class="headerlink" href="#photometric-analysis-of-astronomical-targets" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="general-tools">
+<h2>General Tools<a class="headerlink" href="#general-tools" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="source-extraction-and-deblender">
+<h3>Source Extraction and Deblender<a class="headerlink" href="#source-extraction-and-deblender" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/astropy/photutils">photutils - Affiliated package for image photometry
+utilities</a></p>
+<ul>
+<li><p>General Python package. Not the fastest one and is still growing.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/kbarbary/sep/blob/v1.0.x/docs/index.rst">sep - Python library for Source Extraction and
+Photometry</a></p>
+<ul>
+<li><p><strong>SEP</strong> makes the core algorithms of Source Extractor available as
+a library of stand-alone functions and classes.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="http://www.astromatic.net/software/sextractor">SExtractor</a></p>
+<ul>
+<li><p>It is very good software, just remember never call it <strong>sex</strong>,
+just don’t.</p></li>
+<li><p>The best document: <a class="reference external" href="http://mensa.ast.uct.ac.za/~holwerda/SE/Welcome.html">Don’t
+Panic</a> by
+Benne Holwerda.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/lsst-dm/multiprofit">multiprofit - Multi-object/band source modelling/galaxy fitting
+code</a></p>
+<ul>
+<li><p>By Dan Taranu. Still under-development.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/dstndstn/tractor">The Tractor: measuring astronomical sources via probabilistic
+inference</a></p>
+<ul>
+<li><p>By Dustin Lang and David Hogg. Used by DECaLS, Probabilistic
+astronomical source detection &amp; measurement.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/esheldon/ngmix">ngmix - Gaussian mixtures and image processing implemented in
+python</a></p>
+<ul>
+<li><p>By Erin Sheldon. Gaussian mixture models and other code for
+working with for 2d images, implemented in python. Used by DES
+data analysis.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="probabilistic-cataloging">
+<h3>Probabilistic Cataloging<a class="headerlink" href="#probabilistic-cataloging" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/tdaylan/pcat">PCAT - A transdimensional, hierarchical, Bayesian framework to
+sample from a metamodel</a></p>
+<ul>
+<li><p>Based on the work by <a class="reference external" href="https://ui.adsabs.harvard.edu/abs/2017ApJ...839....4D/abstract">Daylan et
+al. 2016</a>;
+the application on crowded field photometry can be found in
+<a class="reference external" href="https://ui.adsabs.harvard.edu/abs/2017AJ....154..132P/abstract">Portillo et
+al. 2018</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/RichardFeder/multiband_pcat">multiband_pcat - A transdimensional, Bayesian sampler using
+hierarchical modeling to catalog point sources in multiple
+passbands</a></p>
+<ul>
+<li><p>Based on the work by <a class="reference external" href="https://ui.adsabs.harvard.edu/abs/2019arXiv190704929F/abstract">Feder et
+al. 2019</a>.
+Now only works for point sources.</p></li>
+</ul>
+</li>
+</ul>
+<div class="section" id="for-low-surface-brightness-or-extremely-faint-targets">
+<h4>For Low Surface Brightness or Extremely Faint Targets<a class="headerlink" href="#for-low-surface-brightness-or-extremely-faint-targets" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/CarolineHaigh/mtobjects">MTObjects - a tool for detecting sources in astronomical
+images</a></p>
+<ul>
+<li><p>Working progress, based on the <strong>C</strong> code by Paul Teeninga’s 2015
+work: <a class="reference external" href="http://fse.studenttheses.ub.rug.nl/12972/1/INF-BA-2015-P.D.Teeninga.pdf">Improved detection of faint extended astronomical objects
+through statistical attribute
+filtering</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/danjampro/DeepScan">DeepScan - source extraction tool designed to identify very low
+surface brightness features in large astronomical
+data</a></p>
+<ul>
+<li><p>Based on the work by <a class="reference external" href="https://academic.oup.com/mnras/article-abstract/478/1/667/4980941?redirectedFrom=fulltext">Prole et al. 2018: Automated detectionof
+very low surface brightness galaxiesin the Virgo
+cluster</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="multiband-deblending-and-force-photometry">
+<h4>Multiband Deblending and Force Photometry<a class="headerlink" href="#multiband-deblending-and-force-photometry" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/asgr/ProFound">ProFound - source finding and extraction in
+R</a></p></li>
+<li><p><a class="reference external" href="https://github.com/fred3m/scarlet">scarlet - Source separation in multi-band images by Constrained
+Matrix Factorization</a></p>
+<ul>
+<li><p>By Fred Moolekamp and Peter Melchior. It performs source
+separation (aka “deblending”) on multi-band images. Still
+under-development.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/AngusWright/LAMBDAR">LAMBDAR: Lambda Adaptive Multi-Band Deblending Algorithm in
+R</a></p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="image-simulation">
+<h3>Image Simulation<a class="headerlink" href="#image-simulation" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/emhuff/Balrog">Balrog - DES image simulation software: We dug too deeply and too
+greedily</a></p>
+<ul>
+<li><p>Application in DES: <a class="reference external" href="https://arxiv.org/abs/1507.08336">No galaxy left
+behind</a></p></li>
+<li><p><a class="reference external" href="https://cdcvs.fnal.gov/redmine/projects/des/wiki/des_balrog_y3">Balrog run in DES
+Y3</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/lsst/synpipe">Synpipe - Synthetic Object Pipeline for the LSST
+pipeline</a></p>
+<ul>
+<li><p>Synpipe provides tasks which make use of the LSST fake object
+pipeline to insert realistic galaxies and stars. It also includes
+scripts to analyze the results of data which has been processed
+with fake objects inserted.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://obiwan.readthedocs.io/en/latest/">Obiwan - Monte Carlo method for adding fake galaxies to Legacy
+Survey imaging data</a></p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="galaxies-or-extended-objects">
+<h2>Galaxies or Extended Objects<a class="headerlink" href="#galaxies-or-extended-objects" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="tools">
+<h3>Tools<a class="headerlink" href="#tools" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/GalSim-developers/GalSim">GalSim - The modular galaxy image simulation
+toolkit</a></p>
+<ul>
+<li><p><strong>GalSim</strong> is open-source software for simulating images of
+astronomical objects (stars, galaxies) in a variety of ways.</p></li>
+<li><p><strong>GalSim</strong> paper can be found
+<a class="reference external" href="http://adsabs.harvard.edu/abs/2015A%26C....10..121R">here</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="d-galaxy-profile-extraction">
+<h3>1-D Galaxy Profile Extraction<a class="headerlink" href="#d-galaxy-profile-extraction" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="http://stsdas.stsci.edu/cgi-bin/gethelp.cgi?ellipse">stsdas.analysis.isophote - fits elliptical isophotes to galaxy
+images</a></p>
+<ul>
+<li><p>The OG.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/astropy/photutils/tree/master/photutils/isophote">photutils.isophote - Python version of the ellipse
+code</a></p>
+<ul>
+<li><p>Not as fast as the <strong>IRAF</strong> version, but it is useful. Document is
+<a class="reference external" href="https://photutils.readthedocs.io/en/stable/isophote.html">here</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="http://abyss.uoregon.edu/~js/archangel/">ARCHANGEL: Galaxy Photometry
+System</a></p>
+<ul>
+<li><p>By James Schombert. Used by several projects including
+<a class="reference external" href="http://astroweb.cwru.edu/SPARC/">SPARC</a>. <a class="reference external" href="https://arxiv.org/abs/astro-ph/0703646">Paper is
+here</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="d-galaxy-modeling">
+<h3>2-D Galaxy Modeling<a class="headerlink" href="#d-galaxy-modeling" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.mpe.mpg.de/~erwin/code/imfit/">Imfit: Fast, Flexible Multi-component Fitting of Galaxy
+Images</a></p>
+<ul>
+<li><p>By Peter Erwin. Imfit is a program for fitting astronomical images
+– especially images of galaxies, though it can in principle be
+used for fitting other sources</p></li>
+<li><p>This is today’s first choice.</p></li>
+<li><p><a class="reference external" href="https://github.com/johnnygreco/pymfit">pymfit</a> by Johnny Greco
+to use <strong>imfit</strong> in Python.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://users.obs.carnegiescience.edu/peng/work/galfit/galfit.html">Galfit - Detailed Structural Decomposition of Galaxy
+Images</a></p>
+<ul>
+<li><p>By Chien Peng. Still the most flexible code. But it has not been
+maintained recently.</p></li>
+<li><p><a class="reference external" href="https://users.obs.carnegiescience.edu/peng/work/galfit/TOP10.html">Top 10 Rules of Thumb for Galaxy
+Fitting</a>:
+this is good advice for fitting galaxies in general.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/ICRAR/ProFit">ProFit - Profile Fitting Code in
+R</a></p>
+<ul>
+<li><p>ProFit is a Bayesian galaxy fitting tool that uses a fast C++
+image generation library and a flexible interface to a large
+number of likelihood samplers.</p></li>
+<li><p><a class="reference external" href="https://github.com/ICRAR/libprofit">libprofit - a low-level C++ library that produces images based on
+different luminosity
+profiles</a>. Document is
+<a class="reference external" href="https://libprofit.readthedocs.io/en/latest/">here</a></p></li>
+<li><p><a class="reference external" href="https://github.com/ICRAR/pyprofit">pyprofit - a python wrapper for
+libprofit</a></p>
+<ul>
+<li><p>This only provides the tool to generate 2-D galaxy model with
+PSF convolution. You need to setup your own optimazation
+structue for fitting.</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/sibirrer/lenstronomy">lenstronomy - software package for lens model reconstruction of
+imaging data</a></p>
+<ul>
+<li><p>By <a class="reference external" href="http://www.astro.ucla.edu/~sibirrer/">Simon Birrer</a>.
+<strong>lenstronomy</strong> is a multi-purpose package to model strong
+gravitational lenses. The software package is presented in Birrer
+&amp; Amara 2018 and is based on Birrer et al 2015.</p></li>
+<li><p>It can also be used to fit galaxies like <strong>Galfit</strong>. See <a class="reference external" href="https://github.com/sibirrer/lenstronomy_extensions/blob/master/lenstronomy_extensions/Notebooks/galfitting.ipynb">example
+here</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="stellar-or-psf-photometry">
+<h2>Stellar or PSF Photometry<a class="headerlink" href="#stellar-or-psf-photometry" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="http://www.star.bris.ac.uk/~mbt/daophot/">DAOPHOT - Stellar Photometry
+Package</a></p>
+<ul>
+<li><p>DAOPHOT is a package for stellar photomoetry designed to deal with
+crowded fields.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="http://americano.dolphinsim.com/dolphot/">DOLPHOT - stellar photometry package that was adapted from HSTphot
+for general use</a></p>
+<ul>
+<li><p>By Andrew Dolphin and Raytheon Company. PSF photometry for HSC.
+Now supports WFIRST too.</p></li>
+<li><p><a class="reference external" href="https://github.com/dweisz/pydolphot">pydolphot - python wrappers for
+DOLPHOT</a> by Dan Weisz.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://photutils.readthedocs.io/en/stable/psf.html">photutils.psf - PSF photometry in
+Python</a></p>
+<ul>
+<li><p>Provides Python approaches to do <strong>DAOPhot</strong> or <strong>IRAF</strong> style PSF
+photometry.</p></li>
+</ul>
+</li>
+</ul>
+<div class="section" id="useful-papers">
+<h3>Useful papers<a class="headerlink" href="#useful-papers" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://arxiv.org/pdf/1902.02374.pdf">Photometric Biases in Modern Surveys by Portillo, Speagle, &amp;
+Finkbeiner 2019</a></p>
+<ul>
+<li><p>Reveals a bias in modern PSF photometry: We show these ML
+estimators systematically overestimate the flux as a function of
+the signal-to-noise ratio (SNR) and the number of model parameters
+involved in the fit.</p></li>
+<li><p><a class="reference external" href="https://github.com/joshspeagle/phot_bias">phot-bias - Biases in Maximum-Likelihood
+Photometry</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../../../index.html">Taotie</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../research/getting_started.html">Getting Started as a Researcher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../research/computer_basics.html">Setting Up a Computer Environment for Research</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../research/job_and_career.html">Job Search and Career Related</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../research/writing_paper.html">About Writing Academic Paper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../stats_data_ml.html">Statistics, Data Science, &amp; Machine Learning</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../astro_readme.html">Astro README.md</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../astro_research_basic.html">Basic Tools for Astrophysical Research</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../astro_topic.html">Resources and Tools for a Specific Topic</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../astro_project.html">Resources about Important Astrophysical and Cosmological Projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../astro_reading.html">Reading List for a Specific Topic</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../python.html">Everything about Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../programing/clang_basic.html">C Programming Language</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../programing/cpp_basic.html">C++ Programming Language</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../programing/julia_basic.html">The Julia Programming Language</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../programing/numerical_method.html">Resources and Tools for Numerical Method and Scientific Computing</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../research/getting_started_cn.html">如何正确地踏上天文科研的不归路</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../../index.html">Documentation overview</a><ul>
+  <li><a href="../../../astro_topic.html">Resources and Tools for a Specific Topic</a><ul>
+      <li>Previous: <a href="ccd_reduction.html" title="previous chapter">Image Redcution and CCD Related</a></li>
+      <li>Next: <a href="spectroscopy.html" title="next chapter">Spectroscopic Data Reduction and Analysis</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2019, Song Huang.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../../../_sources/resource/astro/topics/photometry.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

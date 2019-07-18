@@ -1,0 +1,342 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>C++ Programming Language &#8212; Taotie 0.1 documentation</title>
+    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/language_data.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="The Julia Programming Language" href="julia_basic.html" />
+    <link rel="prev" title="C Programming Language" href="clang_basic.html" />
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="c-programming-language">
+<h1>C++ Programming Language<a class="headerlink" href="#c-programming-language" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="learning-c">
+<h2>Learning C++<a class="headerlink" href="#learning-c" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><strong>The best way to learn programming is, always, writing your own
+code!</strong></p></li>
+<li><p><a class="reference external" href="https://github.com/isocpp/CppCoreGuidelines">CppCoreGuidelines - The C++ Core Guidelines are a set of
+tried-and-true guidelines, rules, and best practices about coding in
+C++</a></p>
+<ul>
+<li><p>The <a class="reference external" href="http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#main">website version is
+here</a></p></li>
+<li><p>The C++ Core Guidelines are a collaborative effort led by Bjarne
+Stroustrup, much like the C++ language itself. They are the result
+of many person-years of discussion and design across a number of
+organizations.</p></li>
+<li><p><a class="reference external" href="https://github.com/lynnboy/CppCoreGuidelines-zh-CN">A Chinese translation can be found
+here</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://www.learncpp.com/">LearnCpp.com - Tutorials to help you master C++ and object-oriented
+programming</a></p>
+<ul>
+<li><p>LearnCpp.com is a free website devoted to teaching you how to
+program in C++. Whether you’ve had any prior programming
+experience or not, the tutorials on this site will walk you
+through all the steps to write, compile, and debug your C++
+programs, all with plenty of examples.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/rigtorp/awesome-modern-cpp">Awesome Modern C++ - A collection of resources on modern
+C++</a></p>
+<ul>
+<li><p>The goal is to collect a list of resources to help people learn
+about and leverage modern C++11 and beyond. The <a class="reference external" href="https://awesomecpp.com/">website is
+here</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/changkun/modern-cpp-tutorial">Modern CPP Tutorial -
+C++11/14/17</a></p>
+<ul>
+<li><p>This is a <strong>Chinese</strong> on-line book: &lt;高速上手 C++11/14/17&gt;</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/AnthonyCalandra/modern-cpp-features">modern-cpp-features - A cheatsheet of modern C++ language and
+library
+features</a></p>
+<ul>
+<li><p>Descriptions and examples of new features in C++</p></li>
+</ul>
+</li>
+</ul>
+<div class="section" id="for-python-coders">
+<h3>For Python Coders<a class="headerlink" href="#for-python-coders" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://cs.slu.edu/~goldwasser/publications/python2cpp.pdf">A Transition Guide from Python 2.x to
+C++</a></p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="useful-libraries">
+<h2>Useful Libraries<a class="headerlink" href="#useful-libraries" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="performance">
+<h3>Performance<a class="headerlink" href="#performance" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://people.cs.clemson.edu/~dhouse/courses/405/papers/optimize.pdf">Tips for Optimizing C/C++
+Code</a></p>
+<ul>
+<li><p>Very practical and useful guides for optimizing C/C++.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/fenbf/AwesomePerfCpp">AwesomePerfCpp - A curated list of awesome C/C++ performance
+optimization resources</a></p>
+<ul>
+<li><p>Including talks, articles, libraries, and tools</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/cpp-taskflow/cpp-taskflow">cpp-taskflow - Modern C++ Parallel Task Programming
+Library</a></p>
+<ul>
+<li><p>A fast C++ header-only library to help you quickly write parallel
+programs with complex task dependencies</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/microsoft/mimalloc">mimalloc - mimalloc is a compact general purpose allocator with
+excellent performance</a></p>
+<ul>
+<li><p>By Microsoft. mimalloc (pronounced “me-malloc”) is a general
+purpose allocator with excellent performance characteristics. It
+is a drop-in replacement for malloc and can be used in other
+programs without code changes.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="numerical">
+<h3>Numerical<a class="headerlink" href="#numerical" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.gnu.org/software/gsl/">GSL - GNU Scientific Library</a></p>
+<ul>
+<li><p>The library provides a wide range of mathematical routines such as
+random number generators, special functions and least-squares
+fitting. There are over 1000 functions in total with an extensive
+test suite.</p></li>
+<li><p>The <a class="reference external" href="https://www.gnu.org/software/gsl/doc/html/index.html">online reference manual can be found
+here</a>.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="http://eigen.tuxfamily.org/index.php?title=Main_Page">Eigen - a C++ template library for linear algebra: matrices,
+vectors, numerical solvers, and related
+algorithms</a></p></li>
+<li><p><a class="reference external" href="http://arma.sourceforge.net/">Armadillo - C++ library for linear algebra &amp; scientific
+computing</a></p>
+<ul>
+<li><p><strong>Armadillo</strong> is a high quality linear algebra library (matrix
+maths) for the C++ language, aiming towards a good balance between
+speed and ease of use</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/QuantStack/xtensor">xtensor - Multi-dimensional arrays with broadcasting and lazy
+computing</a></p>
+<ul>
+<li><p><strong>xtensor</strong> is a C++ library meant for numerical analysis with
+multi-dimensional array expressions. <strong>xtensor</strong> can be used to
+process NumPy data structures inplace using Python’s buffer
+protocol.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="optimization">
+<h3>Optimization<a class="headerlink" href="#optimization" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/kthohr/optim">OptimLib - a lightweight C++ library of numerical optimization
+methods for nonlinear functions</a></p>
+<ul>
+<li><p>A C++11 library of local and global optimization algorithms, as
+well as root finding techniques, supporting a large number of
+algorithms.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/stevengj/nlopt">nlopt - library for nonlinear
+optimization</a></p>
+<ul>
+<li><p><strong>NLopt</strong> is a library for nonlinear local and global
+optimization, for functions with and without gradient information.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/ceres-solver/ceres-solver">ceres-solver - open source C++ library for modeling and solving
+large, complicated optimization
+problems</a></p>
+<ul>
+<li><p>It can be used to solve Non-linear Least Squares problems with
+bounds constraints and general unconstrained optimization
+problems. <a class="reference external" href="http://ceres-solver.org/features.html">Used by Google for good
+reasons</a>.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/PatWie/CppNumericalSolvers">CppNumericalSolvers - L-BFGS-B for TensorFlow or pure C++11 and
+other optimization
+methods</a></p>
+<ul>
+<li><p>A <strong>header-only</strong> library with bindings to C++, <strong>TensorFlow</strong> and
+<strong>Matlab</strong>.</p></li>
+<li><p>Easy to use, and support a list of algorithms.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="astronomy-related">
+<h3>Astronomy Related<a class="headerlink" href="#astronomy-related" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://heasarc.gsfc.nasa.gov/fitsio/CCfits/">CCfits - object oriented interface to the cfitsio
+library</a></p>
+<ul>
+<li><p>It is designed to make the capabilities of cfitsio available to
+programmers working in C++. It is written in ANSI C++ and
+implemented using the C++ Standard Library with namespaces,
+exception handling, and member template functions.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="code-to-study">
+<h2>Code to Study<a class="headerlink" href="#code-to-study" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/GalSim-developers/GalSim">GalSim - The modular galaxy image simulation
+toolkit</a></p>
+<ul>
+<li><p><strong>GalSim</strong> is a very sophisticated system that pretty much
+includes everything you need to know about optics, observational
+astronomy, photometry, models of galaxies, and weak lensing.</p></li>
+<li><p>It also teachs you how to communicate between C++ and Python.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/perwin/imfit">imfit - an open-source astronomical image-fitting
+program</a></p>
+<ul>
+<li><p>Everything on modeling galaxies using least-chi-square or MCMC
+methods.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/ICRAR/libprofit">libprofit - low-level C++ library that produces images based on
+different luminosity profiles</a></p>
+<ul>
+<li><p>Light-weight library to learn about modeling galaxies and image
+convolution.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/rmjarvis/TreeCorr">TreeCorr - Code for efficiently computing 2-point and 3-point
+correlation functions</a></p></li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../../index.html">Taotie</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../research/getting_started.html">Getting Started as a Researcher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../research/computer_basics.html">Setting Up a Computer Environment for Research</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../research/job_and_career.html">Job Search and Career Related</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../research/writing_paper.html">About Writing Academic Paper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../stats_data_ml.html">Statistics, Data Science, &amp; Machine Learning</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../astro/astro_readme.html">Astro README.md</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../astro/astro_research_basic.html">Basic Tools for Astrophysical Research</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../astro_topic.html">Resources and Tools for a Specific Topic</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../astro_project.html">Resources about Important Astrophysical and Cosmological Projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../astro_reading.html">Reading List for a Specific Topic</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../python.html">Everything about Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="clang_basic.html">C Programming Language</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">C++ Programming Language</a></li>
+<li class="toctree-l1"><a class="reference internal" href="julia_basic.html">The Julia Programming Language</a></li>
+<li class="toctree-l1"><a class="reference internal" href="numerical_method.html">Resources and Tools for Numerical Method and Scientific Computing</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../research/getting_started_cn.html">如何正确地踏上天文科研的不归路</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="clang_basic.html" title="previous chapter">C Programming Language</a></li>
+      <li>Next: <a href="julia_basic.html" title="next chapter">The Julia Programming Language</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2019, Song Huang.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../../_sources/resource/programing/cpp_basic.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

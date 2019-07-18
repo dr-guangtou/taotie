@@ -1,0 +1,503 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Basic Tools for Astrophysical Research &#8212; Taotie 0.1 documentation</title>
+    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/language_data.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Resources and Tools for a Specific Topic" href="../../astro_topic.html" />
+    <link rel="prev" title="Astro README.md" href="astro_readme.html" />
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="basic-tools-for-astrophysical-research">
+<h1>Basic Tools for Astrophysical Research<a class="headerlink" href="#basic-tools-for-astrophysical-research" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="data-format-used-in-astronomy">
+<h2>Data format used in astronomy<a class="headerlink" href="#data-format-used-in-astronomy" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://archive.stsci.edu/fits/">Flexible Image Transport System
+(FITS)</a></p>
+<ul>
+<li><p>The default standard for the exchange of data in astronomy now</p></li>
+<li><p>The <a class="reference external" href="https://fits.gsfc.nasa.gov/users_guide/usersguide.pdf">full document of
+FITS</a>
+and <a class="reference external" href="https://archive.stsci.edu/data_format.html">the MAST data format
+guidelines</a></p></li>
+<li><p><a class="reference external" href="https://heasarc.gsfc.nasa.gov/fitsio/">CFITSIO</a> is a library
+of C and Fortran subroutines for reading and writing data files in
+FITS.</p></li>
+<li><p><a class="reference external" href="https://docs.astropy.org/en/stable/io/fits/">astropy.io.fits</a>
+can help you deal with FITS files in Python</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/spacetelescope/asdf">Advanced Scientific Data Format
+(ASDF)</a></p>
+<ul>
+<li><p>Next generation interchange format for scientific data developed
+by STScI</p></li>
+<li><p>It follows the new <a class="reference external" href="https://asdf-standard.readthedocs.io/en/latest/">ASDF
+Standard</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://www.hdfgroup.org/solutions/hdf5/">HDF5 - High-performance data management and storage
+suite</a></p>
+<ul>
+<li><p>In the age of big data, HDF5 format is also becoming more popular
+in astronomy. For example, many hydro-simulations use HDF5 to
+store large and complex data.</p></li>
+<li><p><a class="reference external" href="https://www.h5py.org/">h5py is a Pythonic interface to the HDF5 binary data
+format</a></p></li>
+<li><p><a class="reference external" href="https://github.com/telegraphic/fits2hdf">fits2hdf is a FITS to HDFITS conversion
+utility</a></p></li>
+</ul>
+</li>
+<li><p>If you use Python, it is also convenient to use the
+<a class="reference external" href="https://docs.python.org/3/library/pickle.html">pickle</a> and
+<a class="reference external" href="https://pypi.org/project/dill/">dill</a> (an even better <strong>pickle</strong>)
+module for serializing and de-serializing python objects to the
+majority of the built-in python types.</p></li>
+</ul>
+</div>
+<div class="section" id="world-coordinate-systems-wcs">
+<h2>World Coordinate Systems (WCS)<a class="headerlink" href="#world-coordinate-systems-wcs" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://fits.gsfc.nasa.gov/fits_wcs.html">FITS World Coordinate System
+(WCS)</a></p>
+<ul>
+<li><p><a class="reference external" href="http://www.atnf.csiro.au/people/mcalabre/WCS/wcslib/index.html">wcslib</a>
+is a C library, supplied with a full set of Fortran wrappers, that
+implements the “World Coordinate System” (WCS) standard in FITS</p></li>
+<li><p>All the tools that deals with FITS format can also deal with WCS
+information (normally stored in the header). For example, the
+<a class="reference external" href="http://docs.astropy.org/en/stable/wcs/">astropy.wcs</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://gwcs.readthedocs.io/en/latest/">Generalized World Coordinate
+System</a></p>
+<ul>
+<li><p><a class="reference external" href="https://github.com/spacetelescope/gwcs">gwcs - provides tools for managing WCS in a general
+way</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/spacetelescope/stwcs">stwcs - WCS based distortion models and coordinate
+transformation</a></p></li>
+<li><p><a class="reference external" href="https://github.com/spacetelescope/tweakwcs">tweakwcs - Algorithms for matching and aligning catalogs and for
+tweaking the WCS so as to minimize catalog mismatch
+errors</a></p>
+<ul>
+<li><p><strong>tweakwcs</strong> is a package that provides core algorithms for
+computing and applying corrections to WCS objects such as to
+minimize mismatch between image and reference catalogs. Currently
+only aligning images with FITS WCS and JWST gWCS are supported.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="astrometry-and-positional-astronomy">
+<h2>Astrometry and Positional Astronomy<a class="headerlink" href="#astrometry-and-positional-astronomy" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://rhodesmill.org/skyfield/">Skyfield - Elegant Astronomy for
+Python</a></p>
+<ul>
+<li><p><strong>Skyfield</strong> computes positions for the stars, planets, and
+satellites in orbit around the Earth. Its results should agree
+with the positions generated by the United States Naval
+Observatory and their Astronomical Almanac to within 0.0005
+arcseconds. The <a class="reference external" href="https://github.com/skyfielders/python-skyfield/">Github version is
+here</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/dstndstn/astrometry.net">Astrometry.net – automatic recognition of astronomical
+images</a></p>
+<ul>
+<li><p>Made by Dustin Lang. The best astrometric calibration tool on the
+market.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="http://www.iausofa.org/tandc.html">SOFA - Standard of Fundamental
+Astronomy</a></p>
+<ul>
+<li><p>The International Astronomical Union’s SOFA service has the task
+of establishing and maintaining an accessible and authoritative
+set of algorithms and procedures that implement standard models
+used in fundamental astronomy. The library is now in <a class="reference external" href="http://www.iausofa.org/current.html">Fortran and
+C</a></p></li>
+<li><p><a class="reference external" href="https://gitlab.com/deddy/pysofa2">pysofa2 - A python module for wrapping the International
+Astronomical Union’s C SOFA
+libraries</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/liberfa/erfa">ERFA - Essential Routines for Fundamental
+Astronomy</a></p>
+<ul>
+<li><p><strong>ERFA</strong> is a C library containing key algorithms for astronomy,
+and is based on the <a class="reference external" href="http://www.iausofa.org/">SOFA</a> library
+published by the International Astronomical Union (IAU).</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/brandon-rhodes/python-novas">NOVAS - The United States Naval Observatory NOVAS astronomy
+library</a></p>
+<ul>
+<li><p><strong>NOVAS</strong> is an integrated package of functions for computing
+various commonly needed quantities in positional astronomy. At a
+lower level, NOVAS also provides astrometric utility
+transformations, such as those for precession, nutation,
+aberration, parallax, and gravitational deflection of light.</p></li>
+<li><p>The computations are accurate to better than one milliarcsecond.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/spacetelescope/spherical_geometry">spherical_geometry - A Python package for handling spherical
+polygons that represent arbitrary regions of the
+sky</a></p>
+<ul>
+<li><p>Made by STScI. <a class="reference external" href="https://spacetelescope.github.io/spherical_geometry/spherical_geometry/">Online document is
+here</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="flux-standards">
+<h2>Flux standards<a class="headerlink" href="#flux-standards" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="http://mips.as.arizona.edu/~cnaw/sun.html">The Absolute Magnitude of the
+Sun</a></p>
+<ul>
+<li><p><a class="reference external" href="http://mips.as.arizona.edu/~cnaw/sun_composite.fits">Link to download the default composite spectrum of the
+Sun</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://www.eso.org/sci/observing/tools/standards/spectra/stanlis.html">ESO’s RA Ordered List of Spectrophotometric
+Standards</a></p></li>
+<li><p><a class="reference external" href="https://www.naoj.org/Observing/Instruments/FOCAS/Detail/UsersGuide/Observing/StandardStar/Spec/SpecStandard.html">NAOJ’s Optical Spectrophotometric Standard
+Stars</a></p></li>
+<li><p><a class="reference external" href="http://www.eso.org/sci/observing/tools/standards/Landolt.html">ESO’s Landolt Equatorial
+Standards</a></p></li>
+</ul>
+</div>
+<div class="section" id="plan-an-observation">
+<h2>Plan an observation<a class="headerlink" href="#plan-an-observation" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/astropy/astroplan">astroplan - Python package to help astronomers plan
+observations</a></p></li>
+<li><p><a class="reference external" href="http://onekilopars.ec/iobserve/">iObserve</a></p>
+<ul>
+<li><p>The free on-line version is
+<a class="reference external" href="https://www.arcsecond.io/iobserve">here</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="http://catserver.ing.iac.es/staralt/">Object Visibility by ING</a></p></li>
+<li><p><a class="reference external" href="https://www.dartmouth.edu/~physics/labs/skycalc/flyer.html">JSkyCalc – A Convenient, Portable Observing
+Aid</a></p></li>
+<li><p><a class="reference external" href="https://www2.keck.hawaii.edu/software/obsplan/obsplan.php">Keck telescopes’ own planning
+tool</a></p></li>
+<li><p><a class="reference external" href="http://www.eso.org/~ndelmott/obs_sites.html">Astronomical Observatory Sites by Latitude and
+Longitude</a></p></li>
+</ul>
+</div>
+<div class="section" id="flux-unit-conversion">
+<h2>Flux unit conversion<a class="headerlink" href="#flux-unit-conversion" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="http://www.stsci.edu/hst/nicmos/tools/conversion_form.html">NICMOS Units Conversion
+Form</a></p></li>
+<li><p><a class="reference external" href="http://ssc.spitzer.caltech.edu/warmmission/propkit/pet/magtojy/">Magnitude/Flux Density Converter: Point
+Sources</a></p></li>
+</ul>
+</div>
+<div class="section" id="filter-response-curves">
+<h2>Filter Response Curves<a class="headerlink" href="#filter-response-curves" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/bd-j/sedpy/tree/master/sedpy/data/filters">Response curved collected in sedpy package by Ben
+Johnson</a></p></li>
+<li><p><a class="reference external" href="https://github.com/bmorris3/tynt">tynt - Color filter approximations in
+Python</a></p>
+<ul>
+<li><p>By Brett Morris. <strong>tynt</strong> is a super lightweight package
+containing approximate transmittance curves for more than five
+hundred astronomical filters, weighing in at just under 150 KB.
+Document can be found
+<a class="reference external" href="https://tynt.readthedocs.io/en/latest/">here</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="extinction-calculator">
+<h2>Extinction calculator<a class="headerlink" href="#extinction-calculator" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://ned.ipac.caltech.edu/extinction_calculator">NED’s extinction
+calculator</a></p></li>
+<li><p><a class="reference external" href="http://argonaut.skymaps.info">3-D Dust Mapping with Pan-STARRS 1</a></p>
+<ul>
+<li><p><a class="reference external" href="http://argonaut.skymaps.info/query">Query service</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="coordinate-service">
+<h2>Coordinate Service<a class="headerlink" href="#coordinate-service" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="http://www.astrouw.edu.pl/~jskowron/ra-dec/">RA, DEC Flexible
+converter</a></p></li>
+<li><p><a class="reference external" href="https://ned.ipac.caltech.edu/coordinate_calculator">NED’s coordinate
+calculator</a></p></li>
+</ul>
+</div>
+<div class="section" id="managing-catalogs">
+<h2>Managing Catalogs<a class="headerlink" href="#managing-catalogs" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://docs.astropy.org/en/stable/table/">astropy.table</a> is a
+flexible Python module that can handle a variant types of tables.</p></li>
+<li><p><a class="reference external" href="http://www.star.bris.ac.uk/~mbt/topcat/">TOPCAT - Tool for OPerations on Catalogues And
+Tables</a></p>
+<ul>
+<li><p>Really powerful GUI tool to deal with tables. It is written as a
+Java application.</p></li>
+<li><p>Have great functions for cross-matching catalogs, querying on-line
+databases, and making publication-grade figures.</p></li>
+<li><p><a class="reference external" href="http://www.star.bris.ac.uk/~mbt/stilts/">STILTS - Starlink Tables Infrastructure Library Tool
+Set</a> provides most of
+<strong>TOPCAT</strong>’s capabilities in command line.</p></li>
+</ul>
+</li>
+</ul>
+<div class="section" id="table-cross-match">
+<h3>Table cross-match<a class="headerlink" href="#table-cross-match" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/esheldon/smatch">smatch - Code to match points on the sphere using the healpix
+scheme</a></p>
+<ul>
+<li><p>By Erin Sheldon. Very fast cross-match tool, C-code wrapped in
+Python.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/JohannesBuchner/nway">nway - Bayesian cross-matching of astronomical
+catalogues</a></p>
+<ul>
+<li><p>Bayesian match probabilities based on astronomical sky coordinates
+(RA, DEC)</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="http://dame.dsf.unina.it/c3.html">C3 - Command-line Catalogue Cross-matching
+Tool</a></p></li>
+<li><p><a class="reference external" href="https://git.ias.u-psud.fr/abeelen/xmatch">xmatch - Cross match of
+catalogs</a></p>
+<ul>
+<li><p>By Alexandre Beelen.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="cosmology-calculator">
+<h2>Cosmology Calculator<a class="headerlink" href="#cosmology-calculator" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="http://cosmocalc.icrar.org">ICRAR’s Cosmology Calculator</a></p>
+<ul>
+<li><p>Based on the <a class="reference external" href="https://github.com/asgr/celestial">celestial
+R-code</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="http://www.astro.ucla.edu/%7Ewright/CosmoCalc.html">Ned Wright’s Cosmology
+Calculator</a></p></li>
+</ul>
+</div>
+<div class="section" id="simulate-galaxy-spectrum">
+<h2>Simulate Galaxy Spectrum<a class="headerlink" href="#simulate-galaxy-spectrum" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="http://specgen.icrar.org">SpecGen - Mock Galaxy Spectra
+Generator</a></p></li>
+</ul>
+</div>
+<div class="section" id="sky-projection-maps-of-surveys">
+<h2>Sky Projection Maps of Surveys<a class="headerlink" href="#sky-projection-maps-of-surveys" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="http://astromap.icrar.org">AstroMap - generating sky projection maps for astronomical
+surveys</a></p></li>
+</ul>
+</div>
+<div class="section" id="list-of-observatories">
+<h2>List of Observatories<a class="headerlink" href="#list-of-observatories" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/List_of_astronomical_observatories">List of Astronomical Observatories on
+Wiki</a></p></li>
+<li><p><a class="reference external" href="https://www.go-astronomy.com/observatories.htm">Observatories by
+GoAstronomy</a></p>
+<ul>
+<li><p>Including U.S observatories and observatories worldwide.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="basic-astronomy-database">
+<h2>Basic Astronomy Database<a class="headerlink" href="#basic-astronomy-database" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="http://simbad.u-strasbg.fr/simbad/">SIMBAD Astronomical Database -
+CDS</a></p>
+<ul>
+<li><p>The <strong>SIMBAD</strong> astronomical database provides basic data,
+cross-identifications, bibliography and measurements for
+astronomical objects outside the solar system.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="http://vizier.u-strasbg.fr/viz-bin/VizieR">VizieR Catalog
+Database</a></p>
+<ul>
+<li><p><strong>VizieR</strong> provides the most complete library of published
+astronomical catalogues -tables and associated data- with verified
+and enriched data, accessible via multiple interfaces.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://aladin.u-strasbg.fr/aladin.gml#">Aladin Sky Atlas</a></p>
+<ul>
+<li><p><strong>Aladin</strong> is an interactive sky atlas allowing the user to
+visualize digitized astronomical images or full surveys,
+superimpose entries from astronomical catalogues or databases, and
+interactively access related data and information from the Simbad
+database, the VizieR service and other archives for all known
+astronomical objects in the field.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://ned.ipac.caltech.edu/">NASA/IPAC Extragalactic Database</a></p>
+<ul>
+<li><p><strong>NED</strong> is a comprehensive database of multiwavelength data for
+extragalactic objects, providing a systematic, ongoing fusion of
+information integrated from hundreds of large sky surveys and tens
+of thousands of research publications.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://irsa.ipac.caltech.edu/frontpage/">NASA/IPAC Infrared Science
+Archive</a></p>
+<ul>
+<li><p><strong>IRSA</strong> is chartered to curate the science products of NASA’s
+infrared and submillimeter missions, including many large-area and
+all-sky surveys.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="http://archive.stsci.edu/">MAST - Mikulski Archive for Space
+Telescopes</a></p>
+<ul>
+<li><p><strong>MAST</strong> provides a variety of astronomical archives focused on
+scientific data sets in the optical, ultraviolet, and
+near-infrared parts of the spectrum.</p></li>
+<li><p><a class="reference external" href="https://mast.stsci.edu/portal/Mashup/Clients/Mast/Portal.html">The MAST
+Portal</a>
+lets you search multiple collections of astronomical datasets all
+in one place.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../../index.html">Taotie</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../research/getting_started.html">Getting Started as a Researcher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../research/computer_basics.html">Setting Up a Computer Environment for Research</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../research/job_and_career.html">Job Search and Career Related</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../research/writing_paper.html">About Writing Academic Paper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../stats_data_ml.html">Statistics, Data Science, &amp; Machine Learning</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="astro_readme.html">Astro README.md</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Basic Tools for Astrophysical Research</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../astro_topic.html">Resources and Tools for a Specific Topic</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../astro_project.html">Resources about Important Astrophysical and Cosmological Projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../astro_reading.html">Reading List for a Specific Topic</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../python.html">Everything about Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../programing/clang_basic.html">C Programming Language</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../programing/cpp_basic.html">C++ Programming Language</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../programing/julia_basic.html">The Julia Programming Language</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../programing/numerical_method.html">Resources and Tools for Numerical Method and Scientific Computing</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../research/getting_started_cn.html">如何正确地踏上天文科研的不归路</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="astro_readme.html" title="previous chapter">Astro README.md</a></li>
+      <li>Next: <a href="../../astro_topic.html" title="next chapter">Resources and Tools for a Specific Topic</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2019, Song Huang.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../../_sources/resource/astro/astro_research_basic.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

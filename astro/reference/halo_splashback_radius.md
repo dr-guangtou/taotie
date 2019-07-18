@@ -53,7 +53,7 @@
     - Unclear, "We do not detect a significant steepening", but gives a constraint.
 * [Shin et al. 2018 arXiv:1811 - Measurement of the Splashback Feature around SZ-selected Galaxy Clusters with DES, SPT and ACT](https://arxiv.org/abs/1811.06081)
     - **Detection** using galaxy number density profile around SZ selected clusters
-    - `R_sp` consistent with prediction from simulation, in different with optically selected clusters
+    - __R_sp__ consistent with prediction from simulation, in different with optically selected clusters
     - Blue galaxies show just power law profile without splashback signiture, consistent with first infall
 
 ## About accretion rate 
@@ -64,7 +64,7 @@
 ## General discussion about mass density profiles
 
 * [Shi 2016b - Locations of accretion shocks around galaxy clusters and the ICM properties: insights from self-similar spherical collapse with arbitrary mass accretion rates](http://adsabs.harvard.edu/abs/2016MNRAS.461.1804S)
-* [Trevisan, Mamon & Stalder 2017 - Group galaxy number density profiles far out: Is the `one-halo' term NFW out to >10 virial radii?](http://adsabs.harvard.edu/abs/2017MNRAS.471L..47T)
+* [Trevisan, Mamon & Stalder 2017 - Group galaxy number density profiles far out: Is the __one-halo' term NFW out to >10 virial radii?](http://adsabs.harvard.edu/abs/2017MNRAS.471L..47T)
 * [Fong et al. 2018 - Prospects for determining the mass distributions of galaxy clusters on large scales using weak gravitational lensing](http://adsabs.harvard.edu/abs/2018MNRAS.478.5366F)
 * [Osato et al. 2018 - Strong orientation dependence of surface mass density profiles of dark haloes at large scales](http://adsabs.harvard.edu/abs/2018MNRAS.477.2141O)
     - "While the orientation dependence at small scales is ascribed to the halo triaxiality, our results indicate even stronger orientation dependence in the so-called two-halo regime"

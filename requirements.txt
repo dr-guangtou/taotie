@@ -1,0 +1,4 @@
+sphinx
+pypandoc
+recommonmark
+-e git://github.com/lsst-sqre/lsst_dd_rtd_theme.git@master#egg=lsst_dd_rtd_theme

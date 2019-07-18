@@ -25,11 +25,11 @@
 	- Pretty much the only thing you need to read about color.
 * [Why rainbow colormap is harmful](https://blogs.egu.eu/divisions/gd/2017/08/23/the-rainbow-colour-map/)
 
-#### Matplotlib
+### Matplotlib
 * [Gallery of named colors in Matplotlib](https://matplotlib.org/examples/color/named_colors.html)
 * [Gallery of colormaps in Matplotlib](https://matplotlib.org/examples/color/colormaps_reference.html)
 
-#### Fancier and Better
+### Fancier and Better
 
 * [ColorBrewer2 - Interactive colormap builder](http://colorbrewer2.org)
 * [Palettable - Color palettes for Python](https://jiffyclub.github.io/palettable/)

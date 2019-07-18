@@ -1,4 +1,4 @@
-# Tools and Resources about ISM and IGM
+# Interstellar and Intra-Galactic Medium, Dust
 
 ## Mily Way dust extinction map
 
@@ -23,10 +23,10 @@
 
 ## Interstellar Dust Model 
 
-* [`THEMIS` - The Heterogeneous dust Evolution Model for Interstellar Solids](https://www.ias.u-psud.fr/themis/THEMIS_model.html)
+* [__THEMIS__ - The Heterogeneous dust Evolution Model for Interstellar Solids](https://www.ias.u-psud.fr/themis/THEMIS_model.html)
 
-* [`SHIVA` - a numerical tool for evolution of dust in the ISM](http://www.inasan.rssi.ru/~khramtsova/SHIVA.html)
-    - `SHIVA` simulates the dust destruction in warm neutral, warm ionized, and hot ionized media under the influence of photo-processing, sputtering, and shattering. Based on [this work](https://arxiv.org/pdf/1906.11308.pdf)
+* [__SHIVA__ - a numerical tool for evolution of dust in the ISM](http://www.inasan.rssi.ru/~khramtsova/SHIVA.html)
+    - __SHIVA__ simulates the dust destruction in warm neutral, warm ionized, and hot ionized media under the influence of photo-processing, sputtering, and shattering. Based on [this work](https://arxiv.org/pdf/1906.11308.pdf)
 
 ## Extragalactic ISM and Dust Dataset
 

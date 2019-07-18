@@ -2,8 +2,6 @@
 
 * The Wide Field Infrared Survey Telescope (WFIRST) is a NASA observatory designed to unravel the secrets of dark energy and dark matter, search for and image exoplanets, and explore many topics in infrared astrophysics. WFIRST has a 2.4m telescope, the same size as Hubble’s, but with a view 100 times greater than Hubble’s. WFIRST was the top-ranked large space mission in the 2010 Decadal Survey of Astronomy and Astrophysics, and is slated to launch in the mid-2020s.
 
-----
-
 ## Basic Information:
 
 * [WFIRST website](https://wfirst.gsfc.nasa.gov/)

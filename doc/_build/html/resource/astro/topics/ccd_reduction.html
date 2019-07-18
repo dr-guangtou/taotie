@@ -1,0 +1,380 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Image Redcution and CCD Related &#8212; Taotie 0.1 documentation</title>
+    <link rel="stylesheet" href="../../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../../_static/language_data.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Photometric Analysis of Astronomical Targets" href="photometry.html" />
+    <link rel="prev" title="Resources and Tools for a Specific Topic" href="../../../astro_topic.html" />
+   
+  <link rel="stylesheet" href="../../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="image-redcution-and-ccd-related">
+<h1>Image Redcution and CCD Related<a class="headerlink" href="#image-redcution-and-ccd-related" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>On the general topic of optical/NIR detector and data reduction.</p></li>
+</ul>
+<div class="section" id="tutorial-and-guide">
+<h2>Tutorial and Guide<a class="headerlink" href="#tutorial-and-guide" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/mwcraig/ccd-reduction-and-photometry-guide">A guide to CCD data reduction and stellar photometry using astropy
+and affiliated
+packages</a></p>
+<ul>
+<li><p>Only use <strong>astropy</strong> affiliated Python packages.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="software">
+<h2>Software<a class="headerlink" href="#software" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="display-ccd-images">
+<h3>Display CCD Images<a class="headerlink" href="#display-ccd-images" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="http://ds9.si.edu/site/Home.html">SAOImage DS9 - Astronomical imaging and data visualization
+application</a></p>
+<ul>
+<li><p>DS9 supports FITS images and binary tables, multiple frame
+buffers, region manipulation, and many scale algorithms and
+colormaps. DS9 is actually a very powerful tool for displaying and
+manipulating image. <a class="reference external" href="http://www.jb.man.ac.uk/~gbendo/Sci/Pict/DS9guide.pdf">Here is a very nice
+guide</a></p></li>
+<li><p><a class="reference external" href="https://github.com/ericmandel/pyds9">pyds9 - Python connection to SAOimage DS9 via
+XPA</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/spacetelescope/imexam">imexam by astropy - Python version of the famous imexamine in
+IRAF</a></p>
+<ul>
+<li><p><strong>imexam</strong> is a python tool for simple image examination, and
+plotting, with similar functionality to IRAF’s imexamine. <a class="reference external" href="https://imexam.readthedocs.io/en/latest/">Online
+document is here</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/ejeschke/ginga">ginga - astronomical FITS file
+viewer</a></p>
+<ul>
+<li><p><strong>Ginga</strong> is a toolkit designed for building viewers for
+scientific image data in Python, visualizing 2D pixel data in
+numpy arrays. <a class="reference external" href="https://ginga.readthedocs.io/en/latest/">Online document is
+here</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/astropy/regions">regions by astropy - Astropy affiliated package for region
+handling</a></p></li>
+</ul>
+</div>
+<div class="section" id="general-reduction">
+<h3>General Reduction<a class="headerlink" href="#general-reduction" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Modern imaging surveys or major astronomical cameras are often
+equipped with speciallized data reduction pipelines. For example:</p>
+<ul>
+<li><p><a class="reference external" href="https://www.noao.edu/noao/staff/fvaldes/CPDocPrelim/PL201_3.html">DECam Community
+Pipeline</a></p></li>
+<li><p><a class="reference external" href="https://www.cfht.hawaii.edu/Instruments/Elixir/">The Elixir System for CFHT
+MegaCam</a></p></li>
+<li><p><a class="reference external" href="https://hsc.mtk.nao.ac.jp/pipedoc/pipedoc_6_e/index.html">The HSC
+Pipeline</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/astropy/ccdproc">ccdproc - Astropy affiliated package for reducing optical/IR CCD
+data</a></p>
+<ul>
+<li><p><strong>ccdproc</strong> is is an affiliated package for the AstroPy package
+for basic data reductions of CCD images. The ccdproc package
+provides many of the necessary tools for processing of ccd images
+built on a framework to provide error propagation and bad pixel
+tracking throughout the reduction process. <a class="reference external" href="https://ccdproc.readthedocs.io/en/latest/">Documents can be found
+here</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="image-detrend-and-correction">
+<h3>Image Detrend and Correction<a class="headerlink" href="#image-detrend-and-correction" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="cosmic-ray-removal">
+<h4>Cosmic Ray Removal<a class="headerlink" href="#cosmic-ray-removal" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/astropy/astroscrappy">astroscrappy by astropy - Speedy Cosmic Ray Annihilation Package in
+Python</a></p>
+<ul>
+<li><p><strong>Astro-SCRAPPY</strong> is designed to detect cosmic rays in images
+(numpy arrays), based on Pieter van Dokkum’s <strong>L.A.Cosmic</strong>
+algorithm.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="http://www.astro.yale.edu/dokkum/lacosmic/">The original L.A.Cosmic code - Laplacian Cosmic Ray
+Identification</a></p>
+<ul>
+<li><p><a class="reference external" href="https://github.com/cmccully/lacosmicx">lacosmicx - A fast implementation of the LA Cosmic
+algorithm</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="satellite-trail-removal">
+<h4>Satellite Trail Removal<a class="headerlink" href="#satellite-trail-removal" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/dwkim78/ASTRiDE">ASTRiDE - Automated Streak Detection for Astronomical
+Images</a></p>
+<ul>
+<li><p>By Dae-Won Kim. <strong>ASTRiDE</strong> aims to detect streaks in astronomical
+images using a “border” of each object</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/guynir42/pyradon">pyradon - Python tools for streak detection in astronomical images
+using the Fast Radon
+Transform</a></p>
+<ul>
+<li><p>By Guy Nir. Based on <a class="reference external" href="https://arxiv.org/abs/1806.04204">Optimal and Efficient Streak Detection in
+Astronomical Images</a>. The
+<a class="reference external" href="https://github.com/guynir42/radon">Matlab version is here</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="brighter-fatter-effect">
+<h4>“Brighter-Fatter” Effect<a class="headerlink" href="#brighter-fatter-effect" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>The “Brighter-Fatter” effect is a direct consequence of the
+distortions of the drift electric field sourced by charges
+accumulated within the CCD during the exposure and experienced by
+forthcoming light-induced charges in the same exposure. It affects
+both deep-depleted and thinned CCD sensors.</p></li>
+<li><p><a class="reference external" href="https://ui.adsabs.harvard.edu/abs/2014JInst...9C3048A/abstract">The brighter-fatter effect and pixel correlations in CCD
+sensors</a></p></li>
+<li><p><a class="reference external" href="https://ui.adsabs.harvard.edu/abs/2015JInst..10C5015W/abstract">The Brighter-Fatter and other sensor effects in CCD simulations for
+precision
+astronomy</a></p></li>
+<li><p><a class="reference external" href="https://ui.adsabs.harvard.edu/abs/2018AJ....155..258C/abstract">Exploring the Brighter-fatter Effect with the Hyper
+Suprime-Cam</a></p></li>
+<li><p><a class="reference external" href="https://arxiv.org/abs/1906.01846">Brighter-fatter effect in near-infrared detectors – I. Theory of
+flat auto-correlations</a></p>
+<ul>
+<li><p><a class="reference external" href="https://github.com/BJRauscher/nghxrg">nghxrg - Teledyne HxRG Read Noise
+Generator</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://arxiv.org/abs/1906.01847">Brighter-fatter effect in near-infrared detectors – II.
+Auto-correlation analysis of H4RG-10
+flats</a></p></li>
+<li><p><a class="reference external" href="https://ui.adsabs.harvard.edu/abs/2017PASP..129h4502B/abstract">Is Flat fielding Safe for Precision CCD
+Astronomy?</a></p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="astrometric-calibration">
+<h3>Astrometric Calibration<a class="headerlink" href="#astrometric-calibration" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/dstndstn/astrometry.net">Astrometry.net – automatic recognition of astronomical
+images</a></p>
+<ul>
+<li><p>Made by Dustin Lang. The best astrometric calibration tool on the
+market.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://www.astromatic.net/software/scamp">SCAMP from
+Astromatic.net</a></p>
+<ul>
+<li><p><strong>SCAMP</strong> reads SExtractor catalogs and computes astrometric and
+photometric solutions for any arbitrary sequence of FITS images in
+a completely automatic way.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="photometric-calibration">
+<h3>Photometric Calibration<a class="headerlink" href="#photometric-calibration" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/erykoff/fgcm">FGCM - Forward Global Calibration
+Method</a></p>
+<ul>
+<li><p>Based on the algorithm developed in <a class="reference external" href="http://adsabs.harvard.edu/abs/2018AJ....155...41B">Forward Global Photometric
+Calibration of the Dark Energy Survey in Burke et
+al. 2018</a></p></li>
+<li><p>The <a class="reference external" href="https://github.com/lsst/fgcmcal/blob/master/cookbook/README.md">FGCM
+Cookbook</a>
+is very good place to start.</p></li>
+<li><p>The <a class="reference external" href="https://github.com/lsst/fgcmcal">Global Photometric Calibration in LSST with
+FGCM</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="image-reproection-and-co-addition">
+<h3>Image Reproection and Co-addition<a class="headerlink" href="#image-reproection-and-co-addition" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/spacetelescope/drizzle">drizzle - A package for combining dithered images into a single
+image</a></p>
+<ul>
+<li><p>The drizzle library is a Python package for combining dithered
+images into a single image. This library is derived from code used
+in DrizzlePac. Like DrizzlePac, most of the code is implemented in
+the C language.</p></li>
+<li><p><a class="reference external" href="https://github.com/spacetelescope/drizzlepac">The original drizzlepac library for HST
+images</a></p></li>
+<li><p><a class="reference external" href="https://drizzlepac.readthedocs.io/en/latest/#">The online document for
+DrizzlePac</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/astropy/reproject">reproject by astropy - Python-based Astronomical image
+reprojection</a></p>
+<ul>
+<li><p>By reprojection, we mean the re-gridding of images from one world
+coordinate system to another (for example changing the pixel
+resolution, orientation, coordinate system).</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://www.astromatic.net/software/swarp">SWarp by
+Astromatic.net</a></p>
+<ul>
+<li><p><strong>SWarp</strong> is a program that resamples and co-adds together FITS
+images using any arbitrary astrometric projection defined in the
+WCS standard</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="http://montage.ipac.caltech.edu/">Montage - Image Mosaic Software for
+Astronomers</a></p>
+<ul>
+<li><p><strong>Montage</strong> is a toolkit for assembling Flexible Image Transport
+System (FITS) images into custom mosaics. <a class="reference external" href="http://montage.ipac.caltech.edu/docs/index.html">Online document is
+here</a></p></li>
+<li><p>It is also on
+<a class="reference external" href="https://github.com/Caltech-IPAC/Montage">Github</a>. And there is
+an <a class="reference external" href="http://hachi.ipac.caltech.edu:8080/montage">Image Mosaic
+Service</a> for 2MASS,
+SDSS, WISE images.</p></li>
+<li><p><a class="reference external" href="https://github.com/astropy/montage-wrapper">montage-wrapper - Python wrapper for the Montage mosaicking
+toolkit</a></p>
+<ul>
+<li><p>This package provides a python wrapper to the Montage
+Astronomical Image Mosaic Engine</p></li>
+<li><p><a class="reference external" href="https://github.com/Caltech-IPAC/MontageNotebooks">Jupyter notebooks illustrating the use of the Python version
+of
+Montage</a></p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../../../index.html">Taotie</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../research/getting_started.html">Getting Started as a Researcher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../research/computer_basics.html">Setting Up a Computer Environment for Research</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../research/job_and_career.html">Job Search and Career Related</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../research/writing_paper.html">About Writing Academic Paper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../stats_data_ml.html">Statistics, Data Science, &amp; Machine Learning</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../astro_readme.html">Astro README.md</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../astro_research_basic.html">Basic Tools for Astrophysical Research</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../astro_topic.html">Resources and Tools for a Specific Topic</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../astro_project.html">Resources about Important Astrophysical and Cosmological Projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../astro_reading.html">Reading List for a Specific Topic</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../python.html">Everything about Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../programing/clang_basic.html">C Programming Language</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../programing/cpp_basic.html">C++ Programming Language</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../programing/julia_basic.html">The Julia Programming Language</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../programing/numerical_method.html">Resources and Tools for Numerical Method and Scientific Computing</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../research/getting_started_cn.html">如何正确地踏上天文科研的不归路</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../../index.html">Documentation overview</a><ul>
+  <li><a href="../../../astro_topic.html">Resources and Tools for a Specific Topic</a><ul>
+      <li>Previous: <a href="../../../astro_topic.html" title="previous chapter">Resources and Tools for a Specific Topic</a></li>
+      <li>Next: <a href="photometry.html" title="next chapter">Photometric Analysis of Astronomical Targets</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2019, Song Huang.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../../../_sources/resource/astro/topics/ccd_reduction.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

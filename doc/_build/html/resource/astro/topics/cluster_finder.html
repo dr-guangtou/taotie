@@ -1,0 +1,222 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Group or Cluster Detection Algorithms &#8212; Taotie 0.1 documentation</title>
+    <link rel="stylesheet" href="../../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../../_static/language_data.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Models for Galaxy Formation and Evolution" href="galaxy_formation_model.html" />
+    <link rel="prev" title="Photometric Redshift Tools and Algorithms" href="photoz.html" />
+   
+  <link rel="stylesheet" href="../../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="group-or-cluster-detection-algorithms">
+<h1>Group or Cluster Detection Algorithms<a class="headerlink" href="#group-or-cluster-detection-algorithms" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>This topic has become more and more important for the study of
+galaxy-halo connection.</p></li>
+</ul>
+<div class="section" id="based-on-clustering-of-galaxies">
+<h2>Based on clustering of galaxies<a class="headerlink" href="#based-on-clustering-of-galaxies" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/sfarrens/sfof">sfof - Friends-of-Friends Galaxy Cluster Detection
+Algorithm</a></p>
+<ul>
+<li><p>By <a class="reference external" href="https://sfarrens.github.io/">Samuel Farrens</a>. SFoF is a
+friends-of-friends galaxy cluster detection algorithm that
+operates in either spectroscopic or photometric redshift space.
+The linking parameters, both transverse and along the
+line-of-sight, change as a function of redshift to account for
+selection effects.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="using-the-velocity-redshift-information">
+<h2>Using the velocity (redshift information)<a class="headerlink" href="#using-the-velocity-redshift-information" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>[<strong>FOG</strong> - identifies locations of clusters by looking for the
+Finger-of-God effect]</p>
+<ul>
+<li><p>Also in Abdullah et al. 2018 (AWK18) introduced a new technique
+(GalWeight) to assign cluster membership.</p></li>
+<li><p>A catalog of 1870 clusters at 0.01 &lt; z &lt; 0.2 from SDSS DR13
+(<strong>GalWCat19</strong>) can be found
+<a class="reference external" href="https://mohamed-elhashash-94.webself.net/galwcat">here</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="based-on-red-sequence-of-the-cluster-members">
+<h2>Based on red-sequence of the cluster members<a class="headerlink" href="#based-on-red-sequence-of-the-cluster-members" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="redmapper-red-sequence-matched-filter-probabilistic-percolation">
+<h3>redMaPPer: red-sequence Matched-filter Probabilistic Percolation<a class="headerlink" href="#redmapper-red-sequence-matched-filter-probabilistic-percolation" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/erykoff/redmapper">redMaPPer - The Red-sequence Cluster
+Finder</a></p>
+<ul>
+<li><p>By <a class="reference external" href="https://github.com/erykoff">Eli Rykoff</a>. This is the
+open-source, python version of the red-sequence matched-filter
+Probabilistic Percolation (redMaPPer) cluster finder, originally
+described in Rykoff et al. (2014), with updates described in Rozo
+et al. (2015) and Rykoff et al. (2016).</p></li>
+<li><p>One of the most commonly used algorithm in recent years.</p></li>
+</ul>
+</li>
+</ul>
+<div class="section" id="papers">
+<h4>Papers:<a class="headerlink" href="#papers" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="https://ui.adsabs.harvard.edu/abs/2014ApJ...785..104R/abstract">redMaPPer. I. Algorithm and SDSS DR8
+Catalog</a></p></li>
+<li><p><a class="reference external" href="https://ui.adsabs.harvard.edu/abs/2014ApJ...783...80R/abstract">redMaPPer II: X-Ray and SZ Performance Benchmarks for the SDSS
+Catalog</a></p></li>
+<li><p><a class="reference external" href="https://ui.adsabs.harvard.edu/abs/2015MNRAS.450..592R/abstract">redMaPPer - III. A detailed comparison of the Planck 2013 and SDSS
+DR8 redMaPPer cluster
+catalogues</a></p></li>
+<li><p><a class="reference external" href="https://ui.adsabs.harvard.edu/abs/2015MNRAS.453...38R/abstract">redMaPPer - IV. Photometric membership identification of red cluster
+galaxies with 1 per cent
+precision</a></p></li>
+</ul>
+</div>
+<div class="section" id="calibration">
+<h4>Calibration:<a class="headerlink" href="#calibration" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="issues">
+<h4>Issues:<a class="headerlink" href="#issues" title="Permalink to this headline">¶</a></h4>
+</div>
+</div>
+<div class="section" id="camira">
+<h3>CAMIRA<a class="headerlink" href="#camira" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+<div class="section" id="test-cluster-finder-in-mock-catalog">
+<h2>Test cluster finder in mock catalog<a class="headerlink" href="#test-cluster-finder-in-mock-catalog" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/sfarrens/pycymatch">pycymatch</a></p>
+<ul>
+<li><p><strong>Pycymatch</strong> is a cylindrical matching code for identifying
+matches between a catalogue of simulated dark matter haloes
+populated with galaxies and the results of a cluster detection
+algorithm run on said catalogue.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../../../index.html">Taotie</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../research/getting_started.html">Getting Started as a Researcher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../research/computer_basics.html">Setting Up a Computer Environment for Research</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../research/job_and_career.html">Job Search and Career Related</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../research/writing_paper.html">About Writing Academic Paper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../stats_data_ml.html">Statistics, Data Science, &amp; Machine Learning</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../astro_readme.html">Astro README.md</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../astro_research_basic.html">Basic Tools for Astrophysical Research</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../astro_topic.html">Resources and Tools for a Specific Topic</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../astro_project.html">Resources about Important Astrophysical and Cosmological Projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../astro_reading.html">Reading List for a Specific Topic</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../python.html">Everything about Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../programing/clang_basic.html">C Programming Language</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../programing/cpp_basic.html">C++ Programming Language</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../programing/julia_basic.html">The Julia Programming Language</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../programing/numerical_method.html">Resources and Tools for Numerical Method and Scientific Computing</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../research/getting_started_cn.html">如何正确地踏上天文科研的不归路</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../../index.html">Documentation overview</a><ul>
+  <li><a href="../../../astro_topic.html">Resources and Tools for a Specific Topic</a><ul>
+      <li>Previous: <a href="photoz.html" title="previous chapter">Photometric Redshift Tools and Algorithms</a></li>
+      <li>Next: <a href="galaxy_formation_model.html" title="next chapter">Models for Galaxy Formation and Evolution</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2019, Song Huang.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../../../_sources/resource/astro/topics/cluster_finder.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
