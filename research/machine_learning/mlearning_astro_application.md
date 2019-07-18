@@ -11,7 +11,7 @@
 * [Morpheus: A Deep Learning Framework For Pixel-Level Analysis of Astronomical Image Data](https://morpheus-project.github.io/morpheus/)
     - By Ryan Hausen & Brant Robertson. Based on the [work here](https://arxiv.org/pdf/1906.11248.pdf). [Source code is on Github](https://github.com/morpheus-project/morpheus).
     * __Morpheus__ is a neural network model used to generate pixel-level morphological classifications for astronomical sources. This model can be used to generate segmentation maps or to inform other photometric measurements with granular morphological information. Built on __Tensorflow__.
-    * [Online document is here](https://morpheus-astro.readthedocs.io/en/latest/); and [this notebook](https://github.com/morpheus-project/morpheus/blob/master/examples/example_array.ipynb) is a good place to get started. 
+    * [Online document is here](https://morpheus-astro.readthedocs.io/en/latest/); and [this notebook](https://github.com/morpheus-project/morpheus/blob/master/examples/example_array.ipynb) is a good place to get started.
 
 * [Rotation-invariant convolutional neural networks for galaxy morphology prediction](https://ui.adsabs.harvard.edu/abs/2015MNRAS.450.1441D/abstract)
 
