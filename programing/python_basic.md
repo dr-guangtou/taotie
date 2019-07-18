@@ -15,6 +15,10 @@
 * [Awesome Python](https://github.com/vinta/awesome-python)
     - A curated list of awesome Python frameworks, libraries, software and resources.
 
+* [Comprehensive Python Cheatsheet](https://gto76.github.io/python-cheatsheet/)
+    - Made by [Jure Šorn](https://github.com/gto76). The [source files are here](https://github.com/gto76/python-cheatsheet)
+
+
 ## Dig Deeper
 
 * [All Algorithms implemented in Python](https://github.com/TheAlgorithms/Python)
