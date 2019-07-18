@@ -14,6 +14,10 @@
 * [Cornell CS4780/CS5780 - Machine Learning for Intelligent Systems](http://www.cs.cornell.edu/courses/cs4780/2018fa/)
 	- Lectures and video recordings are available for free.
 
+* [Dive into Deep Learning: an interactive deep learning book with code, math, and discussions](https://d2l.ai/)
+	* The [Github repo for the book is here](https://github.com/d2l-ai/d2l-en)
+	* [The version based on __numpy__](http://numpy.d2l.ai/)
+
 ## Handy Cheatsheets
 
 - [VIP cheatsheets for Stanford's CS 229 Machine Learning](https://github.com/afshinea/stanford-cs-229-machine-learning)
