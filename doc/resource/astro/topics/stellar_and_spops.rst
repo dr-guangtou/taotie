@@ -268,6 +268,14 @@ Tools for Stellar Physics
    -  If you use Python, try Andy Casey’s `Installing MOOG the Easy
       Way <https://github.com/andycasey/moog>`__
 
+-  `StePar - an automatic code used to infer stellar atmospheric
+   parameters using the EW
+   method <https://github.com/hmtabernero/StePar>`__
+
+   -  Please see `Tabernero et
+      al. 2019 <https://arxiv.org/pdf/1907.06512.pdf>`__ for more
+      details.
+
 Stellar Population Synthesis or SED Fitting
 -------------------------------------------
 

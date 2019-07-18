@@ -47,6 +47,15 @@ Photometric Redshift
 Cosmology
 ---------
 
+-  `ml-in-cosmology - a comprehensive list of published machine learning
+   applications to
+   cosmology <https://github.com/georgestein/ml-in-cosmology>`__
+
+   -  A beautiful list compiled by `George
+      Stein <https://github.com/georgestein>`__
+   -  “Each entry contains the paper title, a simple summary of the
+      machine learning methods used in the work, and the arxiv link”
+
 -  `MiSTree - Beyond two-point statistics: using the Minimum Spanning
    Tree as a tool for
    cosmology <https://knaidoo29.github.io/mistreedoc/index.html>`__

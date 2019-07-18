@@ -17,6 +17,18 @@ Based on clustering of galaxies
       line-of-sight, change as a function of redshift to account for
       selection effects.
 
+Using the velocity (redshift information)
+-----------------------------------------
+
+-  [**FOG** - identifies locations of clusters by looking for the
+   Finger-of-God effect]
+
+   -  Also in Abdullah et al. 2018 (AWK18) introduced a new technique
+      (GalWeight) to assign cluster membership.
+   -  A catalog of 1870 clusters at 0.01 < z < 0.2 from SDSS DR13
+      (**GalWCat19**) can be found
+      `here <https://mohamed-elhashash-94.webself.net/galwcat>`__
+
 Based on red-sequence of the cluster members
 --------------------------------------------
 
@@ -29,8 +41,8 @@ redMaPPer: red-sequence Matched-filter Probabilistic Percolation
    -  By `Eli Rykoff <https://github.com/erykoff>`__. This is the
       open-source, python version of the red-sequence matched-filter
       Probabilistic Percolation (redMaPPer) cluster finder, originally
-      described in Rykoff et al. (2014), with updates described in Rozo
-      et al. (2015) and Rykoff et al. (2016).
+      described in Rykoff et al. (2014), with updates described in Rozo
+      et al. (2015) and Rykoff et al. (2016).
    -  One of the most commonly used algorithm in recent years.
 
 Papers:

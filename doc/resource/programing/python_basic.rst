@@ -25,6 +25,12 @@ Basic
    -  A curated list of awesome Python frameworks, libraries, software
       and resources.
 
+-  `Comprehensive Python
+   Cheatsheet <https://gto76.github.io/python-cheatsheet/>`__
+
+   -  Made by `Jure Šorn <https://github.com/gto76>`__. The `source
+      files are here <https://github.com/gto76/python-cheatsheet>`__
+
 Dig Deeper
 ----------
 

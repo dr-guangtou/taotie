@@ -86,13 +86,13 @@ Semi-Analytic Model
 
    -  **SAGE** is a publicly available code-base for modelling galaxy
       formation in a cosmological context. A description of the model
-      and its default calibration results can be found in `Croton et al.
-      (2016) <https://arxiv.org/abs/1601.04709>`__. These calibration
-      results can also be explored in an `iPython
+      and its default calibration results can be found in `Croton et
+      al. (2016) <https://arxiv.org/abs/1601.04709>`__. These
+      calibration results can also be explored in an `iPython
       notebook <https://github.com/darrencroton/sage/blob/master/output/SAGE_MM.ipynb>`__
       showcasing the key figures here. SAGE is a significant update to
-      that previously used in `Croton et al.
-      (2006) <https://arxiv.org/abs/astro-ph/0508046>`__.
+      that previously used in `Croton et
+      al. (2006) <https://arxiv.org/abs/astro-ph/0508046>`__.
    -  **SAGE** is written in C and was built to be modular and
       customisable. It will run on any N-body simulation whose trees are
       organised in a supported format and contain a minimum set of basic
@@ -179,6 +179,7 @@ Semi-Empirical Model (SEM)
    this approach is that it can run on N-body simulations much faster
    and hence can be directly constrained by a series of observations at
    different epochs through Bayesian analysis.
+
 -  Some important early works on this topic include: `Behroozi et
    al. 2010 <https://ui.adsabs.harvard.edu/abs/2010ApJ...717..379B/abstract>`__,
    `Moster et

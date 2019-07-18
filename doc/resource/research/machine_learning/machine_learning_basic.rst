@@ -23,6 +23,13 @@ Basic Courses
 
    -  Lectures and video recordings are available for free.
 
+-  `Dive into Deep Learning: an interactive deep learning book with
+   code, math, and discussions <https://d2l.ai/>`__
+
+   -  The `Github repo for the book is
+      here <https://github.com/d2l-ai/d2l-en>`__
+   -  `The version based on numpy <http://numpy.d2l.ai/>`__
+
 Handy Cheatsheets
 -----------------
 

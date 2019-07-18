@@ -44,6 +44,26 @@ Source Extraction and Deblender
       working with for 2d images, implemented in python. Used by DES
       data analysis.
 
+Probabilistic Cataloging
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  `PCAT - A transdimensional, hierarchical, Bayesian framework to
+   sample from a metamodel <https://github.com/tdaylan/pcat>`__
+
+   -  Based on the work by `Daylan et
+      al. 2016 <https://ui.adsabs.harvard.edu/abs/2017ApJ...839....4D/abstract>`__;
+      the application on crowded field photometry can be found in
+      `Portillo et
+      al. 2018 <https://ui.adsabs.harvard.edu/abs/2017AJ....154..132P/abstract>`__
+
+-  `multiband_pcat - A transdimensional, Bayesian sampler using
+   hierarchical modeling to catalog point sources in multiple
+   passbands <https://github.com/RichardFeder/multiband_pcat>`__
+
+   -  Based on the work by `Feder et
+      al. 2019 <https://ui.adsabs.harvard.edu/abs/2019arXiv190704929F/abstract>`__.
+      Now only works for point sources.
+
 For Low Surface Brightness or Extremely Faint Targets
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
