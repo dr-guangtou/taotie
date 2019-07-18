@@ -1,0 +1,236 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>LSST Design Documents Sphinx Theme &#8212; Taotie 0.1 documentation</title>
+    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/language_data.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="lsst-design-documents-sphinx-theme">
+<h1><a class="toc-backref" href="#id1">LSST Design Documents Sphinx Theme</a><a class="headerlink" href="#lsst-design-documents-sphinx-theme" title="Permalink to this headline">¶</a></h1>
+<p>Forked from <a class="reference external" href="http://github.com/snide/sphinx_rtd_theme">http://github.com/snide/sphinx_rtd_theme</a>.</p>
+<div class="contents topic" id="contents">
+<p class="topic-title first">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#lsst-design-documents-sphinx-theme" id="id1">LSST Design Documents Sphinx Theme</a></p>
+<ul>
+<li><p><a class="reference internal" href="#using-it" id="id2">Using it</a></p></li>
+<li><p><a class="reference internal" href="#changelog" id="id3">Changelog</a></p>
+<ul>
+<li><p><a class="reference internal" href="#v0-1-8" id="id4">v0.1.8</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#how-the-table-of-contents-builds" id="id5">How the Table of Contents builds</a></p></li>
+<li><p><a class="reference internal" href="#contributing-or-modifying-the-theme" id="id6">Contributing or modifying the theme</a></p>
+<ul>
+<li><p><a class="reference internal" href="#set-up-your-environment" id="id7">Set up your environment</a></p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<a class="reference internal image-reference" href="../../_images/screen_mobile.png"><img alt="../../_images/screen_mobile.png" src="../../_images/screen_mobile.png" style="width: 100%;" /></a>
+<div class="section" id="using-it">
+<h2><a class="toc-backref" href="#id2">Using it</a><a class="headerlink" href="#using-it" title="Permalink to this headline">¶</a></h2>
+<p>In your <code class="docutils literal notranslate"><span class="pre">requirements.txt</span></code> add:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">-</span><span class="n">e</span> <span class="n">git</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">lsst</span><span class="o">-</span><span class="n">sqre</span><span class="o">/</span><span class="n">lsst_dd_rtd_theme</span><span class="o">.</span><span class="n">git</span><span class="nd">@master</span><span class="c1">#egg=lsst_dd_rtd_theme</span>
+</pre></div>
+</div>
+<p>In your <code class="docutils literal notranslate"><span class="pre">conf.py</span></code> file:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">lsst_dd_rtd_theme</span>
+<span class="n">html_theme</span> <span class="o">=</span> <span class="s2">&quot;lsst_dd_rtd_theme&quot;</span>
+<span class="n">html_theme_path</span> <span class="o">=</span> <span class="p">[</span><span class="n">lsst_dd_rtd_theme</span><span class="o">.</span><span class="n">get_html_theme_path</span><span class="p">()]</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="changelog">
+<h2><a class="toc-backref" href="#id3">Changelog</a><a class="headerlink" href="#changelog" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="v0-1-8">
+<h3><a class="toc-backref" href="#id4">v0.1.8</a><a class="headerlink" href="#v0-1-8" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Start keeping changelog :)</p></li>
+<li><p>Support for third and fourth level headers in the sidebar</p></li>
+<li><p>Add support for Sphinx 1.3</p></li>
+<li><p>Add sidebar headers for :caption: in Sphinx toctree</p></li>
+<li><p>Clean up sidebar scrolling behavior so it never scrolls out of view</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="how-the-table-of-contents-builds">
+<h2><a class="toc-backref" href="#id5">How the Table of Contents builds</a><a class="headerlink" href="#how-the-table-of-contents-builds" title="Permalink to this headline">¶</a></h2>
+<p>Currently the left menu will build based upon any <code class="docutils literal notranslate"><span class="pre">toctree(s)</span></code> defined in your index.rst file.
+It outputs 2 levels of depth, which should give your visitors a high level of access to your
+docs. If no toctrees are set the theme reverts to sphinx’s usual local toctree.</p>
+<p>It’s important to note that if you don’t follow the same styling for your rST headers across
+your documents, the toctree will misbuild, and the resulting menu might not show the correct
+depth when it renders.</p>
+<p>Also note that the table of contents is set with <code class="docutils literal notranslate"><span class="pre">includehidden=true</span></code>. This allows you
+to set a hidden toc in your index file with the <a class="reference external" href="http://sphinx-doc.org/markup/toctree.html">hidden</a> property that will allow you
+to build a toc without it rendering in your index.</p>
+<p>By default, the navigation will “stick” to the screen as you scroll. However if your toc
+is vertically too large, it will revert to static positioning. To disable the sticky nav
+altogether change the setting in <code class="docutils literal notranslate"><span class="pre">conf.py</span></code>.</p>
+</div>
+<div class="section" id="contributing-or-modifying-the-theme">
+<h2><a class="toc-backref" href="#id6">Contributing or modifying the theme</a><a class="headerlink" href="#contributing-or-modifying-the-theme" title="Permalink to this headline">¶</a></h2>
+<p>The lsst_dd_rtd_theme is primarily a <a class="reference external" href="http://www.sass-lang.com">sass</a> project that requires a few other sass libraries. I’m
+using <a class="reference external" href="http://www.bower.io">bower</a> to manage these dependencies and <a class="reference external" href="http://www.sass-lang.com">sass</a> to build the css. The good news is
+I have a very nice set of <a class="reference external" href="http://www.gruntjs.com">grunt</a> operations that will not only load these dependencies, but watch
+for changes, rebuild the sphinx demo docs and build a distributable version of the theme.
+The bad news is this means you’ll need to set up your environment similar to that
+of a front-end developer (vs. that of a python developer). That means installing node and ruby.</p>
+<div class="section" id="set-up-your-environment">
+<h3><a class="toc-backref" href="#id7">Set up your environment</a><a class="headerlink" href="#set-up-your-environment" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Install <a class="reference external" href="http://www.sphinx-doc.org">sphinx</a> into a virtual environment.</p></li>
+</ol>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">sphinx</span>
+</pre></div>
+</div>
+<ol class="arabic simple" start="2">
+<li><p>Install sass</p></li>
+</ol>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gem</span> <span class="n">install</span> <span class="n">sass</span>
+</pre></div>
+</div>
+<ol class="arabic simple" start="2">
+<li><p>Install node, bower and grunt.</p></li>
+</ol>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">//</span> <span class="n">Install</span> <span class="n">node</span>
+<span class="n">brew</span> <span class="n">install</span> <span class="n">node</span>
+
+<span class="o">//</span> <span class="n">Install</span> <span class="n">bower</span> <span class="ow">and</span> <span class="n">grunt</span>
+<span class="n">npm</span> <span class="n">install</span> <span class="o">-</span><span class="n">g</span> <span class="n">bower</span> <span class="n">grunt</span><span class="o">-</span><span class="n">cli</span>
+
+<span class="o">//</span> <span class="n">Now</span> <span class="n">that</span> <span class="n">everything</span> <span class="ow">is</span> <span class="n">installed</span><span class="p">,</span> <span class="n">let</span><span class="s1">&#39;s install the theme dependecies.</span>
+<span class="n">npm</span> <span class="n">install</span>
+</pre></div>
+</div>
+<p>Now that our environment is set up, make sure you’re in your virtual environment, go to
+this repository in your terminal and run grunt:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">grunt</span>
+</pre></div>
+</div>
+<p>This default task will do the following <strong>very cool things that make it worth the trouble</strong>.</p>
+<ol class="arabic simple">
+<li><p>It’ll install and update any bower dependencies.</p></li>
+<li><p>It’ll run sphinx and build new docs.</p></li>
+<li><p>It’ll watch for changes to the sass files and build css from the changes.</p></li>
+<li><p>It’ll rebuild the sphinx docs anytime it notices a change to .rst, .html, .js
+or .css files.</p></li>
+</ol>
+</div>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../../index.html">Taotie</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../resource/research/getting_started.html">Getting Started as a Researcher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../resource/research/computer_basics.html">Basic computer environment for research</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../resource/research/job_and_career.html">Job Search and Career Related</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../resource/research/writing_paper.html">About Writing Academic Paper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../stats_data_ml.html">Statistics, Data Science, &amp; Machine Learning</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../resource/astro/astro_readme.html">Astro README.md</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../resource/astro/astro_research_basic.html">Basic Tools for Astrophysical Research</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../astro_topic.html">Resources and Tools for a Specific Topic</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../python.html">Everything about Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../resource/programing/clang_basic.html">Resource about C Programming Language</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../resource/programing/cpp_basic.html">Resource about C++ Programming Language</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../resource/programing/julia_basic.html">The Julia Programming Language</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../resource/programing/julia_basic.html#basic-information">Basic Information</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../resource/programing/julia_basic.html#useful-packages">Useful Packages</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../resource/programing/numerical_method.html">Resources and Tools for Numerical Method and Scientific Computing</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2019, Song Huang.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../../_sources/src/lsst-dd-rtd-theme/README.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

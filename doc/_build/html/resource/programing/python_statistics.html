@@ -1,0 +1,345 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Statistical Analysis and Model in Python &#8212; Taotie 0.1 documentation</title>
+    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/language_data.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Visualization using Python" href="python_visualization.html" />
+    <link rel="prev" title="Python Tools for Model Fitting and General Optimization" href="python_optimization.html" />
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="statistical-analysis-and-model-in-python">
+<h1>Statistical Analysis and Model in Python<a class="headerlink" href="#statistical-analysis-and-model-in-python" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="error-propagation">
+<h2>Error Propagation<a class="headerlink" href="#error-propagation" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="http://docs.astropy.org/en/stable/uncertainty/">astropy.uncertainty</a></p>
+<ul>
+<li><p>Provides a <strong>Distribution</strong> object to represent statistical
+distributions in a form that acts as a drop-in replacement for
+<strong>Quantity</strong> or a regular <strong>numpy.ndarray</strong>. Still work in
+progress.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/lebigot/uncertainties">uncertainties - Transparent calculations with uncertainties on the
+quantities involved</a></p>
+<ul>
+<li><p>The <strong>uncertainties</strong> package is a free, cross-platform program
+that transparently handles calculations with numbers with
+uncertainties (like 3.14±0.01). It can also yield the derivatives
+of any expression.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="modeling-tool">
+<h2>Modeling Tool<a class="headerlink" href="#modeling-tool" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/thouska/spotpy">spotpy - A Statistical Parameter Optimization
+Tool</a></p>
+<ul>
+<li><p>SPOTPY is a Python framework that enables the use of Computational
+optimization techniques for calibration, uncertainty and
+sensitivity analysis techniques of almost every (environmental-)
+model.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/fmfn/BayesianOptimization">BayesianOptimization - A Python implementation of global
+optimization with gaussian
+processes</a></p>
+<ul>
+<li><p>This is a constrained global optimization package built upon
+bayesian inference and gaussian process, that attempts to find the
+maximum value of an unknown function in as few iterations as
+possible.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="sampling-tools-and-bayesian-analysis">
+<h2>Sampling Tools and Bayesian Analysis<a class="headerlink" href="#sampling-tools-and-bayesian-analysis" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/dfm/emcee">emcee - The Python ensemble sampling toolkit for affine-invariant
+MCMC</a></p>
+<ul>
+<li><p>By Dan Foreman-Mackey. <strong>emcee</strong> is a stable, well tested Python
+implementation of the affine-invariant ensemble sampler for Markov
+chain Monte Carlo (MCMC) proposed by Goodman &amp; Weare (2010).</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/joshspeagle/dynesty">dynesty - Dynamic Nested Sampling package for computing Bayesian
+posteriors and evidences</a></p>
+<ul>
+<li><p>By <a class="reference external" href="https://joshspeagle.github.io/">Josh Speagle</a>. A Dynamic
+Nested Sampling package for computing Bayesian posteriors and
+evidences. Pure Python.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/kbarbary/nestle">nestle - Pure Python, MIT-licensed implementation of nested sampling
+algorithms for evaluating Bayesian
+evidence</a></p>
+<ul>
+<li><p>By <a class="reference external" href="http://kylebarbary.com/">Kyle Barbary</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/adammoss/nnest">nnest - Neural network accelerated nested and MCMC
+sampling</a></p>
+<ul>
+<li><p>By Adam Moss. Based on <a class="reference external" href="https://arxiv.org/abs/1903.10860">this
+paper</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/mcleonard/sampyl">sampyl - MCMC samplers for Bayesian estimation in Python, including
+Metropolis-Hastings, NUTS, and
+Slice</a></p>
+<ul>
+<li><p><strong>Sampyl</strong> is a package for sampling from probability
+distributions using MCMC methods. Similar to <strong>PyMC3</strong> using
+theano to compute gradients, Sampyl uses autograd to compute
+gradients.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/pymc-devs/pymc3">PyMC3 - Probabilistic Programming in Python: Bayesian Modeling and
+Probabilistic Machine Learning with
+Theano</a></p>
+<ul>
+<li><p><strong>PyMC3</strong> is a Python package for Bayesian statistical modeling
+and Probabilistic Machine Learning focusing on advanced Markov
+chain Monte Carlo (MCMC) and variational inference (VI)
+algorithms. Its flexibility and extensibility make it applicable
+to a large suite of problems.</p></li>
+<li><p><a class="reference external" href="https://docs.pymc.io/notebooks/getting_started">Getting started with
+PyMC3</a> and the
+<a class="reference external" href="https://docs.pymc.io/nb_examples/index.html">Example
+Notebooks</a> are
+good places to get started.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/pymc-devs/pymc4">PyMC4 - A high-level probabilistic programming interface for
+TensorFlow Probability</a></p></li>
+</ul>
+</div>
+<div class="section" id="gaussian-process">
+<h2>Gaussian Process<a class="headerlink" href="#gaussian-process" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>A full introduction to the theory of Gaussian Processes is available
+for free online: <a class="reference external" href="http://www.gaussianprocess.org/gpml/">Rasmussen &amp; Williams
+(2006)</a>.</p></li>
+<li><p><a class="reference external" href="https://astrostatistics.psu.edu/su14/lectures/penn-gp.pdf">An Astronomer’s Introduction to Gaussian
+Processes</a></p>
+<ul>
+<li><p>Very good introduction by Dan Foreman-Mackey.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://scikit-learn.org/stable/modules/gaussian_process.html">sklearn.gaussian_process - The Gaussian Processes module in
+scikit-learn</a></p></li>
+<li><p><a class="reference external" href="https://github.com/sheffieldml/gpy">GPy - Gaussian processes framework in
+python</a></p>
+<ul>
+<li><p>Gaussian processes underpin range of modern machine learning
+algorithms. In <a class="reference external" href="http://sheffieldml.github.io/GPy/">GPy</a>, we’ve
+used python to implement a range of machine learning algorithms
+based on GPs. <a class="reference external" href="https://gpy.readthedocs.io/en/deploy/">Online document is
+here</a></p></li>
+<li><p><a class="reference external" href="https://nbviewer.jupyter.org/github/SheffieldML/notebook/blob/master/GPy/index.ipynb">Jupyter notebooks to introduce
+GPy</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/GPflow/GPflow">gpflow - Gaussian processes in
+TensorFlow</a></p>
+<ul>
+<li><p><strong>GPflow</strong> is a package for building Gaussian process models in
+python, using <strong>TensorFlow</strong>.</p></li>
+<li><p><strong>GPflow</strong> implements modern Gaussian process inference for
+composable kernels and likelihoods.</p></li>
+<li><p><strong>GPflow</strong> uses TensorFlow for running computations, which allows
+fast execution on GPUs, and uses Python 3.5 or above.</p></li>
+<li><p><a class="reference external" href="https://gpflow.readthedocs.io/en/develop/">Online document is
+here</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/cornellius-gp/gpytorch">gpytorch - A highly efficient and modular implementation of Gaussian
+Processes in PyTorch</a></p>
+<ul>
+<li><p><strong>GPyTorch</strong> is a Gaussian process library implemented using
+<strong>PyTorch</strong>. <strong>GPyTorch</strong> is designed for creating scalable,
+flexible, and modular Gaussian process models with ease.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/dfm/george">george - Fast and flexible Gaussian Process regression in
+Python</a></p>
+<ul>
+<li><p>By Dan Foreman-Mackey. <strong>George</strong> is a fast and flexible Python
+library for Gaussian Process (GP) Regression.</p></li>
+<li><p>Unlike some other GP implementations, <strong>george</strong> is focused on
+efficiently evaluating the marginalized likelihood of a dataset
+under a GP prior, even as this dataset gets Big</p></li>
+<li><p>Example applications:</p>
+<ul>
+<li><p><a class="reference external" href="https://github.com/tmcclintock/AReconstructionTool">ART - A Reconstruction
+Tool</a></p></li>
+<li><p><a class="reference external" href="https://github.com/rodluger/everest">everest - De-trending of K2 Light
+curves</a></p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/dfm/celerite">celerite - Scalable 1D Gaussian Processes in C++, Python, and
+Julia</a></p>
+<ul>
+<li><p>By Dan Foreman-Mackey. <a class="reference external" href="https://celerite.readthedocs.io/en/stable/">Online document is
+here</a></p></li>
+<li><p>Based on <a class="reference external" href="https://arxiv.org/abs/1703.09710">Fast and scalable Gaussian process modeling with
+applications to astronomical time
+series</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="survival-analysis">
+<h2>Survival Analysis<a class="headerlink" href="#survival-analysis" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Traditionally, <a class="reference external" href="https://en.wikipedia.org/wiki/Survival_analysis">survival
+analysis</a> was
+developed to measure lifespans of individuals. The analysis can be
+further applied to not just traditional births and deaths, but any
+duration.</p></li>
+<li><p><strong>Survival function</strong>: the survival function defines the probability
+the death event has not occured yet at time t, or equivalently, the
+probability of surviving past time t</p></li>
+<li><p><strong>Hazard curve</strong>: the probability of the death event occurring at
+time t, given that the death event has not occurred until time t.
+Hazard function is non-parametric.</p></li>
+<li><p><strong>Kaplan-Meier estimator for survival function</strong>: Survival analysis
+assumes that upper limits have the same underlying distribution as
+the data, and the Kaplan-Meier esti- mator further assumes that
+detections and upper limits are mutually independent</p></li>
+<li><p><a class="reference external" href="https://lifelines.readthedocs.io/en/latest/">lifelines - implementation of survival analysis in
+Python</a></p>
+<ul>
+<li><p>Handles right-censored data.</p></li>
+<li><p>Example of astrophysical usage: <a class="reference external" href="https://arxiv.org/abs/1812.03392">radio SED of high-z SF
+galaxies</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../../index.html">Taotie</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../research/getting_started.html">Getting Started as a Researcher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../research/computer_basics.html">Setting Up a Computer Environment for Research</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../research/job_and_career.html">Job Search and Career Related</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../research/writing_paper.html">About Writing Academic Paper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../stats_data_ml.html">Statistics, Data Science, &amp; Machine Learning</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../astro/astro_readme.html">Astro README.md</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../astro/astro_research_basic.html">Basic Tools for Astrophysical Research</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../astro_topic.html">Resources and Tools for a Specific Topic</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../astro_project.html">Resources about Important Astrophysical and Cosmological Projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../astro_reading.html">Reading List for a Specific Topic</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../../python.html">Everything about Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="clang_basic.html">C Programming Language</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cpp_basic.html">C++ Programming Language</a></li>
+<li class="toctree-l1"><a class="reference internal" href="julia_basic.html">The Julia Programming Language</a></li>
+<li class="toctree-l1"><a class="reference internal" href="numerical_method.html">Resources and Tools for Numerical Method and Scientific Computing</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../research/getting_started_cn.html">如何正确地踏上天文科研的不归路</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../index.html">Documentation overview</a><ul>
+  <li><a href="../../python.html">Everything about Python</a><ul>
+      <li>Previous: <a href="python_optimization.html" title="previous chapter">Python Tools for Model Fitting and General Optimization</a></li>
+      <li>Next: <a href="python_visualization.html" title="next chapter">Visualization using Python</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2019, Song Huang.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../../_sources/resource/programing/python_statistics.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

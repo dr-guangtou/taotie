@@ -1,0 +1,212 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Interstellar and Intra-Galactic Medium, Dust &#8212; Taotie 0.1 documentation</title>
+    <link rel="stylesheet" href="../../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../../_static/language_data.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="High Energy Astrophysics and Astroparticle Physics" href="high_energy_astrophy.html" />
+    <link rel="prev" title="Transients and Other Time Series Science" href="transient_and_time_domain.html" />
+   
+  <link rel="stylesheet" href="../../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="interstellar-and-intra-galactic-medium-dust">
+<h1>Interstellar and Intra-Galactic Medium, Dust<a class="headerlink" href="#interstellar-and-intra-galactic-medium-dust" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="mily-way-dust-extinction-map">
+<h2>Mily Way dust extinction map<a class="headerlink" href="#mily-way-dust-extinction-map" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="maps">
+<h3>Maps<a class="headerlink" href="#maps" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://lambda.gsfc.nasa.gov/product/foreground/fg_ebv_map.cfm">SFD98 Dust
+Map</a></p>
+<ul>
+<li><p>Schlegel, Finkbeiner &amp; Davis (see 1998 reference below) derived an
+all-sky map of Galactic reddening, E(B-V), from a composite 100
+micron map formed from IRAS/ISSA maps calibrated using DIRBE
+observations.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="http://argonaut.skymaps.info/">3D Dust Mapping with Pan-STARRS 1, 2MASS and
+Gaia</a></p>
+<ul>
+<li><p>These dust maps are based on Pan-STARRS 1 photometry of 800
+million stars, 2MASS photometry of 200 million stars, and Gaia
+parallaxes of 500 million stars.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://arxiv.org/abs/1507.01005">Green et al. 2016 - A Three-Dimensional Map of Milky-Way
+Dust</a></p></li>
+<li><p><a class="reference external" href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/AV9GXO">Green et al. 2019 - High-Galactic-latitude 2D dust map using
+Gaussian
+Processes</a></p></li>
+</ul>
+</div>
+<div class="section" id="tools">
+<h3>Tools<a class="headerlink" href="#tools" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/adrn/SFD">SFD - Schlegel, Finkbeiner, David dust maps in
+Python</a></p></li>
+<li><p><a class="reference external" href="https://github.com/gregreen/dustmaps">dustmaps - A uniform interface for a number of 2D and 3D maps of
+interstellar dust
+reddening/extinction</a></p>
+<ul>
+<li><p>By <a class="reference external" href="http://greg.ory.gr/een#papers">Gregory Green</a>. Including
+multiple dust maps.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/jobovy/mwdust">mwdust - Dust in 3D in the Milky
+Way</a></p>
+<ul>
+<li><p>By Jo Bovy. Including multiple dust maps.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/karllark/dust_extinction">dust_extinction - Astronomical Dust
+Extinction</a></p>
+<ul>
+<li><p>This package provides astronomical interstellar dust extinction
+curves implemented using the astropy.modeling framework.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="interstellar-dust-model">
+<h2>Interstellar Dust Model<a class="headerlink" href="#interstellar-dust-model" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.ias.u-psud.fr/themis/THEMIS_model.html">THEMIS - The Heterogeneous dust Evolution Model for Interstellar
+Solids</a></p></li>
+<li><p><a class="reference external" href="http://www.inasan.rssi.ru/~khramtsova/SHIVA.html">SHIVA - a numerical tool for evolution of dust in the
+ISM</a></p>
+<ul>
+<li><p><strong>SHIVA</strong> simulates the dust destruction in warm neutral, warm
+ionized, and hot ionized media under the influence of
+photo-processing, sputtering, and shattering. Based on <a class="reference external" href="https://arxiv.org/pdf/1906.11308.pdf">this
+work</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="extragalactic-ism-and-dust-dataset">
+<h2>Extragalactic ISM and Dust Dataset<a class="headerlink" href="#extragalactic-ism-and-dust-dataset" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="http://dustpedia.com/">DustPedia: A Definitive Study of Cosmic Dust in the Local
+Universe</a></p></li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../../../index.html">Taotie</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../research/getting_started.html">Getting Started as a Researcher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../research/computer_basics.html">Setting Up a Computer Environment for Research</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../research/job_and_career.html">Job Search and Career Related</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../research/writing_paper.html">About Writing Academic Paper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../stats_data_ml.html">Statistics, Data Science, &amp; Machine Learning</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../astro_readme.html">Astro README.md</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../astro_research_basic.html">Basic Tools for Astrophysical Research</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../astro_topic.html">Resources and Tools for a Specific Topic</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../astro_project.html">Resources about Important Astrophysical and Cosmological Projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../astro_reading.html">Reading List for a Specific Topic</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../python.html">Everything about Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../programing/clang_basic.html">C Programming Language</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../programing/cpp_basic.html">C++ Programming Language</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../programing/julia_basic.html">The Julia Programming Language</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../programing/numerical_method.html">Resources and Tools for Numerical Method and Scientific Computing</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../research/getting_started_cn.html">如何正确地踏上天文科研的不归路</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../../index.html">Documentation overview</a><ul>
+  <li><a href="../../../astro_topic.html">Resources and Tools for a Specific Topic</a><ul>
+      <li>Previous: <a href="transient_and_time_domain.html" title="previous chapter">Transients and Other Time Series Science</a></li>
+      <li>Next: <a href="high_energy_astrophy.html" title="next chapter">High Energy Astrophysics and Astroparticle Physics</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2019, Song Huang.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../../../_sources/resource/astro/topics/ism_and_dust.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

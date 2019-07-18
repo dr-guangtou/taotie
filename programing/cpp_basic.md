@@ -1,10 +1,10 @@
-# Resource about C++ Programming Language
+# C++ Programming Language
 
 ## Learning C++
 
 * **The best way to learn programming is, always, writing your own code!**
 
-* [`CppCoreGuidelines` - The C++ Core Guidelines are a set of tried-and-true guidelines, rules, and best practices about coding in C++](https://github.com/isocpp/CppCoreGuidelines)
+* [__CppCoreGuidelines__ - The C++ Core Guidelines are a set of tried-and-true guidelines, rules, and best practices about coding in C++](https://github.com/isocpp/CppCoreGuidelines)
     - The [website version is here](http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#main)
     - The C++ Core Guidelines are a collaborative effort led by Bjarne Stroustrup, much like the C++ language itself. They are the result of many person-years of discussion and design across a number of organizations.
     - [A Chinese translation can be found here](https://github.com/lynnboy/CppCoreGuidelines-zh-CN)
@@ -18,7 +18,7 @@
 * [Modern CPP Tutorial - C++11/14/17](https://github.com/changkun/modern-cpp-tutorial)
     - This is a **Chinese** on-line book: <高速上手 C++11/14/17>
 
-* [`modern-cpp-features` - A cheatsheet of modern C++ language and library features](https://github.com/AnthonyCalandra/modern-cpp-features)
+* [__modern-cpp-features__ - A cheatsheet of modern C++ language and library features](https://github.com/AnthonyCalandra/modern-cpp-features)
     - Descriptions and examples of new features in C++
 
 ### For Python Coders
@@ -32,59 +32,59 @@
 * [Tips for Optimizing C/C++ Code](https://people.cs.clemson.edu/~dhouse/courses/405/papers/optimize.pdf)
     - Very practical and useful guides for optimizing C/C++.
 
-* [`AwesomePerfCpp` - A curated list of awesome C/C++ performance optimization resources](https://github.com/fenbf/AwesomePerfCpp)
+* [__AwesomePerfCpp__ - A curated list of awesome C/C++ performance optimization resources](https://github.com/fenbf/AwesomePerfCpp)
     - Including talks, articles, libraries, and tools
 
-* [`cpp-taskflow` - Modern C++ Parallel Task Programming Library](https://github.com/cpp-taskflow/cpp-taskflow)
+* [__cpp-taskflow__ - Modern C++ Parallel Task Programming Library](https://github.com/cpp-taskflow/cpp-taskflow)
     - A fast C++ header-only library to help you quickly write parallel programs with complex task dependencies
 
-* [`mimalloc` - mimalloc is a compact general purpose allocator with excellent performance](https://github.com/microsoft/mimalloc)
+* [__mimalloc__ - mimalloc is a compact general purpose allocator with excellent performance](https://github.com/microsoft/mimalloc)
     - By Microsoft. mimalloc (pronounced "me-malloc") is a general purpose allocator with excellent performance characteristics. It is a drop-in replacement for malloc and can be used in other programs without code changes.
 
 ### Numerical
 
-* [`GSL` - GNU Scientific Library](https://www.gnu.org/software/gsl/)
+* [__GSL__ - GNU Scientific Library](https://www.gnu.org/software/gsl/)
     - The library provides a wide range of mathematical routines such as random number generators, special functions and least-squares fitting. There are over 1000 functions in total with an extensive test suite.
     - The [online reference manual can be found here](https://www.gnu.org/software/gsl/doc/html/index.html).
 
-* [`Eigen` - a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms](http://eigen.tuxfamily.org/index.php?title=Main_Page)
+* [__Eigen__ - a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms](http://eigen.tuxfamily.org/index.php?title=Main_Page)
 
-* [`Armadillo` - C++ library for linear algebra & scientific computing](http://arma.sourceforge.net/)
-    - `Armadillo` is a high quality linear algebra library (matrix maths) for the C++ language, aiming towards a good balance between speed and ease of use
+* [__Armadillo__ - C++ library for linear algebra & scientific computing](http://arma.sourceforge.net/)
+    - __Armadillo__ is a high quality linear algebra library (matrix maths) for the C++ language, aiming towards a good balance between speed and ease of use
 
-* [`xtensor` - Multi-dimensional arrays with broadcasting and lazy computing](https://github.com/QuantStack/xtensor)
-    - `xtensor` is a C++ library meant for numerical analysis with multi-dimensional array expressions. `xtensor` can be used to process NumPy data structures inplace using Python's buffer protocol.
+* [__xtensor__ - Multi-dimensional arrays with broadcasting and lazy computing](https://github.com/QuantStack/xtensor)
+    - __xtensor__ is a C++ library meant for numerical analysis with multi-dimensional array expressions. __xtensor__ can be used to process NumPy data structures inplace using Python's buffer protocol.
 
 ### Optimization
 
-* [`OptimLib` - a lightweight C++ library of numerical optimization methods for nonlinear functions](https://github.com/kthohr/optim)
+* [__OptimLib__ - a lightweight C++ library of numerical optimization methods for nonlinear functions](https://github.com/kthohr/optim)
     - A C++11 library of local and global optimization algorithms, as well as root finding techniques, supporting a large number of algorithms.
 
-* [`nlopt` - library for nonlinear optimization](https://github.com/stevengj/nlopt)
-    - `NLopt` is a library for nonlinear local and global optimization, for functions with and without gradient information.
+* [__nlopt__ - library for nonlinear optimization](https://github.com/stevengj/nlopt)
+    - __NLopt__ is a library for nonlinear local and global optimization, for functions with and without gradient information.
 
-* [`ceres-solver` - open source C++ library for modeling and solving large, complicated optimization problems](https://github.com/ceres-solver/ceres-solver)
+* [__ceres-solver__ - open source C++ library for modeling and solving large, complicated optimization problems](https://github.com/ceres-solver/ceres-solver)
     - It can be used to solve Non-linear Least Squares problems with bounds constraints and general unconstrained optimization problems. [Used by Google for good reasons](http://ceres-solver.org/features.html). 
 
-* [`CppNumericalSolvers` - L-BFGS-B for TensorFlow or pure C++11 and other optimization methods](https://github.com/PatWie/CppNumericalSolvers)
-    - A **header-only** library with bindings to C++, `TensorFlow` and `Matlab`. 
+* [__CppNumericalSolvers__ - L-BFGS-B for TensorFlow or pure C++11 and other optimization methods](https://github.com/PatWie/CppNumericalSolvers)
+    - A **header-only** library with bindings to C++, __TensorFlow__ and __Matlab__. 
     - Easy to use, and support a list of algorithms.
 
 ### Astronomy Related
 
-* [`CCfits` - object oriented interface to the cfitsio library](https://heasarc.gsfc.nasa.gov/fitsio/CCfits/)
+* [__CCfits__ - object oriented interface to the cfitsio library](https://heasarc.gsfc.nasa.gov/fitsio/CCfits/)
     - It is designed to make the capabilities of cfitsio available to programmers working in C++. It is written in ANSI C++ and implemented using the C++ Standard Library with namespaces, exception handling, and member template functions.
 
 ## Code to Study
 
-* [`GalSim` - The modular galaxy image simulation toolkit](https://github.com/GalSim-developers/GalSim)
-    - `GalSim` is a very sophisticated system that pretty much includes everything you need to know about optics, observational astronomy, photometry, models of galaxies, and weak lensing.
+* [__GalSim__ - The modular galaxy image simulation toolkit](https://github.com/GalSim-developers/GalSim)
+    - __GalSim__ is a very sophisticated system that pretty much includes everything you need to know about optics, observational astronomy, photometry, models of galaxies, and weak lensing.
     - It also teachs you how to communicate between C++ and Python.
 
-* [`imfit` - an open-source astronomical image-fitting program](https://github.com/perwin/imfit)
+* [__imfit__ - an open-source astronomical image-fitting program](https://github.com/perwin/imfit)
     - Everything on modeling galaxies using least-chi-square or MCMC methods.
 
-* [`libprofit` - low-level C++ library that produces images based on different luminosity profiles](https://github.com/ICRAR/libprofit)
+* [__libprofit__ - low-level C++ library that produces images based on different luminosity profiles](https://github.com/ICRAR/libprofit)
     - Light-weight library to learn about modeling galaxies and image convolution.
 
-* [`TreeCorr` - Code for efficiently computing 2-point and 3-point correlation functions](https://github.com/rmjarvis/TreeCorr)
+* [__TreeCorr__ - Code for efficiently computing 2-point and 3-point correlation functions](https://github.com/rmjarvis/TreeCorr)

@@ -1,0 +1,294 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Transients and Other Time Series Science &#8212; Taotie 0.1 documentation</title>
+    <link rel="stylesheet" href="../../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../../_static/language_data.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Interstellar and Intra-Galactic Medium, Dust" href="ism_and_dust.html" />
+    <link rel="prev" title="Stellar Physics and Stellar Population" href="stellar_and_spops.html" />
+   
+  <link rel="stylesheet" href="../../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="transients-and-other-time-series-science">
+<h1>Transients and Other Time Series Science<a class="headerlink" href="#transients-and-other-time-series-science" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>Focusing on the detection and analysis of any object that shows flux
+variation.</p>
+<ul>
+<li><p>For example: variable stars, TDE, and eclipsing binaries.</p></li>
+<li><p><strong>Exoplanet</strong> and <strong>supernova</strong> are also trasients, but they have
+much broader impact therefore they have their own topics.</p></li>
+</ul>
+</li>
+</ul>
+<div class="section" id="transient-notification">
+<h2>Transient Notification<a class="headerlink" href="#transient-notification" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/lpsinger/pygcn">pycgn - Python package for processing Gamma-ray Coordinates Network
+(GCN) notices and circulars</a></p>
+<ul>
+<li><p>Anonymous VOEvent client for receiving GCN/TAN notices in XML
+format</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="data-access">
+<h2>Data Access<a class="headerlink" href="#data-access" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/MickaelRigault/ztfquery">ztfquery - Access ZTF data from
+Python</a></p>
+<ul>
+<li><p>By Mickael Rigault. <strong>ztfquery</strong> is a python tool to download ZTF
+(and SEDM) data</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="differential-photometry">
+<h2>Differential Photometry<a class="headerlink" href="#differential-photometry" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/vterron/lemon">lemon - Differential photometry for humans (and
+astronomers)</a></p>
+<ul>
+<li><p>By Víctor Terrón. <strong>LEMON</strong> is a differential-photometry pipeline,
+written in Python, that determines the changes in the brightness
+of astronomical objects over time and compiles their measurements
+into light curves.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/acbecker/hotpants">hotpants - High Order Transform of Psf ANd Template Subtraction
+code</a></p>
+<ul>
+<li><p>By Andy Becker.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/waqasbhatti/astrobase">astrobase - Python modules for light curve work and variable star
+astronomy</a></p>
+<ul>
+<li><p>By <a class="reference external" href="https://wbhatti.org/">Waqas Bhatti</a>. It includes
+implementations of several period-finding algorithms, batch work
+drivers for working on large collections of light curves, and a
+small web-app useful for reviewing and classifying light curves by
+stellar variability type.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="trasient-identification-and-classification">
+<h2>Trasient Identification and Classification<a class="headerlink" href="#trasient-identification-and-classification" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/kboone/avocado">avocado - Photometric Classification of Astronomical Transients and
+Variables With Biased Spectroscopic
+Samples</a></p>
+<ul>
+<li><p><strong>Avocado</strong> is a general photometric classification code that is
+designed to produce classifications of arbitrary astronomical
+transients and variable objects.</p></li>
+<li><p>The original codebase of avocado was developed for and won the
+<a class="reference external" href="https://www.kaggle.com/c/PLAsTiCC-2018">2018 Kaggle PLAsTiCC
+challenge</a>.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/daniel-muthukrishna/astrorapid">astrorapid - Real-time Automated Photometric IDentification (RAPID)
+of astronomical transients using deep
+learning</a></p>
+<ul>
+<li><p>By <a class="reference external" href="http://www.danielmuthukrishna.com/">Daniel Muthukrishna</a>.
+<strong>RAPID</strong> (Real-time Automated Photometric IDentification) can
+classify multiband photometric light curves into several different
+transient classes. It uses a deep recurrent neural network to
+produce time-varying classifications.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/daniel-muthukrishna/astrodash">astrodash - Deep learning for the automated spectral classification
+of supernovae</a></p>
+<ul>
+<li><p>By <a class="reference external" href="http://www.danielmuthukrishna.com/">Daniel Muthukrishna</a>.
+Software to classify the type, age, redshift and host for any
+supernova spectra. Two platforms exists: a python library that
+enables a user to classify several spectra (can classify thousands
+of spectra in seconds), and also a graphical interface that
+enables a user to view and classify a spectrum.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/dwkim78/upsilon">UPSILoN- Automated Classification of Periodic Variable Stars Using
+Machine Learning</a></p>
+<ul>
+<li><p><strong>UPSILoN</strong> (AUtomated Classification of Periodic Variable Stars
+using MachIne LearNing)</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/supernnova/SuperNNova/">SuperNNova - Open Source Photometric
+classification</a></p>
+<ul>
+<li><p>Using recurrent network technique. Based on <a class="reference external" href="https://arxiv.org/abs/1901.06384">SuperNNova: an
+open-source framework for Bayesian, Neural Network based supernova
+classification</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="lightcurve-and-exoplanet">
+<h2>Lightcurve and Exoplanet<a class="headerlink" href="#lightcurve-and-exoplanet" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/KeplerGO/lightkurve">lightkurve - A friendly package for Kepler &amp; TESS time series
+analysis in Python</a></p>
+<ul>
+<li><p><strong>Lightkurve</strong> is a community-developed, open-source Python
+package which offers a beautiful and user-friendly way to analyze
+astronomical flux time series data, in particular the pixels and
+lightcurves obtained by NASA’s Kepler and TESS exoplanet missions.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/afeinstein20/eleanor">eleanor - light curves from
+TESS</a></p>
+<ul>
+<li><p><strong>eleanor</strong> is a python package to extract target pixel files from
+TESS Full Frame Images and produce systematics-corrected light
+curves for any star observed by the TESS mission.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/rodluger/starry">starry - Analytic occultation light curves for
+astronomy</a></p>
+<ul>
+<li><p>By <a class="reference external" href="https://rodluger.github.io/">Rodrigo Luger</a>. Based on <a class="reference external" href="https://docs.google.com/viewer?url=https://github.com/rodluger/starry/raw/master-pdf/tex/starry.pdf">a
+very nice
+paper</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/rodluger/everest">everest - EPIC Variability Extraction and Removal for Exoplanet
+Science Targets</a></p>
+<ul>
+<li><p>A pipeline for de-trending K2 light curves with pixel level
+decorrelation and Gaussian processes.]</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/hippke/wotan">wotan - Automagically remove trends from time-series
+data</a></p>
+<ul>
+<li><p>By <a class="reference external" href="http://www.jaekle.info/">Michael Hippke</a>. Offers free and
+open source algorithms to automagically remove trends from
+time-series data.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../../../index.html">Taotie</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../research/getting_started.html">Getting Started as a Researcher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../research/computer_basics.html">Setting Up a Computer Environment for Research</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../research/job_and_career.html">Job Search and Career Related</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../research/writing_paper.html">About Writing Academic Paper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../stats_data_ml.html">Statistics, Data Science, &amp; Machine Learning</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../astro_readme.html">Astro README.md</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../astro_research_basic.html">Basic Tools for Astrophysical Research</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../astro_topic.html">Resources and Tools for a Specific Topic</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../astro_project.html">Resources about Important Astrophysical and Cosmological Projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../astro_reading.html">Reading List for a Specific Topic</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../python.html">Everything about Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../programing/clang_basic.html">C Programming Language</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../programing/cpp_basic.html">C++ Programming Language</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../programing/julia_basic.html">The Julia Programming Language</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../programing/numerical_method.html">Resources and Tools for Numerical Method and Scientific Computing</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../research/getting_started_cn.html">如何正确地踏上天文科研的不归路</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../../index.html">Documentation overview</a><ul>
+  <li><a href="../../../astro_topic.html">Resources and Tools for a Specific Topic</a><ul>
+      <li>Previous: <a href="stellar_and_spops.html" title="previous chapter">Stellar Physics and Stellar Population</a></li>
+      <li>Next: <a href="ism_and_dust.html" title="next chapter">Interstellar and Intra-Galactic Medium, Dust</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2019, Song Huang.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../../../_sources/resource/astro/topics/transient_and_time_domain.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

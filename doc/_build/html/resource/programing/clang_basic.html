@@ -1,0 +1,274 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>C Programming Language &#8212; Taotie 0.1 documentation</title>
+    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/language_data.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="C++ Programming Language" href="cpp_basic.html" />
+    <link rel="prev" title="Write a Python package" href="python_write_your_project.html" />
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="c-programming-language">
+<h1>C Programming Language<a class="headerlink" href="#c-programming-language" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="learning-c">
+<h2>Learning C<a class="headerlink" href="#learning-c" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><strong>The best way to learn programming is, always, writing your own
+code!</strong></p></li>
+<li><p><a class="reference external" href="http://www.drdobbs.com/cpp/why-code-in-c-anymore/240149452">Why Code in C Anymore?….Instead of
+C++</a></p>
+<ul>
+<li><p>C still has a little advantage on the performance and portability.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="http://www.cs.cornell.edu/courses/cs2022/2011sp/">CS2022: Introduction to C at
+Cornell</a></p>
+<ul>
+<li><p>Lecture slides are available.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://www.learn-c.org/">learn-c.org free interactive C
+tutorial</a></p></li>
+<li><p><a class="reference external" href="https://github.com/fredsiika/30-seconds-of-c">30-seconds-of-c</a></p>
+<ul>
+<li><p>Curated collection of useful C Programming tutorials, snippets,
+and projects that you can understand in 30 seconds or less</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="useful-libraries">
+<h2>Useful Libraries<a class="headerlink" href="#useful-libraries" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="performance">
+<h3>Performance<a class="headerlink" href="#performance" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="http://icps.u-strasbg.fr/~bastoul/local_copies/lee.html">Optimization of Computer Programs in
+C</a></p>
+<ul>
+<li><p>By Michael Lee. “It focuses on minimizing time spent by the CPU
+and gives sample source code transformations that often yield
+improvements. Memory and I/O speed improvements are also
+discussed.”</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://people.cs.clemson.edu/~dhouse/courses/405/papers/optimize.pdf">Tips for Optimizing C/C++
+Code</a></p>
+<ul>
+<li><p>Very practical and useful guides for optimizing C/C++.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/microsoft/mimalloc">mimalloc - mimalloc is a compact general purpose allocator with
+excellent performance</a></p>
+<ul>
+<li><p>By Microsoft. mimalloc (pronounced “me-malloc”) is a general
+purpose allocator with excellent performance characteristics. It
+is a drop-in replacement for malloc and can be used in other
+programs without code changes.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="numerical">
+<h3>Numerical<a class="headerlink" href="#numerical" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.gnu.org/software/gsl/">GSL - GNU Scientific Library</a></p>
+<ul>
+<li><p>The library provides a wide range of mathematical routines such as
+random number generators, special functions and least-squares
+fitting. There are over 1000 functions in total with an extensive
+test suite.</p></li>
+<li><p>The <a class="reference external" href="https://www.gnu.org/software/gsl/doc/html/index.html">online reference manual can be found
+here</a>.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="http://www.fftw.org/">FFTW</a></p>
+<ul>
+<li><p><strong>FFTW</strong> is a C subroutine library for computing the discrete
+Fourier transform (DFT) in one or more dimensions, of arbitrary
+input size, and of both real and complex data (as well as of
+even/odd data, i.e. the discrete cosine/sine transforms or
+DCT/DST).</p></li>
+<li><p>The <a class="reference external" href="http://fftw.org/fftw3_doc/">online manual can be found
+here</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="astronomy-related">
+<h3>Astronomy Related<a class="headerlink" href="#astronomy-related" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/healpy/cfitsio">cfitsio - ANSI C routines for reading and writing FITS format data
+files</a></p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="specific-topics">
+<h2>Specific Topics<a class="headerlink" href="#specific-topics" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="multiprocessing">
+<h3>Multiprocessing<a class="headerlink" href="#multiprocessing" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="gpu-enhancement">
+<h3>GPU Enhancement<a class="headerlink" href="#gpu-enhancement" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+<div class="section" id="code-to-study">
+<h2>Code to Study<a class="headerlink" href="#code-to-study" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/astromatic/sextractor">sextractor - Extract catalogs of sources from astronomical
+images</a></p></li>
+<li><p><a class="reference external" href="https://github.com/astromatic/psfex">psfex - Generate PSF super-tabulated
+models</a></p></li>
+<li><p><a class="reference external" href="https://github.com/LSSTDESC/CCL">CCL - DESC Core Cosmology
+Library</a></p>
+<ul>
+<li><p>Also teaches you how to interact with Python.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/manodeep/Corrfunc">Corrfunc - fast correlation functions on the
+CPU</a></p>
+<ul>
+<li><p><strong>utils</strong> are written in C; and wrapped in Python.</p></li>
+</ul>
+</li>
+</ul>
+<div class="section" id="on-interacting-with-python">
+<h3>On Interacting with Python<a class="headerlink" href="#on-interacting-with-python" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/kbarbary/sep">sep - Python and C library for source extraction and
+photometry</a></p>
+<ul>
+<li><p>Using <strong>Cython</strong>.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/esheldon/cosmology">cosmology - Some code for calculating cosmological
+distances</a></p>
+<ul>
+<li><p>By Erin Sheldon. Using <strong>CPython</strong></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/esheldon/smatch">smatch - Code to match points on the sphere using the healpix
+scheme</a></p>
+<ul>
+<li><p>By Erin Sheldon. Using <strong>CPython</strong></p></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../../index.html">Taotie</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../research/getting_started.html">Getting Started as a Researcher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../research/computer_basics.html">Setting Up a Computer Environment for Research</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../research/job_and_career.html">Job Search and Career Related</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../research/writing_paper.html">About Writing Academic Paper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../stats_data_ml.html">Statistics, Data Science, &amp; Machine Learning</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../astro/astro_readme.html">Astro README.md</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../astro/astro_research_basic.html">Basic Tools for Astrophysical Research</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../astro_topic.html">Resources and Tools for a Specific Topic</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../astro_project.html">Resources about Important Astrophysical and Cosmological Projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../astro_reading.html">Reading List for a Specific Topic</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../python.html">Everything about Python</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">C Programming Language</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cpp_basic.html">C++ Programming Language</a></li>
+<li class="toctree-l1"><a class="reference internal" href="julia_basic.html">The Julia Programming Language</a></li>
+<li class="toctree-l1"><a class="reference internal" href="numerical_method.html">Resources and Tools for Numerical Method and Scientific Computing</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../research/getting_started_cn.html">如何正确地踏上天文科研的不归路</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="python_write_your_project.html" title="previous chapter">Write a Python package</a></li>
+      <li>Next: <a href="cpp_basic.html" title="next chapter">C++ Programming Language</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2019, Song Huang.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../../_sources/resource/programing/clang_basic.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

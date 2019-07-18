@@ -1,0 +1,395 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Models for Galaxy Formation and Evolution &#8212; Taotie 0.1 documentation</title>
+    <link rel="stylesheet" href="../../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../../_static/language_data.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Resources about Important Astrophysical and Cosmological Projects" href="../../../astro_project.html" />
+    <link rel="prev" title="Group or Cluster Detection Algorithms" href="cluster_finder.html" />
+   
+  <link rel="stylesheet" href="../../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="models-for-galaxy-formation-and-evolution">
+<h1>Models for Galaxy Formation and Evolution<a class="headerlink" href="#models-for-galaxy-formation-and-evolution" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="reviews">
+<h2>Reviews<a class="headerlink" href="#reviews" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://ui.adsabs.harvard.edu/abs/2010PhR...495...33B/abstract">Galaxy Formation
+Thory</a></p>
+<ul>
+<li><p>By Andrew Benson. A 58 pages review article in 2010. Although some
+aspects of it need to be updated. This remains as a wonderful
+place to start learning about galaxy formation.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://arxiv.org/abs/1612.06891">Theoretical Challenges in Galaxy
+Formation</a></p>
+<ul>
+<li><p>ARA&amp;A review by Thorsten Naab &amp; Jeremiah Ostriker with a
+theoretical point of view.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://arxiv.org/abs/1403.2783">The Evolution of Galaxy Structure over Cosmic
+Time</a></p>
+<ul>
+<li><p>ARA&amp;A review by Christopher Conselice with an observational point
+of view.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://arxiv.org/abs/1804.03097">The Connection Between Galaxies and Their Dark Matter
+Halos</a></p>
+<ul>
+<li><p>ARA&amp;A review by Risa Wechsler &amp; Jeremy Tinker from a galaxy-halo
+connection point of view.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://www.mdpi.com/2075-4434/7/2/56">Lighting Up Dark Matter
+Haloes</a></p>
+<ul>
+<li><p>Review article by Gabriella De Lucia on <em>Galaxies</em>.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="semi-analytic-model">
+<h2>Semi-Analytic Model<a class="headerlink" href="#semi-analytic-model" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p>“Semi-analytic galaxy formation models are established tools for
+connecting the predicted hierarchical growth of dark matter haloes to
+the observed properties of the galaxy population. Semi-analytic
+models employ a forward-modelling approach and are constructed such
+that they contain as much as possible of the baryonic physics that is
+thought to be relevant to galaxy evolution, albeit at a simplified,
+macroscopic level. The simplified, macroscopic nature of
+semi-analytic models means that they are computationally inexpensive
+to evaluate.” - <a class="reference external" href="https://arxiv.org/pdf/1709.08647.pdf">Mitchell et
+al. 2017</a></p>
+</div></blockquote>
+<ul class="simple">
+<li><p>There are a whole bunch of SAM available now, we will focus on the
+ones with source codes in public or the ones with a clear trace of
+publications.</p></li>
+<li><p><a class="reference external" href="https://bitbucket.org/galacticusdev/galacticus/wiki/Home">Galacticus - A Semi-Analytic Model of Galaxy
+Formation</a></p>
+<ul>
+<li><p>Based on the paper by Andrew Benson: <a class="reference external" href="https://arxiv.org/abs/1008.1786">Galacticus: A Semi-Analytic
+Model of Galaxy Formation</a></p></li>
+<li><p>Written in Fortran. Currently only support Linux OS.</p></li>
+<li><p>Mock galaxy catalog for the <strong>MDPL2</strong> N-body simulation can be
+<a class="reference external" href="http://skiesanduniverses.org/page/page-3/page-22/">found in the MultiDark-Galaxies
+project</a></p></li>
+<li><p>The tools for interacting with and analyzing the outputs of
+<strong>Galacticus</strong> is written in <strong>Perl</strong>. <a class="reference external" href="https://users.obs.carnegiescience.edu/abenson/galacticus/GalacticusAnalysisPerl.pdf">A PDF document of these
+tools can be found
+here</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/ICRAR/shark">Shark - A new, flexible semi-analytic model of galaxy
+formation</a></p>
+<ul>
+<li><p>Based on the work led by Claudia Lagos: <a class="reference external" href="https://ui.adsabs.harvard.edu/abs/2018MNRAS.481.3573L/abstract">Shark: introducing an
+open source, free, and flexible semi-analytic model of galaxy
+formation</a></p></li>
+<li><p><a class="reference external" href="https://shark-sam.readthedocs.io/en/latest/">Online document is
+here</a></p></li>
+<li><p>Written in C++ with <strong>OpenMP</strong> support.</p></li>
+<li><p><strong>Shark</strong> has been implemented with several models for gas
+cooling, active galactic nuclei, stellar and photo-ionization
+feedback, and star formation (SF).</p></li>
+<li><p><strong>Shark</strong> is based on the new cluster finder <strong>VELOCIRAPTOR</strong> and
+merger tree builder <strong>TreeFrog</strong> developed by the same group.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/sage-home/sage-model">SAGE - Semi-Analytic Galaxy Evolution galaxy formation
+model</a></p>
+<ul>
+<li><p><strong>SAGE</strong> is a publicly available code-base for modelling galaxy
+formation in a cosmological context. A description of the model
+and its default calibration results can be found in <a class="reference external" href="https://arxiv.org/abs/1601.04709">Croton et
+al. (2016)</a>. These
+calibration results can also be explored in an <a class="reference external" href="https://github.com/darrencroton/sage/blob/master/output/SAGE_MM.ipynb">iPython
+notebook</a>
+showcasing the key figures here. SAGE is a significant update to
+that previously used in <a class="reference external" href="https://arxiv.org/abs/astro-ph/0508046">Croton et
+al. (2006)</a>.</p></li>
+<li><p><strong>SAGE</strong> is written in C and was built to be modular and
+customisable. It will run on any N-body simulation whose trees are
+organised in a supported format and contain a minimum set of basic
+halo properties.</p></li>
+<li><p>Mock galaxy catalog for the <strong>MDPL2</strong> N-body simulation can be
+<a class="reference external" href="http://skiesanduniverses.org/page/page-3/page-22/">found in the MultiDark-Galaxies
+project</a></p></li>
+<li><p><a class="reference external" href="https://github.com/jacobseiler/rsage">rsage - The Reionization using Semi-Analytic Galaxy Evolution
+model</a></p>
+<ul>
+<li><p>An augmented version of the <strong>SAGE</strong> model that
+self-consistently couples galaxy evolution with the evolution
+of ionized gas during the Epoch of Reionization.</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><a class="reference external" href="http://galformod.mpa-garching.mpg.de/public/LGalaxies/index.php">L-Galaxies - Munich Galaxy Formation
+Model</a></p>
+<ul>
+<li><p>The public version is <a class="reference external" href="https://github.com/LGalaxiesPublicRelease/LGalaxies_PublicRepository">available on
+GitHub</a></p></li>
+<li><p>The most recent reference is the paper led by <a class="reference external" href="http://galformod.mpa-garching.mpg.de/public/LGalaxies/Henriques2014a.pdf">Bruno
+Henriques</a>.
+A supplementary material is <a class="reference external" href="http://galformod.mpa-garching.mpg.de/public/LGalaxies/munich_sam.pdf">also
+available</a>
+that contains more details of the model. And here is a
+<a class="reference external" href="http://galformod.mpa-garching.mpg.de/public/LGalaxies/LGalaxies_slides.pdf">presentation that helps you understand the key recipe of the
+mode</a></p></li>
+<li><p>The <strong>L-Galaxies</strong> model galaxy catalog for the Millennium
+simulations can be <a class="reference external" href="http://gavo.mpa-garching.mpg.de/Millennium/">found
+here</a></p></li>
+<li><p><a class="reference external" href="https://github.com/scottclay/Lgalaxies_Dust">L-Galaxies Dust
+Analysis</a> -
+Implementation of detailed dust modelling into the Henriques 2015
+version of L-Galaxies. The data analysis pipeline is <a class="reference external" href="https://github.com/scottclay/Lgalaxies_Analysis">available
+here</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="http://star-www.dur.ac.uk/~cole/merger_trees/galform_2000/">GALFORM: Galactic
+Modeling</a></p>
+<ul>
+<li><p>Originally based on the classic paper by <a class="reference external" href="https://ui.adsabs.harvard.edu/abs/2000MNRAS.319..168C/abstract">Shaun Cole et
+al. 2010</a>.
+The new version of <strong>GALFORM</strong> model is presented in the work led
+by <a class="reference external" href="https://ui.adsabs.harvard.edu/abs/2016MNRAS.462.3854L/abstract">Cedric Lacey et
+al. 2016</a></p></li>
+<li><p>This is also known as the “Durham” galaxy formation model.</p></li>
+</ul>
+</li>
+<li><p>The “Santa Cruz” Galaxy Formation Model</p>
+<ul>
+<li><p>Originally based on the work by <a class="reference external" href="https://ui.adsabs.harvard.edu/abs/1999MNRAS.310.1087S/abstract">Rachel Somerville &amp; Joel Primack
+1998</a></p></li>
+<li><p>The updated version is presented in the work: <a class="reference external" href="https://ui.adsabs.harvard.edu/abs/2015MNRAS.453.4337S/abstract">Star formation in
+semi-analytic galaxy formation models with multiphase gas by
+Somerville, Popping, &amp; Trager
+2015</a></p></li>
+</ul>
+</li>
+<li><p><strong>GAEA</strong> - GAlaxy Evolution and Assembly model</p>
+<ul>
+<li><p>Based on the work <a class="reference external" href="https://ui.adsabs.harvard.edu/abs/2016MNRAS.461.1760H/abstract">“Galaxy assembly, stellar feedback and metal
+enrichment: the view from the GAEA model” by Michaela Hirschmann,
+Gabriella De Lucia, &amp; Fabio Fontanot
+2015</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="http://adlibitum.oats.inaf.it/monaco/Homepage/morgana.html">MORGANA - MOdel for the Rise of GAlaxies aNd Active
+nuclei</a></p>
+<ul>
+<li><p>Originally based on the work led by <a class="reference external" href="https://ui.adsabs.harvard.edu/abs/2007MNRAS.375.1189M/abstract">Pierluigi Monaco et
+al. 2007</a>.</p></li>
+</ul>
+</li>
+<li><p><strong>GalICS</strong> - Galaxies In Cosmological Simulations</p>
+<ul>
+<li><p>Originally based on the work led by <a class="reference external" href="https://ieeexplore.ieee.org/document/8148635">Steve Hatton et
+al. 2005</a>. The
+updated <strong>V2.0</strong> is presented in the work led by <a class="reference external" href="https://ui.adsabs.harvard.edu/abs/2017MNRAS.471.1401C/abstract">Cattaneo et
+al. 2017</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="semi-empirical-model-sem">
+<h2>Semi-Empirical Model (SEM)<a class="headerlink" href="#semi-empirical-model-sem" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>This is a relative new approach for modeling galaxy formation. The
+key difference with SAM is that it does not focus on the detailed
+recipe for physical processes involved in galaxy formation. Instead,
+it relies on the assumption that <strong>empirical</strong> relation can be
+established between the star formation rate and the halo accretion
+rate (or between stellar mass and halo mass). One key advantage of
+this approach is that it can run on N-body simulations much faster
+and hence can be directly constrained by a series of observations at
+different epochs through Bayesian analysis.</p></li>
+<li><p>Some important early works on this topic include: <a class="reference external" href="https://ui.adsabs.harvard.edu/abs/2010ApJ...717..379B/abstract">Behroozi et
+al. 2010</a>,
+<a class="reference external" href="https://ui.adsabs.harvard.edu/abs/2010ApJ...710..903M/abstract">Moster et
+al. 2010</a>.</p></li>
+<li><p><a class="reference external" href="https://bitbucket.org/pbehroozi/universemachine/src/master/">UniverseMachine - Empirical Model for Galaxy
+Formation</a></p>
+<ul>
+<li><p>Developed by Peter Behroozi. Based on the work <a class="reference external" href="https://arxiv.org/abs/1806.07893">“UniverseMachine:
+The Correlation between Galaxy Growth and Dark Matter Halo
+Assembly from z=0-10”</a></p></li>
+<li><p>The <strong>UniverseMachine</strong> applies simple empirical models of galaxy
+formation to dark matter halo merger trees. For each model, it
+generates an entire mock universe, which it then observes in the
+same way as the real Universe to calculate a likelihood function.
+It includes an advanced MCMC algorithm to explore the allowed
+parameter space of empirical models that are consistent with
+observations.</p></li>
+<li><p>The <a class="reference external" href="https://www.peterbehroozi.com/data.html">data release by benchmark UniverseMachine model can be found
+here</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://ui.adsabs.harvard.edu/abs/2018MNRAS.477.1822M/abstract">Emerge - Empirical ModEl for the foRmation of
+GalaxiEs</a></p>
+<ul>
+<li><p><strong>emerge</strong> is an empirical model for the formation of galaxies
+since z~10</p></li>
+<li><p>Based on the publication by <a class="reference external" href="https://ui.adsabs.harvard.edu/abs/2018MNRAS.477.1822M/abstract">Benjamin Moster, Thorsten Naab, &amp;
+Simon White
+2018</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://ui.adsabs.harvard.edu/abs/2017MNRAS.470..651R/abstract">Model by Aldo
+Rodríguez-Puebla</a></p>
+<ul>
+<li><p>Based on the publication <a class="reference external" href="https://ui.adsabs.harvard.edu/abs/2017MNRAS.470..651R/abstract">“Constraining the galaxy-halo connection
+over the last 13.3 Gyr: star formation histories, galaxy mergers
+and structural properties” by Rodríguez-Puebla et
+al. 2017</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://ui.adsabs.harvard.edu/abs/2019MNRAS.483.2506G/abstract">STEEL - a STatistical sEmi-Empirical
+modeL</a></p>
+<ul>
+<li><p>Based on the publication <a class="reference external" href="https://ui.adsabs.harvard.edu/abs/2019MNRAS.483.2506G/abstract">“A statistical semi-empirical model:
+satellite galaxies in groups and clusters” by Grylls et
+al. 2019</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="other-model">
+<h2>Other Model<a class="headerlink" href="#other-model" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Here is a list of model for galaxy formation that can not be easily
+classied as SAM or SEM.</p></li>
+<li><p><a class="reference external" href="https://ui.adsabs.harvard.edu/abs/2019arXiv190610135S/abstract">The Iκϵα model of feedback-regulated galaxy
+formation</a></p>
+<ul>
+<li><p>In <strong>Iκϵα</strong>, a galaxy’s star formation rate is set by the balance
+between energy injected by feedback from massive stars and energy
+lost by the deepening of the potential of its host dark matter
+halo due to cosmological accretion.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../../../index.html">Taotie</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../research/getting_started.html">Getting Started as a Researcher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../research/computer_basics.html">Setting Up a Computer Environment for Research</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../research/job_and_career.html">Job Search and Career Related</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../research/writing_paper.html">About Writing Academic Paper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../stats_data_ml.html">Statistics, Data Science, &amp; Machine Learning</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../astro_readme.html">Astro README.md</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../astro_research_basic.html">Basic Tools for Astrophysical Research</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../astro_topic.html">Resources and Tools for a Specific Topic</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../astro_project.html">Resources about Important Astrophysical and Cosmological Projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../astro_reading.html">Reading List for a Specific Topic</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../python.html">Everything about Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../programing/clang_basic.html">C Programming Language</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../programing/cpp_basic.html">C++ Programming Language</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../programing/julia_basic.html">The Julia Programming Language</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../programing/numerical_method.html">Resources and Tools for Numerical Method and Scientific Computing</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../research/getting_started_cn.html">如何正确地踏上天文科研的不归路</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../../index.html">Documentation overview</a><ul>
+  <li><a href="../../../astro_topic.html">Resources and Tools for a Specific Topic</a><ul>
+      <li>Previous: <a href="cluster_finder.html" title="previous chapter">Group or Cluster Detection Algorithms</a></li>
+      <li>Next: <a href="../../../astro_project.html" title="next chapter">Resources about Important Astrophysical and Cosmological Projects</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2019, Song Huang.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../../../_sources/resource/astro/topics/galaxy_formation_model.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

@@ -1,0 +1,213 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Python Tools for Model Fitting and General Optimization &#8212; Taotie 0.1 documentation</title>
+    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/language_data.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="python-tools-for-model-fitting-and-general-optimization">
+<h1>Python Tools for Model Fitting and General Optimization<a class="headerlink" href="#python-tools-for-model-fitting-and-general-optimization" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="optimization-algorithms">
+<h2>Optimization Algorithms<a class="headerlink" href="#optimization-algorithms" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/100/Solid">Solid - A Python framework for gradient-free
+optimization</a></p>
+<ul>
+<li><p>Include algorithms like Genetic Algorithm, Stimulated Annealing,
+Particle Swarm, Harmony Search, and Stochastic hill Climb</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/PytLab/gaft">GAFT - A Genetic Algorithm Framework in
+Python</a></p>
+<ul>
+<li><p>有一系列中文blog介绍背后设计和算法，非常适合学习遗传算法</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/ljvmiranda921/pyswarms">pyswarms - A research toolkit for particle swarm optimization in
+Python</a></p>
+<ul>
+<li><p>Wikipedia introduction of <a class="reference external" href="https://en.wikipedia.org/wiki/Particle_swarm_optimization">PSO: Particle Swarm
+Optimization</a></p></li>
+<li><p>Document includes a <a class="reference external" href="https://pyswarms.readthedocs.io/en/latest/intro.html">very nice introducation of the PSO
+algorithm</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/CMA-ES">The Covariance Matrix Adaptation Evolution Strategy (CMA-ES)
+Algorihm</a></p>
+<ul>
+<li><p>A stochastic derivative-free numerical optimization algorithm for
+difficult (non-convex, ill-conditioned, multi-modal, rugged,
+noisy) optimization problems in continuous search spaces.</p></li>
+<li><p><a class="reference external" href="https://github.com/CMA-ES/pycma">pycma - A Python implementation of
+CMA-ES</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/pmelchior/proxmin">proxmin - Proximal Minimization in
+Python</a></p>
+<ul>
+<li><p>Based on the paper by <a class="reference external" href="https://link.springer.com/article/10.1007%2Fs11081-018-9380-y">Fred Moolekamp &amp; Peter Melchoir
+(2018)</a></p></li>
+<li><p>Includes algorithms like Alternating Direction Method of
+Multipliers (ADMM) and Block-Simultaneous Direction Method of
+Multipliers (bSDMM)</p></li>
+<li><p>Used as the backend of multi-band deblending code
+<a class="reference external" href="https://github.com/fred3m/scarlet">scarlet</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/esa/pagmo2">pagmo2 - A C++ / Python platform to perform parallel computations of
+optimisation tasks (global and local) via the asynchronous
+generalized island model</a></p>
+<ul>
+<li><p>A a scientific library for massively parallel optimization used by
+ESA.</p></li>
+<li><p>Document can be found <a class="reference external" href="https://esa.github.io/pagmo2/">here</a></p></li>
+<li><p>Includes <a class="reference external" href="https://esa.github.io/pagmo2/docs/algorithm_list.html">a long list of global and local optimization
+algorithms</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/tBuLi/symfit">symfit - Symbolic Fitting; fitting as it should
+be</a></p>
+<ul>
+<li><p>Pythonic way to do fitting.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/zfit/zfit">zfit - scalable pythonic fitting</a></p>
+<ul>
+<li><p>The <strong>zfit</strong> package is a model manipulation and fitting library
+based on TensorFlow and optimised for simple and direct
+manipulation of probability density functions. Its main focus is
+on scalability, parallelisation and user friendly experience.</p></li>
+</ul>
+</li>
+</ul>
+<div class="section" id="bayesian-optimization">
+<h3>Bayesian Optimization<a class="headerlink" href="#bayesian-optimization" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/fmfn/BayesianOptimization">BayesianOptimization - Pure Python implementation of bayesian global
+optimization with gaussian
+processes</a></p>
+<ul>
+<li><p>Bayesian optimization works by constructing a posterior
+distribution of functions (gaussian process) that best describes
+the function you want to optimize.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/moews/gaussbock">gaussbock - Fast parallel-iterative cosmological parameter
+estimation with Bayesian
+nonparametrics</a></p></li>
+<li><p><a class="reference external" href="https://github.com/lacerbi/vbmc">vbmc - Variational Bayesian Monte Carlo (VBMC) algorithm for
+posterior and model inference</a></p>
+<ul>
+<li><p>VBMC is a novel approximate inference method designed to fit and
+evaluate computational models with a limited budget of likelihood
+evaluations (e.g., for computationally expensive models).</p></li>
+<li><p>A Python implementation is planned.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../../index.html">Taotie</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../astro/astro_readme.html">Astro README.md</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../astro/astro_research_basic.html">Basic Tools for Astrophysical Research</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../astro/topics/ccd_reduction.html">CCD Reduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../astro/topics/cluster_finder.html">Group and Cluster Finder</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../research.html"> Research in General</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../programming.html"> Programming and Developing Software</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2019, Song Huang.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../../_sources/resource/programing/python_optimazaton.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

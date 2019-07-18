@@ -32,7 +32,7 @@
     - And [Python code for calculating the Renormalized Unit Weight Error from the Gaia DR2 table columns](https://github.com/agabrown/gaiadr2-ruwe-tools)
 * Slides about [_Gaia_ DR2 astrometry](https://www.cosmos.esa.int/documents/29201/1770596/Lindegren_GaiaDR2_Astrometry_extended.pdf/1ebddb25-f010-6437-cb14-0e360e2d9f09)
 * Slides about [Working with _Gaia_ Data](https://www.cosmos.esa.int/documents/915837/915858/2016_11_02_dr1Workshop_AlcioneMora.pdf/39b2492b-e74c-4b28-bd1f-71258b25fd08)
-* The _Gaia_ TAP+ catalog can be accessed through `astroquery.gaia` module. Here is a [Python example for DR2](https://gea.esac.esa.int/archive-help/tutorials/python_cluster/index.html)
+* The _Gaia_ TAP+ catalog can be accessed through __astroquery.gaia__ module. Here is a [Python example for DR2](https://gea.esac.esa.int/archive-help/tutorials/python_cluster/index.html)
 * [Exploring Gaia data with TOPCAT and STILTS](http://www.euro-vo.org/sites/default/files/documents/tutorial-topcat-stilts_2018Nov.pdf)
 * [Gaia-Kepler.fun](https://gaia-kepler.fun/)
     - This website provides cross-matched catalogs of Gaia data for stars observed by Kepler/K2
@@ -60,16 +60,16 @@
 
 ## Softwares and Tools:
 
-* [`PyGaia` - Python toolkit for basic Gaia data simulation, manipulation, and analysis](https://github.com/agabrown/PyGaia)
+* [__PyGaia__ - Python toolkit for basic Gaia data simulation, manipulation, and analysis](https://github.com/agabrown/PyGaia)
     - By Anthony Brown. PyGaia provides python modules for the simulation of Gaia data and their errors, as well modules for the manipulation and analysis of the Gaia catalogue data
-* [`gaia_tools` - Tools for working with the @ESAGaia data and related data sets](https://github.com/jobovy/gaia_tools)
+* [__gaia_tools__ - Tools for working with the @ESAGaia data and related data sets](https://github.com/jobovy/gaia_tools)
     - By Jo Bovy. Tools for working with the ESA/Gaia data and related data sets (APOGEE, GALAH, LAMOST DR2, and RAVE).
-* [`GaiaTools` - A collection of scripts for analyzing the data from the Gaia satellite](https://github.com/GalacticDynamics-Oxford/GaiaTools)
+* [__GaiaTools__ - A collection of scripts for analyzing the data from the Gaia satellite](https://github.com/GalacticDynamics-Oxford/GaiaTools)
     - By the Oxford's Galactic Dynamics group.
 
-* [Gaia TAP+ through `astroquery.gaia`](https://astroquery.readthedocs.io/en/latest/gaia/gaia.html)
-* [`find_gaia_dr2.py`](http://cds.u-strasbg.fr/resources/doku.php?id=cdsclient:doc-find_gaia_dr2)
-    - By CDS. Depends on `python-cdsclient`
+* [Gaia TAP+ through __astroquery.gaia__](https://astroquery.readthedocs.io/en/latest/gaia/gaia.html)
+* [__find_gaia_dr2.py__](http://cds.u-strasbg.fr/resources/doku.php?id=cdsclient:doc-find_gaia_dr2)
+    - By CDS. Depends on __python-cdsclient__
 * [Gaia Sky - a real-time, 3D, astronomy visualisation software](https://zah.uni-heidelberg.de/institutes/ari/gaia/outreach/gaiasky/)
 
 ## Conferences and Sprints

@@ -1,6 +1,6 @@
 # About Writing Academic Paper
 
-<img src="https://github.com/dr-guangtou/taotie/blob/master/doc/keep_calm_write_on.png" width="80%">
+![Keep calm and write on](https://gitlab.com/dr-guangtou/taotie/blob/master/doc/images/keep_calm_write_on.png)
 
 ## Basics
 
@@ -53,11 +53,11 @@
 ### Useful LaTeX tips
 
 * [Link to aribitary part of text](https://tex.stackexchange.com/questions/280462/link-to-arbitrary-part-of-text)
-  - Using `\hypertarget` and `\hyperlink`
+  - Using __\hypertarget__ and __\hyperlink__
 
 ## Figure
 
 ### Flowchart
 
-* [`mermaid` - Generation of diagram and flowchart from text in a similar manner as markdown](https://github.com/knsv/mermaid)
-    - `mermaid`, a simple markdown-like script language for generating charts from text via javascript.
+* [__mermaid__ - Generation of diagram and flowchart from text in a similar manner as markdown](https://github.com/knsv/mermaid)
+    - __mermaid__, a simple markdown-like script language for generating charts from text via javascript.

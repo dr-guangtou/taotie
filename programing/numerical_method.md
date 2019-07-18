@@ -12,12 +12,12 @@
 
 ## Tools
 
-* [`meshio` - I/O for various mesh formats](https://github.com/nschloe/meshio)
+* [__meshio__ - I/O for various mesh formats](https://github.com/nschloe/meshio)
     - By Nico Schlömer. There are various mesh formats available for representing unstructured meshes. meshio can read and write a lot of them, and can convert among them.
 
-* [`quadpy` - Numerical integration (quadrature, cubature) in Python](https://github.com/nschloe/quadpy)
+* [__quadpy__ - Numerical integration (quadrature, cubature) in Python](https://github.com/nschloe/quadpy)
     - By Nico Schlömer. More than 1500 numerical integration schemes for line segments, circles, disks, triangles, quadrilaterals, spheres, balls, tetrahedra, hexahedra, wedges, pyramids, n-spheres, n-balls, n-cubes, n-simplices, and the 1D/2D/3D/nD spaces with weight functions exp(-r) and exp(-r2) for fast integration of real-, complex-, and vector-valued functions.
 
-* [`optimesh` - Mesh optimization, mesh smoothing](https://github.com/nschloe/optimesh)
+* [__optimesh__ - Mesh optimization, mesh smoothing](https://github.com/nschloe/optimesh)
     - By Nico Schlömer. Several mesh smoothing/optimization methods with one simple interface. Only works for triangular meshes
 

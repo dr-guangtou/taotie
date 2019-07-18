@@ -1,4 +1,4 @@
-# Papers about Cosmology using Galaxy Clusters
+# Constraining Cosmology using Galaxy Clusters
 
 ## Reviews 
 
@@ -159,7 +159,7 @@ Cosmological constraints from the large-scale weak lensing of SDSS MaxBCG cluste
     * [Battaglia, Bond, Pfommer & Sievers 2013 - III. Measurement Biases and Cosmological Evolution of Gas and Stellar Mass Fractions](http://adsabs.harvard.edu/abs/2013ApJ...777..123B)
 
 - [Penna-Lima et al. 2017 - Calibrating the Planck cluster mass scale with CLASH](http://adsabs.harvard.edu/abs/2017A%26A...604A..89P)
-    * `1 - b_sz = 0.73 +/- 0.10`
+    * __1 - b_sz = 0.73 +/- 0.10__
 
 ## Lectures and Conferences
 

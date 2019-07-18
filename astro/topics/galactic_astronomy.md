@@ -1,5 +1,6 @@
-# Tools and Resources for Milky Way Related Research 
+# Galactic Astronomy and the Milky Way
 
+* **Just started**
 * Focusing on the dynamic and stellar population sides.
 
 ## Galactic Dynamics
@@ -9,7 +10,7 @@
 * [Dynamics and Astrophysics of Galaxies by Jo Bovy](http://astro.utoronto.ca/~bovy/AST1420/notes/index.html#)
 * [Dynamics of Collisionless Systems by Frank van den Bosch](http://www.astro.yale.edu/vdbosch/galdyn.html)
 
-### Tools
+### Tools for Galactic Dynamic
 
 * [gala - Galactic and gravitational dynamics in Python](https://github.com/adrn/gala)
     * By [Adrian Price-Whelan](http://adrian.pw/). Provide a class-based and user-friendly interface to fast (C or Cython-optimized) implementations of common operations such as gravitational potential and force evaluation, orbit integration, dynamical transformations, and chaos indicators for nonlinear dynamics.
@@ -20,36 +21,36 @@
 * [thejoker - A custom Monte Carlo sampler for the (gravitational) two-body problem](https://github.com/adrn/thejoker)
     * By Adrian Price-Whelan. The Joker [1] is a custom Monte Carlo sampler for the two-body problem and is therefore useful for constraining star-star or star-planet systems
 * [wendy - A one-dimensional gravitational N-body code](https://github.com/jobovy/wendy)
-    * By Jo Bovy. `wendy` solves the one-dimensional gravitational N-body problem to machine precision with an efficient algorithm [O(log N) / particle-collision]. Alternatively, it can solve the problem with approximate integration, but with exact forces.
+    * By Jo Bovy. __wendy__ solves the one-dimensional gravitational N-body problem to machine precision with an efficient algorithm [O(log N) / particle-collision]. Alternatively, it can solve the problem with approximate integration, but with exact forces.
 * [GALAXY N-body simulation package](http://www.physics.rutgers.edu/galaxy/)
     * By Jerry Sellwood. The [manual](http://www.physics.rutgers.edu/~sellwood/manual.pdf) is here.
 * [Agama - Action-based galaxy modeling framework](https://github.com/GalacticDynamics-Oxford/Agama)
-    * `Agama` is a library intended for a broad range of tasks within the field of stellar dynamics. 
+    * __Agama__ is a library intended for a broad range of tasks within the field of stellar dynamics. 
 * [NEMO - A Stellar Dynamics Toolbox](https://teuben.github.io/nemo/)
     * By Peter Teuben. Also available on [github](https://github.com/teuben/nemo)
 
 ### Jeans Modeling
 
-* [`JAM` - Jeans Anisotropic MGE modeling method](http://www-astro.physics.ox.ac.uk/~mxc/software/#jam)
+* [__JAM__ - Jeans Anisotropic MGE modeling method](http://www-astro.physics.ox.ac.uk/~mxc/software/#jam)
     - By Michelle Cappellari. Available in Python and IDL.
 
-* [`CJAM` - Jeans Anisotropic MGE modelling code written in C](https://github.com/lauralwatkins/cjam)
+* [__CJAM__ - Jeans Anisotropic MGE modelling code written in C](https://github.com/lauralwatkins/cjam)
     - By Laura Watkins. Extended JAM models to calculate all three (x, y, z) first moments and all six (xx, yy, zz, xy, xz, yz) second moments.
 
-* [`slomo` - Jeans modeling with multiple tracer populations](https://github.com/adwasser/slomo)
-    - By Asher Wasserman.  There is also a Julia version: [`Slomo.jl`](https://github.com/adwasser/Slomo.jl)
+* [__slomo__ - Jeans modeling with multiple tracer populations](https://github.com/adwasser/slomo)
+    - By Asher Wasserman.  There is also a Julia version: [__Slomo.jl__](https://github.com/adwasser/Slomo.jl)
 
 ### Schwarzschild Modeling
 
-* [`TriaxSchwarzschild` by Remco van den Bosch](https://github.com/remcovandenbosch/TriaxSchwarzschild)
+* [__TriaxSchwarzschild__ by Remco van den Bosch](https://github.com/remcovandenbosch/TriaxSchwarzschild)
     - Fortran source codes.
 
 ## Galactic Chemical Evolution
 
-### Tools
+### Models of Chemical Evolution
 
 * [kimmy - Galactic chemical evolution in python](https://github.com/jobovy/kimmy)
-    - By Jo Bovy. `kimmy` contains simple tools to study chemical evolution in galaxies.
+    - By Jo Bovy. __kimmy__ contains simple tools to study chemical evolution in galaxies.
 
 ## Spectra of Milky Way Stars
 
@@ -71,7 +72,7 @@
 * [galstreams - Milky Way Streams Footprint Library and Toolkit for Python](https://github.com/cmateu/galstreams)
     * It includes a compilation of spatial information for known stellar streams and overdensities in the Milky Way (MW) and Python tools for visualizing them.
 
-## `Gaia` related 
+## __Gaia__ related 
 
 ### Python tools:
 

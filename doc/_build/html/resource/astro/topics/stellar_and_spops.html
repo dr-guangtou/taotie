@@ -1,0 +1,607 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Stellar Physics and Stellar Population &#8212; Taotie 0.1 documentation</title>
+    <link rel="stylesheet" href="../../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../../_static/language_data.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Transients and Other Time Series Science" href="transient_and_time_domain.html" />
+    <link rel="prev" title="Observational and Theoretical Cosmology" href="cosmology_tools.html" />
+   
+  <link rel="stylesheet" href="../../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="stellar-physics-and-stellar-population">
+<h1>Stellar Physics and Stellar Population<a class="headerlink" href="#stellar-physics-and-stellar-population" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="stellar-evolution-code">
+<h2>Stellar Evolution Code<a class="headerlink" href="#stellar-evolution-code" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="http://mesa.sourceforge.net/">MESA - Modules for Experiments in Stellar
+Astrophysics</a></p>
+<ul>
+<li><p>The most important <strong>open</strong> 1-D stellar evolution code on the
+market.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://www.ast.cam.ac.uk/~stars/">stars - A Stellar Evolution
+Code</a></p>
+<ul>
+<li><p>The classic.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://www.ast.cam.ac.uk/~rgi/binstar.html">BINSTAR - a detailed binary stellar evolution
+code</a></p></li>
+</ul>
+<div class="section" id="hydro-simulation">
+<h3>Hydro-simulation<a class="headerlink" href="#hydro-simulation" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/AMReX-Astro/MAESTROeX">MAEXTROeX - A C++/F90 low Mach number stellar hydrodynamics
+code</a></p>
+<ul>
+<li><p><a class="reference external" href="https://amrex-astro.github.io/MAESTROeX/index.html">MAESTROeX</a>
+solves the equations of low Mach number hydrodynamics for
+stratified atmospheres/stars with a general equation of state.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="isochrones">
+<h2>Isochrones<a class="headerlink" href="#isochrones" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="softwares">
+<h3>Softwares<a class="headerlink" href="#softwares" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/timothydmorton/isochrones">isochrones - Provides simple interface for interacting with stellar
+model grids</a></p>
+<ul>
+<li><p>The central goal of isochrones is to standardize model-grid-based
+stellar parameter inference, and to enable such inference under
+different sets of stellar models.</p></li>
+<li><p>Online <a class="reference external" href="https://isochrones.readthedocs.io/en/latest/">documents is
+here</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="libraries">
+<h3>Libraries<a class="headerlink" href="#libraries" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="http://waps.cfa.harvard.edu/MIST/">MIST - MESA Isochrones &amp; Stellar
+Tracks</a></p>
+<ul>
+<li><p>Key papers: <a class="reference external" href="http://adsabs.harvard.edu/abs/2016ApJ...823..102C">Choi et
+al. 2016</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="http://stev.oapd.inaf.it/cgi-bin/cmd">PARSEC: stellar tracks and isochrones with the PAdova and TRieste
+Stellar Evolution Code</a></p>
+<ul>
+<li><p>Key papers: <a class="reference external" href="https://arxiv.org/abs/1208.4498">Bressan et
+al. 2012</a></p></li>
+<li><p><a class="reference external" href="https://philrosenfield.github.io/padova_tracks/">Interpolated PARSEC Stellar Evolution
+Tracks</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="http://pleiadi.pd.astro.it/">Padova database of stellar evolutionary tracks and
+isochrones</a></p></li>
+<li><p><a class="reference external" href="http://www.astro.yale.edu/yapsi/">YaPSI - Yale-Postdam Stellar
+Isochrones</a></p></li>
+<li><p><a class="reference external" href="http://obswww.unige.ch/~ekstrom/WWW/evol/recherche/database.html">Geneva Grids of Stellar Evolution
+Models</a></p>
+<ul>
+<li><p><a class="reference external" href="https://www.unige.ch/sciences/astro/evolution/en/database/syclist/">Interactive online tool to generate
+isochrones</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="http://basti.oa-teramo.inaf.it/">BaSTI - A Bag of Stellar Tracks and
+Isocrhones</a></p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="stellar-spectra-libraries-and-sed">
+<h2>Stellar Spectra Libraries and SED<a class="headerlink" href="#stellar-spectra-libraries-and-sed" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="observed">
+<h3>Observed<a class="headerlink" href="#observed" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.eso.org/sci/facilities/paranal/decommissioned/isaac/tools/lib.html">Pickles et al. 1998
+library</a></p>
+<ul>
+<li><p>The spectral range is 1150-25000 Anstroms, sampling 5 Angstroms.
+131 stellar spectra.</p></li>
+<li><p>The <a class="reference external" href="http://www.stsci.edu/hst/observatory/crds/pickles_atlas.html">Pickles library can also be found
+here</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://www.noao.edu/cflib/">The Indo-U.S. Library of Coudé Feed Stellar
+Spectra</a></p>
+<ul>
+<li><p>1273 stars obtained with the 0.9m Coudé Feed telescope at Kitt
+Peak National Observatory</p></li>
+<li><p>Original dispersion of 0.44 Angstroms/pixel, at a resolution of ~1
+Angstroms FWHM.</p></li>
+<li><p>Cover the entire wavelength range of 3460 Angstroms to 9464
+Angstroms</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="http://www.iac.es/proyecto/miles/pages/stellar-libraries.php">MILES Stellar
+Library</a></p>
+<ul>
+<li><p><strong>MILES</strong>: ~1000 stars spanning a large range in atmospheric
+parameters. The spectra were obtained at the 2.5m INT telescope
+and cover the range 3525-7500 Å at 2.5 Å (FWHM) spectral
+resolution</p></li>
+<li><p><strong>CaII Triplet Library</strong>: 700 stars with spectra around the Ca II
+triplet region. Cover the spectral range between 8350-9020 Å at
+1.5 Å (FWHM)</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="http://xsl.u-strasbg.fr/">The X-Shooter Spectral Library</a></p>
+<ul>
+<li><p>The current release contains more than 200 stars. 3000–25000 Å all
+stellar spectra observed at a resolving power of R = λ/Δλ ~ 10000
+with the medium-resolution spectrograph X-Shooter</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://www.sdss.org/surveys/mastar/">MaStar - MaNGA Stellar
+Library</a></p>
+<ul>
+<li><p>A stellar spectral library with a very comprehensive stellar
+parameter coverage, a large sample size, and high quality
+calibrations, using the same instrument as used by the MaNGA
+survey</p></li>
+<li><p>Wavelength: 362-1035 nm, resolution R~2000; More than 8000 stars
+in wide areas of the sky.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="http://svo2.cab.inta-csic.es/vocats/v2/stelib/">STELIB Stellar
+Library</a></p>
+<ul>
+<li><p>A stellar Library for stellar population synthesis models</p></li>
+<li><p>An homogeneous library of stellar spectra in the visible range
+(3200 to 9500A), including stars of all spectral types, luminosity
+classes and metallicity. The spectral resolution of our Stellar
+Library is about 3A FWHM.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="http://atlas.obs-hp.fr/elodie/">ÉLODIE Stellar Library</a></p>
+<ul>
+<li><p>A stellar database of 1959 spectra for 1503 stars, observed with
+the echelle spectrograph ÉLODIE on the 193 cm telescope at the
+Observatoire de Haute Provence.</p></li>
+<li><p>Wavelength range is 400-680 nm. For the purpose of population
+synthesis, the original resolution R=42 000 has been reduced to
+R=10 000 at lambda=550 nm, or more precisely to a gaussian
+instrumental profile of FWHM~0.55 A over the whole range of
+wavelengths.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://lco.global/~apickles/INGS/">INGS Stellar Library</a></p>
+<ul>
+<li><p>INGS is a compendium of 143 stellar-type spectra formed from
+spectra of stars of similar type from 3 sources: 1) IUE: 1153A to
+3201A, 2A/pixel, 2) NGSL v2: 1600A to 11000A; 3) SpeX/IRTF: 8110A
+to 25000+A, 2.5,3,5A/pixel</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://www.blancocuaresma.com/s/benchmarkstars">The Gaia FGK Benchmark
+Stars</a></p>
+<ul>
+<li><p>Library of high resolution and high signal to noise ratio stellar
+spectra</p></li>
+<li><p>A homogeneous library in the visual range (480-680 nm) of high
+resolution and signal to noise ratio (S/N) spectra corresponding
+to the 34 Benchmark Stars and 5 metal-poor candidates.</p></li>
+</ul>
+</li>
+</ul>
+<div class="section" id="near-mid-infrared">
+<h4>Near-Mid Infrared<a class="headerlink" href="#near-mid-infrared" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="http://irtfweb.ifa.hawaii.edu/~spex/IRTF_Extended_Spectral_Library/">IRTF Extended Spectral
+Library</a></p>
+<ul>
+<li><p>A collection of 0.7-2.5 μm (with a subset from 0.8 to 5.2 μm)
+mostly stellar spectra observed at a resolving power of R ≡ λ/Δλ ~
+2000 with the medium-resolution spectrograph, SpeX. Please see
+<a class="reference external" href="https://arxiv.org/abs/1705.08906">Villaume et al. 2017 for
+details</a></p></li>
+<li><p>The original <a class="reference external" href="http://irtfweb.ifa.hawaii.edu/~spex/IRTF_Spectral_Library/">IRTF spectral library is available
+here</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="http://pono.ucsd.edu/~adam/browndwarfs/spexprism/">SpeX Prism
+Library</a></p>
+<ul>
+<li><p>A repository of low-resolution, near-infrared spectra, primarily
+of low-temperature dwarf stars and brown dwarfs</p></li>
+<li><p>Resolutions are R~75-200. Wavelength coverage is 0.65-2.55 microns
+in a single order</p></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="theoretical">
+<h3>Theoretical<a class="headerlink" href="#theoretical" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="http://marcs.astro.uu.se/">MARCS - a grid of one-dimensional, hydrostatic, plane-parallel and
+spherical LTE model atmospheres</a></p>
+<ul>
+<li><p>The MARCS site contains about 52,000 stellar atmospheric models of
+spectral types F, G and K in 3 different formats and also flux
+sample files indicating rough surface fluxes.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="http://cdsarc.u-strasbg.fr/viz-bin/qcat?J/A+A/442/1127">SYNTHE - synthetic library of stellar
+spectra</a></p>
+<ul>
+<li><p>Covers the wavelength region from 2500 Å to 1.05 μm at a spectral
+resolution of σ=6.4 km/s, R=20,000.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://www.inaoep.mx/~modelos/uvblue/uvblue.html">UVBLUE - A High-resolution Theoretical Library of Stellar
+Spectra</a></p>
+<ul>
+<li><p>A high-resolution library of synthetic spectra of stars covering
+the ultraviolet wavelength range.</p></li>
+<li><p>Stellar spectra cover the wavelength interval from 850 to 4700 Å,
+at a spectral resolving power R = λ/Δ λ = 50,000. The grid
+consists of 1770 SEDs</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="http://specmodels.iag.usp.br/">Paula Coelho’s Theoretical Spectra of Stars and Stellar
+Populations</a></p>
+<ul>
+<li><p>A new theoretical library which covers 3000 &lt;= Teff &lt;= 25 000 K,
+-0.5 &lt;= log g &lt;= 5.5 and 12 chemical mixtures covering 0.0017 &lt;= Z
+&lt;= 0.049 at both scaled-solar and alpha-enhanced compositions.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="tools-for-stellar-physics">
+<h3>Tools for Stellar Physics<a class="headerlink" href="#tools-for-stellar-physics" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/BEAST-Fitting/beast">BEAST - Bayesian Extinction and Stellar
+Tool</a></p>
+<ul>
+<li><p>Fits the ultraviolet to near-infrared photometric SEDs of stars to
+extract stellar and dust extinction parameters. See <a class="reference external" href="http://adsabs.harvard.edu/abs/2016ApJ...826..104G">Gordon et
+al. 2016</a>
+for details.</p></li>
+<li><p>Online document is
+<a class="reference external" href="https://beast.readthedocs.io/en/latest/">here</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/pacargile/ThePayne">ThePayne - Artificial Neural-Net compression and fitting of
+synthetic spectral grids</a></p>
+<ul>
+<li><p>By <a class="reference external" href="https://www.cfa.harvard.edu/~pcargile/">Phillip Cargile</a>
+and <a class="reference external" href="https://www.sns.ias.edu/~ting/">Yuan-Sen Ting</a>. Artificial
+Neural-Net compression and fitting of ab initio synthetic spectral
+grids.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/annayqho/TheCannon">TheCannon - a data-driven method for determining stellar parameters
+and abundances from stellar
+spectra</a></p>
+<ul>
+<li><p>By <a class="reference external" href="https://annayqho.github.io/">Anna Ho</a>. A data-driven method
+for determining stellar labels (physical parameters and chemical
+abundances) from stellar spectra in the context of large
+spectroscopic surveys.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/joshspeagle/brutus">brutus - Modeling stellar photometry with “brute force”
+methods</a></p>
+<ul>
+<li><p>By Josh Speagle. A Pure Python package whose core modules involve
+using “brute force” Bayesian inference to derive distances,
+reddenings, and stellar properties from photometry using a grid of
+stellar models.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/iancze/Starfish">Starfish - Tools for Flexible Spectroscopic
+Inference</a></p>
+<ul>
+<li><p>By <a class="reference external" href="http://iancze.github.io/">Ian Czekala</a>. Starfish is a set
+of tools used for spectroscopic inference. We designed the package
+to robustly determine stellar parameters using high resolution
+spectral models</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="http://www.as.utexas.edu/~chris/moog.html">MOOG - a code that performs a variety of LTE line analysis and
+spectrum synthesis
+tasks</a></p>
+<ul>
+<li><p>Old fashion but classic.</p></li>
+<li><p>If you use Python, try Andy Casey’s <a class="reference external" href="https://github.com/andycasey/moog">Installing MOOG the Easy
+Way</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/hmtabernero/StePar">StePar - an automatic code used to infer stellar atmospheric
+parameters using the EW
+method</a></p>
+<ul>
+<li><p>Please see <a class="reference external" href="https://arxiv.org/pdf/1907.06512.pdf">Tabernero et
+al. 2019</a> for more
+details.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="stellar-population-synthesis-or-sed-fitting">
+<h2>Stellar Population Synthesis or SED Fitting<a class="headerlink" href="#stellar-population-synthesis-or-sed-fitting" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>This <a class="reference external" href="http://www.sedfitting.org/Models.html">sedfitting.org page</a>
+is a very good one-stop shopping place for all SED related resources.</p>
+<ul>
+<li><p>There is also a <a class="reference external" href="http://www.sedfitting.org/Paper_vs1.0_online/walcher_ms.html">review
+paper</a></p></li>
+</ul>
+</li>
+</ul>
+<div class="section" id="tools-for-generating-or-manipulating-stellar-population-model">
+<h3>Tools for Generating or Manipulating Stellar Population Model<a class="headerlink" href="#tools-for-generating-or-manipulating-stellar-population-model" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/cconroy20/fsps">FSPS - Flexible Stellar Population
+Synthesis</a></p>
+<ul>
+<li><p>If you want to see how sausage is made, this is it, including
+every details of stellar population synthesis. Original code in
+<strong>Frotran</strong>. Supports different isochrones and libraries.</p></li>
+<li><p><a class="reference external" href="http://dfm.io/python-fsps/current/">python-fsps</a> can help you
+use it in <strong>Python</strong></p></li>
+<li><p><a class="reference external" href="https://github.com/nell-byler/cloudyfsps">cloudyfsps - Python interface between FSPS and
+Cloudy</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/bd-j/sedpy">sedpy - Utilities for astronomical spectral energy
+distributions</a></p>
+<ul>
+<li><p>By Ben Johnson. Modules for storing and operating on astronomical
+source spectral energy distributions.</p></li>
+<li><p>Has nice function to handle filters and measure SED from spectrum.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/astropy/PopStar">PopStar - generating simple stellar populations from synthetic
+evolution and atmosphere
+models</a></p>
+<ul>
+<li><p>PopStar generates single-age, single-metallicity populations
+(i.e. star clusters). It supports different initial mass
+functions, multiplicity perscriptions, reddening laws, filter
+functions, atmosphere models, and evolution models.</p></li>
+<li><p>Support a large variety of theoretical models.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="tools-for-sed-or-spectral-fitting">
+<h3>Tools for SED or Spectral Fitting<a class="headerlink" href="#tools-for-sed-or-spectral-fitting" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/bd-j/prospector">prospector - Python code for Stellar Population Inference from
+Spectra and SEDs</a></p>
+<ul>
+<li><p>By Ben Johnson. Conduct principled inference of stellar population
+properties from photometric and/or spectroscopic data.</p></li>
+<li><p>Bayesian method, can use <strong>emcee</strong>, <strong>nestle</strong>, and <strong>dynesty</strong> as
+sampling tool</p></li>
+<li><p>Can fit spectrum and/or SED.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/cschreib/fastpp">fastpp - C++ version of the SED fitting code FAST (Kriek et
+al. 2009);</a></p>
+<ul>
+<li><p>By Corentin Schreiber. “it’s faster, uses less memory, and has
+more features.”</p></li>
+<li><p>Based on model grid.</p></li>
+<li><p>Can fit spectrum and/or SED.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="http://www.starlight.ufsc.br/">STARLIGHT - Spectra decomposition
+code</a></p>
+<ul>
+<li><p>Written in Fortran, using simulated annealing algorithm with
+Markov chains.</p></li>
+<li><p><a class="reference external" href="http://minerva.ufsc.br/starlight/files/papers/Manual_StCv04.pdf">The manual written by Cid
+Fernandes</a>
+is a very good introduction of the SSP decomposition business.</p></li>
+<li><p>Mostly used for spectral fitting.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="http://www-astro.physics.ox.ac.uk/~mxc/software/#ppxf">pPXF - Penalized
+Pixel-Fitting</a></p>
+<ul>
+<li><p>By Michelle Cappellari. Extract the stellar or gas kinematics and
+stellar population from galaxy spectra via full spectrum fitting.</p></li>
+<li><p>Available in Python and IDL. Can fit spectrum.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/moustakas/impro">iSEDfit - IDL routines to fit
+SED</a></p>
+<ul>
+<li><p>By John Moustakas. Part of the <strong>impro</strong> suite. <a class="reference external" href="http://www.sos.siena.edu/~jmoustakas/isedfit/">Website for
+downloading library and documents is
+here</a></p></li>
+<li><p>Based on model grid, only fit SED.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/FireflySpectra/firefly_release">Firefly – A Full Spectral Fitting
+Code</a></p>
+<ul>
+<li><p>FIREFLY is a chi-squared minimisation fitting code for deriving
+the stellar population properties of stellar systems, be these
+observed galaxy or star cluster spectra, or model spectra from
+simulations. Document can be <a class="reference external" href="http://www.icg.port.ac.uk/firefly/">found
+here</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://gitlab.lam.fr/cigale/cigale/">cigale - Python version of the Code Investigating GALaxy
+Emission</a></p>
+<ul>
+<li><p><a class="reference external" href="https://cigale.lam.fr/">Full document can be found here</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="http://www.astroscu.unam.mx/~sfsanchez/FIT3D/">FIT3D - a tool for fitting stellar populations and emission lines in
+optical
+spectroscopy</a></p>
+<ul>
+<li><p>FIT3D is a package for fitting optical spectra to deblend the
+underlying stellar population and the ionized gas, and extract
+physical information from each component. Focusing on IFU surveys.</p></li>
+<li><p>Fit full spectrum. In Python or Perl</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="http://www.jacopochevallard.org/beagle/">BEAGLE - BayEsian Analysis of GaLaxy
+sEds</a></p>
+<ul>
+<li><p>A new-generation tool to model and interpret galaxy spectral
+energy distributions (SEDs) developed by Jacopo Chevallard (ESA)
+and Stephane Charlot (IAP).</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="stellar-population-models">
+<h3>Stellar Population Models:<a class="headerlink" href="#stellar-population-models" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="http://miles.iac.es/">MILES - Population synthesis for the 21st
+Century</a></p>
+<ul>
+<li><p>The new extended MILES
+(<a class="reference external" href="http://adsabs.harvard.edu/abs/2016MNRAS.463.3409V">E-MILES</a>)
+models covering from 1680Å to 5.0μm</p></li>
+<li><p>Provides useful <a class="reference external" href="http://www.iac.es/proyecto/miles/pages/webtools.php">online
+tools</a> to
+use the stellar library and SSP models.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://bpass.auckland.ac.nz/">BPASS - Binary Population and Spectral Synthesis
+code</a></p>
+<ul>
+<li><p>Best binary population model on the market.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="http://astro.u-strasbg.fr/~morgan/PEGASE.html">PEGASE - Projet d’Etude des GAlaxies par Synthese
+Evolutive</a></p></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../../../index.html">Taotie</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../research/getting_started.html">Getting Started as a Researcher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../research/computer_basics.html">Setting Up a Computer Environment for Research</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../research/job_and_career.html">Job Search and Career Related</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../research/writing_paper.html">About Writing Academic Paper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../stats_data_ml.html">Statistics, Data Science, &amp; Machine Learning</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../astro_readme.html">Astro README.md</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../astro_research_basic.html">Basic Tools for Astrophysical Research</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../astro_topic.html">Resources and Tools for a Specific Topic</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../astro_project.html">Resources about Important Astrophysical and Cosmological Projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../astro_reading.html">Reading List for a Specific Topic</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../python.html">Everything about Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../programing/clang_basic.html">C Programming Language</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../programing/cpp_basic.html">C++ Programming Language</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../programing/julia_basic.html">The Julia Programming Language</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../programing/numerical_method.html">Resources and Tools for Numerical Method and Scientific Computing</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../research/getting_started_cn.html">如何正确地踏上天文科研的不归路</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../../index.html">Documentation overview</a><ul>
+  <li><a href="../../../astro_topic.html">Resources and Tools for a Specific Topic</a><ul>
+      <li>Previous: <a href="cosmology_tools.html" title="previous chapter">Observational and Theoretical Cosmology</a></li>
+      <li>Next: <a href="transient_and_time_domain.html" title="next chapter">Transients and Other Time Series Science</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2019, Song Huang.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../../../_sources/resource/astro/topics/stellar_and_spops.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
