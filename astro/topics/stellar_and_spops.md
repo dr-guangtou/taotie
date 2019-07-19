@@ -107,6 +107,7 @@
 * [__MINESweeper__ - MIST Isochrones with NEsted Sampling](https://github.com/pacargile/MINESweeper)
     - Isochrone fitting code using latest mass-tracks from the MIST models.
     - Model interpolation and nested-sampling inference of observed stellar SED and/or parameters using the latest MIST stellar evolution models.
+    - Based on the work of [Cargile et al. 2019](https://arxiv.org/pdf/1907.07690.pdf)
 
 
 ## Stellar Population Synthesis or SED Fitting
