@@ -59,11 +59,10 @@
         - [Online document can be found here](https://spiceypy.readthedocs.io/en/master/)
 
 #### Object Detection
-=======
+
 * [__spiops__ - Extension of SPICE functionalities for ESA Missons](https://github.com/esaSPICEservice/spiops)
     - __spiops__ is a library aimed to help scientists and engineers that deal with Solar System Geometry mainly for planetary science
 
-### Object Detection
 
 * [__SALTAD__](https://github.com/NASA-Planetary-Science/SALTAD)
     - __SALTAD__ is comprised of a series of C language function modules for image processing multiframe image data to detect moving asteroids in a star cluttered background.
