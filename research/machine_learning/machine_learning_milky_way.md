@@ -16,5 +16,6 @@
 | Title | ML technique(s) used | arxiv link |
 | :---- | :------------------: | :--------: |
 | *Cataloging Accreted Stars within Gaia DR2 using Deep Learning* | Transfer Learning | https://arxiv.org/abs/1907.06652 | 
+| *Chasing Accreted Structures within Gaia DR2 using Deep Learning* | Neural Network | https://arxiv.org/abs/1907.07681 |
 
 &nbsp;

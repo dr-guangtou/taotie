@@ -104,6 +104,9 @@
     - If you use Python, try Andy Casey's [Installing MOOG the Easy Way](https://github.com/andycasey/moog)
 * [__StePar__ - an automatic code used to infer stellar atmospheric parameters using the EW method](https://github.com/hmtabernero/StePar)
     - Please see [Tabernero et al. 2019](https://arxiv.org/pdf/1907.06512.pdf) for more details.
+* [__MINESweeper__ - MIST Isochrones with NEsted Sampling](https://github.com/pacargile/MINESweeper)
+    - Isochrone fitting code using latest mass-tracks from the MIST models.
+    - Model interpolation and nested-sampling inference of observed stellar SED and/or parameters using the latest MIST stellar evolution models.
 
 
 ## Stellar Population Synthesis or SED Fitting
