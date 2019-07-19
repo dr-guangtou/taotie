@@ -37,38 +37,95 @@
 <h1>Planet Science and Small Bodies in the Solar System<a class="headerlink" href="#planet-science-and-small-bodies-in-the-solar-system" title="Permalink to this headline">¶</a></h1>
 <p><strong>Just started</strong></p>
 <hr class="docutils" />
-<div class="section" id="data">
-<h2>Data<a class="headerlink" href="#data" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="for-astrophysicists-who-is-mainly-interested-in-identifying-getting-rid-of-known-asteroids-in-their-data">
+<h2>For astrophysicists who is mainly interested in identifying/getting rid of known asteroids in their data:<a class="headerlink" href="#for-astrophysicists-who-is-mainly-interested-in-identifying-getting-rid-of-known-asteroids-in-their-data" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li><p><a class="reference external" href="https://minorplanetcenter.net/iau/mpc.html">IAU Minor Planet
-Center</a></p>
+<li><p>Web-based service, good for just checking a few targets: <a class="reference external" href="https://www.minorplanetcenter.net/cgi-bin/checkmp.cgi">IAU Minor
+Planet Center – Minor Planet
+Checker</a></p>
 <ul>
-<li><p>The MPC is responsible for the designation of minor bodies in the
-solar system: minor planets; comets; and natural satellites. The
-MPC is also responsible for the efficient collection, computation,
-checking and dissemination of astrometric observations and orbits
-for minor planets and comets</p></li>
-<li><p>For <a class="reference external" href="https://minorplanetcenter.net/data">data available from the minor planet
-center</a></p></li>
-<li><p><a class="reference external" href="https://minorplanetcenter.net//web_service">MPC Web Service</a>:
-is providing a web service interface to users, allowing them to
-programmatically fetch minor planet properties data from the MPC’s
-database.</p></li>
-<li><p><a class="reference external" href="https://www.minorplanetcenter.net/iau/MPEph/MPEph.html">Minor Planet &amp; Comet Ephemeris
-Service</a></p></li>
+<li><p>Only accept certain formats (coordinates need to be sexagesimal,
+or you need to format your observations in <a class="reference external" href="https://www.minorplanetcenter.net/iau/info/OpticalObs.html">MPC80COL
+format</a>)</p></li>
+<li><p>No (officially supported) API</p></li>
 </ul>
 </li>
-<li><p><a class="reference external" href="https://planetarynames.wr.usgs.gov/">Gazetteer of Planetary
-Nomenclature</a></p>
+<li><p>Command-line program that can be executed locally:
+<a class="reference external" href="https://www.projectpluto.com/pluto/devel/astcheck.htm">astcheck</a></p>
 <ul>
-<li><p>The Gazetteer of Planetary Nomenclature is maintained by the
-Planetary Geomatics Group of the USGS Astrogeology Science Center.</p></li>
+<li><p>If you need to check for asteroids regularly and/or have a large
+number of targets, this is for you</p></li>
+<li><p>You do need to maintain an up-to-date copy of either the <a class="reference external" href="ftp://ftp.lowell.edu/pub/elgb/astorb.html">ASTORB
+dataset</a> or the
+<a class="reference external" href="http://www.projectpluto.com/mpcorb.htm">MPCORB dataset</a></p></li>
+<li><p>Be careful about the epochs: it only works when the epoch of your
+observation matches/is near the epoch of the ASTORB/MPCORB
+dataset. In other words, be careful if you are checking archival
+data (you will need to integrate the orbits back to the epoch you
+want – use
+<a class="reference external" href="https://www.projectpluto.com/pluto/integrat.htm">integrat</a> to
+do that)</p></li>
 </ul>
 </li>
 </ul>
 </div>
-<div class="section" id="tools">
-<h2>Tools<a class="headerlink" href="#tools" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="small-bodies">
+<h2>Small Bodies<a class="headerlink" href="#small-bodies" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="asteroid-and-near-earth-object-survey">
+<h3>Asteroid and Near-Earth Object Survey<a class="headerlink" href="#asteroid-and-near-earth-object-survey" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.minorplanetcenter.net/">IAU Minor Planet Center</a></p>
+<ul>
+<li><p><a class="reference external" href="https://www.minorplanetcenter.net/iau/NEO/toconfirm_tabular.html">NEO Confirmation
+Page</a></p></li>
+<li><p><a class="reference external" href="https://www.minorplanetcenter.net/iau/NEO/pccp_tabular.html">Possible Comet Confirmation
+Page</a></p></li>
+<li><p><a class="reference external" href="https://www.minorplanetcenter.net/db_search">Minor Planet
+Database</a></p></li>
+<li><p><a class="reference external" href="https://www.minorplanetcenter.net/cgi-bin/checkmp.cgi">MPChecker – checking for known
+asteroids/comets</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://cneos.jpl.nasa.gov/">NASA/JPL Center for Near Earth Object
+Studies</a></p>
+<ul>
+<li><p><a class="reference external" href="https://ssd.jpl.nasa.gov/horizons.cgi">Small-Body Database</a></p>
+<ul>
+<li><p><a class="reference external" href="https://astroquery.readthedocs.io/en/latest/jplhorizons/jplhorizons.html">PYTHON wrapper:
+astroquery.jplhorizons</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://cneos.jpl.nasa.gov/sentry/">SENTRY – impact risk of known
+objects</a></p></li>
+<li><p><a class="reference external" href="https://cneos.jpl.nasa.gov/scout/#/">SCOUT – impact risk of to-be-confirmed
+objects</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://newton.spacedys.com/neodys/index.php?pc=7.0">ESA NEODyS</a></p></li>
+</ul>
+<div class="section" id="minor-planet-center-related-be-aware-may-be-outdated-not-maintained">
+<h4>Minor Planet Center Related (be aware: may be outdated/not maintained)<a class="headerlink" href="#minor-planet-center-related-be-aware-may-be-outdated-not-maintained" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">`mpc-fetch.py</span></code> - fetches properties of all objects that match
+search params &lt;<a class="reference external" href="https://minorplanetcenter.net/mpc-fetch.py">https://minorplanetcenter.net/mpc-fetch.py</a>&gt;`__</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`astroquery.mpc</span></code> - Minor Planet Center
+Queries &lt;<a class="reference external" href="https://astroquery.readthedocs.io/en/latest/mpc/mpc.html">https://astroquery.readthedocs.io/en/latest/mpc/mpc.html</a>&gt;`__</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">`mpc-client</span></code> - A python client for the Minor Planet Center’s MPC
+web service &lt;<a class="reference external" href="https://github.com/qdonnellan/mpc-client">https://github.com/qdonnellan/mpc-client</a>&gt;`__</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="characterization">
+<h3>Characterization<a class="headerlink" href="#characterization" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://photometrypipeline.readthedocs.io/en/latest/">PYTHON – Photometry
+Pipeline</a></p></li>
+<li><p><a class="reference external" href="https://github.com/matvii/ADAM">ADAM</a> – asteroid shape
+reconstruction from resolved observations</p></li>
+</ul>
+</div>
+<div class="section" id="general-tools">
+<h3>General Tools<a class="headerlink" href="#general-tools" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p><a class="reference external" href="https://github.com/NASA-Planetary-Science/sbpy">sbpy - A Python package for small bodies
 research</a></p>
@@ -88,7 +145,7 @@ Materials</a></p></li>
 </li>
 </ul>
 <div class="section" id="solar-system-geometry">
-<h3><a class="reference external" href="https://naif.jpl.nasa.gov/naif/solar_system_geometry.pdf">Solar System Geometry</a><a class="headerlink" href="#solar-system-geometry" title="Permalink to this headline">¶</a></h3>
+<h4><a class="reference external" href="https://naif.jpl.nasa.gov/naif/solar_system_geometry.pdf">Solar System Geometry</a><a class="headerlink" href="#solar-system-geometry" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
 <li><p><a class="reference external" href="https://naif.jpl.nasa.gov/naif/">SPICE - An Observation Geometry System for Space Science
 Missions</a></p>
@@ -110,6 +167,11 @@ here</a></p></li>
 </li>
 </ul>
 </li>
+</ul>
+</div>
+<div class="section" id="object-detection">
+<h4>Object Detection<a class="headerlink" href="#object-detection" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
 <li><p><a class="reference external" href="https://github.com/esaSPICEservice/spiops">spiops - Extension of SPICE functionalities for ESA
 Missons</a></p>
 <ul>
@@ -117,11 +179,6 @@ Missons</a></p>
 that deal with Solar System Geometry mainly for planetary science</p></li>
 </ul>
 </li>
-</ul>
-</div>
-<div class="section" id="object-detection">
-<h3>Object Detection<a class="headerlink" href="#object-detection" title="Permalink to this headline">¶</a></h3>
-<ul class="simple">
 <li><p><a class="reference external" href="https://github.com/NASA-Planetary-Science/SALTAD">SALTAD</a></p>
 <ul>
 <li><p><strong>SALTAD</strong> is comprised of a series of C language function modules
@@ -131,22 +188,30 @@ asteroids in a star cluttered background.</p></li>
 </li>
 </ul>
 </div>
-<div class="section" id="minor-planet-center-related">
-<h3>Minor Planet Center Related<a class="headerlink" href="#minor-planet-center-related" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+<div class="section" id="planets">
+<h2>Planets<a class="headerlink" href="#planets" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
+<li><p><a class="reference external" href="https://planetarynames.wr.usgs.gov/">Gazetteer of Planetary
+Nomenclature</a></p>
+<ul>
+<li><p>The Gazetteer of Planetary Nomenclature is maintained by the
+Planetary Geomatics Group of the USGS Astrogeology Science Center.</p></li>
+</ul>
+</li>
+</ul>
+<div class="section" id="modeling-and-simulating-planet">
+<h3>Modeling and Simulating Planet<a class="headerlink" href="#modeling-and-simulating-planet" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/physicsguy42/BEAM_beta">Beam - A Monte Carlo Radiative Transfer Code for studies of Saturn’s
+Rings</a></p></li>
 <li><p><a class="reference external" href="https://minorplanetcenter.net/mpc-fetch.py">mpc-fetch.py - fetches properties of all objects that match search
 params</a></p></li>
 <li><p><a class="reference external" href="https://astroquery.readthedocs.io/en/latest/mpc/mpc.html">astroquery.mpc - Minor Planet Center
 Queries</a></p></li>
 <li><p><a class="reference external" href="https://github.com/qdonnellan/mpc-client">mpc-client - A python client for the Minor Planet Center’s MPC web
 service</a></p></li>
-</ul>
-</div>
-<div class="section" id="modeling-and-simulating-planet">
-<h3>Modeling and Simulating Planet<a class="headerlink" href="#modeling-and-simulating-planet" title="Permalink to this headline">¶</a></h3>
-<ul class="simple">
-<li><p><a class="reference external" href="https://github.com/physicsguy42/BEAM_beta">Beam - A Monte Carlo Radiative Transfer Code for studies of Saturn’s
-Rings</a></p></li>
 </ul>
 </div>
 </div>

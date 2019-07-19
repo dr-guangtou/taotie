@@ -36,5 +36,30 @@ Weak Lensing
 
 -  Some of the tools overlap with the cosmology tools section.
 
+Galaxy-Galaxy Lensing Tools
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  `xshear - Measure the tangential shear around a set of
+   lenses <https://github.com/esheldon/xshear>`__
+
+   -  By Erin Sheldon. Measure the tangential shear around a set of
+      lenses. This technique is also known as cross-correlation shear,
+      hence the name xshear.
+
+-  `dsigma - Pure-python galaxy-galaxy lensing framework for the HSC
+   survey <https://github.com/dr-guangtou/dsigma>`__
+
+   -  By Song Huang. **dsigma** is a pure-python galaxy-galaxy lensing
+      pipeline designed for the Hyper-Suprime Cam survey. It should be
+      flexible enough to work with other surveys after adapting the same
+      data format.
+
+-  `swot - Super W of Theta <https://jeancoupon.com/swot>`__
+
+   -  SWOT is a code to compute two-point statistics for very large data
+      sets, based on “divide and conquer” algorithms. `Github repo is
+      here <https://github.com/jcoupon/swot>`__
+   -  Is a great tool to do galaxy-galaxy lensing.
+
 Micro Lensing
 -------------

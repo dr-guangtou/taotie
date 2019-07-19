@@ -276,6 +276,17 @@ Tools for Stellar Physics
       al. 2019 <https://arxiv.org/pdf/1907.06512.pdf>`__ for more
       details.
 
+-  `MINESweeper - MIST Isochrones with NEsted
+   Sampling <https://github.com/pacargile/MINESweeper>`__
+
+   -  Isochrone fitting code using latest mass-tracks from the MIST
+      models.
+   -  Model interpolation and nested-sampling inference of observed
+      stellar SED and/or parameters using the latest MIST stellar
+      evolution models.
+   -  Based on the work of `Cargile et
+      al. 2019 <https://arxiv.org/pdf/1907.07690.pdf>`__
+
 Stellar Population Synthesis or SED Fitting
 -------------------------------------------
 

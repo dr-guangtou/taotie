@@ -5,34 +5,86 @@ Planet Science and Small Bodies in the Solar System
 
 --------------
 
-Data
-----
+For astrophysicists who is mainly interested in identifying/getting rid of known asteroids in their data:
+---------------------------------------------------------------------------------------------------------
 
--  `IAU Minor Planet
-   Center <https://minorplanetcenter.net/iau/mpc.html>`__
+-  Web-based service, good for just checking a few targets: `IAU Minor
+   Planet Center – Minor Planet
+   Checker <https://www.minorplanetcenter.net/cgi-bin/checkmp.cgi>`__
 
-   -  The MPC is responsible for the designation of minor bodies in the
-      solar system: minor planets; comets; and natural satellites. The
-      MPC is also responsible for the efficient collection, computation,
-      checking and dissemination of astrometric observations and orbits
-      for minor planets and comets
-   -  For `data available from the minor planet
-      center <https://minorplanetcenter.net/data>`__
-   -  `MPC Web Service <https://minorplanetcenter.net//web_service>`__:
-      is providing a web service interface to users, allowing them to
-      programmatically fetch minor planet properties data from the MPC’s
-      database.
-   -  `Minor Planet & Comet Ephemeris
-      Service <https://www.minorplanetcenter.net/iau/MPEph/MPEph.html>`__
+   -  Only accept certain formats (coordinates need to be sexagesimal,
+      or you need to format your observations in `MPC80COL
+      format <https://www.minorplanetcenter.net/iau/info/OpticalObs.html>`__)
+   -  No (officially supported) API
 
--  `Gazetteer of Planetary
-   Nomenclature <https://planetarynames.wr.usgs.gov/>`__
+-  Command-line program that can be executed locally:
+   `astcheck <https://www.projectpluto.com/pluto/devel/astcheck.htm>`__
 
-   -  The Gazetteer of Planetary Nomenclature is maintained by the
-      Planetary Geomatics Group of the USGS Astrogeology Science Center.
+   -  If you need to check for asteroids regularly and/or have a large
+      number of targets, this is for you
+   -  You do need to maintain an up-to-date copy of either the `ASTORB
+      dataset <ftp://ftp.lowell.edu/pub/elgb/astorb.html>`__ or the
+      `MPCORB dataset <http://www.projectpluto.com/mpcorb.htm>`__
+   -  Be careful about the epochs: it only works when the epoch of your
+      observation matches/is near the epoch of the ASTORB/MPCORB
+      dataset. In other words, be careful if you are checking archival
+      data (you will need to integrate the orbits back to the epoch you
+      want – use
+      `integrat <https://www.projectpluto.com/pluto/integrat.htm>`__ to
+      do that)
 
-Tools
------
+Small Bodies
+------------
+
+Asteroid and Near-Earth Object Survey
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  `IAU Minor Planet Center <https://www.minorplanetcenter.net/>`__
+
+   -  `NEO Confirmation
+      Page <https://www.minorplanetcenter.net/iau/NEO/toconfirm_tabular.html>`__
+   -  `Possible Comet Confirmation
+      Page <https://www.minorplanetcenter.net/iau/NEO/pccp_tabular.html>`__
+   -  `Minor Planet
+      Database <https://www.minorplanetcenter.net/db_search>`__
+   -  `MPChecker – checking for known
+      asteroids/comets <https://www.minorplanetcenter.net/cgi-bin/checkmp.cgi>`__
+
+-  `NASA/JPL Center for Near Earth Object
+   Studies <https://cneos.jpl.nasa.gov/>`__
+
+   -  `Small-Body Database <https://ssd.jpl.nasa.gov/horizons.cgi>`__
+
+      -  `PYTHON wrapper:
+         astroquery.jplhorizons <https://astroquery.readthedocs.io/en/latest/jplhorizons/jplhorizons.html>`__
+
+   -  `SENTRY – impact risk of known
+      objects <https://cneos.jpl.nasa.gov/sentry/>`__
+   -  `SCOUT – impact risk of to-be-confirmed
+      objects <https://cneos.jpl.nasa.gov/scout/#/>`__
+
+-  `ESA NEODyS <https://newton.spacedys.com/neodys/index.php?pc=7.0>`__
+
+Minor Planet Center Related (be aware: may be outdated/not maintained)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+-  ```mpc-fetch.py`` - fetches properties of all objects that match
+   search params <https://minorplanetcenter.net/mpc-fetch.py>`__
+-  ```astroquery.mpc`` - Minor Planet Center
+   Queries <https://astroquery.readthedocs.io/en/latest/mpc/mpc.html>`__
+-  ```mpc-client`` - A python client for the Minor Planet Center’s MPC
+   web service <https://github.com/qdonnellan/mpc-client>`__
+
+Characterization
+~~~~~~~~~~~~~~~~
+
+-  `PYTHON – Photometry
+   Pipeline <https://photometrypipeline.readthedocs.io/en/latest/>`__
+-  `ADAM <https://github.com/matvii/ADAM>`__ – asteroid shape
+   reconstruction from resolved observations
+
+General Tools
+~~~~~~~~~~~~~
 
 -  `sbpy - A Python package for small bodies
    research <https://github.com/NASA-Planetary-Science/sbpy>`__
@@ -50,7 +102,7 @@ Tools
       Materials <https://github.com/NASA-Planetary-Science/sbpy-tutorial>`__
 
 `Solar System Geometry <https://naif.jpl.nasa.gov/naif/solar_system_geometry.pdf>`__
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 -  `SPICE - An Observation Geometry System for Space Science
    Missions <https://naif.jpl.nasa.gov/naif/>`__
@@ -69,14 +121,14 @@ Tools
       -  `Online document can be found
          here <https://spiceypy.readthedocs.io/en/master/>`__
 
+Object Detection
+^^^^^^^^^^^^^^^^
+
 -  `spiops - Extension of SPICE functionalities for ESA
    Missons <https://github.com/esaSPICEservice/spiops>`__
 
    -  **spiops** is a library aimed to help scientists and engineers
       that deal with Solar System Geometry mainly for planetary science
-
-Object Detection
-~~~~~~~~~~~~~~~~
 
 -  `SALTAD <https://github.com/NASA-Planetary-Science/SALTAD>`__
 
@@ -84,18 +136,23 @@ Object Detection
       for image processing multiframe image data to detect moving
       asteroids in a star cluttered background.
 
-Minor Planet Center Related
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Planets
+-------
 
--  `mpc-fetch.py - fetches properties of all objects that match search
-   params <https://minorplanetcenter.net/mpc-fetch.py>`__
--  `astroquery.mpc - Minor Planet Center
-   Queries <https://astroquery.readthedocs.io/en/latest/mpc/mpc.html>`__
--  `mpc-client - A python client for the Minor Planet Center’s MPC web
-   service <https://github.com/qdonnellan/mpc-client>`__
+-  `Gazetteer of Planetary
+   Nomenclature <https://planetarynames.wr.usgs.gov/>`__
+
+   -  The Gazetteer of Planetary Nomenclature is maintained by the
+      Planetary Geomatics Group of the USGS Astrogeology Science Center.
 
 Modeling and Simulating Planet
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  `Beam - A Monte Carlo Radiative Transfer Code for studies of Saturn’s
    Rings <https://github.com/physicsguy42/BEAM_beta>`__
+-  `mpc-fetch.py - fetches properties of all objects that match search
+   params <https://minorplanetcenter.net/mpc-fetch.py>`__
+-  `astroquery.mpc - Minor Planet Center
+   Queries <https://astroquery.readthedocs.io/en/latest/mpc/mpc.html>`__
+-  `mpc-client - A python client for the Minor Planet Center’s MPC web
+   service <https://github.com/qdonnellan/mpc-client>`__

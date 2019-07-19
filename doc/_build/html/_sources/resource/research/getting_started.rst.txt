@@ -126,8 +126,8 @@ Choosing a Programing Language
    of them is free, so please make sure you have the correct license to
    use them.
 -  And it never hurts if you can learn some basic programming skills
-   related to webpage making,
-   e.g. \ `HTML <https://www.w3schools.com/html/>`__,
+   related to webpage making, e.g.
+   `HTML <https://www.w3schools.com/html/>`__,
    `CSS <https://www.w3schools.com/css/>`__, and
    `Javascript <https://www.javascript.com/>`__.
 -  **It is also important to remember: never tool-shaming others!**.
@@ -154,7 +154,7 @@ Organizing Your Research Project
 --------------------------------
 
 -  `GitHub <https://github.com/>`__ or any other on line code
-   repositories (e.g. `GitLab <https://about.gitlab.com/>`__,
+   repositories (e.g. `GitLab <https://about.gitlab.com/>`__,
    `bitbucket <https://bitbucket.org/>`__,
    `coding <https://coding.net/git>`__) can help organize your
    scientific project. It can help you do version control, back up
@@ -230,9 +230,9 @@ Backing-up Your Research
 -  Off-line Backup:
 
    -  You should constantly back-up your harddrive using external
-      harddrive. Both MacOSX
-      (e.g. `TimeMachine <https://support.apple.com/en-us/HT201250>`__)
-      and Linux (`TimeVault <https://wiki.ubuntu.com/TimeVault>`__ and
+      harddrive. Both MacOSX (e.g.
+      `TimeMachine <https://support.apple.com/en-us/HT201250>`__) and
+      Linux (`TimeVault <https://wiki.ubuntu.com/TimeVault>`__ and
       `Duplicity <http://duplicity.nongnu.org/>`__) have systems that
       help you backup data.
    -  You can also easily backup your entire system or certain directory
@@ -424,7 +424,6 @@ Personal Website
 -  It is actually pretty important to have a visible personal website
    that links your CV and contact information. Make sure that it can be
    found by search engine.
-
 -  This is especially important if you try to find job in another
    country (e.g. get a PhD in China, want a post-doc job in Europe) or
    when you know the hiring committee is not familiar with you.
@@ -466,7 +465,6 @@ Scientific Conference
    is a very good place to check if there is anything conference that
    interests you in the future. There is a RSS Feed and a **iCal**
    subscription.
-
 -  `astromeetings Twitter
    account <https://twitter.com/astromeetings?lang=en>`__ is also a good
    way to follow the on-going conferences in your field.

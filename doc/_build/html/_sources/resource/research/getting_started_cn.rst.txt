@@ -212,7 +212,6 @@ ORCID个人标识以及Google学术
    (国内叫做象印笔记)，以及__Dropbox__旗下的`\__Paper__服务 <https://paper.dropbox.com>`__
    都是不错的选择.
    如果你还是习惯使用纸质笔记，这些服务的移动应用都可以帮助你扫描整理笔记。
-
 -  如果你已经在使用__GitHub__这样的托管平台来整理你的科学项目，\ `使用其提供的维基页面服务 <https://guides.github.com/features/wikis/>`__
    同样是非常方便的选择。
 

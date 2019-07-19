@@ -23,5 +23,19 @@ accretionhistory ## Accretion History of the Milky Way
 | Learnin |                                        |                   |
 | g*      |                                        |                   |
 +---------+----------------------------------------+-------------------+
+| *Chasin | Neural Network                         | https://arxiv.org |
+| g       |                                        | /abs/1907.07681   |
+| Accrete |                                        |                   |
+| d       |                                        |                   |
+| Structu |                                        |                   |
+| res     |                                        |                   |
+| within  |                                        |                   |
+| Gaia    |                                        |                   |
+| DR2     |                                        |                   |
+| using   |                                        |                   |
+| Deep    |                                        |                   |
+| Learnin |                                        |                   |
+| g*      |                                        |                   |
++---------+----------------------------------------+-------------------+
 
  

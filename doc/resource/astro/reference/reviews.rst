@@ -50,10 +50,8 @@ High Energy Astrophysical Phenomena
 -----------------------------------
 
 -  `Multi-Messenger Astrophysics <https://arxiv.org/abs/1906.10212>`__
-
 -  `Multi-Messenger Physics with the Pierre Auger
    Observatory <https://arxiv.org/abs/1904.11918>`__
-
 -  `Multi-Messenger Astrophysics with Pulsar Timing
    Arrays <https://arxiv.org/abs/1903.07644>`__
 
@@ -82,3 +80,26 @@ Solar and Stellar Astrophysics
 
 -  `The role of magnetic fields in the formation of protostellar
    discs <https://arxiv.org/abs/1812.06728>`__
+
+Solar System
+------------
+
+Near-Earth Asteroids
+~~~~~~~~~~~~~~~~~~~~
+
+-  `Earth’s Minimoons: Opportunities for Science and
+   Technology <https://arxiv.org/abs/1905.13457>`__
+
+Post-Rosetta Reviews
+~~~~~~~~~~~~~~~~~~~~
+
+-  `The Thermal, Mechanical, Structural, and Dielectric Properties of
+   Cometary Nuclei After Rosetta <https://arxiv.org/abs/1905.01156>`__
+-  `Local Manifestations of Cometary
+   Activity <https://arxiv.org/abs/1904.05607>`__
+
+Meteors
+~~~~~~~
+
+-  `Physics of meteor generated shock waves in the Earth’s atmosphere –
+   A review <https://arxiv.org/abs/1805.07842>`__
