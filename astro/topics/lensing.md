@@ -85,3 +85,28 @@
 
 
 ## Micro Lensing
+
+* [Microlensing Source](http://microlensing-source.org/overview/)
+    - A website that summaries a lot of useful resources and data for microlensing science.
+    - It also hosts the [Microlensing Data Challenge](http://microlensing-source.org/data-challenge/)
+    - The data for the challenge can be found [on Github](https://github.com/microlensing-data-challenge/data-challenge-1)
+
+* [Microlensing Hack Session at CCA, 2019](https://hack.microlensing.science/)
+    - There is [a summary of resources](https://hack.microlensing.science/resources/) for micro-lensing analysis and [a series of interesting micro-lensing projects](https://hack.microlensing.science/projects/)
+
+### Software
+
+* [__muLAn__ - gravitational MICROlensing Analysis Software](https://github.com/muLAn-project/muLAn)
+    - __muLAn__ is an easy-to-use and flexile software to model gravitational microlensing events
+
+* [__MulensModel__ - Microlensing Modelling package](https://github.com/rpoleski/MulensModel)
+    - By Radek Poleski. __MulensModel__ can generate a microlensing light curve for a given set of microlensing parameters, fit that light curve to some data, and return a chi2 value
+
+* [__LIA__ - Gravitational microlensing detection algorithm using machine learning](https://github.com/dgodinez77/LIA)
+    - __LIA__ is an open-source program for detecting microlensing events in wide-field surveys
+
+* [__pyLIMA__ - open source for modeling microlensing events](https://github.com/ebachelet/pyLIMA/)
+    - Document for __pyLIMA__ can be found [here](https://ebachelet.github.io/pyLIMA/)
+
+* [__VBBinaryLensing__ - Microlensing light curve calculation](https://github.com/valboz/VBBinaryLensing)
+    - By Valerio Bozza. __VBBinaryLensing__ is a tool for forward modelling of gravitational microlensing events using the advanced contour integration method It supports single and binary lenses.
