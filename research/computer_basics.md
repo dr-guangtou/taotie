@@ -46,6 +46,13 @@
 	- A curated list of shell commands and tools specific to OS X. 
 	- A lot of these actually work for Linux too.
 
+### Regular Expression
+
+* Regular expression (__regex__) is a group of characters or symbols which is used to find a specific pattern from a text. It is very useful to learn the basic of __regex__.
+
+* [Learn Regex the Easy Way](https://github.com/ziishaned/learn-regex)
+	- There is a [Chinese version](https://github.com/ziishaned/learn-regex/blob/master/translations/README-cn.md) 
+
 ### __Bash__ related
 
 * [Pure Bash Bible](https://github.com/dylanaraps/pure-bash-bible)
@@ -64,6 +71,23 @@
 
 * [The Fish Cookbook](https://github.com/jorgebucaran/fish-cookbook)
 	- Tips and recipes for fish, from shell to plate
+
+## Version Control
+
+### __Git__
+
+* [__git__](https://git-scm.com/doc) is the most widely used software for version control and it is extremely useful to learn the basic of it.  
+	- Plenty of reference and examples are provided in the above webpage including many short videos.
+
+* [Learn Git with Bitbucket Cloud](https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud) is another good place to start learning about version control using __git__.
+	- [Git cheat sheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet) and [Advanced Git Tutorials](https://www.atlassian.com/git/tutorials/advanced-overview).
+
+* [Oh shit, git!](http://ohshitgit.com/)
+	- A very practical guide for when you screw up in __git__.
+
+### Others
+
+* [__mercurial__](https://www.mercurial-scm.org/) is another popular version control software.
 
 ## System Tools
 
