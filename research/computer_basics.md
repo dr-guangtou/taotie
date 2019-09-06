@@ -29,7 +29,7 @@
 
 ## Shell Environment
 
-> Fluency on the command line is a skill often neglected or considered arcane, but it improves your flexibility and 
+> Fluency on the command line is a skill often neglected or considered arcane, but it improves your flexibility and
 > productivity as an engineer in both obvious and subtle ways.  -- The Art of Command Line
 
 * **The same also applies to student of science and researcher.**
@@ -43,7 +43,7 @@
 	- A curated list of useful command line apps, in celebration of the TUI.
 
 * [__awesome-macos-command-line__ - Use your macOS terminal shell to do awesome things](https://github.com/herrbischoff/awesome-macos-command-line)
-	- A curated list of shell commands and tools specific to OS X. 
+	- A curated list of shell commands and tools specific to OS X.
 	- A lot of these actually work for Linux too.
 
 ### Regular Expression
@@ -51,7 +51,7 @@
 * Regular expression (__regex__) is a group of characters or symbols which is used to find a specific pattern from a text. It is very useful to learn the basic of __regex__.
 
 * [Learn Regex the Easy Way](https://github.com/ziishaned/learn-regex)
-	- There is a [Chinese version](https://github.com/ziishaned/learn-regex/blob/master/translations/README-cn.md) 
+	- There is a [Chinese version](https://github.com/ziishaned/learn-regex/blob/master/translations/README-cn.md)
 
 ### __Bash__ related
 
@@ -76,7 +76,7 @@
 
 ### __Git__
 
-* [__git__](https://git-scm.com/doc) is the most widely used software for version control and it is extremely useful to learn the basic of it.  
+* [__git__](https://git-scm.com/doc) is the most widely used software for version control and it is extremely useful to learn the basic of it.
 	- Plenty of reference and examples are provided in the above webpage including many short videos.
 
 * [Learn Git with Bitbucket Cloud](https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud) is another good place to start learning about version control using __git__.
@@ -106,3 +106,10 @@
 
 * [__mac-setup__: Installing Development environment on macOS](https://github.com/sb2nov/mac-setup)
 	- The more readable website is [here](http://sourabhbajaj.com/mac-setup/iTerm/tree.html)
+
+### Mount harddrive in Linux file system
+
+* Linux system uses __ext4__ or other similar file system that is not automatically readable under __MacOSX__. The [__ext4fuse__ software](https://github.com/gerard/ext4fuse) will be useful.
+	- Please read [this stackexchange thread](https://apple.stackexchange.com/questions/210198/mount-ext4-on-el-capitan) for more details.
+
+* [__ExtFS__](https://www.paragon-software.com/us/home/extfs-mac/) is not a free software. It costs you $39.95 but it is claimed to be able to mount or even repair __ext__ system under __MacOSX__
