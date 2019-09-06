@@ -147,3 +147,11 @@
 - [pycallgraph - Python module that creates call graphs for Python programs](https://github.com/gak/pycallgraph)
 	* No longer maintained by the original author, but still available through a fork: [pycallgraph2](https://github.com/daneads/pycallgraph2)
 
+
+### Upload Your Package to __PyPI__
+
+* __PyPI__ is the Python Package Index. It is a repository of software for the Python programming language.
+	- "It helps you find and install software developed and shared by the Python community"
+	- Basically, once you upload your project to __PyPI__, people can use __pip install__ to install it.
+
+* It is pretty straightforward to upload your project. Please read [this tutorial](https://packaging.python.org/tutorials/packaging-projects/)
