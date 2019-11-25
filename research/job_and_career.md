@@ -16,7 +16,7 @@
 
 * [FindingAda website has a nice poster: What kind of technologist could I be?](https://findingada.com/blog/2018/10/08/new-careers-poster-what-kind-of-technologist-could-i-be/)
     - "The poster aims to explode the idea that the only people who work in tech are programmers, and that traditionally female-coded roles, such as Teacher, Communicator and Facilitator are ‘not really tech jobs’."
-    - "The role descriptions are left intentionally general so that students can more easily explore the nuances of different jobs within each category." 
+    - "The role descriptions are left intentionally general so that students can more easily explore the nuances of different jobs within each catgory." 
     - Many of these roles also apply to researchers or person with an academic background.
 
 * [Brown University's CareerLAB](https://www.brown.edu/campus-life/support/careerlab/) has a few nice guidance for finding job inside and outside academia:
@@ -98,6 +98,13 @@
 
 * [Guide to use research statement from Cornell University](https://gradschool.cornell.edu/academic-progress/pathways-to-success/prepare-for-your-career/take-action/research-statement/)
 * [Hints on Preparing Research Proposals](https://aas.org/grants-and-prizes/hints-preparing-research-proposals)
+
+#### Teaching Statement
+
+#### Diversity Statement
+
+* [Developing and Writing a Diversity Statement from Vanderbilt University](https://cft.vanderbilt.edu/guides-sub-pages/developing-and-writing-a-diversity-statement/)
+* [Demystifying the Diversity Statement from InsideHigjer ED](https://www.insidehighered.com/advice/2018/01/25/how-write-effective-diversity-statement-job-candidate-opinion)
 
 ### To Apply a Non-Academic Position
 

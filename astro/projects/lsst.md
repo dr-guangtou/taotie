@@ -150,3 +150,10 @@
 * [__sims_photUtils__: LSST Simulations package for photometric utility functions](https://github.com/lsst/sims_photUtils)
 * [__sims_survey_fields__: A package for retrieving LSST survey fields](https://github.com/lsst/sims_survey_fields)
 * [__sims_skybrightness__: Tool to predict the background sky emission SED at an arbitrary RA, Dec, and MJD](https://github.com/lsst/sims_skybrightness)
+
+### Useful Resources
+
+* [Calculating LSST limiting magnitudes and SNR](https://smtn-002.lsst.io/#data-sources-and-references)
+
+* [Simulation Survey Field Information](https://sims-survey-fields.lsst.io/index.html#)
+    - This package contains the sky field information that is used by the Operations Simulator.
