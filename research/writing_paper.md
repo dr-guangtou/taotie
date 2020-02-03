@@ -20,6 +20,9 @@
 
 ## Useful Tools
 
+* [bibmanager - A BibTeX manager for LaTeX projects](https://bibmanager.readthedocs.io/en/latest/)
+  - By Patricio Cubillos; a command-line application to maintain a database of references (BibTeX and PDFs) that automates generating .bib files when compiling LaTeX projects; as well as search, sync, and fetch from ADS.
+
 * [adstex - manage your bibtex entries](https://github.com/yymao/adstex)
   - By Yao-Yuan Mao; Automated generation of NASA ADS bibtex entries directly from citation keys in your TeX source files
 
