@@ -26,12 +26,23 @@
 * [Why rainbow colormap is harmful](https://blogs.egu.eu/divisions/gd/2017/08/23/the-rainbow-colour-map/)
 
 ### Matplotlib
+
 * [Gallery of named colors in Matplotlib](https://matplotlib.org/examples/color/named_colors.html)
 * [Gallery of colormaps in Matplotlib](https://matplotlib.org/examples/color/colormaps_reference.html)
 
 ### Fancier and Better
 
 * [ColorBrewer2 - Interactive colormap builder](http://colorbrewer2.org)
-* [Palettable - Color palettes for Python](https://jiffyclub.github.io/palettable/)
-* [Perceptually uniform color maps](http://www.fabiocrameri.ch/visualisation.php)
 * [Nippon Colors - Fancy traditional Japanese colors](http://nipponcolors.com)
+
+### Better Colormaps
+
+* [Palettable - Color palettes for Python](https://jiffyclub.github.io/palettable/)
+	- Really useful, with a lot of nice selections. Including color palettable from Wes Anderson movies.
+
+* [CMasher: Scientific colormaps for making accessible, informative and cmashing plots](https://cmasher.readthedocs.io/index.html)
+	- "The colormaps in CMasher are all designed to be perceptually uniform sequential using the viscm package; most of them are color-vision deficiency (CVD; color blindness) friendly"
+
+* [Scientific Colour-Maps by Fabio Crameri](http://www.fabiocrameri.ch/visualisation.php)
+	- "Scientific colour-maps, like the colour maps devon, davos, oslo, and broc, are perceptually uniform, perceptually ordered, readable as B&W print and colour-vision-deficiency (CVD) friendly."
+
