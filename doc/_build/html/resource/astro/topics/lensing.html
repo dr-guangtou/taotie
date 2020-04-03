@@ -7,12 +7,12 @@
     <title>All about Lensing: Strong, Weak, and Micro &#8212; Taotie 0.1 documentation</title>
     <link rel="stylesheet" href="../../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
-    <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
-    <script type="text/javascript" src="../../../_static/jquery.js"></script>
-    <script type="text/javascript" src="../../../_static/underscore.js"></script>
-    <script type="text/javascript" src="../../../_static/doctools.js"></script>
-    <script type="text/javascript" src="../../../_static/language_data.js"></script>
-    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+    <script src="../../../_static/jquery.js"></script>
+    <script src="../../../_static/underscore.js"></script>
+    <script src="../../../_static/doctools.js"></script>
+    <script src="../../../_static/language_data.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
     <link rel="next" title="Photometric Redshift Tools and Algorithms" href="photoz.html" />
@@ -74,25 +74,23 @@ systems observed by a radio/mm interferometer like ALMA or ATCA.</p></li>
 <h2>Weak Lensing<a class="headerlink" href="#weak-lensing" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p>Some of the tools overlap with the cosmology tools section.</p></li>
-</ul>
-<div class="section" id="galaxy-galaxy-lensing-tools">
-<h3>Galaxy-Galaxy Lensing Tools<a class="headerlink" href="#galaxy-galaxy-lensing-tools" title="Permalink to this headline">¶</a></h3>
-<ul class="simple">
-<li><p><a class="reference external" href="https://github.com/esheldon/xshear">xshear - Measure the tangential shear around a set of
-lenses</a></p>
+<li><p><a class="reference external" href="https://github.com/apetri/LensTools">LensTools - Useful computing tools for Weak Lensing
+analyses</a></p>
 <ul>
-<li><p>By Erin Sheldon. Measure the tangential shear around a set of
-lenses. This technique is also known as cross-correlation shear,
-hence the name xshear.</p></li>
+<li><p>This python add-on will handle basically every operation you will
+need to perform on Weak Lensing survey data; the distribution
+includes a range of tools in image analysis, statistical
+processing and numerical theory predictions and supports
+multiprocessing using the mpi4py module.</p></li>
+<li><p>Full document can be found
+<a class="reference external" href="https://lenstools.readthedocs.io/en/latest/">here</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference external" href="https://github.com/dr-guangtou/dsigma">dsigma - Pure-python galaxy-galaxy lensing framework for the HSC
-survey</a></p>
+<li><p><a class="reference external" href="Code%20for%20efficiently%20computing%202-point%20and%203-point%20correlation%20functions">TreeCorr</a></p>
 <ul>
-<li><p>By Song Huang. <strong>dsigma</strong> is a pure-python galaxy-galaxy lensing
-pipeline designed for the Hyper-Suprime Cam survey. It should be
-flexible enough to work with other surveys after adapting the same
-data format.</p></li>
+<li><p>By Mark Jarvis. <strong>TreeCorr</strong> is actually a very general tool for
+correlation function. Can be used for number counts, cosmic shear,
+galaxy-galaxy lensing, and other cosmological applications.</p></li>
 </ul>
 </li>
 <li><p><a class="reference external" href="https://jeancoupon.com/swot">swot - Super W of Theta</a></p>
@@ -104,10 +102,209 @@ here</a></p></li>
 </ul>
 </li>
 </ul>
+<div class="section" id="shear-measurement">
+<h3>Shear Measurement<a class="headerlink" href="#shear-measurement" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Galaxy shape measurement with corrections for PSF and other
+systematics. Different lensing surveys often choose different codes
+or algorithms to calculate shear.</p></li>
+<li><p><a class="reference external" href="http://great3challenge.info/">GREAT3 - The third GRavitational lEnsing Accuracy Testing
+challenge</a></p>
+<ul>
+<li><p><strong>GREAT3</strong> is a blind data analysis competition held by the
+world-wide weak lensing community to test weak lensing measurement
+algorithms.</p></li>
+<li><p>Details about the challenge can be found in the <a class="reference external" href="https://arxiv.org/abs/1308.4982">The Third
+Gravitational Lensing Accuracy Testing (GREAT3) Challenge
+Handbook</a></p></li>
+<li><p>Summary of the challenge can be found in the <a class="reference external" href="http://www.great3challenge.info/?q=finalmeeting">final GREAT3
+conference</a></p></li>
+<li><p><a class="reference external" href="https://github.com/barnabytprowe/great3-public">Public repository for the code can be found on
+GitHub</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/esheldon/ngmix">ngmix - Gaussian mixtures and image processing implemented in
+python</a></p>
+<ul>
+<li><p>By Erin Sheldon. Gaussian mixture models and other code for
+working with for 2d images, implemented in python.</p></li>
+<li><p><strong>ngmix</strong> is adopted by the dark energy survey (DES) as one of the
+shear measurement tools. Examples of running <strong>ngmix</strong> on DES MEDS
+files can be found
+<a class="reference external" href="https://github.com/esheldon/gmix_meds">here</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://bitbucket.org/joezuntz/im3shape-git/src/master/">im3shape - galaxy shape measurement
+code</a></p>
+<ul>
+<li><p>By Joe Zuntz. <strong>Im3shape</strong> measures the shapes of galaxies in
+astronomical survey images, taking into account that they have
+been distorted by a point-spread function.</p></li>
+<li><p><strong>Im3shape</strong> is adopted by the dark energy survey (DES) as one of
+the shear measurement tools. Please also see <a class="reference external" href="https://arxiv.org/abs/1302.0183">Zuntz et
+al. 2013</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/lsst/meas_extensions_shapeHSM">meas_extensions_shapeHSM : HSM shape
+measurement</a></p>
+<ul>
+<li><p>Used by the LSST Data Management.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="cosmic-shears-analysis">
+<h3>Cosmic Shears Analysis<a class="headerlink" href="#cosmic-shears-analysis" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/apetri/CFHTLens_analysis">Weak gravitational lensing CFHTLens
+analysis</a></p></li>
+<li><p><a class="reference external" href="https://github.com/fkoehlin/kids450_cf_likelihood_public">Public repository for the Monte Python likelihood module for the
+KiDS-450 cosmic shear correlation
+functions</a></p>
+<ul>
+<li><p>This repository contains the likelihood module for the KiDS-450
+correlation function measurements from <a class="reference external" href="https://arxiv.org/abs/1606.05338">Hildebrandt et
+al. 2017</a></p></li>
+<li><p>Also the <a class="reference external" href="https://github.com/fkoehlin/kv450_cf_likelihood_public">public repository for the Monte Python likelihood module
+for the KiDS+VIKING-450 (KV450) cosmic shear correlation
+functions</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="galaxy-galaxy-lensing-tools">
+<h3>Galaxy-Galaxy Lensing Tools<a class="headerlink" href="#galaxy-galaxy-lensing-tools" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/esheldon/xshear">xshear - Measure the tangential shear around a set of
+lenses</a></p>
+<ul>
+<li><p>By Erin Sheldon. Measure the tangential shear around a set of
+lenses. This technique is also known as cross-correlation shear,
+hence the name xshear.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/vargatn/xpipe">xpipe - Weak lensing measurement pipeline for wide area
+surveys</a></p>
+<ul>
+<li><p>By Tamás Norbert Varga. <strong>xpipe</strong> is a python package created to
+automate work with measuring and calibrating weak lensing shear
+and mass profiles in wide area lensing surveys such as DES</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/dr-guangtou/dsigma">dsigma - Pure-python galaxy-galaxy lensing framework for the HSC
+survey</a></p>
+<ul>
+<li><p>By Song Huang. <strong>dsigma</strong> is a pure-python galaxy-galaxy lensing
+pipeline designed for the Hyper-Suprime Cam survey. It should be
+flexible enough to work with other surveys after adapting the same
+data format.</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="cluster-lensing">
+<h3>Cluster Lensing<a class="headerlink" href="#cluster-lensing" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/jesford/cluster-lensing">cluster-lensing - Galaxy Cluster and Weak Lensing
+Tools</a></p>
+<ul>
+<li><p>By <a class="reference external" href="http://jesford.github.io/">Jes Ford</a>. <strong>cluster-lensing</strong>
+is a set of tools to calculate galaxy cluster halo properties and
+weak lensing shear and magnification profiles.</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/nicolaschotard/Clusters">Python codes for ongoing cluster analysis of the LSST/DESC cluster
+group</a></p>
+<ul>
+<li><p>Some of the relevant notebooks can be found
+<a class="reference external" href="https://github.com/lsst-france/LSST_notebooks">here</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="weak-lensing-mass-map">
+<h3>Weak Lensing Mass Map<a class="headerlink" href="#weak-lensing-mass-map" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/CosmoStat/Glimpse">Glimpse - Sparsity based weak lensing mass-mapping
+tool</a></p>
+<ul>
+<li><p>By [François Lanusse].
+<a class="reference external" href="http://www.cosmostat.org/software/glimpse">Glimpse</a> is a weak
+lensing mass-mapping tool relying a robust sparsity-based
+regularisation scheme to recover high resolution convergence from
+either gravitational shear alone or from a combination of shear
+and flexion. Please also see <a class="reference external" href="https://arxiv.org/abs/1603.01599">Lanusse et
+al. 2016</a></p></li>
+</ul>
+</li>
+</ul>
 </div>
 </div>
 <div class="section" id="micro-lensing">
 <h2>Micro Lensing<a class="headerlink" href="#micro-lensing" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="http://microlensing-source.org/overview/">Microlensing Source</a></p>
+<ul>
+<li><p>A website that summaries a lot of useful resources and data for
+microlensing science.</p></li>
+<li><p>It also hosts the <a class="reference external" href="http://microlensing-source.org/data-challenge/">Microlensing Data
+Challenge</a></p></li>
+<li><p>The data for the challenge can be found <a class="reference external" href="https://github.com/microlensing-data-challenge/data-challenge-1">on
+Github</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://hack.microlensing.science/">Microlensing Hack Session at CCA,
+2019</a></p>
+<ul>
+<li><p>There is <a class="reference external" href="https://hack.microlensing.science/resources/">a summary of
+resources</a> for
+micro-lensing analysis and <a class="reference external" href="https://hack.microlensing.science/projects/">a series of interesting micro-lensing
+projects</a></p></li>
+</ul>
+</li>
+</ul>
+<div class="section" id="software">
+<h3>Software<a class="headerlink" href="#software" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/muLAn-project/muLAn">muLAn - gravitational MICROlensing Analysis
+Software</a></p>
+<ul>
+<li><p><strong>muLAn</strong> is an easy-to-use and flexile software to model
+gravitational microlensing events</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/rpoleski/MulensModel">MulensModel - Microlensing Modelling
+package</a></p>
+<ul>
+<li><p>By Radek Poleski. <strong>MulensModel</strong> can generate a microlensing
+light curve for a given set of microlensing parameters, fit that
+light curve to some data, and return a chi2 value</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/dgodinez77/LIA">LIA - Gravitational microlensing detection algorithm using machine
+learning</a></p>
+<ul>
+<li><p><strong>LIA</strong> is an open-source program for detecting microlensing
+events in wide-field surveys</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/ebachelet/pyLIMA/">pyLIMA - open source for modeling microlensing
+events</a></p>
+<ul>
+<li><p>Document for <strong>pyLIMA</strong> can be found
+<a class="reference external" href="https://ebachelet.github.io/pyLIMA/">here</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://github.com/valboz/VBBinaryLensing">VBBinaryLensing - Microlensing light curve
+calculation</a></p>
+<ul>
+<li><p>By Valerio Bozza. <strong>VBBinaryLensing</strong> is a tool for forward
+modelling of gravitational microlensing events using the advanced
+contour integration method It supports single and binary lenses.</p></li>
+</ul>
+</li>
+</ul>
+</div>
 </div>
 </div>
 
@@ -173,7 +370,7 @@ here</a></p></li>
     </form>
     </div>
 </div>
-<script type="text/javascript">$('#searchbox').show(0);</script>
+<script>$('#searchbox').show(0);</script>
 
 
 
@@ -190,7 +387,7 @@ here</a></p></li>
       &copy;2019, Song Huang.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.2</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.4.4</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

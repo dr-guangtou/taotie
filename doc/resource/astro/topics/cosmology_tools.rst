@@ -193,12 +193,12 @@ Key Technique
 
 -  Principle Component Analysis (PCA)
 
-   -  e.g. `empca <https://github.com/sbailey/empca>`__ by Stephen
+   -  e.g. `empca <https://github.com/sbailey/empca>`__ by Stephen
       Bailey
 
 -  Gaussian process emulator
 
-   -  e.g. `george <http://dfm.io/george/current/>`__ by Dan
+   -  e.g. `george <http://dfm.io/george/current/>`__ by Dan
       Foreman-Mackey
 
 Available Emulators

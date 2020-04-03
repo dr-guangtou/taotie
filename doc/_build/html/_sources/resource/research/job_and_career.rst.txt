@@ -37,7 +37,7 @@ Can I haz a job? General Career Advice
       really tech jobs’.”
    -  “The role descriptions are left intentionally general so that
       students can more easily explore the nuances of different jobs
-      within each category.”
+      within each catgory.”
    -  Many of these roles also apply to researchers or person with an
       academic background.
 
@@ -166,6 +166,7 @@ Personal Website
 -  It is actually pretty important to have a visible personal website
    that links your CV and contact information. Make sure that it can be
    found by search engine.
+
 -  This is especially important if you try to find job in another
    country (e.g. get a PhD in China, want a post-doc job in Europe) or
    when you know the hiring committee is not familiar with you.
@@ -198,6 +199,17 @@ Research Plan and/or Research Proposal
    University <https://gradschool.cornell.edu/academic-progress/pathways-to-success/prepare-for-your-career/take-action/research-statement/>`__
 -  `Hints on Preparing Research
    Proposals <https://aas.org/grants-and-prizes/hints-preparing-research-proposals>`__
+
+Teaching Statement
+^^^^^^^^^^^^^^^^^^
+
+Diversity Statement
+^^^^^^^^^^^^^^^^^^^
+
+-  `Developing and Writing a Diversity Statement from Vanderbilt
+   University <https://cft.vanderbilt.edu/guides-sub-pages/developing-and-writing-a-diversity-statement/>`__
+-  `Demystifying the Diversity Statement from InsideHigjer
+   ED <https://www.insidehighered.com/advice/2018/01/25/how-write-effective-diversity-statement-job-candidate-opinion>`__
 
 To Apply a Non-Academic Position
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

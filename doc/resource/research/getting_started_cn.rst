@@ -72,7 +72,7 @@ ORCID个人标识以及Google学术
 -  熟练掌握科研相关的计算机技能，熟练使用至少一门编程语言早已是成为一名科研工作者的最低要求。对天文学工作者来说，熟练使用命令行环境，熟悉像__Linux__或者__MacOSX__这样基于__Unix__的操作系统是很有必要的。__饕餮__中也提供了\ `相关资料 <https://github.com/dr-guangtou/taotie/blob/master/research/computer_basics.md>`__
 -  目前，\ `Python <https://www.python.org/>`__
    已是天文，天体物理，和宇宙学研究的“标准”语言。如果你刚开始科研训练，\ **把Python作为第一门认真学习的语言也是最好的选择**\ ，不仅因为Python不错的性能，交互的特性，更因为社区里已经有一大批成熟的工具供你参考使用
-   (比如社区共同维护的`\__Astropy__工具库 <https://www.astropy.org/>`__
+   (比如社区共同维护的\ `\__Astropy__工具库 <https://www.astropy.org/>`__
    以及其旗下的一系列工具包)。
 -  \__饕餮__中也为你提供了一系列关于Python的参考资料，比如关于\ `\__Python__的基础学习资料 <https://github.com/dr-guangtou/taotie/blob/master/programing/python_basic.md>`__
    ,\ `关于如何提升__Python__程序性能 <https://github.com/dr-guangtou/taotie/blob/master/programing/python_performance.md>`__,
@@ -208,10 +208,11 @@ ORCID个人标识以及Google学术
 -  科研过程当中往往会产生大量的笔记或者其他文字资料。这些笔记包括了想法的整理，数据处理细节，理论推导，等等等等。建立良好的整理习惯是很有帮助的。
 
 -  无论你用什么方法整理笔记，都应该努力让资料做到__随时备份以及可以被搜索_\_
-   (从一个电脑文档中搜索一个关键词比从一个厚厚的笔记本中要容易得多)。现在已经有很多跨平台的软件或者在线服务可以帮助你整理笔记，比如微软的`OneNote <https://www.onenote.com/signin?wdorigin=ondc>`__\ ，在线笔记和合作平台\ `evernote <https://evernote.com>`__
-   (国内叫做象印笔记)，以及__Dropbox__旗下的`\__Paper__服务 <https://paper.dropbox.com>`__
+   (从一个电脑文档中搜索一个关键词比从一个厚厚的笔记本中要容易得多)。现在已经有很多跨平台的软件或者在线服务可以帮助你整理笔记，比如微软的\ `OneNote <https://www.onenote.com/signin?wdorigin=ondc>`__\ ，在线笔记和合作平台\ `evernote <https://evernote.com>`__
+   (国内叫做象印笔记)，以及__Dropbox__旗下的\ `\__Paper__服务 <https://paper.dropbox.com>`__
    都是不错的选择.
    如果你还是习惯使用纸质笔记，这些服务的移动应用都可以帮助你扫描整理笔记。
+
 -  如果你已经在使用__GitHub__这样的托管平台来整理你的科学项目，\ `使用其提供的维基页面服务 <https://guides.github.com/features/wikis/>`__
    同样是非常方便的选择。
 
@@ -223,8 +224,8 @@ ORCID个人标识以及Google学术
       是个不错的开始。而更完整的语法说明可以在
       `\__Markdown__指南 <https://www.markdownguide.org/>`__ 中找到.
    -  不同的平台上都有免费的__Markdown__查看和编辑软件
-      (比如`Typora <https://typora.io/>`__)。也有很多方便的在线__Markdown__编辑器可以选用
-      (如`StackEdit <https://stackedit.io/>`__)。大部分现有的代码编辑器都能通过扩展支持对__Markdown\ **格式的语法检查
+      (比如\ `Typora <https://typora.io/>`__)。也有很多方便的在线__Markdown__编辑器可以选用
+      (如\ `StackEdit <https://stackedit.io/>`__)。大部分现有的代码编辑器都能通过扩展支持对__Markdown\ **格式的语法检查
       (**.md\ **或者**.markdown__格式文件)。
 
 发表你的科学成果
@@ -235,7 +236,7 @@ ORCID个人标识以及Google学术
    -  目前，\ **英语作为科研界通用语言的地位依然不可动摇，应当在日常科研中就坚持使用英语**\ 。
    -  同时，\ `LaTeX <https://www.latex-project.org/>`__
       依然是天文界最为常用的科学文献编辑工具。应当让自己尽快熟悉这个工具。目前在各个平台上都有相应的__LaTeX__图形界面软件
-      (如`LyX <https://www.lyx.org/>`__,
+      (如\ `LyX <https://www.lyx.org/>`__,
       `WinEdit <http://www.winedt.com/>`__,
       `TexShop <https://pages.uoregon.edu/koch/texshop/>`__,
       和\ `TexStudio <https://www.texstudio.org/>`__)，大大降低了使用__LaTeX__写作的难度。在线编辑平台
@@ -425,7 +426,7 @@ SAO/NASA天文文献资料库__ADS_\_
 -  [推特上的
    @astromeetings账号](https://twitter.com/astromeetings?lang=en)
    是另外一个了解近期天文学术会议动向的途径。值得一提的是，越来越多的学术会议会制定一个推特话题(“hashtag”)，并利用推特宣传会议和展示有趣的报告。鉴于我们不可能参加我们关心的所有会议
-   (这样做`对环境也是有不友好 <https://onlinelibrary.wiley.com/doi/pdf/10.1111/1746-692X.12106>`__)，通过推特这样的媒介了解会议进展也是不错的选择。如果你参加国际会议，也可以选择利用这个手段增加自己工作的可见度。
+   (这样做\ `对环境也是有不友好 <https://onlinelibrary.wiley.com/doi/pdf/10.1111/1746-692X.12106>`__)，通过推特这样的媒介了解会议进展也是不错的选择。如果你参加国际会议，也可以选择利用这个手段增加自己工作的可见度。
 -  国际天文学联合会 (IAU) 每年都会组织一批面向不同领域的高规格会议。
    `在这里你可以查看未来IAU会议的安排 <https://www.iau.org/science/meetings/future/>`__
 -  此外，近年来有越来越多的科学家开始审视传统会议的组织形式，毕竟大量集中的报告并不一定是最高效的学术交流形式，而有研究现实\ `通风不良的会议甚至会不利于人的健康 <http://blog.gigabase.org/en/contents/132>`__\ 。目前，有一些新的会议组织形式更多的着眼于与会者的交流和合作，也非常值得参考：

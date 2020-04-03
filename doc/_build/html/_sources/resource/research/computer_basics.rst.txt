@@ -87,6 +87,19 @@ Shell Environment
    -  A curated list of shell commands and tools specific to OS X.
    -  A lot of these actually work for Linux too.
 
+Regular Expression
+~~~~~~~~~~~~~~~~~~
+
+-  Regular expression (**regex**) is a group of characters or symbols
+   which is used to find a specific pattern from a text. It is very
+   useful to learn the basic of **regex**.
+
+-  `Learn Regex the Easy
+   Way <https://github.com/ziishaned/learn-regex>`__
+
+   -  There is a `Chinese
+      version <https://github.com/ziishaned/learn-regex/blob/master/translations/README-cn.md>`__
+
 **Bash** related
 ~~~~~~~~~~~~~~~~
 
@@ -114,6 +127,39 @@ Other than **bash**
 -  `The Fish Cookbook <https://github.com/jorgebucaran/fish-cookbook>`__
 
    -  Tips and recipes for fish, from shell to plate
+
+Version Control
+---------------
+
+**Git**
+~~~~~~~
+
+-  `git <https://git-scm.com/doc>`__ is the most widely used software
+   for version control and it is extremely useful to learn the basic of
+   it.
+
+   -  Plenty of reference and examples are provided in the above webpage
+      including many short videos.
+
+-  `Learn Git with Bitbucket
+   Cloud <https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud>`__
+   is another good place to start learning about version control using
+   **git**.
+
+   -  `Git cheat
+      sheet <https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet>`__
+      and `Advanced Git
+      Tutorials <https://www.atlassian.com/git/tutorials/advanced-overview>`__.
+
+-  `Oh shit, git! <http://ohshitgit.com/>`__
+
+   -  A very practical guide for when you screw up in **git**.
+
+Others
+~~~~~~
+
+-  `mercurial <https://www.mercurial-scm.org/>`__ is another popular
+   version control software.
 
 System Tools
 ------------
@@ -143,3 +189,18 @@ MacOS
 
    -  The more readable website is
       `here <http://sourabhbajaj.com/mac-setup/iTerm/tree.html>`__
+
+Mount harddrive in Linux file system
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  Linux system uses **ext4** or other similar file system that is not
+   automatically readable under **MacOSX**. The `ext4fuse
+   software <https://github.com/gerard/ext4fuse>`__ will be useful.
+
+   -  Please read `this stackexchange
+      thread <https://apple.stackexchange.com/questions/210198/mount-ext4-on-el-capitan>`__
+      for more details.
+
+-  `ExtFS <https://www.paragon-software.com/us/home/extfs-mac/>`__ is
+   not a free software. It costs you $39.95 but it is claimed to be able
+   to mount or even repair **ext** system under **MacOSX**

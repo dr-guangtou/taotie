@@ -256,6 +256,7 @@ Optimization
       1. Make it work; 2: Make it work reliably; 3: Optimization
 
    -  No optimization without measuring: profiling and timing
+
    -  Moving computation or memory allocation outside a for loop;
       Vectorizing for loops; Broadcasting; Use in place operations; Be
       easy on the memory: use views, and not copies;
@@ -309,3 +310,18 @@ Visualization
    -  No longer maintained by the original author, but still available
       through a fork:
       `pycallgraph2 <https://github.com/daneads/pycallgraph2>`__
+
+Upload Your Package to **PyPI**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  **PyPI** is the Python Package Index. It is a repository of software
+   for the Python programming language.
+
+   -  “It helps you find and install software developed and shared by
+      the Python community”
+   -  Basically, once you upload your project to **PyPI**, people can
+      use **pip install** to install it.
+
+-  It is pretty straightforward to upload your project. Please read
+   `this
+   tutorial <https://packaging.python.org/tutorials/packaging-projects/>`__

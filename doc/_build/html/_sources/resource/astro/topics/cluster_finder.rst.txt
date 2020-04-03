@@ -41,8 +41,8 @@ redMaPPer: red-sequence Matched-filter Probabilistic Percolation
    -  By `Eli Rykoff <https://github.com/erykoff>`__. This is the
       open-source, python version of the red-sequence matched-filter
       Probabilistic Percolation (redMaPPer) cluster finder, originally
-      described in Rykoff et al. (2014), with updates described in Rozo
-      et al. (2015) and Rykoff et al. (2016).
+      described in Rykoff et al. (2014), with updates described in Rozo
+      et al. (2015) and Rykoff et al. (2016).
    -  One of the most commonly used algorithm in recent years.
 
 Papers:

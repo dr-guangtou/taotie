@@ -285,3 +285,15 @@ Simulation Related:
 -  `sims_skybrightness: Tool to predict the background sky emission SED
    at an arbitrary RA, Dec, and
    MJD <https://github.com/lsst/sims_skybrightness>`__
+
+Useful Resources
+~~~~~~~~~~~~~~~~
+
+-  `Calculating LSST limiting magnitudes and
+   SNR <https://smtn-002.lsst.io/#data-sources-and-references>`__
+
+-  `Simulation Survey Field
+   Information <https://sims-survey-fields.lsst.io/index.html#>`__
+
+   -  This package contains the sky field information that is used by
+      the Operations Simulator.

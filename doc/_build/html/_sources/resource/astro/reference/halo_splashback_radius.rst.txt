@@ -173,4 +173,3 @@ General discussion about mass density profiles
 
 .. |image0| image:: https://github.com/dr-guangtou/daily_astroph/blob/master/figure/benedikt_splashback_spherical.png
 .. |Chang2018| image:: https://github.com/dr-guangtou/daily_astroph/blob/master/figure/chang2018_1.png
-

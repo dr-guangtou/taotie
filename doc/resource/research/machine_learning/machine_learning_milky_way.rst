@@ -10,32 +10,32 @@ accretionhistory ## Accretion History of the Milky Way
 +---------+----------------------------------------+-------------------+
 | Title   | ML technique(s) used                   | arxiv link        |
 +=========+========================================+===================+
-| *Catalo | Transfer Learning                      | https://arxiv.org |
-| ging    |                                        | /abs/1907.06652   |
-| Accrete |                                        |                   |
-| d       |                                        |                   |
+| *Cat    | Transfer Learning                      | https://arxiv.o   |
+| aloging |                                        | rg/abs/1907.06652 |
+| A       |                                        |                   |
+| ccreted |                                        |                   |
 | Stars   |                                        |                   |
 | within  |                                        |                   |
 | Gaia    |                                        |                   |
 | DR2     |                                        |                   |
 | using   |                                        |                   |
 | Deep    |                                        |                   |
-| Learnin |                                        |                   |
-| g*      |                                        |                   |
+| Le      |                                        |                   |
+| arning* |                                        |                   |
 +---------+----------------------------------------+-------------------+
-| *Chasin | Neural Network                         | https://arxiv.org |
-| g       |                                        | /abs/1907.07681   |
-| Accrete |                                        |                   |
-| d       |                                        |                   |
-| Structu |                                        |                   |
-| res     |                                        |                   |
+| *       | Neural Network                         | https://arxiv.o   |
+| Chasing |                                        | rg/abs/1907.07681 |
+| A       |                                        |                   |
+| ccreted |                                        |                   |
+| Str     |                                        |                   |
+| uctures |                                        |                   |
 | within  |                                        |                   |
 | Gaia    |                                        |                   |
 | DR2     |                                        |                   |
 | using   |                                        |                   |
 | Deep    |                                        |                   |
-| Learnin |                                        |                   |
-| g*      |                                        |                   |
+| Le      |                                        |                   |
+| arning* |                                        |                   |
 +---------+----------------------------------------+-------------------+
 
  

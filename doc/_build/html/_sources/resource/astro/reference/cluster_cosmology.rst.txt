@@ -46,8 +46,8 @@ Reviews
 
       -  To achieve the goal of DES Stage III (IV) requirement, we must
          be able to measure cluster masses with **5% (2%) precision**.
-         See `Applegate et al.
-         (2014) <http://adsabs.harvard.edu/abs/2014MNRAS.439...48A>`__
+         See `Applegate et
+         al. (2014) <http://adsabs.harvard.edu/abs/2014MNRAS.439...48A>`__
          (Currently can achieve 7%, but with 20% systematic differences
          among methods).
       -  Systematic errors in shear measurements tend to be less
@@ -181,6 +181,7 @@ Systematic, (Self-)Calibration
 
 -  `Hu & Cohn 2006 - Likelihood methods for cluster dark energy
    surveys <http://adsabs.harvard.edu/abs/2006PhRvD..73f7301H>`__
+
 -  `Lima & Hu 2007 - Photometric redshift requirements for
    self-calibration of cluster dark energy
    studies <http://adsabs.harvard.edu/abs/2007PhRvD..76l3013L>`__
@@ -410,6 +411,7 @@ Using Velocity Distribution Function
 -  `The Velocity Distribution Function of Galaxy Clusters as a
    Cosmological
    Probe <https://ui.adsabs.harvard.edu/abs/2017ApJ...835..106N/abstract>`__
+
 -  `Cluster Cosmology with the Velocity Distribution Function of the
    HeCS-SZ Sample <https://arxiv.org/abs/1906.07729>`__
 
@@ -451,6 +453,7 @@ Lectures and Conferences
 
 -  `Cosmology with Clusters of Galaxies by Ben Maughan (Undergraduate
    Level) <http://www.star.bris.ac.uk/bjm/lectures/cluster-cosmology/>`__
+
 -  `KITP Conference: Astrophysics and Cosmology with Galaxy
    Clusters <http://online.kitp.ucsb.edu/online/gclusters_c11/>`__
 

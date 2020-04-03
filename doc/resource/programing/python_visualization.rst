@@ -61,9 +61,28 @@ Fancier and Better
 
 -  `ColorBrewer2 - Interactive colormap
    builder <http://colorbrewer2.org>`__
--  `Palettable - Color palettes for
-   Python <https://jiffyclub.github.io/palettable/>`__
--  `Perceptually uniform color
-   maps <http://www.fabiocrameri.ch/visualisation.php>`__
 -  `Nippon Colors - Fancy traditional Japanese
    colors <http://nipponcolors.com>`__
+
+Better Colormaps
+~~~~~~~~~~~~~~~~
+
+-  `Palettable - Color palettes for
+   Python <https://jiffyclub.github.io/palettable/>`__
+
+   -  Really useful, with a lot of nice selections. Including color
+      palettable from Wes Anderson movies.
+
+-  `CMasher: Scientific colormaps for making accessible, informative and
+   cmashing plots <https://cmasher.readthedocs.io/index.html>`__
+
+   -  “The colormaps in CMasher are all designed to be perceptually
+      uniform sequential using the viscm package; most of them are
+      color-vision deficiency (CVD; color blindness) friendly”
+
+-  `Scientific Colour-Maps by Fabio
+   Crameri <http://www.fabiocrameri.ch/visualisation.php>`__
+
+   -  “Scientific colour-maps, like the colour maps devon, davos, oslo,
+      and broc, are perceptually uniform, perceptually ordered, readable
+      as B&W print and colour-vision-deficiency (CVD) friendly.”
