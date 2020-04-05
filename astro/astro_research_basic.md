@@ -118,6 +118,11 @@
 
 * [__AstroMap__ - generating sky projection maps for astronomical surveys](http://astromap.icrar.org)
 
+* [Footprint Services for the Virtual Observatory](http://voservices.net/footprint/)
+
+* [List of Wide Field Coverage relevant to eRosita by Tom Dwelly](http://www.mpe.mpg.de/~tdwelly/erosita/multiwavelength_coverage/)
+	- The survey footprint is stored in `mangle` Polygon format.
+
 
 ## List of Observatories
 
