@@ -1,5 +1,10 @@
 # Write a Python package
 
+### Courses
+
+- [Materials for a mini-course on code development and packaging by Jo Bovy](https://github.com/jobovy/code-packaging-minicourse)
+	- Very nice introduction on developing a package in Python.
+
 ### Developer Guide
 
 - [LSST DM Developer Guide](https://developer.lsst.io)
