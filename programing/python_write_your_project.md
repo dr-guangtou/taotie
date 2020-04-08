@@ -7,6 +7,9 @@
 
 ### Developer Guide
 
+- [Python Packaging Guide by OpenAstronomy](https://packaging-guide.openastronomy.org/en/latest/)
+	- "This guide is intended to explain modern Python packaging, it covers most of the core components of a modern package, and explains these components."
+
 - [LSST DM Developer Guide](https://developer.lsst.io)
 	* Very valuable reference for developing and organizing codes for large research project.
 	* [DM Python style guide](https://developer.lsst.io/python/style.html)
