@@ -88,3 +88,14 @@
 
 * [49th Saas-Fee Advanced Course - The Milky Way in the Gaia Era](https://www.physik.uzh.ch/events/sf2019/)
     * Video lectures and course materials are available.
+
+
+## Useful Paper
+
+- [Completeness of the Gaia-verse I: when and where were Gaia's eyes on the sky during DR2?](https://arxiv.org/abs/2004.14433)
+	- Also see the [project website](https://www.gaiaverse.space/)
+
+- [The extended Gaia-PS1-SDSS (GPS1+) proper motion catalog](https://arxiv.org/abs/2004.12641)
+	- The catalog will be released on-line and available via the VO-TAP
+
+
