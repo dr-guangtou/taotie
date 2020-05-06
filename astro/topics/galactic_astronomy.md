@@ -42,8 +42,19 @@
 
 ### Schwarzschild Modeling
 
+* [__Agama__ also can construct orbit-based Schwarzschild models](https://github.com/GalacticDynamics-Oxford/Agama/blob/1f4c22276ec9b1035503c896557c2d522f256b3f/py/schwarzschild.py)
+	- The method is called __Forstand__. Please see [this paper](https://arxiv.org/abs/1912.04288) for details.
+
 * [__TriaxSchwarzschild__ by Remco van den Bosch](https://github.com/remcovandenbosch/TriaxSchwarzschild)
     - Fortran source codes.
+
+### Made-to-Measure Modeling
+
+* [__NMAGIC__: Made-to-measure Dynamical Modeling of Galaxies](http://www2011.mpe.mpg.de/opinas/research/DynamicsGroup/research/nmagic/nmagic.html)
+	- Algorithm based on [De Lorenzi et al. 2007](https://academic.oup.com/mnras/article/376/1/71/973176)
+
+* [__simple-m2m__ by Jo Bovy](https://github.com/jobovy/simple-m2m)
+	- Extensions to the standard made-to-measure (M2M) algorithm for for full modeling of observational data
 
 ## Galactic Chemical Evolution
 
