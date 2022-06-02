@@ -1,6 +1,6 @@
 # Interstellar and Intra-Galactic Medium, Dust
 
-## Mily Way dust extinction map
+## Milky Way dust extinction map
 
 ### Maps
 
