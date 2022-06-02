@@ -30,6 +30,24 @@
 
 * [ZFIRE: A Keck/MOSFIRE SPECTROSCOPIC SURVEY OF STAR-FORMING GALAXIES IN RICH ENVIORNMENTS DURING COSMIC-NOON](http://zfire.swinburne.edu.au/index.html)
 
+
+
+* [NOEMA redshift measurements of bright Herschel galaxies](https://ui.adsabs.harvard.edu/abs/2020A%26A...635A...7N/abstract)
+	- SMG redshift survey by NOEMA.
+
+* [The bright extragalactic ALMA redshift survey (BEARS)](https://ui.adsabs.harvard.edu/abs/2022MNRAS.511.3017U/abstract)
+	- SMG redshift survey by ALMA.
+	- Redshift of bright gravitationally lensed galaxies from the Herschel ATLAS
+
+* [ALMA Redshifts of Millimeter-selected Galaxies from the SPT Survey](https://ui.adsabs.harvard.edu/abs/2013ApJ...767...88W/abstract)
+	- [SPT SMG](https://obscos.astro.illinois.edu/smg/) redshift survey by SPT.
+	- Mainly lensing target.
+
+* [AS2COSPEC: An ALMA Spectroscopic Survey of the Brightest Submillimeter Galaxies in the SCUBA-2-COSMOS field](https://ui.adsabs.harvard.edu/abs/2022ApJ...929..159C/abstract)
+	- SMG redshift survey by ALMA.
+
+
+
 ### IFU Surveys
 
 * [MUSE-Wide project](https://musewide.aip.de/project/)
@@ -53,7 +71,7 @@
 * [ALHAMBRA: Advance Large Homogeneous Area Medium Band Redshift Astronomical](http://svo2.cab.inta-csic.es/vocats/alhambra/index.php)
 
 * [PAU: Narrow-band Survey using the PAUCam](https://www.pausurvey.org)
-	
+
 
 ## MIR or FIR Surveys
 
