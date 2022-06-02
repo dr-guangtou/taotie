@@ -158,6 +158,13 @@
 * [__BEAGLE__ - BayEsian Analysis of GaLaxy sEds](http://www.jacopochevallard.org/beagle/)
     - A new-generation tool to model and interpret galaxy spectral energy distributions (SEDs) developed by Jacopo Chevallard (ESA) and Stephane Charlot (IAP).
 
+* [__BAGPIPES__ - Bayesian Analysis of Galaxies for Physical Inference and Parameter EStimation](https://github.com/ACCarnall/bagpipes)
+    - By Adam Carnall. Fit the spectroscopic and photometric data jointly. Use polynomial to account for the flux offset between the stellar template and the spectrum, which is useful when the spectrum flux calibration is not good. 
+    - Bagpipes is a state of the art code for generating realistic model galaxy spectra and fitting these to spectroscopic and photometric observations.
+
+* [__dense_basis__ - Dense Basis SED fitting](https://github.com/kartheikiyer/dense_basis)
+    - By Kartheik Iyer. Recover the smooth nonparametric star formation histories.
+
 ### Stellar Population Models:
 
 * [__MILES__ - Population synthesis for the 21st Century](http://miles.iac.es/)
