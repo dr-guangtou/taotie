@@ -8,6 +8,10 @@
     * __EAZY__ is a photometric redshift code designed to produce high-quality redshifts for situations where complete spectroscopic calibration samples are not available. See [Brammer, van Dokkum & Coppi 2008](http://adsabs.harvard.edu/abs/2008ApJ...686.1503B) for details.
     * [eazy-py - Pythonic photometric redshift tools based on EAZY](https://github.com/gbrammer/eazy-py)
 
+- [MAGPHYS+photo-z](http://www.iap.fr/magphys/download.html)
+    * __MAGPHYS+photo-z__ is a photometric redshift code to constrain the photo-z including the SED from rest-frame UV to far infrared. The far infrared flux is helpful to distinguish the dusty or quiescent galaxy population. See [Battisti et al. 2019](https://ui.adsabs.harvard.edu/abs/2019ApJ...882...61B/abstract)
+    * __MAGPHYS+photo-z__ is an extention of the SED fitting code [MAGPHYS](http://www.iap.fr/magphys/index.html), which modeling the SED from UV to Radio self-consistently.
+
 ## Machine Learning
 
 - [ANNZ - Machine learning methods for astrophysics](https://github.com/IftachSadeh/ANNZ)
