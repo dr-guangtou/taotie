@@ -7,6 +7,9 @@
 * [3D-HST - A Spectroscopic Galaxy Evolution Survey with the Hubble Space Telescope](https://3dhst.research.yale.edu/Home.html)
   - 3D-HST surveyed ~600 square arcminutes of well-studied extragalactic survey fields (AEGIS, COSMOS, GOODS-S, UKIDSS-UDS) with two orbits of primary WFC3/G141 grism coverage and two to four orbits with ACS/G800L coverage. The short acquisition images, taken in the WFC3/F140W and ACS/F814W filters used for wavelength reference for the spectra, are also deeper than most ground-based observations.
 
+* [3D-DASH - A Wide-Field WFC3 Imaging Survey with Grism Spectroscopy in the COSMOS Field ("3D-DASH")](https://archive.stsci.edu/hlsp/3d-dash)
+  - 1.4 deg2 HST F160W image in COSMOS field.
+  
 ## Ground-base Specoscopic Surveys
 
 * [List of spectroscopic surveys by Ivan Baldry](http://www.astro.ljmu.ac.uk/~ikb/research/galaxy-redshift-surveys.html)
@@ -29,6 +32,10 @@
 	- Charting the evolution of the rest-frame optical spectra for ~1500 galaxies in three distinct redshift intervals spanning 1.4 < z < 3.8 in AEGIS, COSMOS, and GOODS-N.
 
 * [ZFIRE: A Keck/MOSFIRE SPECTROSCOPIC SURVEY OF STAR-FORMING GALAXIES IN RICH ENVIORNMENTS DURING COSMIC-NOON](http://zfire.swinburne.edu.au/index.html)
+
+* [HALO7D: The Halo Assembly in Lambda-CDM: Observations in 7 Dimensions](https://ui.adsabs.harvard.edu/abs/2019ApJ...876..124C/abstract)
+	- About 19 Keck nights, [HALO7D: I](https://ui.adsabs.harvard.edu/abs/2019ApJ...876..124C/abstract), [HALO7D: II](https://ui.adsabs.harvard.edu/abs/2019ApJ...879..120C/abstract) for main-sequence stars.
+	- [Dwarf Galaxy Population at z∼0.7](https://ui.adsabs.harvard.edu/abs/2022arXiv220309588P/abstract)
 
 ### IFU Surveys
 
