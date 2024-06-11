@@ -8,6 +8,17 @@
     - The __casacore__ package contains the core libraries of the old __AIPS++/CASA__ package. This split was made to get a better separation of core libraries and applications. __CASA__ is now built on top of __Casacore__.
     - __python-casacore__: Python bindings for casacore, a library used in radio astronomy. Document can be [found here](http://casacore.github.io/python-casacore/) 
 
+
+* [__CASA Tools__ - Tools developed by the nodes of the European ARC network](https://almascience.nrao.edu/tools/eu-arc-network/tools)
+    - Several small and nice tools for ALMA data reduction developed by the [ALMA EU nodes](https://www.eso.org/sci/facilities/alma/arc/nodes.html)
+
+* [__CasaExtensions__- Todd's CASA extensions](https://safe.nrao.edu/wiki/bin/view/Main/CasaExtensions)
+    - The analysisUtils python package provides numerous analysis utilities written in python that are useful for ALMA (and in many cases VLA) data reduction.
+    - Small functions easy to use. Some of the functions are accomplished by CASA.
+
+* [__radio-astro-tools__](https://github.com/radio-astro-tools)
+    - Nice tools for interferometry data reduction.
+
 * [__pyuvdata__ - A pythonic interface for radio astronomy interferometry data (uvfits, miriad, others)](https://github.com/RadioAstronomySoftwareGroup/pyuvdata)
     - __pyuvdata__ defines a pythonic interface to interferometric data sets. Currently pyuvdata supports reading and writing of miriad, uvfits, and uvh5 files and reading of __CASA__ measurement sets and FHD (Fast Holographic Deconvolution) visibility save files.
     - Online document is [here](https://pyuvdata.readthedocs.io/en/latest/)
