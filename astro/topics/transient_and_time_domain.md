@@ -22,6 +22,10 @@
     * By Andy Becker.
 - [__astrobase__ - Python modules for light curve work and variable star astronomy](https://github.com/waqasbhatti/astrobase)
     * By [Waqas Bhatti](https://wbhatti.org/). It includes implementations of several period-finding algorithms, batch work drivers for working on large collections of light curves, and a small web-app useful for reviewing and classifying light curves by stellar variability type.
+- [__ISIS__ - A method for optimal image subtraction](http://ascl.net/9909.003)
+    * By [Alard, C. and Lupton, Robert H. 1998](https://ui.adsabs.harvard.edu/abs/1998ApJ...503..325A/abstract)
+    * ISIS is a complete package to process CCD images using the image Optimal subtraction method (Alard & Lupton 1998, Alard 1999).
+    * Point-spread function (PSF) variations can be easily handled by ISIS method.
 
 ## Trasient Identification and Classification
 
