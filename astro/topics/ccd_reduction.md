@@ -26,7 +26,7 @@
 ### General Reduction
 
 * Modern imaging surveys or major astronomical cameras are often equipped with speciallized data reduction pipelines. For example:
-    - [DECam Community Pipeline](https://www.noao.edu/noao/staff/fvaldes/CPDocPrelim/PL201_3.html)
+    - [DECam Community Pipeline](https://noirlab.edu/science/data-services/data-reduction-software/csdc-mso-pipelines/pl206)
     - [The Elixir System for CFHT MegaCam](https://www.cfht.hawaii.edu/Instruments/Elixir/)
     - [The HSC Pipeline](https://hsc.mtk.nao.ac.jp/pipedoc/pipedoc_6_e/index.html)
 * [__ccdproc__ - Astropy affiliated package for reducing optical/IR CCD data](https://github.com/astropy/ccdproc)
